@@ -1,0 +1,62 @@
+Acronym Reference Card: Cisco Networking Academy (Copilot)
+
+## 🧭 Acronym Reference Card  
+**Mapped to Governance & Responsible AI Modules**
+
+### 🔐 Network & Protocol Governance
+
+| **Acronym** | **Full Term**                      | **Governance Module**                  | **Responsible AI Tie-In**                          |
+|-------------|-------------------------------------|----------------------------------------|----------------------------------------------------|
+| DNS         | Domain Name System                 | Infrastructure Oversight               | Data integrity, trust in resolution mechanisms     |
+| SMB         | Server Message Block               | Endpoint Governance                    | Secure file access, audit trails                   |
+| SNMP        | Simple Network Management Protocol | Device Lifecycle Management            | AI-driven anomaly detection, access control        |
+| SMTP        | Simple Mail Transfer Protocol      | Communications Compliance              | Email filtering, phishing detection algorithms     |
+| FTP         | File Transfer Protocol             | Legacy System Risk                     | AI-assisted encryption enforcement                 |
+
+---
+
+### 🛡️ Threat & Attack Surface Governance
+
+| **Acronym** | **Full Term**                      | **Governance Module**                  | **Responsible AI Tie-In**                          |
+|-------------|-------------------------------------|----------------------------------------|----------------------------------------------------|
+| MITM        | Man-in-the-Middle (On-Path)        | Threat Modeling & Response             | AI-based traffic analysis, behavioral modeling     |
+| SSL         | Secure Sockets Layer               | Encryption Policy                      | Algorithmic transparency, downgrade prevention     |
+| DoS / DDoS  | Denial-of-Service / Distributed    | Resilience & Continuity Planning       | AI load balancing, predictive defense modeling     |
+| NAC         | Network Access Control             | Identity & Access Governance           | AI-enhanced authentication protocols               |
+| VLAN        | Virtual Local Area Network         | Segmentation & Isolation               | AI-driven traffic zoning and policy enforcement    |
+
+---
+
+### 🧠 Legacy Protocols & AI Risk Mapping
+
+| **Acronym** | **Full Term**                      | **Governance Module**                  | **Responsible AI Tie-In**                          |
+|-------------|-------------------------------------|----------------------------------------|----------------------------------------------------|
+| LLMMR       | Link-Local Multicast Name Resolution | Legacy Protocol Risk                  | AI flagging of deprecated systems                  |
+| NBT-NS      | NetBIOS Name Service               | Legacy Protocol Risk                   | AI-assisted deprecation strategy                   |
+| NetBIOS     | Network Basic Input/Output System  | Host Identification Governance         | AI-based host mapping and risk scoring             |
+| WINS        | Windows Internet Name Service      | Legacy Resolution Oversight            | AI-driven migration planning                       |
+| MS-RPC      | Microsoft Remote Procedure Call    | Inter-process Communication Governance | AI monitoring of service calls and port activity   |
+
+---
+
+### 🔍 Credential & Registry Oversight
+
+| **Acronym** | **Full Term**                      | **Governance Module**                  | **Responsible AI Tie-In**                          |
+|-------------|-------------------------------------|----------------------------------------|----------------------------------------------------|
+| NTLMv2      | NT LAN Manager v2                  | Authentication & Credential Hygiene    | AI hash analysis, brute-force detection            |
+| HKLM        | HKEY_LOCAL_MACHINE                 | Registry Oversight                     | AI registry monitoring, anomaly flagging           |
+| DWORD       | Double Word (32-bit value)         | Configuration Governance               | AI validation of registry values                   |
+
+---
+
+### 🎓 Certification & Capability Mapping
+
+| **Acronym** | **Full Term**                                      | **Governance Module**                  | **Responsible AI Tie-In**                          |
+|-------------|-----------------------------------------------------|----------------------------------------|----------------------------------------------------|
+| CEH         | Certified Ethical Hacker                           | Skills & Role-Based Access             | AI-aligned ethical penetration testing             |
+| CISSP       | Certified Info Systems Security Professional       | Strategic Security Architecture        | AI governance alignment with senior frameworks     |
+| CSX         | Cybersecurity Nexus                                | Cybersecurity Maturity Modeling        | AI capability benchmarking                         |
+| MTA         | Microsoft Technology Associate                     | Entry-Level Tech Governance            | AI onboarding and training pathways                |
+| CompTIA     | Computing Technology Industry Association          | Vendor-Neutral Compliance              | AI tool certification and compatibility standards  |
+
+---
