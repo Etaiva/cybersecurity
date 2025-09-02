@@ -123,3 +123,15 @@ This is where your strategic lens shines, Etienne. The **intersections** between
 | A.18: Compliance                  | Ensure AI and cyber systems meet regulatory and contractual obligations     |
 
 ---
+
+The following are several additional best practices for mitigating FTP server abuse and attacks:
+
+Use strong passwords and multifactor authentication. A best practice is to use good credential management and strong passwords. When possible, use two-factor authentication for any critical service or server.
+Implement file and folder security, making sure that users have access to only the files they are entitled to access.
+Use encryption at rest – that is, encrypt all files stored in the FTP server.
+Lock down administration accounts. You should restrict administrator privileges to a limited number of users and require them to use multifactor authentication. In addition, do not use common administrator usernames such as root or admin.
+Keep the FTPS or SFTP server software up-to-date.
+Use the U.S. government FIPS 140-2 validated encryption ciphers for general guidance on what encryption algorithms to use.
+Keep any back-end databases on a different server than the FTP server.
+Require re-authentication of inactive sessions.
+
