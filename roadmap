@@ -1,1 +1,45 @@
 https://www.cyberseek.org/heatmap.html
+
+---
+
+The **Certified Information Systems Security Professional (CISSP)** certification from **ISC²** is considered a **mid-to-senior level credential**, but it also branches into **specialized concentrations** that reflect deeper expertise. Here's how the levels and extensions break down:
+
+---
+
+## 🧭 **CISSP Certification Levels & Concentrations**
+
+### 🟦 **Core CISSP**
+- **Level**: Mid-to-senior
+- **Audience**: Experienced security practitioners, managers, and executives
+- **Focus**: Broad coverage of eight domains in the Common Body of Knowledge (CBK), including:
+  - Security & Risk Management
+  - Asset Security
+  - Security Architecture & Engineering
+  - Communication & Network Security
+  - Identity & Access Management
+  - Security Assessment & Testing
+  - Security Operations
+  - Software Development Security
+
+---
+
+### 🟨 **CISSP Concentrations (Advanced Specializations)**  
+These are **post-CISSP certifications** for professionals seeking deeper specialization:
+
+| **Concentration** | **Acronym** | **Focus Area** | **Governance Relevance** |
+|-------------------|-------------|----------------|---------------------------|
+| Information Systems Security Architecture Professional | CISSP-ISSAP | Security architecture design and implementation | Strategic infrastructure oversight |
+| Information Systems Security Engineering Professional | CISSP-ISSEP | Systems engineering and integration | Compliance with government and defense standards |
+| Information Systems Security Management Professional | CISSP-ISSMP | Security program and policy management | Executive-level governance and risk leadership |
+
+---
+
+## 🎓 **ISC² Certification Pathway Overview**
+
+| **Level** | **Certification** | **Target Audience** |
+|-----------|-------------------|----------------------|
+| Entry-Level | SSCP (Systems Security Certified Practitioner) | Hands-on IT and security technicians |
+| Mid-Level | CISSP | Security managers, architects, and consultants |
+| Advanced | CISSP-ISSAP / ISSEP / ISSMP | Specialists in architecture, engineering, or management |
+
+---
