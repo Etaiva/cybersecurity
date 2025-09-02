@@ -78,3 +78,12 @@
 | Computing Technology Industry Association | CompTIA | Vendor-neutral certs | Compliance standardization | AI tool compatibility assurance |
 
 ---
+
+A Relative Identifier (RID) is the final portion of a Security Identifier (SID) used in Windows operating systems to uniquely identify objects—such as users, groups, or computers—within a domain.
+A Security Identifier (SID) is a foundational concept in Windows security architecture—think of it as the digital DNA of every user, group, or system account.
+  Uniquely identifies users and groups within the local domain. Globally unique so can also work between domains.
+A Domain Controller (DC) is the central authority in a Windows-based network that manages authentication, authorization, and directory services. It’s the backbone of Active Directory (AD) environments, ensuring that users, devices, and services are securely identified and governed.
+LDAP: Lightweight Directory Access Protocol - LDAP is an open, industry-standard protocol used to access and manage directory services over IP networks. Think of it as the query language for centralized identity databases.
+  a directory access protocol that enables services and clients that use LDAP naming services to communicate.
+A Workgroup in Windows networking is a peer-to-peer network model designed for small environments—think homes, classrooms, or small offices—where centralized control isn’t needed.
+  a group of standalone computers that are independently administered.
