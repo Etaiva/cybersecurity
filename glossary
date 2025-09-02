@@ -1,0 +1,80 @@
+## 🧠 **Interactive Glossary: Cybersecurity & Governance Essentials** (Copilit)
+
+---
+
+### 🔐 **Networking & Protocols**
+
+| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
+|----------|-------------|----------------|---------------------------|----------------------------|
+| Domain Name System | DNS | Resolves domain names to IPs | Infrastructure oversight | AI-based DNS anomaly detection |
+| Server Message Block | SMB | File/printer sharing protocol | Endpoint governance | AI audit of shared resource access |
+| Simple Network Management Protocol | SNMP | Device management protocol | Device lifecycle control | AI-driven device behavior modeling |
+| Simple Mail Transfer Protocol | SMTP | Email transmission protocol | Communications compliance | AI spam/phishing filtering |
+| File Transfer Protocol | FTP | Legacy file transfer protocol | Legacy system risk | AI-enforced encryption policies |
+| Link-Local Multicast Name Resolution | LLMNR | Local name resolution | Protocol hygiene | AI flagging of deprecated services |
+| NetBIOS Name Service | NBT-NS | Legacy name resolution | Host identification governance | AI-based host mapping |
+| Windows Internet Name Service | WINS | NetBIOS name resolution | Legacy resolution oversight | AI-driven migration planning |
+| Microsoft Remote Procedure Call | MS-RPC | Inter-process communication | Port/service governance | AI monitoring of RPC activity |
+| Virtual Local Area Network | VLAN | Network segmentation | Network isolation strategy | AI traffic zoning enforcement |
+| Network Access Control | NAC | Device access restriction | Identity governance | AI-enhanced authentication protocols |
+
+---
+
+### 🛡️ **Threats & Exploits**
+
+| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
+|----------|-------------|----------------|---------------------------|----------------------------|
+| Man-in-the-Middle | MITM | Intercepts communication | Threat modeling | AI traffic anomaly detection |
+| Secure Sockets Layer | SSL | Secures web connections | Encryption policy | AI downgrade prevention |
+| Denial-of-Service | DoS | Overloads systems | Continuity planning | AI-based load balancing |
+| Distributed Denial-of-Service | DDoS | Multi-source DoS attack | Resilience strategy | Predictive defense modeling |
+| Pass-the-Hash | — | Hash-based credential theft | Credential hygiene | AI hash analysis |
+| SSL Stripping | — | Downgrades HTTPS to HTTP | Encryption enforcement | AI protocol integrity checks |
+| LLMNR/NBT-NS Poisoning | — | Spoofing name resolution | Endpoint hardening | AI registry monitoring |
+| VLAN Hopping | — | Cross-segment access | Segmentation audit | AI switch config validation |
+| NAC Bypass | — | Circumventing access controls | Access policy enforcement | AI rogue device detection |
+
+---
+
+### 🧰 **Security Tools**
+
+| **Tool** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
+|----------|-------------|----------------|---------------------------|----------------------------|
+| Metasploit | — | Penetration testing framework | Red team oversight | AI tool signature monitoring |
+| Responder | — | LLMNR/NBT-NS spoofing tool | Protocol abuse detection | AI alerting on spoof attempts |
+| NBNSpoof | — | NetBIOS spoofing tool | Legacy protocol risk | AI-based traffic inspection |
+| Pupy | — | Remote admin/post-exploit tool | Post-breach control | AI behavioral flagging |
+
+---
+
+### 🧠 **System & Registry**
+
+| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
+|----------|-------------|----------------|---------------------------|----------------------------|
+| HKEY_LOCAL_MACHINE | HKLM | Windows registry hive | Configuration integrity | AI registry anomaly detection |
+| Double Word | DWORD | 32-bit registry value | Policy enforcement | AI validation of config values |
+| EnableMulticast | — | LLMNR toggle registry key | Protocol control | AI-based registry monitoring |
+
+---
+
+### 🧑‍💻 **Network Models**
+
+| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
+|----------|-------------|----------------|---------------------------|----------------------------|
+| Workgroup | — | Peer-to-peer network | Decentralized risk | AI peer enumeration alerts |
+| Domain | — | Centralized network model | Centralized control | AI-based domain authentication |
+| Zero-Trust Architecture | — | No implicit trust model | Strategic access governance | AI continuous verification engine |
+
+---
+
+### 🎓 **Certifications**
+
+| **Certification** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
+|-------------------|-------------|----------------|---------------------------|----------------------------|
+| Certified Ethical Hacker | CEH | Ethical hacking certification | Offensive security validation | AI-aligned penetration testing |
+| Certified Info Systems Security Professional | CISSP | Senior security architecture | Strategic security leadership | AI governance alignment |
+| Cybersecurity Nexus | CSX | Foundational cybersecurity | Capability maturity modeling | AI benchmarking |
+| Microsoft Technology Associate | MTA | Entry-level IT certification | Onboarding & literacy | AI training pathways |
+| Computing Technology Industry Association | CompTIA | Vendor-neutral certs | Compliance standardization | AI tool compatibility assurance |
+
+---
