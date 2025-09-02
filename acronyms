@@ -1,0 +1,29 @@
+Cisco Networking Academy - Introduction to Cybersecurity
+## 📘 Acronym Reference Table
+
+| **Acronym** | **Full Term**                                      | **Meaning / Contextual Definition**                                                                 |
+|-------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **DNS**     | Domain Name System                                 | Resolves domain names to IP addresses; vulnerable to cache poisoning and spoofing.                   |
+| **SMB**     | Server Message Block                               | Protocol for file and printer sharing; often exploited in ransomware and lateral movement attacks.   |
+| **SNMP**    | Simple Network Management Protocol                 | Used to manage network devices; vulnerable to unauthorized access and data leakage.                  |
+| **SMTP**    | Simple Mail Transfer Protocol                      | Protocol for sending emails; can be exploited for spam, spoofing, and phishing.                      |
+| **FTP**     | File Transfer Protocol                             | Legacy protocol for file transfers; lacks encryption, making it vulnerable to interception.          |
+| **MITM**    | Man-in-the-Middle                                  | Now referred to as “On-Path” attacks; intercepts and manipulates communication between endpoints.    |
+| **SSL**     | Secure Sockets Layer                               | Cryptographic protocol for securing internet connections; SSL stripping downgrades HTTPS to HTTP.    |
+| **DoS**     | Denial-of-Service                                  | Attack that overwhelms a system with traffic, causing service disruption.                            |
+| **DDoS**    | Distributed Denial-of-Service                      | A DoS attack launched from multiple sources simultaneously.                                          |
+| **NAC**     | Network Access Control                             | Restricts device access to networks; vulnerable to spoofing and bypass techniques.                   |
+| **VLAN**    | Virtual Local Area Network                         | Segments network traffic; VLAN hopping allows attackers to cross boundaries between segments.        |
+| **LLMNR**   | Link-Local Multicast Name Resolution               | Windows protocol for local name resolution; vulnerable to spoofing and poisoning attacks.            |
+| **NBT-NS**  | NetBIOS Name Service                               | Legacy Windows name resolution protocol; often exploited in credential interception.                 |
+| **NetBIOS** | Network Basic Input/Output System                  | Legacy protocol for host identification and resource sharing in Windows environments.                |
+| **WINS**    | Windows Internet Name Service                      | Legacy service for resolving NetBIOS names to IP addresses.                                          |
+| **MS-RPC**  | Microsoft Remote Procedure Call                    | Protocol for inter-process communication; uses TCP port 135.                                         |
+| **NTLMv2**  | NT LAN Manager version 2                           | Windows authentication protocol; hashes can be intercepted and cracked offline.                      |
+| **HKLM**    | HKEY_LOCAL_MACHINE                                 | Windows registry hive; used to store system-wide configuration settings.                             |
+| **DWORD**   | Double Word (32-bit value)                         | Registry data type used in Windows configuration settings.                                           |
+| **CEH**     | Certified Ethical Hacker                           | EC-Council certification for lawful penetration testing and vulnerability assessment.                |
+| **CISSP**   | Certified Information Systems Security Professional| ISC2 certification for senior-level security management and architecture.                            |
+| **CSX**     | Cybersecurity Nexus                                | ISACA certification for foundational cybersecurity knowledge.                                        |
+| **MTA**     | Microsoft Technology Associate                     | Entry-level certification for students and career changers in IT and security.                       |
+| **CompTIA** | Computing Technology Industry Association          | Organization offering vendor-neutral IT certifications like Security+.                               |
