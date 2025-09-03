@@ -1,0 +1,13 @@
+7 Free Cybersecurity Tools Every Beginner Should Use (2025 Edition)
+
+Forget expensive software — these free tools are enough to level up your skills:
+
+1. **Wireshark** → Packet analysis.
+2. **Nmap** → Network scanning.
+3. **Burp Suite Community** → Web app testing.
+4. **Autopsy** → Digital forensics.
+5. **MalwareBazaar** → Safe malware samples for analysis.
+6. **OpenVAS** → Vulnerability scanning.
+7. **CyberChef** → Data parsing and encoding/decoding.
+
+💡 Tip: Don’t just install them — create a mini project for each. Example: “Scan my home network with Nmap and secure the open ports.”
