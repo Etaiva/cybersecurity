@@ -2,7 +2,7 @@ Cisco Networking Academy - Introduction to Cybersecurity
 ## 📘 Acronym Reference Table
 
 | **Acronym** | **Full Term**                                      | **Meaning / Contextual Definition**                                                                 |
-|-------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------|
+|-------------|----------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | **DNS**     | Domain Name System                                 | Resolves domain names to IP addresses; vulnerable to cache poisoning and spoofing.                   |
 | **SMB**     | Server Message Block                               | Protocol for file and printer sharing; often exploited in ransomware and lateral movement attacks.   |
 | **SNMP**    | Simple Network Management Protocol                 | Used to manage network devices; vulnerable to unauthorized access and data leakage.                  |
@@ -27,3 +27,4 @@ Cisco Networking Academy - Introduction to Cybersecurity
 | **CSX**     | Cybersecurity Nexus                                | ISACA certification for foundational cybersecurity knowledge.                                        |
 | **MTA**     | Microsoft Technology Associate                     | Entry-level certification for students and career changers in IT and security.                       |
 | **CompTIA** | Computing Technology Industry Association          | Organization offering vendor-neutral IT certifications like Security+.                               |
+| **MAC**     | Media Access Control                               | A unique identifier assigned to a network interface for communications at the data link layer (Layer 2). Used in NAC, VLANs, and access control mechanisms. Often spoofed in attacks to bypass security policies. |
