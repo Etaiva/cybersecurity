@@ -385,5 +385,14 @@ Here’s the correct matching of **NetBIOS-related services** with their corresp
 
 ---
  
+Consider the URL https://theartofhacking.org:8123/dir/test;id=89?name= omar&x=true. 
+Let’s break down this URL into its component parts:
 
+scheme: This is the portion of the URL that designates the underlying protocol to be used (for example, HTTP, FTP); it is followed by a colon and two forward slashes ( // ). In this example, the scheme is http.
+host: This is the IP address (numeric or DNS-based) for the web server being accessed; it usually follows the colon and two forward slashes. In this case, the host is theartofhacking.org.
+port: This optional portion of the URL designates the port number to which the target web server listens. (The default port number for HTTP servers is 80, but some configurations are set up to use an alternate port number.) In this case, the server is configured to use port 8123.
+path: This is the path from the “root” directory of the server to the desired resource. In this case, you can see that there is a directory called dir. (Keep in mind that, in reality, web servers may use aliasing to point to documents, gateways, and services that are not explicitly accessible from the server’s root directory.)
+path-segment-params: This is the portion of the URL that includes optional name/value pairs (that is, path segment parameters). A path segment parameter is typically preceded by a semicolon (depending on the programming language used), and it comes immediately after the path information. In this example, the path segment parameter is id=89. Path segment parameters are not commonly used. In addition, it is worth mentioning that these parameters are different from query-string parameters (often referred to as URL parameters ).
+query-string: This optional portion of the URL contains name/value pairs that represent dynamic parameters associated with the request. These parameters are commonly included in links for tracking and context-setting purposes. They may also be produced from variables in HTML forms. Typically, the query string is preceded by a question mark. Equals signs (=) separate names and values, and ampersands ( & ) mark the boundaries between name/value pairs. In this example, the query string is name=omar&x=true.
 
+---
