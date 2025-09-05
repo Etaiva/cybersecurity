@@ -28,3 +28,30 @@ Cisco Networking Academy - Introduction to Cybersecurity
 | **MTA**     | Microsoft Technology Associate                     | Entry-level certification for students and career changers in IT and security.                       |
 | **CompTIA** | Computing Technology Industry Association          | Organization offering vendor-neutral IT certifications like Security+.                               |
 | **MAC**     | Media Access Control                               | A unique identifier assigned to a network interface for communications at the data link layer (Layer 2). Used in NAC, VLANs, and access control mechanisms. Often spoofed in attacks to bypass security policies. |
+
+| **Acronym** | **Full Form**                                      | **Context / Usage**                                                                 |
+|-------------|-----------------------------------------------------|-------------------------------------------------------------------------------------|
+| **LAN**     | Local Area Network                                  | Wired and wireless network environment targeted during pentesting                  |
+| **AP**      | Access Point                                        | Device that provides wireless network access                                       |
+| **DNS**     | Domain Name System                                  | Spoofed in Evil Twin attacks to redirect users                                     |
+| **SET**     | Social-Engineer Toolkit                             | Tool used for phishing and credential harvesting                                   |
+| **OBEX**    | Object Exchange Protocol                            | Protocol used in Bluejacking attacks via Bluetooth                                 |
+| **vCard**   | Virtual Contact File                                | Format used to send unsolicited messages in Bluejacking                            |
+| **IMEI**    | International Mobile Equipment Identity             | Unique identifier targeted in Bluesnarfing attacks                                 |
+| **BLE**     | Bluetooth Low Energy                                | Wireless protocol vulnerable to on-path and fingerprinting attacks                 |
+| **RFID**    | Radio-Frequency Identification                      | Technology used for tracking and access control, vulnerable to cloning/skimming    |
+| **LF**      | Low Frequency                                       | RFID frequency range (120–140 kHz)                                                 |
+| **HF**      | High Frequency                                      | RFID frequency range (13.56 MHz)                                                   |
+| **UHF**     | Ultra High Frequency                                | RFID frequency range (860–960 MHz)                                                 |
+| **NFC**     | Near Field Communication                            | Used in amplification attacks with RFID                                            |
+| **DoS**     | Denial of Service                                   | Attack type used in wireless jamming and BLE disruption                            |
+| **SSID**    | Service Set Identifier                              | Network name used in KARMA and Evil Twin attacks                                   |
+| **MFA**     | Multi-Factor Authentication                         | Mitigation strategy for credential-based attacks                                   |
+| **AD**      | Active Directory                                    | Common target in password spraying attacks                                         |
+| **LDAP**    | Lightweight Directory Access Protocol               | Directory service protocol targeted in brute-force attacks                         |
+| **WIDS/WIPS** | Wireless Intrusion Detection/Prevention System   | Defense mechanisms against rogue APs and wireless exploits                         |
+| **MITRE ATT&CK** | MITRE Adversarial Tactics Techniques and Common Knowledge | Framework for mapping exploits to threat models                        |
+| **ISO**     | International Organization for Standardization      | Referenced for compliance alignment (e.g., ISO 27001)                              |
+| **NIST CSF**| National Institute of Standards and Technology Cybersecurity Framework | Governance and risk alignment toolset                        |
+| **BYOD**    | Bring Your Own Device                               | Environment type relevant to wireless and Bluetooth attack surfaces                |
+
