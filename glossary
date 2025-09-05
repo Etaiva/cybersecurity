@@ -87,3 +87,294 @@ LDAP: Lightweight Directory Access Protocol - LDAP is an open, industry-standard
   a directory access protocol that enables services and clients that use LDAP naming services to communicate.
 A Workgroup in Windows networking is a peer-to-peer network model designed for small environments—think homes, classrooms, or small offices—where centralized control isn’t needed.
   a group of standalone computers that are independently administered.
+
+---
+ 
+### 🧠 Wireless & LAN Acronym Intelligence Matrix
+
+| **Acronym**         | **Full Form**                                              | **Category**            | **Description / Usage**                                                                 |
+|---------------------|-------------------------------------------------------------|--------------------------|-----------------------------------------------------------------------------------------|
+| **LAN**             | Local Area Network                                          | Specification            | A network confined to a limited area like an office or building                         |
+| **BLE**             | Bluetooth Low Energy                                        | Specification            | Low-power wireless protocol used in IoT and mobile devices                              |
+| **RFID**            | Radio-Frequency Identification                              | Specification            | Wireless system for tracking and identification using electromagnetic fields            |
+| **NFC**             | Near Field Communication                                    | Specification            | Short-range wireless tech used in contactless payments and access systems               |
+| **SSID**            | Service Set Identifier                                      | Specification            | Name of a wireless network broadcast by an AP                                           |
+| **IMEI**            | International Mobile Equipment Identity                     | Specification            | Unique identifier for mobile devices used in tracking and spoofing                      |
+| **LF / HF / UHF**   | Low / High / Ultra High Frequency                           | Specification            | RFID frequency bands used for different range and data exchange capabilities            |
+| **MITRE ATT&CK**    | MITRE Adversarial Tactics Techniques and Common Knowledge   | Label / Framework        | Threat modeling framework used to map attacker behavior                                 |
+| **ISO**             | International Organization for Standardization              | Label / Framework        | Global standards body; ISO 27001 governs information security                           |
+| **NIST CSF**        | National Institute of Standards and Technology Cybersecurity Framework | Label / Framework | U.S. framework for cybersecurity governance and risk management                         |
+| **AP**              | Access Point                                                | Equipment / Hardware     | Device that enables wireless connectivity to a LAN                                      |
+| **Proxmark3**       | —                                                           | Equipment / Hardware     | RFID reader used for skimming, cloning, and analysis                                    |
+| **Ubertooth**       | —                                                           | Equipment / Hardware     | Open-source Bluetooth sniffer for BLE analysis                                          |
+| **DoS**             | Denial of Service                                           | Hack / Method            | Attack that disrupts network availability by flooding or jamming                        |
+| **Password Spraying** | —                                                         | Hack / Method            | Brute-force attack using common passwords across many usernames                         |
+| **Credential Stuffing** | —                                                       | Hack / Method            | Automated injection of breached credentials into login portals                          |
+| **War Driving**     | —                                                           | Hack / Method            | Scanning for wireless networks while moving through physical space                      |
+| **Bluejacking**     | —                                                           | Hack / Method            | Sending unsolicited messages via Bluetooth using OBEX and vCards                        |
+| **Bluesnarfing**    | —                                                           | Hack / Method            | Unauthorized access to Bluetooth device data                                            |
+| **Evil Twin Attack**| —                                                           | Hack / Method            | Rogue AP mimicking a legitimate one to harvest credentials                              |
+| **KARMA Attack**    | —                                                           | Hack / Method            | Rogue AP responding to probe requests with matching SSIDs                               |
+| **Disassociation Attack** | —                                                    | Hack / Method            | Disconnecting users from APs to force reconnection to rogue networks                    |
+| **Exploit Chaining**| —                                                           | Hack / Method            | Using multiple vulnerabilities in sequence to compromise systems                        |
+| **SET**             | Social-Engineer Toolkit                                     | Software / Tool          | Tool for simulating social engineering attacks like phishing                            |
+| **Ettercap**        | —                                                           | Software / Tool          | Tool for MITM attacks, DNS spoofing, and packet manipulation                            |
+| **Bluesnarfer**     | —                                                           | Software / Tool          | Tool for extracting data from Bluetooth-enabled devices                                 |
+| **Aircrack-ng**     | —                                                           | Software / Tool          | Suite for Wi-Fi network auditing and cracking WEP/WPA keys                              |
+| **Kismet**          | —                                                           | Software / Tool          | Wireless network detector, sniffer, and intrusion detection system                      |
+| **Wireshark**       | —                                                           | Software / Tool          | Network protocol analyzer for packet inspection                                         |
+| **Bettercap**       | —                                                           | Software / Tool          | Advanced MITM framework for network attacks and monitoring                              |
+| **Hydra / Medusa**  | —                                                           | Software / Tool          | Brute-force tools for password cracking across multiple protocols                       |
+| **Hashcat**         | —                                                           | Software / Tool          | High-performance password recovery tool using GPU acceleration                          |
+| **Responder**       | —                                                           | Software / Tool          | LLMNR/NBT-NS/MDNS poisoner used in LAN credential harvesting                            |
+| **CrackMapExec**    | —                                                           | Software / Tool          | Post-exploitation tool for Active Directory environments                                |
+| **Metasploit**      | —                                                           | Software / Tool          | Exploitation framework for vulnerability testing and payload delivery                   |
+
+---
+
+You're absolutely right, Etienne. Let’s elevate the matrix to include **network protocols, port references, service identifiers, and infrastructure labels**—the kind of detail that turns a cheat sheet into a tactical asset for boardroom briefings, red team playbooks, or SME training decks.
+
+---
+
+### 🧠 Expanded Wireless & LAN Acronym Intelligence Matrix
+
+| **Acronym / Term**     | **Full Form / Meaning**                                 | **Category**              | **Description / Usage**                                                                 |
+|------------------------|----------------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------|
+| **LAN**                | Local Area Network                                       | Specification              | Internal network within a limited geographic area                                       |
+| **WLAN**               | Wireless Local Area Network                              | Specification              | Wireless version of LAN using Wi-Fi                                                     |
+| **SSID**               | Service Set Identifier                                   | Network Label              | Name of a wireless network broadcast by an AP                                           |
+| **BSSID**              | Basic Service Set Identifier                             | Network Label              | MAC address of the AP broadcasting the SSID                                             |
+| **BLE**                | Bluetooth Low Energy                                     | Specification              | Low-power wireless protocol used in IoT and mobile devices                              |
+| **RFID**               | Radio-Frequency Identification                           | Specification              | Wireless system for tracking and identification using electromagnetic fields            |
+| **NFC**                | Near Field Communication                                 | Specification              | Short-range wireless tech used in contactless payments and access systems               |
+| **IMEI**               | International Mobile Equipment Identity                  | Device Identifier          | Unique identifier for mobile devices used in tracking and spoofing                      |
+| **LF / HF / UHF**      | Low / High / Ultra High Frequency                        | RFID Frequency Bands       | Defines range and data exchange capabilities of RFID tags                               |
+| **AP**                 | Access Point                                             | Hardware                   | Device that enables wireless connectivity to a LAN                                      |
+| **MAC**                | Media Access Control                                     | Addressing Protocol        | Unique hardware identifier for network interfaces                                       |
+| **DNS**                | Domain Name System                                       | Protocol                   | Resolves domain names to IP addresses; target of spoofing in Evil Twin attacks          |
+| **DHCP**               | Dynamic Host Configuration Protocol                      | Protocol                   | Assigns IP addresses to devices on a network                                            |
+| **HTTP/HTTPS**         | Hypertext Transfer Protocol / Secure                     | Protocol                   | Web communication protocols; HTTPS mitigates credential harvesting                      |
+| **LLMNR**              | Link-Local Multicast Name Resolution                     | Protocol                   | Used in Windows environments; vulnerable to spoofing                                    |
+| **NBT-NS**             | NetBIOS Name Service                                     | Protocol                   | Legacy name resolution protocol; often exploited in LAN attacks                         |
+| **MDNS**               | Multicast DNS                                            | Protocol                   | Used for local network service discovery                                                |
+| **MITRE ATT&CK**       | MITRE Adversarial Tactics Techniques and Common Knowledge| Framework                  | Threat modeling framework used to map attacker behavior                                 |
+| **ISO**                | International Organization for Standardization           | Governance Framework       | Global standards body; ISO 27001 governs information security                           |
+| **NIST CSF**           | National Institute of Standards and Technology Cybersecurity Framework | Governance Framework | U.S. framework for cybersecurity governance and risk management                         |
+| **DoS**                | Denial of Service                                        | Attack Method              | Disrupts network availability by flooding or jamming                                    |
+| **Password Spraying**  | —                                                        | Attack Method              | Brute-force attack using common passwords across many usernames                         |
+| **Credential Stuffing**| —                                                        | Attack Method              | Automated injection of breached credentials into login portals                          |
+| **War Driving**        | —                                                        | Recon Method               | Scanning for wireless networks while moving through physical space                      |
+| **Bluejacking**        | —                                                        | Bluetooth Attack           | Sending unsolicited messages via Bluetooth using OBEX and vCards                        |
+| **Bluesnarfing**       | —                                                        | Bluetooth Attack           | Unauthorized access to Bluetooth device data                                            |
+| **Evil Twin Attack**   | —                                                        | Wireless Attack            | Rogue AP mimicking a legitimate one to harvest credentials                              |
+| **KARMA Attack**       | —                                                        | Wireless Attack            | Rogue AP responding to probe requests with matching SSIDs                               |
+| **Disassociation Attack** | —                                                     | Wireless Attack            | Disconnecting users from APs to force reconnection to rogue networks                    |
+| **Exploit Chaining**   | —                                                        | Advanced Attack Method     | Using multiple vulnerabilities in sequence to compromise systems                        |
+| **SET**                | Social-Engineer Toolkit                                  | Software Tool              | Simulates social engineering attacks like phishing                                      |
+| **Ettercap**           | —                                                        | Software Tool              | MITM attack tool for DNS spoofing and packet manipulation                               |
+| **Bluesnarfer**        | —                                                        | Software Tool              | Extracts data from Bluetooth-enabled devices                                            |
+| **Aircrack-ng**        | —                                                        | Software Tool              | Wi-Fi auditing suite for cracking WEP/WPA keys                                          |
+| **Kismet**             | —                                                        | Software Tool              | Wireless network detector and intrusion detection system                                |
+| **Wireshark**          | —                                                        | Software Tool              | Network protocol analyzer for packet inspection                                         |
+| **Bettercap**          | —                                                        | Software Tool              | MITM framework for network attacks and monitoring                                       |
+| **Hydra / Medusa**     | —                                                        | Software Tool              | Brute-force tools for password cracking across multiple protocols                       |
+| **Hashcat**            | —                                                        | Software Tool              | High-performance password recovery tool using GPU acceleration                          |
+| **Responder**          | —                                                        | Software Tool              | LLMNR/NBT-NS/MDNS poisoner used in LAN credential harvesting                            |
+| **CrackMapExec**       | —                                                        | Software Tool              | Post-exploitation tool for Active Directory environments                                |
+| **Metasploit**         | —                                                        | Software Tool              | Exploitation framework for vulnerability testing and payload delivery                   |
+| **TCP/UDP**            | Transmission Control Protocol / User Datagram Protocol   | Transport Protocol         | Core protocols for data transmission across networks                                    |
+| **Port 80 / 443**      | HTTP / HTTPS                                             | Network Port               | Standard ports for web traffic; 443 is encrypted                                        |
+| **Port 53**            | DNS                                                      | Network Port               | Used for domain name resolution                                                         |
+| **Port 67 / 68**       | DHCP                                                     | Network Port               | Used for IP address assignment                                                          |
+| **Port 137–139 / 445** | NetBIOS / SMB                                            | Network Port               | Commonly exploited in LAN attacks and lateral movement                                  |
+Here’s the correct matching of **NetBIOS-related services** with their corresponding **port numbers and protocols**, organized into a single reference table for clarity and strategic utility:
+
+---
+
+| **Service**       | **Full Form**                     | **Purpose**                                                                 |
+|-------------------|------------------------------------|------------------------------------------------------------------------------|
+| **NetBIOS-NS**    | NetBIOS Name Service               | Used for name registration and resolution (UDP port 137)                     |
+| **NetBIOS-DGM**   | NetBIOS Datagram Service           | Used for connectionless communication (UDP port 138)                         |
+| **LLMNR**         | Link-Local Multicast Name Resolution | Windows protocol for name resolution on local networks (UDP/TCP port 5355) |
+| **NetBIOS-SSN**   | NetBIOS Session Service | Windows protocol for name resolution on local networks (UDP/TCP port 5355) | Used for **connection-oriented communication** over TCP port **139**. It establishes and manages sessions between devices, enabling reliable data exchange.
+
+---
+
+### 🔐 NetBIOS & Windows Networking Port Mapping
+
+| **Port Type & Number** | **Protocol** | **Service / Function**                          |
+|------------------------|--------------|-------------------------------------------------|
+| **A. UDP port 137**    | UDP          | **NetBIOS Name Service (NetBIOS-NS)** – Used for name registration and resolution |
+| **B. TCP port 139**    | TCP          | **NetBIOS Session Service (NetBIOS-SSN)** – Used for connection-oriented communication |
+| **C. UDP port 138**    | UDP          | **NetBIOS Datagram Service (NetBIOS-DGM)** – Used for connectionless communication |
+| **D. TCP port 445**    | TCP          | **SMB Protocol (Server Message Block)** – Used for direct file sharing over TCP/IP |
+| **E. TCP port 135**    | TCP          | **Microsoft Remote Procedure Call (MS-RPC)** – Used for DCOM and RPC-based services |
+
+---
+
+| Port Number | Protocol | Common Use                                                                                                 |
+|-------------|----------|-------------------------------------------------------------------------------------------------------------|
+| 161         | UDP      | SNMP (Simple Network Management Protocol) – Used for network device monitoring and management. SNMP managers query agents on devices like routers, switches, and servers. |
+| 176         | UDP/TCP  | PDP (X.400 over TCP/IP) – Rarely used today; part of legacy email systems based on the X.400 standard.      |
+| 182         | TCP      | Audit daemon (formerly used by Apple) – Not widely adopted; may appear in legacy macOS systems.            |
+| 128         | TCP/UDP  | Reserved/Unassigned – Not officially designated for any standardized protocol. May be used by proprietary or experimental services. |
+
+---
+
+| Threat Category         | Mechanism                                                                 | Strategic Implication                                                   |
+|-------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Malware                 | Malicious software (e.g., viruses, worms, trojans, ransomware)            | Data loss, system compromise, operational disruption                    |
+| Phishing & Social Eng. | Deceptive emails, messages, or calls to trick users into revealing data   | Credential theft, unauthorized access, reputational damage             |
+| Denial of Service (DoS) | Overwhelming systems with traffic or requests                             | Service outages, financial loss, customer trust erosion                |
+| Man-in-the-Middle (MitM)| Intercepting communications between parties                               | Data interception, manipulation, privacy breach                        |
+| DNS Poisoning           | Manipulating DNS resolver cache                                           | Traffic redirection, credential theft, malware delivery                |
+| SQL Injection           | Injecting malicious SQL into input fields                                 | Database compromise, data exfiltration                                 |
+| Zero-Day Exploits       | Attacks on unknown or unpatched vulnerabilities                           | High-risk breach, delayed detection, limited mitigation                |
+| Insider Threats         | Malicious or negligent actions by internal users                          | Data leakage, sabotage, compliance violations                          |
+| Credential Stuffing     | Using stolen credentials across multiple platforms                        | Account takeover, fraud, unauthorized access                           |
+| Supply Chain Attacks    | Compromising third-party vendors or software dependencies                 | Indirect breach, systemic risk, trust erosion                          |
+| Advanced Persistent Threats (APT) | Stealthy, long-term infiltration by skilled actors              | Espionage, intellectual property theft, strategic disruption           |
+| Botnets                 | Networks of infected devices controlled remotely                          | Distributed attacks, spam, data theft                                  |
+| Cryptojacking           | Unauthorized use of systems to mine cryptocurrency                        | Resource drain, performance degradation                                |
+| Rogue Devices           | Unauthorized hardware connected to networks                               | Network compromise, data leakage                                       |
+| Cloud Misconfigurations | Improper setup of cloud services (e.g., open buckets, weak IAM)           | Data exposure, compliance risk, unauthorized access                    |
+| IoT Exploits            | Attacks on Internet of Things devices                                     | Physical disruption, surveillance, lateral movement                    |
+| Firmware Attacks        | Compromise of device firmware                                             | Persistent access, hardware-level control                              |
+| BGP Hijacking           | Manipulating Border Gateway Protocol routes                               | Traffic interception, service disruption                               |
+| ARP Spoofing            | Faking MAC addresses to intercept LAN traffic                             | Data theft, session hijacking                                          |
+| Pass-the-Hash Attacks   | Using hashed credentials to authenticate without cracking passwords       | Lateral movement, privilege escalation                                 |
+| Kerberos Exploits       | Abuse of Kerberos authentication protocol                                 | Domain compromise, unauthorized access                                 |
+
+---
+
+---
+
+| SMTP Command | Description                                                                 |
+|--------------|------------------------------------------------------------------------------|
+| STARTTLS     | Used to start a Transport Layer Security connection to an email server.     |
+| HELO         | Used to initiate an SMTP conversation with an email server.                 |
+| EHLO         | Used to initiate a conversation with an Extended SMTP server.               |
+| RSET         | Used to cancel an email transaction.                                        |
+| DATA         | Used to initiate the transfer of the contents of an email message.          |
+| MAIL         | Used to denote the email address of the sender.                             |
+
+---
+
+| Attack Type       | Mechanism                                                                 | Strategic Implication                                      |
+|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------|
+| Pass-the-Hash     | Uses stolen password hashes to authenticate without decrypting them       | Enables lateral movement, privilege escalation, domain compromise |
+
+| Attack Type       | Mechanism                                                                 | Strategic Implication                                      |
+|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------|
+| Kerberoasting     | Extracts service account hashes from Kerberos tickets for offline cracking| Privilege escalation, domain compromise, lateral movement   |
+
+| Attack Type        | Description                                                                                                   |
+|--------------------|---------------------------------------------------------------------------------------------------------------|
+| DNS Amplification  | Exploits vulnerable DNS servers to turn small queries into large payloads, overwhelming the victim’s server.  |
+| Reflected DOS      | Uses spoofed packets that appear to be from the victim; sources unknowingly send traffic back to the victim.  |
+| DDOS               | Uses botnets controlled via CnC (Command and Control) to launch distributed attacks from multiple systems.     |
+| Direct DOS         | Attacker sends packets directly to the victim without intermediaries, using any protocol or application.       |
+
+| Attack Type                | Description                                                                                             |
+|----------------------------|---------------------------------------------------------------------------------------------------------|
+| MAC Address Spoofing       | An attacker spoofs the physical address of the NIC to impersonate another device for unauthorized access or MitM attacks. |
+| DHCP Starvation            | An attacker floods the DHCP server with bogus DHCPDISCOVER packets until it runs out of IP addresses.  |
+| Downgrade Attacks          | The attacker forces a system to use weak encryption or hashing protocols that are vulnerable.           |
+| Route Manipulation Attacks | Typically a BGP hijack where an edge router announces unauthorized prefixes to redirect traffic.        |
+| VLAN Hopping               | An attacker bypasses Layer 2 segmentation to access restricted VLANs.                                  |
+
+| Attack Type     | Mechanism                                                                 | Strategic Implication                                      |
+|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------|
+| Bluesnarfing     | Exploits Bluetooth vulnerabilities to steal data from nearby devices      | Data leakage, privacy breach, reputational and legal risk   |
+
+| Attack Type       | Target Component         | Required Credential Access       | Risk Profile                         |
+|-------------------|--------------------------|----------------------------------|--------------------------------------|
+| Silver Ticket     | Service Ticket (TGS)     | Service account hash (e.g., NTLM)| Lateral movement, service impersonation|
+| Golden Ticket     | Ticket Granting Ticket   | KRBTGT account hash              | Full domain compromise               |
+
+| Post-Exploitation Technique | Attack Vector         | Target Component              | Methodology                                                       | Strategic Implication                                         | Mitigation Strategy                                                                 |
+|-----------------------------|------------------------|-------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Kerberoasting               | Credential extraction  | Service account SPNs in AD    | Request TGS → Extract encrypted ticket → Offline NTLM cracking   | Privilege escalation via weak service account passwords       | Enforce strong service account passwords; monitor SPN exposure; use AES encryption   |
+| Silver Ticket               | Ticket forgery         | Kerberos service ticket (TGS) | Forge TGS using service account hash → Access specific services  | Lateral movement without contacting domain controller         | Rotate service account passwords; monitor service ticket usage; enable auditing      |
+| Golden Ticket               | Domain-wide impersonation | KRBTGT account in AD       | Forge TGT using KRBTGT hash → Full domain access                 | Total domain compromise; persistent backdoor                  | Regularly rotate KRBTGT password; monitor TGT issuance; enable Kerberos logging      |
+| Pass-the-Hash               | Credential replay      | NTLM hash of privileged accounts | Use captured hash to authenticate without password            | Bypasses authentication controls; enables stealthy access     | Disable NTLM where possible; enforce SMB signing; use LAPS for local admin accounts  |
+| Pass-the-Ticket             | Credential replay      | Kerberos TGT or TGS           | Replay stolen ticket to access services                          | Session hijacking; impersonation of legitimate users          | Limit ticket lifetime; monitor ticket reuse; enforce PAC validation                  |
+| DCSync                      | Replication abuse      | Domain controller             | Use replication rights to extract password hashes from AD        | Full credential dump; stealthy domain compromise              | Restrict replication rights; monitor DC replication traffic; enable auditing         |
+| DCShadow                    | Directory manipulation | Active Directory schema       | Inject rogue DC to push malicious changes into AD                | Covert AD manipulation; persistence and stealth               | Monitor schema changes; restrict DC registration; use AD change auditing             |
+| Credential Dumping         | Memory scraping        | LSASS process                 | Extract plaintext passwords, hashes, and Kerberos tickets        | Rapid privilege escalation; lateral movement                  | Enable Credential Guard; restrict admin access; monitor LSASS access                 |
+| Skeleton Key                | Authentication bypass  | Domain controller memory      | Inject master password into LSASS to bypass authentication       | Covert persistent access to all accounts                      | Monitor LSASS integrity; use memory protection tools; enforce endpoint detection     |
+| Overpass-the-Hash          | Hybrid replay          | Kerberos TGT via NTLM hash    | Use NTLM hash to request Kerberos TGT                            | Cross-protocol abuse; stealthy domain access                  | Enforce Kerberos-only authentication; monitor TGT requests; disable NTLM fallback    |
+
+| Attack Type         | Vector                  | Target Component             | Methodology                                                       | Strategic Implication                                           | Mitigation Strategy                                                                 |
+|---------------------|-------------------------|-------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| IP Spoofing         | Network impersonation   | IP header / routing layer     | Forge source IP → intercept or redirect traffic                   | Enables on-path attacks, session hijacking, trust exploitation | Enforce ingress/egress filtering; deep packet inspection; encrypt sensitive traffic |
+| DDoS                | Volume-based flooding   | Network bandwidth / server    | Overwhelm target with massive traffic                             | Service disruption, reputational damage                        | Deploy rate limiting; use anti-DDoS appliances; cloud-based traffic scrubbing       |
+| Pass-the-Hash       | Credential replay       | NTLM hash                     | Reuse captured hash to authenticate without password              | Bypasses authentication controls; stealthy lateral movement    | Disable NTLM; enforce SMB signing; use LAPS for local admin accounts                |
+| Evil Twin           | Rogue access point      | Wireless clients              | Mimic legitimate Wi-Fi → lure users to connect                    | Credential theft, session hijack, data interception            | Use WPA3; monitor rogue APs; enforce network segmentation                            |
+| On-Path (MitM)      | Traffic interception    | Communication stream          | Intercept and manipulate traffic between endpoints                | Data tampering, credential theft, protocol abuse               | Use TLS everywhere; enable certificate pinning; monitor for anomalous routing       |
+
+| Attack Type           | Vector                  | Target Component         | Methodology                                                  | Strategic Implication                                      | Mitigation Strategy                                                                 |
+|------------------------|-------------------------|---------------------------|--------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| ARP Cache Poisoning    | Layer 2 spoofing        | ARP table on switches     | Inject fake ARP replies → redirect traffic to attacker       | Traffic interception, session hijacking, DoS               | Enable DAI; configure DHCP snooping; use port security                              |
+| IP Spoofing            | Network impersonation   | IP header / routing layer | Forge source IP → intercept or redirect traffic              | On-path attacks, trust exploitation                        | Enforce ingress/egress filtering; deep packet inspection; encrypt sensitive traffic |
+| MAC Spoofing           | Hardware impersonation  | Switch MAC table          | Forge MAC address → impersonate device                       | Bypass access controls, session hijack                     | Enable port security; use 802.1X authentication; monitor MAC anomalies              |
+| DHCP Spoofing          | Rogue DHCP server       | Client IP configuration   | Respond with malicious DHCP offers → redirect traffic        | DNS hijacking, MITM, traffic rerouting                     | Enable DHCP snooping; define trusted ports; monitor DHCP traffic                    |
+| DNS Poisoning          | Cache manipulation      | DNS resolver cache        | Inject false DNS records → redirect domain resolution        | Credential theft, phishing, malware delivery               | Use DNSSEC; flush DNS cache regularly; monitor DNS anomalies                        |
+
+| Attack Type           | Vector                  | Target Component             | Methodology                                                       | Strategic Implication                                           | Mitigation Strategy                                                                 |
+|------------------------|-------------------------|-------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Amplification (DDoS)   | Reflected traffic        | Bandwidth / application layer | Send small spoofed requests → trigger large responses to victim   | High-volume DDoS; resource exhaustion                          | Rate limit UDP services; block spoofed IPs; use DDoS protection appliances          |
+| ARP Cache Poisoning    | Layer 2 spoofing         | ARP table on switches         | Inject fake ARP replies → redirect traffic                        | Traffic interception, session hijacking, DoS                   | Enable DAI; configure DHCP snooping; use port security                              |
+| IP Spoofing            | Network impersonation    | IP header / routing layer     | Forge source IP → intercept or redirect traffic                   | On-path attacks, trust exploitation                            | Enforce ingress/egress filtering; deep packet inspection; encrypt sensitive traffic |
+| Evil Twin              | Rogue access point       | Wireless clients              | Mimic legitimate Wi-Fi → lure users                               | Credential theft, session hijack, data interception            | Use WPA3; monitor rogue APs; enforce network segmentation                            |
+| DHCP Spoofing          | Rogue DHCP server        | Client IP configuration       | Respond with malicious DHCP offers → redirect traffic             | DNS hijacking, MITM, traffic rerouting                         | Enable DHCP snooping; define trusted ports; monitor DHCP traffic                    |
+| DNS Poisoning          | Cache manipulation       | DNS resolver cache            | Inject false DNS records → redirect domain resolution             | Credential theft, phishing, malware delivery                   | Use DNSSEC; flush DNS cache regularly; monitor DNS anomalies                        |
+
+---
+
+| Protocol      | Vulnerability to Brute-Force | Strategic Commentary                                      |
+|---------------|------------------------------|------------------------------------------------------------|
+| WPS           | ✅ High                      | Weak PIN mechanism; easily brute-forced                    |
+| WPA2-TKIP     | ⚠️ Moderate                  | Legacy encryption; vulnerable to replay attacks            |
+| WPA2-EAP      | 🔒 Low                       | Enterprise-grade; uses 802.1X and RADIUS for authentication|
+| WPA3          | 🔒 Very Low                  | Strong protections; resistant to offline dictionary attacks|
+
+| Protocol | Unencrypted Port | Encrypted Port | Encryption Method     | Strategic Note                          |
+|----------|------------------|----------------|------------------------|-----------------------------------------|
+| IMAP     | 143              | 993            | SSL/TLS                | Used for syncing email across devices   |
+| POP3     | 110              | 995            | SSL/TLS                | Downloads email to local device         |
+| SMTP     | 25 (legacy)      | 465 / 587      | SSL/TLS / STARTTLS     | Used for sending email                  |
+
+---
+
+| Standard     | Feature (MFP)                          | Protection Mechanism                            | Strategic Benefit                                 |
+|--------------|----------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| 802.11w      | Management Frame Protection (MFP)      | Encrypts/discards spoofed deauth/disassoc frames| Prevents Wi-Fi session disruption and hijacking  |
+
+---
+  
+| Component             | Function                                                       | Strategic Relevance                              |
+|----------------------|----------------------------------------------------------------|--------------------------------------------------|
+| DNS Resolver Cache   | Temporarily stores recent domain name resolutions              | Speeds up browsing, reduces DNS traffic          |
+| Location (Windows)   | Accessible via `ipconfig /displaydns`                          | Useful for diagnostics and forensic analysis     |
+| Governance Insight   | Can be flushed (`ipconfig /flushdns`) to clear stale entries   | Enhances privacy and mitigates DNS poisoning     |
+
+| Tool Name           | Functionality                                                                 | Relevance to SNMP Reconnaissance |
+|---------------------|--------------------------------------------------------------------------------|----------------------------------|
+| snmp-check          | Gathers detailed info from SNMP-enabled devices (system, interfaces, etc.)    | ✅ Highly relevant               |
+| snmp-brute.nse      | Performs brute-force attacks on SNMP community strings (Nmap script)           | ⚠️ Offensive testing only        |
+| nslookup            | Resolves DNS queries; not SNMP-related                                         | ❌ Not relevant                  |
+| snmp-netstat.nse    | Extracts netstat-like info via SNMP (Nmap script)                              | ✅ Useful but more specialized   |
+
+| Tool         | Functionality                                                                 | Relevance to Disassociation Attacks |
+|--------------|--------------------------------------------------------------------------------|--------------------------------------|
+| Airmon-ng    | Enables monitor mode on wireless interfaces; used in Wi-Fi attack setups       | ✅ Directly relevant                 |
+| EMPIRE       | Post-exploitation framework for PowerShell and Python agents                   | ❌ Not relevant                      |
+| nmap         | Network scanning and enumeration tool                                          | ❌ Not used for disassociation       |
+| POODLE       | Exploit targeting SSL 3.0 protocol downgrade vulnerability                     | ❌ Unrelated to Wi-Fi attacks        |
+
+
+---
+ 
+
+
