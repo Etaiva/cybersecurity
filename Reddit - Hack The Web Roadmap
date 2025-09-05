@@ -1,0 +1,29 @@
+A Practical Cybersecurity Roadmap for 2025
+
+If you're planning to get into cybersecurity or switch roles within it, here’s a simple breakdown of what to focus on in 2025:
+
+1. **Fundamentals**
+   * Networking (TCP/IP, DNS, ports)
+   * Linux basics
+   * Windows internals
+   * Scripting (Python, Bash)
+2. **Core Areas**
+   * Threat intelligence
+   * SIEM tools (Splunk, ELK)
+   * Endpoint detection
+   * Vulnerability scanning
+3. **Certifications (optional but helpful)**
+   * CompTIA Security+ for beginners
+   * OSCP or eJPT for offensive track
+   * SSCP or GRC certs for defensive/governance track
+4. **Specializations**
+   * Blue Team: SOC analyst, DFIR, threat hunting
+   * Red Team: pentesting, exploit dev
+   * Cloud Security: AWS, Azure, GCP tools
+   * Governance/Risk/Compliance
+5. **Projects Matter**
+   * Build a home lab
+   * Document learning in a blog or GitHub
+   * Try Hack The Box, TryHackMe, or CTFs
+
+If you’re consistent and learn by doing, even 1-2 hours a day can move you forward. Happy to answer questions or guide based on your current stage.
