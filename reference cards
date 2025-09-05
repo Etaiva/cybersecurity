@@ -87,3 +87,18 @@ HELP: Used to display a help menu (if available).
 AUTH: Used to authenticate a client to the server.
 VRFY: Used to verify whether a user’s email mailbox exists.
 EXPN: Used to request, or expand, a mailing list on the remote server.
+
+---
+OWASP Top 10 Risks (2021 Edition)
+| Risk ID | Category                                | Description |
+|--------|------------------------------------------|-------------|
+| A01     | Broken Access Control                   | Failures in enforcing user permissions |
+| A02     | Cryptographic Failures                  | Weak or missing encryption mechanisms |
+| A03     | Injection                               | SQL, NoSQL, OS, and LDAP injection flaws |
+| A04     | Insecure Design                         | Flawed architecture or logic decisions |
+| A05     | Security Misconfiguration               | Default settings, exposed services, etc. |
+| A06     | Vulnerable and Outdated Components      | Use of unsupported or unpatched libraries |
+| A07     | Identification and Authentication Failures | Broken login, session management, etc. |
+| A08     | Software and Data Integrity Failures    | Trust issues in software updates and CI/CD |
+| A09     | Security Logging and Monitoring Failures| Lack of visibility and alerting |
+| A10     | Server-Side Request Forgery (SSRF)      | Abuse of server-side fetch mechanisms |
