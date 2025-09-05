@@ -396,3 +396,74 @@ path-segment-params: This is the portion of the URL that includes optional name/
 query-string: This optional portion of the URL contains name/value pairs that represent dynamic parameters associated with the request. These parameters are commonly included in links for tracking and context-setting purposes. They may also be produced from variables in HTML forms. Typically, the query string is preceded by a question mark. Equals signs (=) separate names and values, and ampersands ( & ) mark the boundaries between name/value pairs. In this example, the query string is name=omar&x=true.
 
 ---
+
+| Protocol Type | Example Protocols | Behavior |
+|---------------|-------------------|----------|
+| Stateless     | HTTP              | Each request is independent; no session memory |
+| Stateful      | FTP, SMTP, IMAP   | Server maintains session state across commands |
+
+| Status Code Range | Meaning             |
+|-------------------|---------------------|
+| 100–199           | Informational        |
+| 200–299           | Success              |
+| 300–399           | Redirection          |
+| 400–499           | Client Error         |
+| 500–599           | Server Error         |
+
+| Component              | Value                        | Description |
+|------------------------|------------------------------|-------------|
+| Scheme                 | https                        | Protocol used (HTTP, HTTPS, FTP) |
+| Host                   | theartofhacking.org          | Domain or IP of the target server |
+| Port                   | 8123                         | Non-standard port (default HTTP is 80, HTTPS is 443) |
+| Path                   | /dir/test                    | Resource location on the server |
+| Path Segment Parameter | id=89                        | Optional param after semicolon (`;`)—rarely used |
+| Query String           | name=omar&x=true             | Dynamic request parameters (after `?`) |
+
+| Feature           | HTTP/1.1        | HTTP/2.0        |
+|------------------|------------------|------------------|
+| Connection Model | Multiple TCP     | Single TCP       |
+| Request Handling | Sequential       | Parallel (Multiplexed) |
+| Performance      | Slower           | Faster           |
+| Compression      | Minimal          | Header compression |
+
+| API Type | Format | Transport | Common Vulnerabilities |
+|----------|--------|-----------|-------------------------|
+| REST     | JSON   | HTTP      | IDOR, XSS, auth bypass |
+| SOAP     | XML    | HTTP      | XML injection, WSDL exposure |
+| XML-RPC  | XML    | HTTP      | Command injection, legacy flaws |
+
+| Component              | Value                        | Attack Surface |
+|------------------------|------------------------------|----------------|
+| Scheme                 | https                        | SSL downgrade, MITM |
+| Host                   | theartofhacking.org          | DNS poisoning, subdomain takeover |
+| Port                   | 8123                         | Port scanning, service enumeration |
+| Path                   | /dir/test                    | Directory traversal, alias mapping |
+| Path Segment Parameter | id=89                        | Rare but injectable in legacy apps |
+| Query String           | name=omar&x=true             | XSS, SQLi, logic abuse |
+
+Session ID (Token) Essentials
+| Attribute           | Description |
+|---------------------|-------------|
+| Purpose             | Tracks user identity and session state |
+| Format              | Name/value pair (e.g., PHPSESSID=abc123) |
+| Common Names        | PHPSESSID, JSESSIONID, ASP.NET_SessionId, CFID, CFTOKEN |
+| Best Practice       | Rename default ID to generic (e.g., id) |
+| Length              | Minimum 128 bits (16 bytes) |
+| Entropy             | Recommended: ≥256 bits using DRBG |
+| Uniqueness          | Must be unpredictable and non-repeating |
+
+Cookie Types
+| Type              | Attributes        | Behavior |
+|-------------------|-------------------|----------|
+| Session Cookie    | No expiration set | Deleted when browser closes |
+| Persistent Cookie | Uses Max-Age or Expires | Stored until expiry |
+
+Related Vulnerabilities
+| Vulnerability       | Risk Vector |
+|---------------------|-------------|
+| Session Fixation    | Attacker sets session ID before login |
+| Session Hijacking   | Attacker steals valid session ID |
+| SQL Injection       | If session ID is stored unsanitized |
+| Persistent XSS      | If session ID is reflected in output |
+
+
