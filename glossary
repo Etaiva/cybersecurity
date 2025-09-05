@@ -373,6 +373,15 @@ Here’s the correct matching of **NetBIOS-related services** with their corresp
 | nmap         | Network scanning and enumeration tool                                          | ❌ Not used for disassociation       |
 | POODLE       | Exploit targeting SSL 3.0 protocol downgrade vulnerability                     | ❌ Unrelated to Wi-Fi attacks        |
 
+| Access Control Test                     | OWASP Category                                      | Risk Indicator                                 | Governance Insight                                                  |
+|----------------------------------------|----------------------------------------------------|------------------------------------------------|---------------------------------------------------------------------|
+| Role-Based Access Validation           | A01: Broken Access Control                         | Horizontal/Vertical Privilege Escalation       | Validate RBAC enforcement across roles and endpoints                |
+| URL & Parameter Tampering              | A01: Broken Access Control<br>A05: Security Misconfiguration | IDOR, unauthorized data access         | Ensure server-side validation and object-level checks               |
+| API Endpoint Privilege Enforcement     | A01: Broken Access Control<br>A04: Insecure Design | BOLA, over-privileged API keys                 | Audit API contracts and privilege boundaries                        |
+| Session Token Manipulation             | A02: Cryptographic Failures<br>A07: Identification & Authentication Failures | Token replay, JWT tampering         | Enforce token integrity, expiration, and revocation                 |
+| Hidden UI Function Exposure            | A01: Broken Access Control<br>A05: Security Misconfiguration | UI masking without backend enforcement | Ensure backend logic enforces access independently                  |
+| Direct Object Reference Testing        | A01: Broken Access Control                         | IDOR via predictable identifiers               | Implement access filters and object ownership checks                |
+| Privilege Escalation via API Calls     | A01: Broken Access Control<br>A04: Insecure Design | Role bypass through undocumented endpoints     | Document and restrict sensitive API functionality                   |
 
 ---
  
