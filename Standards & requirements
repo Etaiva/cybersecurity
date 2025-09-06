@@ -135,3 +135,18 @@ Use the U.S. government FIPS 140-2 validated encryption ciphers for general guid
 Keep any back-end databases on a different server than the FTP server.
 Require re-authentication of inactive sessions.
 
+Key Parts of ISO/IEC 9075 (2023 Edition) (https://copilot.microsoft.com/) https://en.wikipedia.org/wiki/ISO/IEC_9075 
+| Part | Title                                      | Description |
+|------|--------------------------------------------|-------------|
+| 9075-1 | Framework (SQL/Framework)                | Defines overall structure, terms, and grammar |
+| 9075-2 | Foundation (SQL/Foundation)              | Core SQL syntax and semantics |
+| 9075-3 | Call-Level Interface (SQL/CLI)           | SQL access via procedural APIs |
+| 9075-4 | Persistent Stored Modules (SQL/PSM)      | Stored procedures and control structures |
+| 9075-9 | Management of External Data (SQL/MED)    | Accessing external data sources |
+| 9075-10 | Object Language Bindings (SQL/OLB)      | SQL integration with object-oriented languages |
+| 9075-11 | Information and Definition Schemas      | Metadata and schema definitions |
+| 9075-13 | SQL Routines and Types Using Java (SQL/JRT) | Java integration for SQL routines |
+| 9075-14 | XML-Related Specifications (SQL/XML)    | XML support within SQL |
+| 9075-15 | Multidimensional Arrays (SQL/MDA)       | Array data types and operations |
+| 9075-16 | Property Graph Queries (SQL/PGQ)        | Graph query capabilities |
+
