@@ -466,4 +466,205 @@ Related Vulnerabilities
 | SQL Injection       | If session ID is stored unsanitized |
 | Persistent XSS      | If session ID is reflected in output |
 
+| Term / Concept                   | Definition                                                                                     |
+|---------------------------------|-----------------------------------------------------------------------------------------------|
+| Browser Sandbox                 | Security mechanism isolating web content to prevent harmful code affecting the system.        |
+| Browser Security Model          | Rules and mechanisms governing how browsers enforce security and isolate content.            |
+| Clickjacking                   | Malicious technique that tricks users into clicking on something different than perceived.   |
+| Click Event Hijacking           | Unauthorized interception and redirection of user click actions.                             |
+| Click Event Propagation         | Flow of click events through nested elements in the DOM hierarchy.                           |
+| Click Fraud                    | Deceptive practice generating fake clicks to inflate ad revenue or sabotage competitors.     |
+| Click Interception             | Capturing user clicks before they reach intended target.                                    |
+| Content Security Policy (CSP)  | Security standard specifying allowed content sources to prevent various attacks.             |
+| Cross-Origin Resource Sharing (CORS) | Mechanism allowing restricted resources to be requested from another domain.              |
+| CSS Pointer-Events Property    | CSS rule controlling whether elements respond to pointer interactions.                       |
+| Defensive Code                | Application logic detecting and preventing malicious framing or embedding.                   |
+| DOM Clobbering                | Security issue where attacker-controlled elements overwrite global DOM variables.           |
+| DOM Event Capture              | Phase where events are intercepted before reaching target element.                          |
+| DOM Event Delegation           | Technique where a parent element handles events for child elements.                         |
+| DOM Event Filtering            | Selective processing of events based on rules.                                              |
+| DOM Event Hijacking            | Unauthorized interception and redirection of DOM-based user interactions.                   |
+| DOM Event Injection            | Artificial triggering of DOM events to simulate user actions.                              |
+| DOM Event Lifecycle            | Stages through which a DOM event passes from creation to completion.                        |
+| DOM Event Listener             | Function monitoring and responding to actions within the document object model.            |
+| DOM Event Propagation          | Process that defines how events flow through DOM elements.                                 |
+| DOM Event Queuing              | Sequence of events waiting to be processed.                                                |
+| DOM Mutation                  | Changes to document object model structure or content.                                    |
+| Frame Busting                 | Technique to prevent a web page from loading inside a frame or iframe.                     |
+| frame-ancestors Directive     | CSP directive controlling which sources can embed the page in a frame.                     |
+| Frame Overlay                | Technique where an iframe is layered over visible content to hijack user actions.           |
+| iframe                      | HTML element embedding another page within the current page.                               |
+| Input Capture                | Interception of user input before reaching destination.                                   |
+| Input Masking                | Hiding or formatting user input to guide or restrict data entry.                          |
+| JavaScript Frame Detection    | Script method to verify if page is framed by another domain.                              |
+| Keystroke Hijacking          | Intercepting or redirecting user keyboard input without consent.                         |
+| Overlay Attack               | Malicious layer placed over legitimate interface to capture user actions.                |
+| OWASP                       | Nonprofit focused on improving software security worldwide.                            |
+| OWASP Clickjacking Defense Cheat Sheet | Resource providing best practices against clickjacking attacks.                      |
+| Same-Origin Policy           | Web security concept restricting cross-origin interactions.                             |
+| Security Headers            | HTTP headers enhancing web application security by controlling browser behavior.       |
+| Text Box                   | Input field on web page for user text entry.                                           |
+| Top-Level Window           | Primary browser window not nested inside other frames.                                |
+| Transparent Layer          | Visual element with no opacity used to disguise malicious content underneath.          |
+| UI Element Obfuscation     | Deliberate distortion or concealment of interface components to mislead users.         |
+| UI Overlay                | Interface layer placed above others to intercept or redirect user actions.             |
+| UI Redress Attack          | Form of clickjacking manipulating UI to mislead user actions.                          |
+| UI Spoofing               | Mimicking legitimate interface elements to deceive users.                            |
+| Visual Phishing           | Deceptive technique that mimics trusted UI to trick users into revealing info.        |
+| Visual Spoofing           | Altering UI appearance to mislead users.                                             |
+| X-Frame-Options           | Deprecated HTTP header controlling browser framing permissions.                       |
 
+| Term / Concept                      | Definition                                                                 |
+|------------------------------------|----------------------------------------------------------------------------|
+| Clickjacking                       | Involves using multiple transparent or opaque layers to induce a user into clicking on a web button or link on a page that he or she was not intended to navigate or click. |
+| UI Redress Attack                  | Clickjacking attacks are often referred to as UI redress attacks.          |
+| Keystroke Hijacking                | User keystrokes can also be hijacked using clickjacking techniques.        |
+| iframe                             | An invisible frame that can be rendered from a site the attacker created.  |
+| CSS Stylesheet                     | Used in combination with iframes and text boxes to fool the user.          |
+| Content Security Policy (CSP)      | A directive response header used to instruct the browser not to allow framing from other domains. |
+| frame-ancestors Directive          | A CSP directive that replaces the older X-Frame-Options HTTP headers.       |
+| X-Frame-Options                    | An older HTTP header replaced by CSP frame-ancestors directive.            |
+| Top-Level Window                   | The current frame that defensive code ensures is the top-level window.     |
+| Defensive Code                     | Code in the application to make sure the current frame is the top-level window. |
+
+| Term / Concept                      | Definition                                                                 |
+|------------------------------------|----------------------------------------------------------------------------|
+| Business Logic Flaw                | Enables an attacker to use legitimate transactions and flows of an application in a way that results in a negative behavior or outcome. |
+| CWE-840                            | The Common Weakness Enumeration ID assigned to business logic errors.      |
+| Unverified Ownership               | A business logic flaw where ownership of data or actions is not properly validated. |
+| Authentication Bypass              | A flaw that allows access through alternate paths or channels without proper credentials. |
+| Authorization Bypass               | A flaw where user-controlled keys allow access to restricted resources.     |
+| Weak Password Recovery Mechanism   | A business logic flaw that allows attackers to exploit the password reset process. |
+| SQL Injection                      | An attack where malicious SQL statements are inserted into input fields to manipulate database queries. |
+| HTML Injection                     | An attack where HTML code is injected into a web page to alter its structure or behavior. |
+| Command Injection                  | An attack that allows execution of arbitrary system-level commands via user input. |
+| LDAP Injection                     | An attack that manipulates LDAP queries to gain unauthorized access or modify directory data. |
+| SELECT Statement                   | A SQL command used to retrieve data from a database.                        |
+| UPDATE Statement                   | A SQL command used to modify existing data in a database.                  |
+| DELETE Statement                   | A SQL command used to remove data from a database.                         |
+| INSERT INTO Statement              | A SQL command used to add new data to a database.                          |
+| CREATE TABLE                       | A SQL command used to define a new table in a database.                    |
+| DROP TABLE                         | A SQL command used to delete a table from a database.                      |
+| Data Definition Language (DDL)     | SQL statements that define database structure (e.g., CREATE, ALTER, DROP). |
+| Data Manipulation Language (DML)   | SQL statements that manage data (e.g., SELECT, INSERT, UPDATE, DELETE).    |
+| Transaction Control Statements     | SQL commands that manage database transactions (e.g., COMMIT, ROLLBACK).   |
+| In-band SQL Injection              | An attack where data is retrieved using the same channel as the injection. |
+| Out-of-band SQL Injection          | An attack where data is retrieved through a different channel, such as email or HTTP requests. |
+| Blind SQL Injection                | An attack where no data is returned, but the attacker infers behavior based on application responses. |
+| Union Operator                     | A SQL operator used to combine results from multiple SELECT statements.     |
+| Boolean SQL Injection              | A technique that uses true/false logic to infer database behavior.         |
+| Error-Based SQL Injection          | A technique that forces the database to generate errors to reveal query structure or data. |
+| Time-Delay SQL Injection           | A technique that uses database functions to delay responses, confirming conditional logic. |
+| Stacked Queries                    | A technique that uses semicolons to execute multiple SQL statements in one call. |
+| Stored Procedure                   | A set of SQL statements stored in the database that can be executed with input parameters. |
+| Parameterized Query                | A query that uses placeholders to safely bind user input and prevent injection. |
+| Static Query                       | A hardcoded SQL statement that does not include dynamic user input.        |
+| OWASP                              | The Open Worldwide Application Security Project, which provides resources for secure coding practices. |
+| ESAPI                              | The OWASP Enterprise Security API, a library that helps mitigate web application vulnerabilities. |
+
+| Term / Concept                    | Definition / Description                                                   |
+|----------------------------------|----------------------------------------------------------------------------|
+| Input Validation                 | The process of ensuring that user input conforms to expected formats and constraints before processing. |
+| Output Encoding                  | A mitigation technique that converts potentially dangerous characters into a safe format for display. |
+| Parameter Tampering              | A technique where attackers manipulate parameters exchanged between client and server to gain unauthorized access or privileges. |
+| Session Fixation                 | An attack where a valid session ID is set by the attacker and then used to hijack a user’s session. |
+| Cross-Site Scripting (XSS)       | A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. |
+| Reflected XSS                    | A type of XSS where the malicious script is reflected off a web server, typically via a URL or form input. |
+| Stored XSS                       | A type of XSS where the malicious script is permanently stored on the target server (e.g., in a database). |
+| DOM-Based XSS                    | A type of XSS that occurs when the vulnerability is in the client-side code rather than server-side. |
+| CSRF (Cross-Site Request Forgery)| An attack that tricks a user into executing unwanted actions on a web application where they’re authenticated. |
+| Clickjacking                     | A technique that tricks users into clicking on something different from what they perceive, often by overlaying elements. |
+| Privilege Escalation             | Exploiting a vulnerability to gain higher access rights than originally intended. |
+| Race Condition                   | A flaw that occurs when the outcome of a process depends on the sequence or timing of uncontrollable events. |
+| Insecure Direct Object Reference | A vulnerability where an application exposes internal implementation objects (e.g., files, database keys) without proper access control. |
+| Broken Access Control            | A flaw where restrictions on what authenticated users are allowed to do are not properly enforced. |
+| Security Misconfiguration        | A vulnerability caused by improper configuration of security settings in applications, servers, or databases. |
+| Sensitive Data Exposure          | A flaw where sensitive information (e.g., passwords, credit card numbers) is not properly protected. |
+| Insufficient Logging & Monitoring| A security weakness where malicious activities go undetected due to lack of visibility or alerting. |
+| Least Privilege Principle        | A security concept that users and systems should operate using the minimum privileges necessary. |
+| Defense in Depth                 | A layered security approach that uses multiple controls to protect systems and data. |
+| Threat Modeling                  | A structured process to identify potential threats and vulnerabilities in a system or application. |
+| Secure Coding Practices          | Guidelines and techniques used to write software that is resistant to vulnerabilities and exploits. |
+| Static Application Security Testing (SAST) | A method of analyzing source code for vulnerabilities without executing the program. |
+| Dynamic Application Security Testing (DAST) | A method of analyzing a running application for vulnerabilities by simulating attacks. |
+| Penetration Testing              | A simulated attack on a system to evaluate its security posture and identify exploitable vulnerabilities. |
+| Zero-Day Vulnerability           | A flaw that is unknown to the vendor and has no official patch or mitigation available. |
+
+| Term / Concept                        | Definition / Description                                                   |
+|--------------------------------------|----------------------------------------------------------------------------|
+| Governance Forensics                 | The investigative process of analyzing governance structures, decisions, and behaviors to uncover systemic flaws or breaches. |
+| Oversight Audit                      | A structured review of governance, compliance, and operational controls to assess alignment with regulatory and ethical standards. |
+| Boardroom Integrity™                 | A strategic framework focused on ethical decision-making, transparency, and accountability at the board level. |
+| Responsible AI                       | The design, deployment, and oversight of artificial intelligence systems that prioritize fairness, transparency, and societal impact. |
+| Compliance Architecture              | The structured framework of policies, controls, and reporting mechanisms that ensure regulatory adherence across an organization. |
+| Strategic Business Diagnostics       | A methodical evaluation of business operations, governance, and market positioning to identify areas for turnaround or optimization. |
+| Ethical Innovation Framework         | A model for developing and scaling innovations that align with ethical principles, stakeholder trust, and long-term value creation. |
+| Stakeholder Education Matrix         | A structured tool that maps key concepts, risks, and responsibilities to specific stakeholder groups for targeted learning. |
+| Exportable Governance Framework      | A modular, reusable structure that can be adapted across organizations to support compliance, oversight, and strategic renewal. |
+| Acronym Intelligence                 | The practice of decoding and contextualizing technical or governance-related acronyms for stakeholder clarity and operational use. |
+| Decision Framework                   | A structured model that guides strategic choices based on risk, impact, and alignment with organizational values. |
+| Compliance Cheat Sheet               | A condensed, actionable reference guide that outlines key compliance principles, risks, and mitigation strategies. |
+| SME Governance Alignment             | The process of tailoring governance and compliance strategies to the unique needs and constraints of small and medium enterprises. |
+| Strategic Content Pillar             | A thematic foundation used to organize and amplify thought leadership across platforms like LinkedIn. |
+| Stakeholder-Ready Briefing           | A concise, visually clear document designed to communicate complex insights to non-technical or executive audiences. |
+| Iterative Fact-Checking              | A collaborative process of refining technical or strategic content through repeated validation and stakeholder input. |
+| Operational Excellence               | The pursuit of efficiency, effectiveness, and ethical alignment across business processes and decision-making. |
+| Risk Communication                   | The strategic articulation of potential threats, vulnerabilities, and mitigation plans to internal and external stakeholders. |
+| Governance Renewal                   | The process of re-evaluating and updating governance structures to reflect evolving risks, technologies, and stakeholder expectations. |
+
+| Term / Concept                    | Definition / Description                                                   |
+|----------------------------------|----------------------------------------------------------------------------|
+| Input Validation                 | The process of ensuring that user input conforms to expected formats and constraints before processing. |
+| Output Encoding                  | A mitigation technique that converts potentially dangerous characters into a safe format for display. |
+| Parameter Tampering              | A technique where attackers manipulate parameters exchanged between client and server to gain unauthorized access or privileges. |
+| Session Fixation                 | An attack where a valid session ID is set by the attacker and then used to hijack a user’s session. |
+| Cross-Site Scripting (XSS)       | A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. |
+| Reflected XSS                    | A type of XSS where the malicious script is reflected off a web server, typically via a URL or form input. |
+| Stored XSS                       | A type of XSS where the malicious script is permanently stored on the target server (e.g., in a database). |
+| DOM-Based XSS                    | A type of XSS that occurs when the vulnerability is in the client-side code rather than server-side. |
+| CSRF (Cross-Site Request Forgery)| An attack that tricks a user into executing unwanted actions on a web application where they’re authenticated. |
+| Clickjacking                     | A technique that tricks users into clicking on something different from what they perceive, often by overlaying elements. |
+| Privilege Escalation             | Exploiting a vulnerability to gain higher access rights than originally intended. |
+| Race Condition                   | A flaw that occurs when the outcome of a process depends on the sequence or timing of uncontrollable events. |
+| Insecure Direct Object Reference | A vulnerability where an application exposes internal implementation objects (e.g., files, database keys) without proper access control. |
+| Broken Access Control            | A flaw where restrictions on what authenticated users are allowed to do are not properly enforced. |
+| Security Misconfiguration        | A vulnerability caused by improper configuration of security settings in applications, servers, or databases. |
+| Sensitive Data Exposure          | A flaw where sensitive information (e.g., passwords, credit card numbers) is not properly protected. |
+| Insufficient Logging & Monitoring| A security weakness where malicious activities go undetected due to lack of visibility or alerting. |
+| Least Privilege Principle        | A security concept that users and systems should operate using the minimum privileges necessary. |
+| Defense in Depth                 | A layered security approach that uses multiple controls to protect systems and data. |
+| Threat Modeling                  | A structured process to identify potential threats and vulnerabilities in a system or application. |
+| Secure Coding Practices          | Guidelines and techniques used to write software that is resistant to vulnerabilities and exploits. |
+| Static Application Security Testing (SAST) | A method of analyzing source code for vulnerabilities without executing the program. |
+| Dynamic Application Security Testing (DAST) | A method of analyzing a running application for vulnerabilities by simulating attacks. |
+| Penetration Testing              | A simulated attack on a system to evaluate its security posture and identify exploitable vulnerabilities. |
+| Zero-Day Vulnerability           | A flaw that is unknown to the vendor and has no official patch or mitigation available. |
+
+| Term / Concept                      | Definition / Description                                                   |
+|------------------------------------|----------------------------------------------------------------------------|
+| Security Misconfiguration          | A vulnerability caused by improper setup of web services, servers, or applications—such as default credentials or exposed directories. |
+| Directory Traversal (Path Traversal)| A vulnerability that allows attackers to access files outside the intended web root by manipulating file path inputs. |
+| Dot-Dot-Slash (../)                | A common path traversal sequence used to navigate up the directory structure. |
+| URL Encoding                       | A technique used to encode characters in URLs; attackers use it to obfuscate traversal sequences (e.g., %2e%2e%2f = ../). |
+| Absolute File Path                 | A full path reference used to access specific files directly, often exploited in traversal attacks. |
+| /etc/passwd                        | A sensitive Linux system file containing user account information—commonly targeted in traversal exploits. |
+| Automated Vulnerability Scanning   | The use of tools to detect misconfigurations and vulnerabilities in web services and server setups. |
+| Input Validation                   | A security control that ensures user input conforms to expected formats, reducing risk of injection or traversal. |
+| File System Call                   | A function that interacts with the operating system’s file structure; vulnerable if user input is not properly restricted. |
+| Root Directory                     | The top-level directory of a web server; access beyond this point can expose sensitive system files. |
+| Cookie Manipulation                | A technique where attackers alter cookies to gain unauthorized access or escalate privileges. |
+| Backtracking / Directory Climbing  | Alternate terms for directory traversal, emphasizing the act of navigating upward through the file system. |
+| Mitigation Strategy                | A set of practices designed to prevent or reduce the impact of vulnerabilities, such as input validation and path sanitization. |
+
+| Term / Concept                  | Definition / Description                                                   |
+|--------------------------------|----------------------------------------------------------------------------|
+| Cookie Manipulation            | The unauthorized alteration of cookie values to exploit application behavior or gain elevated access. |
+| Stored DOM-Based Vulnerability | A client-side vulnerability where user input is stored and later processed unsafely within the DOM, enabling attacks like cookie manipulation. |
+| DOM (Document Object Model)    | A programming interface for web documents that represents the page structure and allows scripts to dynamically access and update content. |
+| JavaScript Injection           | The insertion of malicious JavaScript code into a web page, often used to manipulate cookies or DOM elements. |
+| Arbitrary Cookie Value         | A cookie value set by an attacker, often used to impersonate users or alter session behavior. |
+| Untrusted Source               | Any input or data originating from users or external systems that has not been validated or sanitized. |
+| Dynamic Cookie Writing         | The practice of programmatically setting cookie values based on runtime data—risky if sourced from untrusted input. |
+| HttpOnly Attribute             | A cookie flag that prevents access to the cookie via JavaScript, mitigating certain client-side attacks. |
+| Secure Attribute               | A cookie flag that ensures the cookie is only transmitted over HTTPS, protecting it from interception. |
+| SameSite Attribute             | A cookie flag that restricts cross-origin requests, helping prevent CSRF and other cross-site attacks. |
