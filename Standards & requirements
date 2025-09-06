@@ -151,3 +151,16 @@ Key Parts of ISO/IEC 9075 (2023 Edition) (https://copilot.microsoft.com/) https:
 | 9075-16 | Property Graph Queries (SQL/PGQ)        | Graph query capabilities |
 
 https://www.openapis.org/
+
+The following are several general best practices and recommendations for securing APIs:
+
+Secure API services to provide HTTPS endpoints with only a strong version of TLS.
+Validate parameters in the application and sanitize incoming data from API clients.
+Explicitly scan for common attack signatures; injection attacks often betray themselves by following common patterns.
+Use strong authentication and authorization standards.
+Use reputable and standard libraries to create the APIs.
+Segment API implementation and API security into distinct tiers; doing so frees up the API developer to focus completely on the application domain.
+Identify what data should be publicly available and what information is sensitive.
+If possible, have a security expert do the API code verification.
+Make internal API documentation mandatory.
+Avoid discussing company API development (or any other application development) on public forums.
