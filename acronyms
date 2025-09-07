@@ -55,3 +55,86 @@ Cisco Networking Academy - Introduction to Cybersecurity
 | **NIST CSF**| National Institute of Standards and Technology Cybersecurity Framework | Governance and risk alignment toolset                        |
 | **BYOD**    | Bring Your Own Device                               | Environment type relevant to wireless and Bluetooth attack surfaces                |
 
+| Acronym   | Full Form                                | Context / Usage                                      |
+|-----------|-------------------------------------------|------------------------------------------------------|
+| OWASP     | Open Worldwide Application Security Project | Source of Top 10 vulnerabilities and cheat sheets. |
+| HTTPS     | HyperText Transfer Protocol Secure        | Encrypts web sessions to prevent sniffing/hijacking. |
+| HTTP      | HyperText Transfer Protocol               | Standard protocol for web communication.             |
+| PRNG      | Pseudorandom Number Generator             | Used to generate secure session tokens.              |
+| XSS       | Cross-Site Scripting                      | Attack that injects malicious scripts into web pages.|
+| CSRF      | Cross-Site Request Forgery                | Exploits authenticated sessions for unauthorized actions. |
+| RFC       | Request for Comments                      | Technical standards for web protocols (e.g., RFC 3986). |
+
+| Acronym   | Full Form                                | Context / Usage                                      |
+|-----------|-------------------------------------------|------------------------------------------------------|
+| URL       | Uniform Resource Locator                  | Web address used in redirects and forwards.          |
+| HTTP      | HyperText Transfer Protocol               | Protocol used for web communication.                 |
+| HTTPS     | HyperText Transfer Protocol Secure        | Encrypted version of HTTP to protect data in transit.|
+| OWASP     | Open Worldwide Application Security Project | Source of Top 10 vulnerabilities and best practices.|
+
+| Acronym   | Full Form                                | Context / Usage                                      |
+|-----------|-------------------------------------------|------------------------------------------------------|
+| TGT       | Ticket Granting Ticket                    | Used in Kerberos to request service tickets.         |
+| KRBTGT    | Kerberos Ticket Granting Ticket Account   | Holds the key used to sign all TGTs in a domain.     |
+| AD        | Active Directory                          | Centralized identity and access management system.   |
+| MITM      | Man-in-the-Middle                         | A type of attack that intercepts communication.       |
+| SMB       | Server Message Block                      | Protocol used for file sharing in Windows networks.  |
+| LDAP      | Lightweight Directory Access Protocol     | Used to access and manage directory services.        |
+
+## 🔠 Acronyms
+
+| Acronym | Meaning                                           |
+|---------|---------------------------------------------------|
+| JtR     | John the Ripper                                   |
+| BF      | Brute Force                                       |
+| RT      | Rainbow Tables                                    |
+| WPA     | Wordlist Password Attack                          |
+| IAM     | Identity and Access Management                    |
+| SOC     | Security Operations Center                        |
+| CISO    | Chief Information Security Officer                |
+| NIST    | National Institute of Standards and Technology    |
+| CVSS    | Common Vulnerability Scoring System               |
+| MITRE   | MITRE Corporation (known for ATT&CK framework)    |
+
+# 🔠 Acronym Intelligence: XSS Context
+
+| **Acronym** | **Meaning**                                           |
+|-------------|--------------------------------------------------------|
+| XSS         | Cross-Site Scripting                                   |
+| DOM         | Document Object Model                                  |
+| OWASP       | Open Worldwide Application Security Project            |
+| HTTP        | Hypertext Transfer Protocol                            |
+| URL         | Uniform Resource Locator                               |
+| HTML        | HyperText Markup Language                              |
+| JS          | JavaScript                                             |
+| IP          | Internet Protocol                                      |
+
+
+# 🔠 Acronym Intelligence: XSS Context
+
+| **Acronym** | **Meaning**                                           |
+|-------------|--------------------------------------------------------|
+| XSS         | Cross-Site Scripting                                   |
+| DOM         | Document Object Model                                  |
+| DVWA        | Damn Vulnerable Web Application                        |
+| HTML        | HyperText Markup Language                              |
+| XML         | eXtensible Markup Language                             |
+| URL         | Uniform Resource Locator                               |
+| API         | Application Programming Interface                      |
+| OAuth       | Open Authorization                                     |
+| HTTP        | Hypertext Transfer Protocol                            |
+
+
+# 🔠 Acronym Intelligence: XSS Evasion Context
+
+| **Acronym** | **Meaning**                                           |
+|-------------|--------------------------------------------------------|
+| XSS         | Cross-Site Scripting                                   |
+| WAF         | Web Application Firewall                               |
+| OWASP       | Open Worldwide Application Security Project            |
+| SVG         | Scalable Vector Graphics                               |
+| HTML        | HyperText Markup Language                              |
+| JS          | JavaScript                                             |
+| ASCII       | American Standard Code for Information Interchange     |
+| URI         | Uniform Resource Identifier                            |
+| API         | Application Programming Interface                      |
