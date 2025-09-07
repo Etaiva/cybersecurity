@@ -138,3 +138,38 @@ Cisco Networking Academy - Introduction to Cybersecurity
 | ASCII       | American Standard Code for Information Interchange     |
 | URI         | Uniform Resource Identifier                            |
 | API         | Application Programming Interface                      |
+
+# 🔠 Acronym Intelligence: XSS Mitigation Context
+
+| **Acronym** | **Meaning**                                           |
+|-------------|--------------------------------------------------------|
+| XSS         | Cross-Site Scripting                                   |
+| CSP         | Content Security Policy                                |
+| DOM         | Document Object Model                                  |
+| ESAPI       | Enterprise Security API                                |
+| HTML        | HyperText Markup Language                              |
+| CSS         | Cascading Style Sheets                                 |
+| JS          | JavaScript                                             |
+| URL         | Uniform Resource Locator                               |
+| HTTP        | Hypertext Transfer Protocol                            |
+
+# 🧠 Acronyms Reference
+
+| Acronym | Full Form |
+|--------|-----------|
+| MITRE ATT&CK | MITRE Adversarial Tactics, Techniques, and Common Knowledge |
+| OWASP | Open Worldwide Application Security Project |
+| WSTG | Web Security Testing Guide |
+| NIST | National Institute of Standards and Technology |
+| SP | Special Publication |
+| OSSTMM | Open Source Security Testing Methodology Manual |
+| ISECOM | Institute for Security and Open Methodologies |
+| PTES | Penetration Testing Execution Standard |
+| ISSAF | Information Systems Security Assessment Framework |
+| TTPs | Tactics, Techniques, and Procedures |
+| OSINT | Open-Source Intelligence |
+| XSS | Cross-Site Scripting |
+| XXE | XML External Entity |
+| CSRF | Cross-Site Request Forgery |
+| SQLi | SQL Injection |
+| STAR | Security Test Audit Report |
