@@ -164,3 +164,68 @@ Identify what data should be publicly available and what information is sensitiv
 If possible, have a security expert do the API code verification.
 Make internal API documentation mandatory.
 Avoid discussing company API development (or any other application development) on public forums.
+
+# 🔐 OWASP ASVS Mapping: XSS Mitigation Controls
+
+| **ASVS Requirement**              | **Control Description**                                                                 | **Mapped Mitigation**                                      |
+|----------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| 5.1.1 Output Encoding             | Verify that output encoding is applied consistently to all untrusted data.              | HTML, Attribute, JS, CSS, URL Escaping                     |
+| 5.1.2 Context-Specific Encoding  | Verify encoding is appropriate to the context (HTML, JS, CSS, URL).                     | Auto-Escaping Template System                              |
+| 5.1.3 Safe HTML Rendering        | Verify that untrusted HTML is sanitized before rendering.                               | ESAPI, HTML Sanitization Libraries                         |
+| 5.2.1 DOM-Based XSS Prevention   | Verify that client-side scripts do not dynamically generate code from untrusted input.  | DOM XSS Prevention Cheat Sheet                             |
+| 5.2.2 CSP Enforcement            | Verify that Content Security Policy is in place and blocks unsafe inline scripts.       | Content Security Policy (CSP)                              |
+| 5.2.3 HTTPOnly Cookies           | Verify that session cookies are flagged as HTTPOnly.                                    | HTTPOnly Cookie Flag                                       |
+| 5.2.4 XSS Protection Headers     | Verify that X-XSS-Protection header is set (legacy support).                            | X-XSS-Protection Response Header                           |
+| 5.3.1 Unicode and Entity Encoding| Verify that all special characters are encoded using safe formats.                      | HTML Entity Encoding, Unicode Escaping                     |
+
+# 📋 XSS Mitigation Checklist
+
+- [x] Use auto-escaping template systems (e.g., React, Angular, Django templates)
+- [x] Escape untrusted data before inserting into:
+  - [x] HTML element content
+  - [x] HTML attributes
+  - [x] JavaScript values
+  - [x] CSS properties
+  - [x] URL parameters
+- [x] Sanitize HTML using libraries (e.g., DOMPurify, ESAPI)
+- [x] Prevent DOM-based XSS (refer to OWASP DOM XSS Cheat Sheet)
+- [x] Set HTTPOnly flag on cookies
+- [x] Implement Content Security Policy (CSP)
+- [x] Use X-XSS-Protection header (for legacy browser support)
+- [x] Encode special characters:
+  - [x] `&` → `&amp;`
+  - [x] `<` → `&lt;`
+  - [x] `>` → `&gt;`
+  - [x] `"` → `&quot;`
+  - [x] `'` → `&#x27;`
+  - [x] `/` → `&#x2F;`
+- [x] Use `&#xHH;` format for HTML entity encoding
+- [x] Use `\uXXXX` format for Unicode escaping
+- [x] Use `\XX` or `\XXXXXX` format for CSS escaping
+- [x] Educate users on safe browsing practices
+
+# 🛡️ XSS Mitigation Framework
+
+Welcome to the **XSS Mitigation Module**, aligned with [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) and built for governance, compliance, and stakeholder education.
+
+## 🔍 Overview
+
+Cross-Site Scripting (XSS) is a critical web vulnerability. This module outlines best practices, encoding strategies, and policy-level controls to prevent XSS attacks.
+
+## 📘 Resources
+
+- [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [DOM-Based XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
+
+## ✅ ASVS Mappings
+👉 See [ASVS Mapping Table](#🔐-owasp-asvs-mapping-xss-mitigation-controls)
+
+## 📋 Mitigation Checklist
+👉 See [Checklist](#📋-xss-mitigation-checklist)
+
+## 📚 Glossary & Acronyms
+👉 See [Glossary](#🛡️-glossary-xss-mitigation-techniques) and [Acronyms](#🔠-acronym-intelligence-xss-mitigation-context)
+
+---
+
+© Synergy Hub | Governance-Aligned Cybersecurity Frameworks
