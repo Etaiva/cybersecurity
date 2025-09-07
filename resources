@@ -21,6 +21,8 @@ https://pentestmonkey.net/category/tools
 https://pentestmonkey.net/category/cheat-sheet
 https://www.metasploit.com/
 https://www.exploit-db.com/searchsploit
+https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
+
 https://gitlab.com/exploit-database/exploitdb
 https://github.com/gentilkiwi/mimikatz
 https://www.microsoft.com/en-us/wdsi/threats/threat-search?query=Hacktool:Win32/Mimikatz
@@ -70,3 +72,13 @@ https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sh
 https://owasp.org/www-project-enterprise-security-api/
 https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html
 https://cwe.mitre.org/data/definitions/615.html
+https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html
+https://owasp.org/www-community/Improper_Error_Handling
+https://cwe.mitre.org/data/definitions/798.html
+https://www.openapis.org/
+https://graphql.org/community/tools-and-libraries/
+https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html
+https://gitlab.com/akihe/radamsa
+https://cwe.mitre.org/data/definitions/227.html
+https://owasp.org/about/
+https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
