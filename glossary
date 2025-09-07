@@ -1129,3 +1129,53 @@ A predefined set of procedures for identifying, containing, eradicating, and rec
 | OWASP                        | A nonprofit foundation that works to improve software security through community-led open source projects. |
 | Web Application Firewall (WAF) | A security system that monitors and filters HTTP traffic to and from a web application. |
 | Base64 Encoding              | A method for encoding binary data into ASCII characters, often used to embed payloads in media files. |
+
+# 🛡️ Glossary: XSS Mitigation Techniques
+
+| **Term**                     | **Definition**                                                                 |
+|------------------------------|--------------------------------------------------------------------------------|
+| XSS (Cross-Site Scripting)   | A web vulnerability that allows attackers to inject and execute malicious scripts in a user's browser. |
+| Auto-Escaping Template System| A templating engine that automatically escapes untrusted data to prevent injection. |
+| HTML Escape                  | Encoding special characters (e.g., `<`, `>`, `&`) to prevent them from being interpreted as HTML. |
+| Attribute Escape             | Encoding untrusted data before inserting it into HTML attributes to prevent script execution. |
+| JavaScript Escape            | Encoding untrusted data before inserting it into JavaScript contexts to prevent code injection. |
+| CSS Escape                   | Encoding untrusted data before inserting it into style properties to prevent style-based exploits. |
+| URL Escape                   | Encoding untrusted data before inserting it into URLs to prevent manipulation or redirection. |
+| ESAPI                        | Enterprise Security API — a library for encoding and sanitizing user input. |
+| DOM-Based XSS                | A client-side XSS attack where the payload is executed via manipulation of the Document Object Model. |
+| HTTPOnly Cookie Flag         | A security attribute that prevents client-side scripts from accessing cookies. |
+| Content Security Policy (CSP)| A browser feature that restricts the sources from which content can be loaded and executed. |
+| X-XSS-Protection Header      | A legacy HTTP response header used to enable basic XSS filtering in older browsers. |
+| HTML Entity Encoding         | A method of converting special characters into safe representations (e.g., `&` → `&amp;`). |
+| Unicode Escaping             | Encoding characters using the `\uXXXX` format to prevent interpretation as executable code. |
+| CSS Escaping                 | Encoding characters in CSS using `\XX` or `\XXXXXX` formats to prevent style injection. |
+| Safe Browsing Practices      | User education and behavior that reduce the risk of falling victim to XSS and other web attacks. |
+
+# 📘 Glossary: Penetration Testing Methodologies & Standards
+
+## MITRE ATT&CK
+A globally accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. Used by red teams, threat hunters, and incident responders.
+
+## OWASP WSTG
+The Web Security Testing Guide by OWASP. A comprehensive manual for web application security testing, including attack vectors and mitigation strategies.
+
+## NIST SP 800-115
+A U.S. government standard providing guidelines for planning and conducting information security assessments and penetration testing.
+
+## OSSTMM
+The Open Source Security Testing Methodology Manual. A peer-reviewed framework for consistent and repeatable security testing across multiple domains.
+
+## PTES
+Penetration Testing Execution Standard. A community-driven framework outlining seven phases of a penetration test, from pre-engagement to reporting.
+
+## ISSAF
+Information Systems Security Assessment Framework. A methodology for performing comprehensive security assessments, often used in conjunction with other standards.
+
+## TTPs
+Tactics, Techniques, and Procedures. The behavioral patterns and methods used by threat actors during cyberattacks.
+
+## OSINT
+Open-Source Intelligence. Information gathered from publicly available sources for reconnaissance and threat modeling.
+
+## STAR
+Security Test Audit Report. A structured reporting format used in OSSTMM to document findings and metrics.
