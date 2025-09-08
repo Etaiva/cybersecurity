@@ -1,3 +1,12 @@
+| Tool Type              | Examples                          | Use Case                                      |
+|------------------------|-----------------------------------|-----------------------------------------------|
+| Vulnerability Scanners | Nessus, OpenVAS, Qualys           | Server/client platform testing                |
+| Interception Proxies   | Burp Suite, OWASP ZAP, Fiddler    | Web application penetration testing           |
+| Wireless Tools         | Aircrack-ng, Kismet, WiFi-Pumpkin | Cracking encryption, de-auth attacks          |
+| Traffic Sniffers       | Wireshark, tcpdump                | Network packet analysis                       |
+| Exploitation Frameworks| Metasploit, Cobalt Strike         | Payload delivery, post-exploitation           |
+| Backup Tools           | Clonezilla, rsync, Veeam          | System preservation before live testing       |
+
 https://docs.github.com/en
 7 Free Cybersecurity Tools Every Beginner Should Use (2025 Edition)
 
@@ -13,6 +22,67 @@ Forget expensive software — these free tools are enough to level up your skill
 
 💡 Tip: Don’t just install them — create a mini project for each. Example: “Scan my home network with Nmap and secure the open ports.”
 
+How can you learn more about Kali command line tools?
+To learn more about Kali command line tools, here are some of the most effective and practical approaches:
+
+✅ Built-in Help Resources
+Use man <command> to access the manual page for any tool (e.g., man nmap).
+
+Use <command> --help to get a quick summary of options and usage (e.g., nmap --help).
+
+🌐 Official Kali Documentation
+Visit https://www.kali.org/docs This site offers categorized tutorials, tool references, and system configuration guides.
+
+🧠 Interactive Learning Platforms
+TryHackMe and Hack The Box: Offer hands-on labs with Kali tools in real-world scenarios.
+
+OverTheWire: Great for command-line mastery and Linux fundamentals.
+
+📚 Community & Forums
+Engage with the Kali Linux Forums, Reddit r/Kalilinux, and GitHub repositories for tool-specific discussions and updates.
+
+Follow tool maintainers and security researchers on platforms like LinkedIn or X (formerly Twitter).
+
+🛠️ Explore /usr/bin/ and /usr/share/
+These directories contain most installed tools and their documentation.
+
+Use ls /usr/bin/ to browse available commands and cat or less to inspect scripts.
+
+This table lists some basic Linux commands and thier functions:
+| **Command** | **Description** |
+|-------------|-----------------|
+| `mv`        | Moves or renames files and directories. |
+| `chmod`     | Modifies file permissions. |
+| `chown`     | Changes the ownership of a file. |
+| `dd`        | Copies data from an input to an output. |
+| `pwd`       | Displays the name of the current directory. |
+| `ps`        | Lists the processes that are currently running on the system. |
+| `su`        | Runs a command as another user or, by default, as another named user. |
+| `sudo`      | Runs a command as a super user, by default, or another named user. |
+| `grep`      | Used to search for specific strings or characters within a file or without parameters. |
+| `ifconfig`  | Displays or configures network interface information. **Note:** Deprecated—use `ip address` instead. |
+| `apt-get`   | Installs, configures, and removes packages on Debian and its derivatives. |
+| `iwconfig`  | Displays or configures wireless network card information. |
+| `shutdown`  | Shuts down the computer. Can restart, halt, sleep, or log out users. |
+| `passwd`    | Changes the password for the current or specified user. |
+| `cat`       | Lists the contents of a file. |
+| `man`       | Displays the documentation for a specific command. |
+
+This table lists a few of the most common Linux commands related to files and directories:
+| **Command** | **Description** |
+|-------------|-----------------|
+| `ls`        | Displays the files inside a directory. |
+| `cd`        | Changes the current directory. |
+| `mkdir`     | Creates directories. |
+| `cp`        | Copies files and directories from source to destination. |
+| `mv`        | Moves or renames files and directories. |
+| `rm`        | Removes files or directories. |
+| `grep`      | Searches for specific strings of characters within a file or other command outputs. |
+| `cat`       | Lists the contents of a file and expects the file name as the parameter. |
+
+https://www.kali.org/docs/
+https://www.netacad.com/resources/lab-downloads?courseLang=en-US
+https://www.virtualbox.org/
 https://www.blackhat.com/presentations/bh-europe-05/BH_EU_05-Berrueta_Andres/BH_EU_05_Berrueta_Andres.pdf
 https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 https://www.geeksforgeeks.org/sql/sql-ddl-dml-tcl-dcl/
@@ -38,3 +108,7 @@ http://project-rainbowcrack.com/table.htm
 https://github.com/The-Art-of-Hacking/h4cker/blob/master/web_application_testing/xss_vectors.md
 https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
 https://keepass.info/download.html
+https://www.parrotsec.org/
+https://www.virtualbox.org/
+https://www.vmware.com/
+https://blackarch.org/
