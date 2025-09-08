@@ -1,3 +1,58 @@
+https://www.geeksforgeeks.org/linux-unix/system-requirements-for-kali-linux/ 
+System Requirements for Kali Linux
+Last Updated : 25 Sep, 2023
+Kali Linux is a Linux distribution that is mostly used by cybersecurity professionals, penetration testers, and ethical hackers. Kali Linux offers many of the tools dedicated to various information security tasks such as reverse engineering, security research, penetration testing, computer forensics, etc. It is a versatile platform that is readily available for information security experts and enthusiasts. If you are interested in installing it on your Desktop or PC but want to know the minimum or recommended system requirements before installing it, we have included that information in this article with examples to help you understand what's needed for a smooth experience.
+
+Kali Linux System Requirements
+Kali Linux is a Linux distribution designed for ethical hackers, penetration testers, and cybersecurity experts. If you are considering installing it on your PC but want to know the minimum or recommended system requirements beforehand, it can help you.
+
+Kali developers do not provide more detailed official information regarding recommended system specifications. Using the provided limited information and filling in the rest ourselves, the following is a list of the recommended system requirements for running Kali with the default Xfce desktop environment and Kali Linux default meta-packages:
+
+RAM
+The minimum RAM requirement for Kali Linux is 2 GB. But to run Kali efficiently and perform various tasks simultaneously, having 4 GB or more RAM is always recommended.
+
+Imagine you want to set up a virtual lab using Kali Linux to simulate network attacks and defenses. Each virtual machine you create for various purposes, like Metasploit testing or Wireshark analysis, consumes RAM. With 8 GB of RAM, you can comfortably run multiple virtual machines simultaneously, ensuring efficient testing. However, if you have only 4 GB, you might experience sluggish performance or be limited to running fewer VMs at a time.
+
+Disk Space for Data Storage
+20 GB minimum hard disk space is required for the installation of Kali Linux. If you intend to store large data sets or install additional tools, consider allocating more space. However, it is always recommended to use SSD instead of HDD for more fast and smooth performance.
+
+Kali Linux is often used to analyze and store large amounts of data, such as captured network packets or forensic evidence. If your hard drive is cramped with only 20 GB of space, you'll quickly run out of storage when dealing with sizable datasets. By allocating 50 GB or more, you can accommodate your data needs without worrying about running out of disk space.
+
+Processor
+Kali Linux can run on a range of processors, but it's recommended to have at least a 32 or 64-bit CPU with a minimum 2 GHz of speed.
+
+Now let us take an example where you are conducting a brute-force attack on an application or website. A performance multi-core processor, such as an Intel Core i7 12 gen or an AMD Ryzen 9, will complete the task significantly faster compared to a single-core processor. This difference in processing power can make a substantial impact on your efficiency and productivity during penetration testing.
+
+Graphics Card and Monitor
+Kali Linux can run with most standard graphics cards and monitors. However, for tasks like GPU-based password cracking, a more powerful graphics card is more efficient.
+
+For example, Hashcat, a popular password-cracking tool, benefits greatly from GPU acceleration. If you have a high-end graphics card like an NVIDIA GeForce RTX or an AMD Radeon RX, you can significantly reduce the time required to crack password hashes. Conversely, on a system with an integrated graphics chip, hash cracking would be much slower, making the task less efficient.
+
+Network Adapter
+For network testing and penetration, a wired or wireless network adapter that supports promiscuous mode is essential. Kali Linux is widely used for Wi-Fi penetration testing and hacking.
+
+For example, To perform tasks like capturing packets, conducting de-authentication attacks, or exploiting vulnerabilities in wireless networks, you need a compatible network adapter that supports monitor mode and packet injection. Without such an adapter, your ability to assess and secure Wi-Fi networks is severely limited.
+
+Note: The first two requirements from the above list are what Kali Linux suggests. The rest of the specifications are based on the experiences of many users of Kali Linux and requirements based on other Linux distributions.
+
+Kali can also run on extremely low-end specifications, but depending on what you want to do with the system, you may require a more powerful computer. However, Kali developers do not provide more detailed official information, but they list the following as minimum system requirements:
+
+128 MB (512 MB optimally) of RAM
+2 GB of disk space
+According to the listed minimum requirements, having at least a 1 GHz CPU should be sufficient, and excluding the desktop environment reduces the load. For tasks like running builds, we would need to use SSH or a terminal to interact with the system.
+
+---
+
+| Framework       | Focus Area                        | Key Feature                                      |
+|-----------------|-----------------------------------|--------------------------------------------------|
+| PTES            | General penetration testing       | Repeatable, consistent phases                    |
+| NIST SP 800-115 | Security assessment planning      | Governance-aligned testing lifecycle             |
+| OSSTMM          | Operational security testing      | Trust analysis, workflow modeling                |
+| OWASP WSTG      | Web application security          | Input validation, session management, logic flaws|
+| MITRE ATT&CK    | Threat modeling & simulation      | Tactics, techniques, procedures (TTPs)           |
+
+---
+
 ## 🤖 AI Governance: Oversight for Intelligent Systems
 
 **AI Governance** is the system of **rules, policies, and accountability mechanisms** that guide how artificial intelligence is developed, deployed, and monitored. It ensures that AI systems are:
@@ -230,3 +285,18 @@ Cross-Site Scripting (XSS) is a critical web vulnerability. This module outlines
 
 https://aws.amazon.com/compliance/shared-responsibility-model/
 https://aws.amazon.com/security/penetration-testing/
+http://www.pentest-standard.org/index.php/Main_Page
+
+Requirements and Guidelines for Penetration Testing Labs:
+# ✅ Lab Environment Setup Guidelines
+
+| **Requirement or Guideline**       | **Description**                                                                 |
+|-----------------------------------|----------------------------------------------------------------------------------|
+| Closed network                    | Ensure controlled access to and from the lab environment and restrict Internet access. |
+| Virtualized computing environment | Allows for easy deployment and recovery of devices being tested.                |
+| Realistic environment             | The testing environment should closely match the real-world environment.        |
+| Health monitoring                 | Enables diagnosis of crashes and system failures.                               |
+| Sufficient hardware resources     | Prevents false results caused by resource limitations.                          |
+| Multiple operating systems        | Validates findings across different platforms for consistency.                  |
+| Duplicate tools                   | Confirms results by running the same test with different tools.                 |
+| Practice targets                  | Use known vulnerable systems to safely practice tool usage.                     |
