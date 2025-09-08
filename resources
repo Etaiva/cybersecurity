@@ -1,3 +1,4 @@
+https://github.com/The-Art-of-Hacking/h4cker/tree/master/build_your_own_lab
 https://www.exploit-db.com/searchsploit/.
 https://www.cyberseek.org/heatmap.html
 https://www.exploit-db.com/
@@ -22,6 +23,15 @@ https://pentestmonkey.net/category/cheat-sheet
 https://www.metasploit.com/
 https://www.exploit-db.com/searchsploit
 https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
+
+| Resource Type         | Description                                       |
+|------------------------|--------------------------------------------------|
+| IPSs                  | Monitors and blocks malicious network traffic     |
+| AAA Servers           | Manages user authentication and access control    |
+| Back-End Databases    | Target for SQL injection and data exfiltration    |
+| Web Servers           | Hosts applications; tested for logic flaws        |
+| Network Diagrams      | Used in known-environment tests                   |
+| Domain Names & IPs    | Provided in unknown-environment tests             |
 
 https://gitlab.com/exploit-database/exploitdb
 https://github.com/gentilkiwi/mimikatz
@@ -83,3 +93,7 @@ https://cwe.mitre.org/data/definitions/227.html
 https://owasp.org/about/
 https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 https://www.hackingisnotacrime.org/
+https://owasp.org/www-project-web-security-testing-guide/
+https://attack.mitre.org/
+https://csrc.nist.gov/pubs/sp/800/115/final
+https://github.com/resources/whitepapers?topics=security
