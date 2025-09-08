@@ -55,6 +55,18 @@ Cisco Networking Academy - Introduction to Cybersecurity
 | **NIST CSF**| National Institute of Standards and Technology Cybersecurity Framework | Governance and risk alignment toolset                        |
 | **BYOD**    | Bring Your Own Device                               | Environment type relevant to wireless and Bluetooth attack surfaces                |
 
+| Acronym       | Full Form                                                   |
+|---------------|-------------------------------------------------------------|
+| PTES          | Penetration Testing Execution Standard                      |
+| OSSTMM        | Open Source Security Testing Methodology Manual             |
+| OWASP WSTG    | OWASP Web Security Testing Guide                            |
+| NIST SP 800-115 | NIST Special Publication 800-115                          |
+| AAA           | Authentication, Authorization, and Accounting               |
+| IPS           | Intrusion Prevention System                                 |
+| CVE           | Common Vulnerabilities and Exposures                        |
+| ASVS          | Application Security Verification Standard                  |
+| MITRE ATT&CK  | MITRE Adversarial Tactics, Techniques, and Common Knowledge |
+
 | Acronym   | Full Form                                | Context / Usage                                      |
 |-----------|-------------------------------------------|------------------------------------------------------|
 | OWASP     | Open Worldwide Application Security Project | Source of Top 10 vulnerabilities and cheat sheets. |
