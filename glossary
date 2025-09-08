@@ -1,4 +1,19 @@
-## 🧠 **Interactive Glossary: Cybersecurity & Governance Essentials** (Copilit)
+# ✅ Lab Environment Setup Guidelines
+
+| **Requirement or Guideline**       | **Description**                                                                 |
+|-----------------------------------|----------------------------------------------------------------------------------|
+| Closed network                    | Ensure controlled access to and from the lab environment and restrict Internet access. |
+| Virtualized computing environment | Allows for easy deployment and recovery of devices being tested.                |
+| Realistic environment             | The testing environment should closely match the real-world environment.        |
+| Health monitoring                 | Enables diagnosis of crashes and system failures.                               |
+| Sufficient hardware resources     | Prevents false results caused by resource limitations.                          |
+| Multiple operating systems        | Validates findings across different platforms for consistency.                  |
+| Duplicate tools                   | Confirms results by running the same test with different tools.                 |
+| Practice targets                  | Use known vulnerable systems to safely practice tool usage.                     |
+
+---
+
+## 🧠 **Interactive Glossary: Cybersecurity & Governance Essentials** (Copilot)
 
 ---
 
@@ -19,6 +34,18 @@
 | Network Access Control | NAC | Device access restriction | Identity governance | AI-enhanced authentication protocols |
 
 ---
+
+| Term                  | Definition                                                                 |
+|-----------------------|----------------------------------------------------------------------------|
+| Ethical Hacker        | A security professional who mimics attackers to evaluate system vulnerabilities |
+| Insider Threat        | A security risk originating from within the organization (e.g., employee) |
+| Vulnerability Scanner | A tool that identifies known flaws and misconfigurations in systems       |
+| Interception Proxy    | Captures and manipulates HTTP/S traffic between client and server         |
+| Threat Modeling       | Identifying potential threats and attack paths                            |
+| Exploitation          | Leveraging vulnerabilities to gain unauthorized access                    |
+| Health Monitoring     | Ensures system stability during testing                                   |
+| De-authorization Attack | Forces wireless clients to disconnect from access points               |
+| Logic Flaw            | Vulnerability caused by insecure application logic                        |
 
 ### 🛡️ **Threats & Exploits**
 
