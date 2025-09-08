@@ -23,12 +23,19 @@ This is an entry-level security certification that meets the U.S. Department of 
 EC Council Certified Ethical Hacker (CEH)
 This certification tests your understanding and knowledge of how to look for weaknesses and vulnerabilities in target systems using the same knowledge and tools as a malicious hacker but in a lawful and legitimate manner.
  
-
 ISC2 Certified Information Systems Security Professional (CISSP)
 This is the most recognizable and popular security certification. In order to take the exam, you need to have at least five years of relevant industry experience.
 
 Cisco Certified CyberOps Associate
 This certification validates the skills required of associate-level cybersecurity analysts within security operations centers.
+
+| Certification | Focus Area                                | Issuing Body         |
+|---------------|--------------------------------------------|-----------------------|
+| CEH           | Ethical hacking tools and techniques       | EC-Council            |
+| OSCP          | Hands-on penetration testing               | Offensive Security    |
+| CISSP         | Governance, risk, and compliance           | (ISC)²                |
+| GPEN          | Network and web application testing        | GIAC / SANS Institute |
+| Pentest+      | Intermediate-level penetration testing     | CompTIA               |
 
 ## **Other courses**
 https://hackertraining.org/
@@ -38,3 +45,34 @@ https://resources.github.com/learn/pathways/administration-governance/
 https://www.offsec.com/kali-training/?utm_source=kali&utm_medium=web&utm_campaign=training
 https://tryhackme.com/welcome [etaiva]
 https://portswigger.net/web-security
+
+Certified Ethical Hacker (CEH)
+
+Offensive Security Certified Professional (OSCP)
+
+CREST Registered Penetration Tester
+
+CompTIA Security+
+
+CISSP (Certified Information Systems Security Professional)
+
+The ISACA Certified Information Systems Auditor (CISA) and Certified Information Security Manager (CISM) certifications are often mentioned. The (ISC)2 Certified Information Systems Security Professional CISSP exam is also mentioned frequently. (Note that the (ISC)2 also offers Certified in Cybersecurity (CC) certification for entry-level job candidates). The GIAC Security Essentials (GSEC) certification is also suitable for entry-level positions. Furthermore, the CompTIA PenTest+ and Security+ exams are mentioned. Also relevant are the Cisco CCNP and CCIE Security certfications. Finally, the EC-Council offers the Certified Ethical Hacker (CEH).
+
+EC-Council – Official CEH training provider
+
+Offensive Security – OSCP training via labs and online modules
+
+CREST-accredited training partners – For CREST exams
+
+CompTIA – Security+ and CySA+ via CompTIA.org and authorized partners
+
+https://www.isecom.org/
+(ISC)² – CISSP training via online and classroom formats
+
+TryHackMe / Hack The Box / PortSwigger Academy – Hands-on labs and prep environments
+
+Cybrary / Udemy / Coursera – Affordable, self-paced certification prep
+
+There are many ways to prepare for cybersecurity certifications. Aside from books and free internet videos, formal education is available from colleges and universities, either remotely or in person near you. Education course sites, such as Coursera and Udemy, offer pathways to careers in Ethical Hacking. In addition, the organizations that offer the certifications often also offer training. Cybersecurity institutes, such as sans.org and InfoSec institute, have training courses. Finally, Skills for All by Cisco offers a cybersecurity pathway which will be adding new courses in the future.
+
+https://niccs.cisa.gov/tools/cyber-career-pathways-tool
