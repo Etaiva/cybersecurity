@@ -97,3 +97,32 @@ https://owasp.org/www-project-web-security-testing-guide/
 https://attack.mitre.org/
 https://csrc.nist.gov/pubs/sp/800/115/final
 https://github.com/resources/whitepapers?topics=security
+
+Cisco-Focused Resources (cybersecurity analyst cisco recommended reading list)
+Cybersecurity Essentials:
+This course from Cisco Networking Academy is a great starting point, covering everything from network security data to threat intelligence and vulnerability assessment, making it essential for understanding Cisco's ecosystem. 
+Wireshark for Security Professionals:
+For specialization in network security analysis, this book is recommended to learn how to analyze network traffic and detect malicious attacks. 
+Cisco Firepower Book:
+If you're working with Cisco's Firepower security platform, a specialized book on the topic is beneficial, though the exact title will depend on the current version and features. 
+Foundational & Technical Books 
+Hacking: The Art of Exploitation by Jon Erickson:
+This is a classic for understanding how to exploit vulnerabilities and is recommended for anyone in cybersecurity.
+Practical Malware Analysis by Michael Sikorski and Andrew Honig:
+A hands-on guide to dissecting malicious software, a core skill for any analyst.
+Applied Cryptography:
+A foundational text for understanding encryption, a vital component of network security.
+Data and Goliath by Bruce Schneier:
+Explores the vast collection of data by companies and governments, providing context on data security and privacy.
+Professional & Incident Response Resources
+Verizon Data Breach Investigations Report (DBIR):
+This annual report provides real-world data on data breaches, helping you understand current threats and trends. 
+The Red Team Field Manual (RTFM) v2:
+A valuable tool for penetration testers and analysts to quickly access command-line tools and security information. 
+Crafting the InfoSec Playbook:
+Focuses on security monitoring and incident response, crucial skills for a cybersecurity analyst. 
+General Industry & Skills
+CompTIA Security+:
+While a certification, the study material for this foundational certification is highly recommended for new professionals. 
+Cybersecurity for Dummies:
+Provides a broad and accessible introduction to cybersecurity concepts and terminology. 
