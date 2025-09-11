@@ -1,0 +1,57 @@
+# Cybersecurity Certification Roadmap: Purple Hat Track
+
+## Phase 1: Foundation & Entry-Level (Cost-effective, Fast Start)
+**Goal:** Build core security literacy and hands-on exposure.
+
+| Certification / Course             | Focus                      | Source                                                                 | Cost     | Time     |
+|-----------------------------------|-----------------------------|------------------------------------------------------------------------|----------|----------|
+| Cisco CCST Cybersecurity          | Intro to cybersecurity      | https://www.netacad.com/                                               | Free–Low | ~20 hrs  |
+| Google Cybersecurity Certificate | Online safety & fundamentals| https://grow.google/intl/ssa-en/courses-and-tools/                     | Free–Low | ~40 hrs  |
+| CompTIA ITF+ or Security+         | Security fundamentals       | https://www.comptia.org/en-us/certifications/                         | Low–Med  | ~30–60 hrs|
+| FreeCodeCamp InfoSec Projects     | Hands-on labs               | https://www.freecodecamp.org/learn/information-security/              | Free     | Self-paced|
+| TryHackMe / HackTheBox            | Gamified labs               | https://tryhackme.com/welcome                                          | Free–Low | Flexible |
+
+---
+
+## Phase 2: Intermediate & Specialization (Value-for-money, Skill Depth)
+**Goal:** Strengthen technical skills and begin specialization.
+
+| Certification / Course     | Focus                  | Source                                                                 | Cost     | Time     |
+|----------------------------|------------------------|------------------------------------------------------------------------|----------|----------|
+| CompTIA CySA+ or Pentest+  | Blue/Red team skills   | https://www.comptia.org/en-us/certifications/                         | Med      | ~60–80 hrs|
+| Cisco CyberOps Associate   | SOC analyst skills     | https://www.cisco.com/site/us/en/learn/training-certifications/       | Med      | ~60 hrs  |
+| EC-Council CEH             | Ethical hacking        | https://www.eccouncil.org/                                            | Med–High | ~80 hrs  |
+| PortSwigger Academy        | Web app security       | https://portswigger.net/web-security                                  | Free     | Self-paced|
+| GitHub Advanced Security   | Secure DevOps          | https://resources.github.com/learn/pathways/security/essentials/      | Free     | ~10 hrs  |
+
+---
+
+## Phase 3: Advanced & Governance-Aligned (Strategic, Purple Hat)
+**Goal:** Blend offensive/defensive skills with governance, compliance, and leadership.
+
+| Certification              | Focus                        | Source                                                                 | Cost     | Time     |
+|----------------------------|-------------------------------|------------------------------------------------------------------------|----------|----------|
+| OSCP                       | Advanced penetration testing | https://www.offsec.com/                                               | High     | ~90–120 hrs|
+| CISSP                      | Governance, risk, compliance | https://www.isc2.org/                                                 | High     | ~100 hrs |
+| CISM / CISA                | Audit & security management  | https://www.isaca.org/                                                | High     | ~80 hrs  |
+| GPEN                       | Network/web app testing      | https://www.giac.org/certifications/penetration-tester-gpen/          | High     | ~60–80 hrs|
+| SC-900 / Azure Admin       | Cloud security & governance  | https://learn.microsoft.com/en-us/credentials/certifications/         | Free–Low | ~20–40 hrs|
+
+---
+
+## Purple Hat Profile: Skills Matrix
+
+| Domain             | Red Team             | Blue Team             | Governance             |
+|--------------------|----------------------|------------------------|-------------------------|
+| Web App Security   | CEH, OSCP, GPEN      | CySA+, SC-900          | CISSP, CISA            |
+| Network Defense    | Wireshark, CyberOps  | Pentest+, Azure Admin  | CISM                   |
+| Cloud & DevSecOps  | GitHub Sec, Azure    | SC-900, Cloud+         | CISSP                  |
+| Governance & Ethics| —                    | —                      | CISSP, CISA, CISM      |
+
+---
+
+## Deployment Strategy
+
+- **GitHub-ready documentation:** Modular lab walkthroughs, Q&A sets, and glossaries.
+- **Stakeholder alignment:** Map certifications to boardroom-relevant capabilities.
+- **Time-boxed sprints:** Prioritize certifications by cost/time ratio and strategic value.
