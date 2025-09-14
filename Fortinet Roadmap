@@ -1,0 +1,189 @@
+# 🛡️ Fortinet Training & Accreditation Roadmap
+
+This roadmap provides a structured guide to Fortinet’s certification ecosystem, designed to support consultants, cybersecurity professionals, and governance-aligned practitioners. It includes certification levels, objectives, outcomes, roles, costs, and strategic positioning.
+
+---
+
+## 🔹 Overview: Fortinet NSE Certification Framework
+
+Fortinet’s certification program is structured into **five proficiency levels** with **11 certifications**, grouped into:
+
+- ✅ Core Certifications  
+- 🧩 Elective Certifications  
+- 🧠 Role-Based Tracks (Associate → Professional → Specialist → Expert)
+
+---
+
+## 🔹 Level 1: Fundamentals
+
+### 🧠 Fortinet Certified Fundamentals (FCF)
+- **Objective:** Understand the threat landscape and cybersecurity basics.
+- **Outcome:** Foundational fluency in Fortinet’s ecosystem.
+- **Roles:** Intern, Junior Analyst, Entry-level Consultant
+- **Cost:** Free (self-paced courses)
+- **Courses:**  
+  - Introduction to the Threat Landscape  
+  - Getting Started in Cybersecurity  
+  - Technical Introduction to Cybersecurity
+
+---
+
+## 🔹 Level 2: Associate
+
+### 🧠 Fortinet Certified Associate (FCA)
+- **Objective:** Operate core FortiGate features and basic security policies.
+- **Outcome:** Hands-on ability to configure and manage FortiGate devices.
+- **Roles:** SOC Tier 1 Analyst, Network Technician
+- **Cost:** Free to ~$150 USD (exam fees may vary)
+- **Courses:**  
+  - FortiGate Operator  
+  - Core + Elective within 2 years
+
+---
+
+## 🔹 Level 3: Professional
+
+### 🧠 Fortinet Certified Professional (FCP)
+- **Objective:** Deploy, manage, and monitor Fortinet products across domains.
+- **Outcome:** Intermediate operational capability across network, cloud, and OT.
+- **Roles:** Security Engineer, Network Administrator, Cloud Security Specialist
+- **Tracks:**  
+  - Network Security  
+  - Public Cloud Security  
+  - Security Operations  
+- **Cost:** ~$300–$500 USD per track
+
+---
+
+## 🔹 Level 4: Solution Specialist
+
+### 🧠 Fortinet Certified Solution Specialist (FCSS)
+- **Objective:** Master advanced deployment and integration strategies.
+- **Outcome:** Domain-specific expertise in Fortinet architecture.
+- **Roles:** Cybersecurity Architect, GRC Consultant, OT Security Lead
+- **Tracks:**  
+  - Zero Trust Access (ZTA)  
+  - OT Security  
+  - Security Operations  
+  - Public Cloud Security  
+  - Network Security  
+- **Cost:** ~$500–$800 USD per specialization
+
+---
+
+## 🔹 Level 5: Expert
+
+### 🧠 Fortinet Certified Expert (FCX)
+- **Objective:** Demonstrate mastery across Fortinet’s full security stack.
+- **Outcome:** Recognized authority in Fortinet architecture and governance.
+- **Roles:** CISO Advisor, Enterprise Security Architect, Lead Consultant
+- **Cost:** ~$800–$1,200 USD  
+- **Requirements:** Multiple certifications + practical experience + capstone exam
+
+---
+
+## 🔹 Strategic Deployment Suggestions
+
+| Use Case                        | Recommended Level / Track             |
+|---------------------------------|---------------------------------------|
+| Consultant Onboarding           | FCF + FCA                             |
+| Governance & Compliance Projects| FCP (Security Ops) + FCSS (ZTA)       |
+| OT & Industrial Security        | FCSS (OT Security)                    |
+| Cloud Governance                | FCP (Cloud) + FCSS (Public Cloud)     |
+| Boardroom Cyber Risk Advisory   | FCSS + FCX                            |
+
+---
+
+## 🔗 Resources
+
+- [Fortinet Training Institute](https://training.fortinet.com/)  
+- [Fortinet Certification Roadmap Summary](https://ipspecialist.net/latest-fortinet-certification-roadmap/)  
+- [Fall 2023 NSE Program Update PDF](https://academy.faspco.com/wp-content/uploads/2024/07/Fortinet-RoadMap.pdf)
+
+---
+
+> ✅ Use this roadmap in onboarding kits, GitHub Pages, or stakeholder documentation to support certification planning, technical fluency, and governance-aligned delivery.
+
+# 🛡️ Fortinet Cybersecurity Training & Accreditation Roadmap
+
+This roadmap provides a modular guide to Fortinet’s certification ecosystem, focused on cybersecurity roles and governance-aligned delivery. It reflects the updated Network Security Expert (NSE) framework as of October 2023.
+
+---
+
+## 🔹 Certification Levels & Cybersecurity Tracks
+
+Fortinet’s certification program is structured into five proficiency levels with 11 certifications. Each level supports specific cybersecurity roles and technical depth.
+
+| Level | Certification | Focus Area | Role Alignment |
+|-------|---------------|------------|----------------|
+| 1     | FCF – Fundamentals | Threat landscape, basic cybersecurity | Intern, Junior Analyst |
+| 2     | FCA – Associate | FortiGate operations, basic firewall config | SOC Tier 1, Network Technician |
+| 3     | FCP – Professional | Deployment, monitoring, and management | Security Engineer, Cloud Security Specialist |
+| 4     | FCSS – Solution Specialist | Advanced architecture and integration | GRC Consultant, OT Security Lead |
+| 5     | FCX – Expert | Full-stack mastery across Fortinet products | Enterprise Architect, CISO Advisor |
+
+---
+
+## 🔹 Recommended Cybersecurity Tracks
+
+### 🧠 Core Certifications
+- **Fortinet Certified Fundamentals (FCF)**  
+  - Courses: Introduction to the Threat Landscape, Getting Started in Cybersecurity  
+  - Cost: Free  
+  - Format: Self-paced  
+
+- **Fortinet Certified Associate (FCA)**  
+  - Course: FortiGate Operator  
+  - Cost: ~$150 USD  
+  - Format: Online exam + core/elective completion  
+
+### 🔐 Security Operations Track (FCP & FCSS)
+- **Fortinet Certified Professional – Security Operations**  
+  - Courses: FortiSIEM Analyst, FortiSOAR Administrator, FortiAnalyzer  
+  - Cost: ~$300–$500 USD  
+  - Format: Self-paced + optional labs  
+
+- **Fortinet Certified Solution Specialist – Security Operations**  
+  - Courses: Advanced Analytics, Threat Response, Zero Trust Access  
+  - Cost: ~$500–$800 USD  
+  - Format: Instructor-led or lab-enhanced  
+
+### 🏛️ Governance & Risk Alignment
+- **Zero Trust Access (FCSS)**  
+  - Focus: Identity, access control, segmentation  
+  - Ideal for: GRC consultants, compliance leads  
+
+- **OT Security (FCSS)**  
+  - Focus: Industrial cybersecurity, SCADA, ICS  
+  - Ideal for: OT consultants, infrastructure specialists  
+
+---
+
+## 🔹 Strategic Outcomes
+
+| Certification Level | Strategic Value |
+|---------------------|------------------|
+| FCF / FCA           | Onboarding, foundational fluency, stakeholder engagement |
+| FCP                 | Operational capability, SOC readiness, technical delivery |
+| FCSS                | Governance integration, architecture design, compliance mapping |
+| FCX                 | Boardroom credibility, enterprise security leadership |
+
+---
+
+## 🔹 Study Resources
+
+- [Fortinet Training Institute](https://www.fortinet.com/training/cybersecurity-professionals)  
+- [NSE Certification Roadmap PDF](https://academy.faspco.com/wp-content/uploads/2024/07/Fortinet-RoadMap.pdf)  
+- [Latest Fortinet Certification Breakdown](https://ipspecialist.net/latest-fortinet-certification-roadmap/)  
+
+---
+
+## 🔹 Deployment Suggestions
+
+- Use GitHub repositories to track certification progress and share modular notes.
+- Integrate glossary, Q&A sets, and risk matrices into Fortinet-aligned client toolkits.
+- Map certifications to ISO/IEC 27001, NIST CSF, and Responsible AI frameworks for boardroom relevance.
+
+---
+
+> ✅ This roadmap supports cybersecurity career development, governance-aligned consulting, and strategic delivery across Fortinet engagements.
