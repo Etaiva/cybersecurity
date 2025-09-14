@@ -55,3 +55,126 @@
 - **GitHub-ready documentation:** Modular lab walkthroughs, Q&A sets, and glossaries.
 - **Stakeholder alignment:** Map certifications to boardroom-relevant capabilities.
 - **Time-boxed sprints:** Prioritize certifications by cost/time ratio and strategic value.
+
+# 🎓 CompTIA Certification Guide: ITF+ and Security+
+
+This guide outlines the purpose, outcomes, and strategic value of two foundational CompTIA certifications: **ITF+** (IT Fundamentals) and **Security+**. Use this to inform consultant onboarding, career planning, and governance-aligned technical development.
+
+---
+
+## 🔹 CompTIA ITF+ (IT Fundamentals)
+
+### ✅ Objectives
+- Introduce basic IT concepts and terminology
+- Build foundational understanding of hardware, software, networks, databases, and security
+- Support career exploration in tech and digital infrastructure
+
+### 📈 Outcomes
+- Fluency in computing basics, troubleshooting, and software installation
+- Ability to communicate with technical teams and understand IT workflows
+- Readiness for entry-level IT roles or further certification (e.g., A+, Network+)
+
+### 👔 Career Roles
+- IT Support Assistant  
+- Junior Help Desk Technician  
+- Digital Literacy Trainer  
+- Technical Admin Intern  
+
+### 💰 Cost
+- Exam voucher: ~$130 USD  
+- Optional training bundles: ~$200–$400 USD  
+- [Official ITF+ Certification Page](https://www.comptia.org/en-us/certifications/itf)
+
+### 📚 Study Materials
+- No textbook required, but recommended:
+  - CompTIA CertMaster Learn (official e-learning)
+  - Mike Meyers’ ITF+ Guide
+  - Professor Messer’s free video series
+
+### 🧭 Roadmap Positioning
+- **Pre-career / foundational level**
+- Ideal for non-technical professionals entering IT
+- Leads into: A+ → Network+ → Security+
+
+> ⚠️ Note: ITF+ will retire on **July 31, 2025**. It will be replaced by **CompTIA Tech+**
+
+---
+
+## 🔹 CompTIA Security+
+
+### ✅ Objectives
+- Validate baseline cybersecurity skills
+- Cover risk management, threat analysis, incident response, and architecture
+- Align with ISO/IEC 27001 and NIST frameworks
+
+### 📈 Outcomes
+- Ability to identify and mitigate security threats
+- Readiness to implement secure systems and protocols
+- Qualification for compliance and governance-aligned roles
+
+### 👔 Career Roles
+- Security Analyst  
+- SOC Technician  
+- Governance Risk & Compliance (GRC) Associate  
+- Cybersecurity Consultant  
+- IT Auditor  
+
+### 💰 Cost
+- Exam voucher: ~$392 USD  
+- Optional training bundles: ~$500–$1,000 USD  
+- [CompTIA Certification Roadmap](https://skilltestpro.com/comptia-certification-roadmap/)
+
+### 📚 Study Materials
+- Recommended:
+  - CompTIA CertMaster Learn + Labs
+  - Sybex Security+ Study Guide (by Mike Chapple)
+  - Professor Messer’s Security+ video series
+  - Practice exams (Exam code: SY0-701)
+
+### 🧭 Roadmap Positioning
+- **Core cybersecurity certification**
+- Ideal for consultants entering GRC, risk, or compliance roles
+- Leads into: CySA+ → CASP+ → PenTest+ → CISM/CISSP
+
+---
+
+## 🧩 Strategic Notes for Consultants
+
+- **ITF+** is ideal for onboarding non-technical consultants or interns.
+- **Security+** aligns with governance, risk, and compliance engagements.
+- Both certifications support stakeholder credibility and technical fluency.
+- Consider bundling Security+ with Responsible AI and ISO/IEC 27001 training for boardroom relevance.
+
+---
+
+> ✅ Use this guide in onboarding kits, GitHub Pages, or stakeholder documentation to support certification planning and career development.
+
+# 🎨 CompTIA Certification Color Guide
+
+The colors used on the [CompTIA Certifications page](https://www.comptia.org/en-us/certifications/) are not decorative—they represent distinct career domains or specialization tracks. This visual taxonomy helps learners and organizations quickly identify certifications aligned with specific roles and skill sets.
+
+---
+
+## 🔹 Color Coding Breakdown
+
+| Color Theme       | Career Domain / Track             | Example Certifications                     |
+|-------------------|-----------------------------------|---------------------------------------------|
+| 🔵 Blue           | Core IT & Infrastructure          | ITF+, A+, Network+, Security+               |
+| 🟣 Purple         | Cybersecurity                     | Security+, CySA+, CASP+, PenTest+          |
+| 🟢 Green          | Data & Analytics                  | Data+, DataSys+, DataX                      |
+| 🟠 Orange         | Cloud & Systems                   | Cloud+, CloudNetX, Server+, Linux+         |
+| 🔴 Red            | AI & Emerging Tech                | AI Essentials, Prompting Essentials        |
+| 🟡 Yellow         | Business & Digital Skills         | Project+, Business Essentials, Soft Skills |
+| ⚫ Black / Gray   | Professional / Advanced Roles     | Ethical Hacker Pro, Security Architect     |
+
+---
+
+## 🧠 Strategic Use
+
+- Helps learners navigate the certification roadmap by interest or career goal.
+- Enables organizations to align training investments with workforce needs.
+- Supports consultants in mapping certifications to governance, risk, and compliance roles.
+
+---
+
+> ✅ Use this guide in onboarding kits, GitHub Pages, or stakeholder documentation to support certification planning and career development.
