@@ -1,0 +1,56 @@
+# 📚 Recommended Books for Cisco Junior Cybersecurity Analyst Career Path
+
+These books align with the key modules in Cisco’s cybersecurity pathway and support deeper learning for consultants, students, and early-career professionals.
+
+---
+
+## 🔹 Cybersecurity Fundamentals
+
+### 1. *Cybersecurity Essentials* – Charles J. Brooks et al.
+- Covers foundational concepts, terminology, and threat types.
+- Ideal for learners starting with "Introduction to Cybersecurity."
+
+### 2. *The Basics of Cyber Safety* – John Sammons
+- Focuses on personal and organizational cyber hygiene.
+- Complements endpoint security and threat awareness modules.
+
+---
+
+## 🔹 Networking & Devices
+
+### 3. *CompTIA Network+ Guide to Networks* – Jill West et al.
+- Comprehensive intro to networking protocols, devices, and configuration.
+- Supports "Networking Basics" and "Networking Devices and Initial Configuration."
+
+### 4. *Cisco Networking Essentials* – Troy McMillan
+- Cisco-specific networking fundamentals with practical examples.
+- Ideal for learners preparing for CCST or CCNA.
+
+---
+
+## 🔹 Threat Management & SOC Skills
+
+### 5. *Blue Team Handbook: Incident Response Edition* – Don Murdoch
+- Practical guide to SOC operations, alert triage, and threat response.
+- Reinforces "Cyber Threat Management" and "Network Defense."
+
+### 6. *11 Strategies of a World-Class Cybersecurity Operations Center* – Zimmerman, Knerler, Parker
+- Strategic insights into building and managing a high-performing SOC.
+- Useful for learners aiming to transition into analyst roles.
+
+---
+
+## 🔹 Career & Certification Alignment
+
+### 7. *The CISO Mentor* – Eugene M Fredriksen
+- Offers pragmatic advice for emerging cybersecurity leaders.
+- Encourages governance-aligned thinking and long-term career planning.
+
+---
+
+## 🧠 Deployment Suggestions
+
+- Use these books to supplement Cisco modules with real-world context.
+- Add reading milestones to GitHub Pages or sprint planners.
+- Pair chapters with TryHackMe labs or EC-Council Essentials for blended learning.
+
