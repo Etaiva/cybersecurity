@@ -102,3 +102,132 @@ OWASP Top 10 Risks (2021 Edition)
 | A08     | Software and Data Integrity Failures    | Trust issues in software updates and CI/CD |
 | A09     | Security Logging and Monitoring Failures| Lack of visibility and alerting |
 | A10     | Server-Side Request Forgery (SSRF)      | Abuse of server-side fetch mechanisms |
+
+# 🛡️ IDS vs IPS: Cybersecurity Comparison
+
+Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) are critical tools in modern cybersecurity architecture. 
+They monitor, detect, and respond to malicious activity—but with different levels of intervention.
+
+---
+
+## 🔍 Intrusion Detection System (IDS)
+
+- **Function:** Monitors network or system activity for suspicious behavior.
+- **Action:** Alerts administrators but does *not* block traffic.
+- **Type:** Reactive
+- **Use Case:**  
+  - Detect unusual traffic spikes  
+  - Log incidents for forensic analysis  
+  - Feed alerts into SIEM systems
+
+### 🧠 Examples:
+- Snort (in IDS mode)  
+- Suricata  
+- OSSEC (Host-based)  
+- Tripwire
+
+---
+
+## 🚫 Intrusion Prevention System (IPS)
+
+- **Function:** Detects and *blocks* malicious activity in real-time.
+- **Action:** Actively drops packets, ends sessions, or quarantines threats.
+- **Type:** Proactive
+- **Use Case:**  
+  - Prevent malware from entering the network  
+  - Stop known exploits based on signatures  
+  - Enforce real-time threat mitigation
+
+### 🧠 Examples:
+- Cisco Firepower  
+- Palo Alto Threat Prevention  
+- Snort (in IPS mode)  
+- Suricata (inline mode)
+
+---
+
+## 🔁 Key Differences
+
+| Feature         | IDS                            | IPS                              |
+|----------------|----------------------------------|----------------------------------|
+| Role            | Detect & alert                  | Detect & block                   |
+| Response        | Passive                         | Active                           |
+| Placement       | Out-of-band                     | Inline (in traffic path)         |
+| Risk            | No disruption to traffic        | May block legitimate traffic     |
+| Use Case        | Monitoring, compliance, forensics| Real-time protection, enforcement|
+
+---
+
+## 🧩 Strategic Deployment
+
+- **Use IDS** when visibility and alerting are priorities (e.g., compliance, SOC monitoring).
+- **Use IPS** when real-time threat prevention is required (e.g., perimeter defense).
+- **Use both** for layered security: IDS for deep visibility, IPS for active defense.
+
+---
+
+> ✅ Together, IDS and IPS form a complementary defense strategy—one watches, the other acts.
+
+# 🛡️ IDS & IPS: Types and Examples
+
+Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) are essential components of layered cybersecurity defense. Below is a structured overview of their types and real-world examples.
+
+---
+
+## 🔍 IDS – Intrusion Detection System
+
+### 🧠 Types of IDS
+
+| Type                  | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| Network-Based IDS (NIDS) | Monitors traffic across network segments. Ideal for perimeter visibility. |
+| Host-Based IDS (HIDS)   | Installed on individual devices. Monitors logs, file changes, and system activity. |
+| Signature-Based         | Detects known threats using predefined patterns. Fast but limited to known attacks. |
+| Anomaly-Based           | Flags unusual behavior. Useful for zero-days but requires tuning.          |
+| Hybrid Detection        | Combines signature and anomaly-based methods for broader coverage.         |
+
+### 🧠 Popular IDS Tools
+
+| Tool        | Type(s) Supported         | Notes                                      |
+|-------------|---------------------------|--------------------------------------------|
+| Snort       | NIDS, Signature/Anomaly   | Can run in IDS or IPS mode                 |
+| Suricata    | NIDS/HIDS, Hybrid         | Multi-threaded, supports both modes        |
+| Zeek (Bro)  | NIDS, Anomaly             | Powerful for protocol analysis and logging |
+| OSSEC       | HIDS                      | Open-source, log analysis and file integrity |
+| Tripwire    | HIDS                      | Commercial tool for file integrity monitoring |
+
+---
+
+## 🚫 IPS – Intrusion Prevention System
+
+### 🧠 Types of IPS
+
+| Type                  | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| Network-Based IPS (NIPS) | Inline with traffic. Blocks malicious packets before reaching endpoints. |
+| Host-Based IPS (HIPS)   | Installed on endpoints. Prevents local exploitation and unauthorized changes. |
+| Signature-Based         | Blocks known threats using attack signatures.                             |
+| Anomaly-Based           | Blocks traffic that deviates from baseline behavior.                      |
+| Policy-Based            | Uses custom rules to enforce security policies.                           |
+
+### 🧠 Popular IPS Tools
+
+| Tool               | Type(s) Supported         | Notes                                      |
+|--------------------|---------------------------|--------------------------------------------|
+| Cisco Firepower    | NIPS, Signature/Policy    | Enterprise-grade inline threat prevention  |
+| Palo Alto Threat Prevention | NIPS, Hybrid     | Integrated with NGFW and sandboxing        |
+| Snort (IPS mode)   | NIPS, Signature/Anomaly   | Lightweight, customizable                  |
+| Suricata (inline)  | NIPS/HIPS, Hybrid         | High-performance, open-source              |
+| McAfee HIPS        | HIPS                      | Endpoint-focused intrusion prevention      |
+
+---
+
+## 🧩 Deployment Strategy
+
+- **Use IDS** for visibility, alerting, and forensic analysis.
+- **Use IPS** for real-time protection and automated threat blocking.
+- **Combine both** for layered defense: IDS for monitoring, IPS for enforcement.
+
+---
+
+> ✅ IDS watches. IPS acts. Together, they form a resilient shield against evolving threats.
