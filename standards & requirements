@@ -667,3 +667,38 @@ This reference consolidates governance, cybersecurity, and penetration testing f
 > ✅ This summary is modular, exportable, and ready for GitHub Pages deployment. 
 Use it to scaffold stakeholder briefings, onboarding kits, or compliance dashboards.
 
+Ethics Decision Tree
+### Step-by-Step Decision Flow
+
+1. **Is it legal?**  
+   - ❓ Not sure → 🟠 **WAIT!**  
+   - ❌ No → 🛑 **STOP!**  
+   - ✅ Yes → Proceed to next question
+
+2. **Does this comply with our Company policies and the principles of ethical behavior they reflect?**  
+   - ❓ Not sure → 🟠 **WAIT!**  
+   - ❌ No → 🛑 **STOP!**  
+   - ✅ Yes → Proceed to next question
+
+3. **Am I sure it would not cause loss or harm to our Company and its shareholders?**  
+   - ❓ Not sure → 🟠 **WAIT!**  
+   - ❌ No → 🛑 **STOP!**  
+   - ✅ Yes → Proceed to next question
+
+4. **Would it be okay if everyone did it?**  
+   - ❓ Not sure → 🟠 **WAIT!**  
+   - ❌ No → 🛑 **STOP!**  
+   - ✅ Yes → Proceed to next question
+
+5. **Am I sure I’d be comfortable if I read about it on the front page of the newspaper?**  
+   - ❓ Not sure → 🟠 **WAIT!**  
+   - ❌ No → 🛑 **STOP!**  
+   - ✅ Yes → 🎯 **Your decision appears to comply with our code.**
+
+---
+
+### 🟠 WAIT!
+Talk to your manager, legal counsel, or HR representative for guidance.
+
+### 🛑 STOP!
+This action could have serious legal ramifications.
