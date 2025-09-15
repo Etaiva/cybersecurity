@@ -154,3 +154,24 @@ Track your progress across certification tiers and strategic learning paths.
 | Coursera     | GenAI Specialization       | ☐          |                  | Prompting and stakeholder fluency |
 | Microsoft    | Azure AI Engineer (AI-102) | ☐          |                  | Secure AI deployment |
 | ISECOM       | OSSTMM / STAR              | ☐          |                  | Trust metrics and compliance mapping |
+
+Here's a modular, GitHub-ready Study Guide Matrix aligned to the certification roadmap 
+we built across Entry, Intermediate, and Advanced levels—
+mapped to Red Hat (offensive), Blue Hat (defensive), and Purple Hat (hybrid/governance) roles.
+
+# 📘 Cybersecurity Study Guide Matrix by Role & Level
+
+| **Level**       | **Hat Role** | **Certification**         | **Recommended Study Guides / Platforms**                                                                 |
+|-----------------|--------------|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| 🟢 Entry-Level  | Blue Hat     | Security+, CCST, SC-900    | - CompTIA CertMaster Learn<br>- Professor Messer videos<br>- Microsoft Learn modules                     |
+|                 | Red Hat      | TryHackMe Pre-Security     | - TryHackMe Pre-Security labs<br>- TCM Practical Help Desk course                                    |
+|                 | Purple Hat   | EC-Council Essentials, FCF | - CodeRed Essentials Series<br>- Fortinet NSE Institute<br>- Google Cybersecurity Certificate            |
+
+| 🟡 Intermediate | Blue Hat     | CySA+, CyberOps Associate  | - CompTIA CySA+ Study Guide (Sybex)<br>- Cisco NetAcad<br>- TCM SOC Analyst Roadmap                  |
+|                 | Red Hat      | Pentest+, CEH, CPTS        | - Georgia Weidman’s *Penetration Testing* book<br>- Hacker Playbook 3<br>- TryHackMe Offensive Path      |
+|                 | Purple Hat   | SC-900, PortSwigger Labs   | - Microsoft Learn SC-900<br>- OWASP Top 10 + PortSwigger Academy<br>- GitHub Advanced Security Pathway   |
+
+| 🔴 Advanced     | Blue Hat     | CCNP Security, GCIH        | - Cisco Press CCNP guides<br>- SANS Blue Team Field Manual<br>- GIAC GCIH courseware                    |
+|                 | Red Hat      | OSCP, LPT, GPEN            | - Offensive Security PWK (OSCP)<br>- EC-Council LPT Elite modules<br>- SANS GPEN courseware              |
+|                 | Purple Hat   | CISSP, CISM, Responsible AI| - CISSP All-in-One (Shon Harris)<br>- ISACA CISM Review Manual<br>- Microsoft Responsible AI modules|
+
