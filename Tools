@@ -1,85 +1,3 @@
-| Tool Type              | Examples                          | Use Case                                      |
-|------------------------|-----------------------------------|-----------------------------------------------|
-| Vulnerability Scanners | Nessus, OpenVAS, Qualys           | Server/client platform testing                |
-| Interception Proxies   | Burp Suite, OWASP ZAP, Fiddler    | Web application penetration testing           |
-| Wireless Tools         | Aircrack-ng, Kismet, WiFi-Pumpkin | Cracking encryption, de-auth attacks          |
-| Traffic Sniffers       | Wireshark, tcpdump                | Network packet analysis                       |
-| Exploitation Frameworks| Metasploit, Cobalt Strike         | Payload delivery, post-exploitation           |
-| Backup Tools           | Clonezilla, rsync, Veeam          | System preservation before live testing       |
-
-https://docs.github.com/en
-7 Free Cybersecurity Tools Every Beginner Should Use (2025 Edition)
-
-Forget expensive software — these free tools are enough to level up your skills:
-
-1. **Wireshark** → Packet analysis.
-2. **Nmap** → Network scanning.
-3. **Burp Suite Community** → Web app testing.
-4. **Autopsy** → Digital forensics.
-5. **MalwareBazaar** → Safe malware samples for analysis.
-6. **OpenVAS** → Vulnerability scanning.
-7. **CyberChef** → Data parsing and encoding/decoding.
-
-💡 Tip: Don’t just install them — create a mini project for each. Example: “Scan my home network with Nmap and secure the open ports.”
-
-How can you learn more about Kali command line tools?
-To learn more about Kali command line tools, here are some of the most effective and practical approaches:
-
-✅ Built-in Help Resources
-Use man <command> to access the manual page for any tool (e.g., man nmap).
-
-Use <command> --help to get a quick summary of options and usage (e.g., nmap --help).
-
-🌐 Official Kali Documentation
-Visit https://www.kali.org/docs This site offers categorized tutorials, tool references, and system configuration guides.
-
-🧠 Interactive Learning Platforms
-TryHackMe and Hack The Box: Offer hands-on labs with Kali tools in real-world scenarios.
-
-OverTheWire: Great for command-line mastery and Linux fundamentals.
-
-📚 Community & Forums
-Engage with the Kali Linux Forums, Reddit r/Kalilinux, and GitHub repositories for tool-specific discussions and updates.
-
-Follow tool maintainers and security researchers on platforms like LinkedIn or X (formerly Twitter).
-
-🛠️ Explore /usr/bin/ and /usr/share/
-These directories contain most installed tools and their documentation.
-
-Use ls /usr/bin/ to browse available commands and cat or less to inspect scripts.
-
-This table lists some basic Linux commands and thier functions:
-| **Command** | **Description** |
-|-------------|-----------------|
-| `mv`        | Moves or renames files and directories. |
-| `chmod`     | Modifies file permissions. |
-| `chown`     | Changes the ownership of a file. |
-| `dd`        | Copies data from an input to an output. |
-| `pwd`       | Displays the name of the current directory. |
-| `ps`        | Lists the processes that are currently running on the system. |
-| `su`        | Runs a command as another user or, by default, as another named user. |
-| `sudo`      | Runs a command as a super user, by default, or another named user. |
-| `grep`      | Used to search for specific strings or characters within a file or without parameters. |
-| `ifconfig`  | Displays or configures network interface information. **Note:** Deprecated—use `ip address` instead. |
-| `apt-get`   | Installs, configures, and removes packages on Debian and its derivatives. |
-| `iwconfig`  | Displays or configures wireless network card information. |
-| `shutdown`  | Shuts down the computer. Can restart, halt, sleep, or log out users. |
-| `passwd`    | Changes the password for the current or specified user. |
-| `cat`       | Lists the contents of a file. |
-| `man`       | Displays the documentation for a specific command. |
-
-This table lists a few of the most common Linux commands related to files and directories:
-| **Command** | **Description** |
-|-------------|-----------------|
-| `ls`        | Displays the files inside a directory. |
-| `cd`        | Changes the current directory. |
-| `mkdir`     | Creates directories. |
-| `cp`        | Copies files and directories from source to destination. |
-| `mv`        | Moves or renames files and directories. |
-| `rm`        | Removes files or directories. |
-| `grep`      | Searches for specific strings of characters within a file or other command outputs. |
-| `cat`       | Lists the contents of a file and expects the file name as the parameter. |
-
 https://www.kali.org/docs/
 https://www.netacad.com/resources/lab-downloads?courseLang=en-US
 https://www.virtualbox.org/
@@ -112,3 +30,143 @@ https://www.parrotsec.org/
 https://www.virtualbox.org/
 https://www.vmware.com/
 https://blackarch.org/
+https://docs.github.com/en
+
+Here's Part 1 of the expanded GitHub-ready tables, broken down by tool category. 
+Each table includes: Name, Tool Type, Examples, Use Case, and Website / Resource—with each link on its own line for clarity and modularity.
+
+# 🛡️ Vulnerability Scanners
+
+| **Name**               | **Tool Type**   | **Examples**                    | **Use Case**                        | **Website / Resource** |
+|------------------------|-----------------|----------------------------------|-------------------------------------|-------------------------|
+| Vulnerability Scanners | Scanner         | Nessus, OpenVAS, Qualys         | Server/client platform testing      | https://www.openvas.org  
+|                        |                 |                                  |                                     | https://www.tenable.com/products/nessus  
+|                        |                 |                                  |                                     | https://www.qualys.com  
+
+# 🧪 Interception Proxies
+
+| **Name**              | **Tool Type** | **Examples**                        | **Use Case**                          | **Website / Resource** |
+|-----------------------|---------------|-------------------------------------|---------------------------------------|-------------------------|
+| Interception Proxies  | Proxy         | Burp Suite, OWASP ZAP, Fiddler      | Web application penetration testing   | https://portswigger.net/burp/communitydownload  
+|                       |               |                                     |                                       | https://www.zaproxy.org/download/  
+|                       |               |                                     |                                       | https://www.telerik.com/fiddler  
+
+# 📡 Wireless Tools
+
+| **Name**         | **Tool Type**        | **Examples**                          | **Use Case**                              | **Website / Resource** |
+|------------------|----------------------|---------------------------------------|-------------------------------------------|-------------------------|
+| Wireless Tools   | Wireless Security    | Aircrack-ng, Kismet, WiFi-Pumpkin     | Cracking encryption, de-auth attacks      | https://www.aircrack-ng.org  
+|                  |                      |                                       |                                           | https://www.kismetwireless.net  
+|                  |                      |                                       |                                           | https://github.com/P0cL4bs/WiFi-Pumpkin  
+
+# 🌐 Traffic Sniffers
+
+| **Name**         | **Tool Type**     | **Examples**             | **Use Case**               | **Website / Resource** |
+|------------------|-------------------|--------------------------|----------------------------|-------------------------|
+| Traffic Sniffers | Packet Analyzer   | Wireshark, tcpdump       | Network packet analysis    | https://www.wireshark.org  
+|                  |                   |                          |                            | https://www.tcpdump.org  
+
+# 💣 Exploitation Frameworks
+
+| **Name**                  | **Tool Type**     | **Examples**                  | **Use Case**                          | **Website / Resource** |
+|---------------------------|-------------------|-------------------------------|---------------------------------------|-------------------------|
+| Exploitation Frameworks   | Exploitation      | Metasploit, Cobalt Strike     | Payload delivery, post-exploitation   | https://www.metasploit.com  
+|                           |                   |                               |                                       | https://www.cobaltstrike.com  
+
+# 💾 Backup Tools
+
+| **Name**        | **Tool Type**     | **Examples**               | **Use Case**                          | **Website / Resource** |
+|-----------------|-------------------|----------------------------|---------------------------------------|-------------------------|
+| Backup Tools    | System Backup     | Clonezilla, rsync, Veeam   | System preservation before live testing | https://clonezilla.org  
+|                 |                   |                            |                                       | https://rsync.samba.org  
+|                 |                   |                            |                                       | https://www.veeam.com  
+
+Here's Part 2 of the expanded GitHub-ready tables, continuing from Part 1.
+
+# 🧠 Beginner Essentials
+
+| **Name**              | **Tool Type**       | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|---------------------|---------------------------------------|---------------------------------------|-------------------------|
+| Beginner Essentials   | Mixed Utility       | Wireshark, Nmap, Burp Suite Community | Packet analysis, scanning, web testing | https://www.wireshark.org  
+|                       |                     |                                       |                                       | https://nmap.org  
+|                       |                     |                                       |                                       | https://portswigger.net/burp/communitydownload  
+|                       |                     | Autopsy, MalwareBazaar, CyberChef     | Forensics, malware analysis, data parsing | https://www.sleuthkit.org/autopsy  
+|                       |                     |                                       |                                       | https://bazaar.abuse.ch  
+|                       |                     |                                       |                                       | https://gchq.github.io/CyberChef  
+
+# 🔍 Directory Busters
+
+| **Name**             | **Tool Type**       | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|----------------------|---------------------|---------------------------------------|---------------------------------------|-------------------------|
+| Directory Busters    | Enumeration         | DirBuster, Feroxbuster, ffuf, Gobuster| Discover hidden directories and files | https://www.kali.org/tools/dirbuster/  
+|                      |                     |                                       |                                       | https://github.com/epi052/feroxbuster  
+|                      |                     |                                       |                                       | https://github.com/ffuf/ffuf  
+|                      |                     |                                       |                                       | https://github.com/OJ/gobuster  
+
+# 🧬 SQL Injection Tools
+
+| **Name**             | **Tool Type**       | **Examples**      | **Use Case**                          | **Website / Resource** |
+|----------------------|---------------------|-------------------|---------------------------------------|-------------------------|
+| SQL Injection Tools  | Injection Testing   | sqlmap            | Automated SQL injection and database takeover | https://sqlmap.org  
+|                      |                     |                   |                                       | https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html  
+|                      |                     |                   |                                       | https://w3schools.com/sql/trysql.asp?filename=trysql_select_all  
+
+# 🔐 Password Cracking Tools
+
+| **Name**               | **Tool Type**       | **Examples**              | **Use Case**                          | **Website / Resource** |
+|------------------------|---------------------|---------------------------|---------------------------------------|-------------------------|
+| Password Cracking Tools| Credential Audit    | CrackStation, RainbowCrack| Brute-force and dictionary attacks    | https://crackstation.net  
+|                        |                     |                           |                                       | http://project-rainbowcrack.com  
+|                        |                     |                           |                                       | http://project-rainbowcrack.com/table.htm  
+
+# 🧭 Default Credential Databases
+
+| **Name**                  | **Tool Type**       | **Examples**              | **Use Case**                          | **Website / Resource** |
+|---------------------------|---------------------|---------------------------|---------------------------------------|-------------------------|
+| Default Credential DBs    | Enumeration         | defaultpassword.com       | Lookup for factory-set credentials    | https://www.defaultpassword.com  
+
+# 🧪 XSS Testing Resources
+
+| **Name**              | **Tool Type**       | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|---------------------|---------------------------------------|---------------------------------------|-------------------------|
+| XSS Testing Resources | Injection Vectors   | OWASP XSS Cheat Sheet, h4cker repo    | XSS payload crafting and evasion      | https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html  
+|                       |                     |                                       |                                       | https://github.com/The-Art-of-Hacking/h4cker/blob/master/web_application_testing/xss_vectors.md  
+
+Here's Part 3 of the expanded GitHub-ready tables, continuing from Parts 1 and 2.
+
+# 🛡️ Clickjacking Defense
+
+| **Name**              | **Tool Type**           | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|-------------------------|---------------------------------------|---------------------------------------|-------------------------|
+| Clickjacking Defense  | UI Redress Protection   | OWASP Cheat Sheet                     | Prevent clickjacking attacks          | https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html  
+
+# 🔗 API Documentation & Security Tools
+
+| **Name**              | **Tool Type**           | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|-------------------------|---------------------------------------|---------------------------------------|-------------------------|
+| API Documentation     | API Security            | Swagger                               | API testing and documentation         | https://swagger.io  
+| API Security Best Practices | Governance & DevSecOps | TLS, Input Validation, AuthN/AuthZ | Secure API design and implementation | https://www.openapis.org  
+
+# 📘 Web Security Testing Guides
+
+| **Name**              | **Tool Type**           | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|-------------------------|---------------------------------------|---------------------------------------|-------------------------|
+| Web Security Testing  | Manual Testing Framework| OWASP WSTG                            | Structured web app security testing   | https://owasp.org/www-project-web-security-testing-guide/v42/  
+
+# 🧰 Miscellaneous Tools & Vulnerability Labs
+
+| **Name**              | **Tool Type**           | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|-------------------------|---------------------------------------|---------------------------------------|-------------------------|
+| Vulnerable Labs       | Training Environment    | WebGoat                               | Hands-on OWASP training               | https://devguide.owasp.org/en/07-training-education/01-vulnerable-apps/02-webgoat/  
+| Recon & Enumeration   | Web Enumeration         | Websploit                              | Web scanning and reconnaissance       | https://github.com/The-Art-of-Hacking/websploit  
+
+# 🧠 Learning Platforms & Documentation Links
+
+| **Name**              | **Tool Type**           | **Examples**                          | **Use Case**                          | **Website / Resource** |
+|-----------------------|-------------------------|---------------------------------------|---------------------------------------|-------------------------|
+| Kali Linux Docs       | OS Documentation        | Kali Linux Tool References            | System setup and tool usage           | https://www.kali.org/docs/  
+| NetAcad Lab Downloads | Cisco Training Labs     | Cisco Cybersecurity Labs              | Hands-on network security training    | https://www.netacad.com/resources/lab-downloads?courseLang=en-US  
+| VirtualBox            | Virtualization Platform | Oracle VirtualBox                     | Host virtual labs and test environments | https://www.virtualbox.org/  
+| SQL Practice          | Interactive SQL         | W3Schools SQL Playground              | Learn and test SQL queries            | https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all  
+| SQL Reference         | SQL Concepts            | GeeksforGeeks SQL Guide               | Learn SQL syntax and operations       | https://www.geeksforgeeks.org/sql/sql-ddl-dml-tcl-dcl/  
+
