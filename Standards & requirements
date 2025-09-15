@@ -1,302 +1,669 @@
-https://www.geeksforgeeks.org/linux-unix/system-requirements-for-kali-linux/ 
-System Requirements for Kali Linux
-Last Updated : 25 Sep, 2023
-Kali Linux is a Linux distribution that is mostly used by cybersecurity professionals, penetration testers, and ethical hackers. Kali Linux offers many of the tools dedicated to various information security tasks such as reverse engineering, security research, penetration testing, computer forensics, etc. It is a versatile platform that is readily available for information security experts and enthusiasts. If you are interested in installing it on your Desktop or PC but want to know the minimum or recommended system requirements before installing it, we have included that information in this article with examples to help you understand what's needed for a smooth experience.
+Part 1
+This version focuses on system requirements, governance frameworks, cybersecurity standards, and lab setup guidelines. 
+It’s structured for modular deployment and stakeholder clarity.
 
-Kali Linux System Requirements
-Kali Linux is a Linux distribution designed for ethical hackers, penetration testers, and cybersecurity experts. If you are considering installing it on your PC but want to know the minimum or recommended system requirements beforehand, it can help you.
+# 📘 Standards & Requirements Glossary (Part 1)
 
-Kali developers do not provide more detailed official information regarding recommended system specifications. Using the provided limited information and filling in the rest ourselves, the following is a list of the recommended system requirements for running Kali with the default Xfce desktop environment and Kali Linux default meta-packages:
-
-RAM
-The minimum RAM requirement for Kali Linux is 2 GB. But to run Kali efficiently and perform various tasks simultaneously, having 4 GB or more RAM is always recommended.
-
-Imagine you want to set up a virtual lab using Kali Linux to simulate network attacks and defenses. Each virtual machine you create for various purposes, like Metasploit testing or Wireshark analysis, consumes RAM. With 8 GB of RAM, you can comfortably run multiple virtual machines simultaneously, ensuring efficient testing. However, if you have only 4 GB, you might experience sluggish performance or be limited to running fewer VMs at a time.
-
-Disk Space for Data Storage
-20 GB minimum hard disk space is required for the installation of Kali Linux. If you intend to store large data sets or install additional tools, consider allocating more space. However, it is always recommended to use SSD instead of HDD for more fast and smooth performance.
-
-Kali Linux is often used to analyze and store large amounts of data, such as captured network packets or forensic evidence. If your hard drive is cramped with only 20 GB of space, you'll quickly run out of storage when dealing with sizable datasets. By allocating 50 GB or more, you can accommodate your data needs without worrying about running out of disk space.
-
-Processor
-Kali Linux can run on a range of processors, but it's recommended to have at least a 32 or 64-bit CPU with a minimum 2 GHz of speed.
-
-Now let us take an example where you are conducting a brute-force attack on an application or website. A performance multi-core processor, such as an Intel Core i7 12 gen or an AMD Ryzen 9, will complete the task significantly faster compared to a single-core processor. This difference in processing power can make a substantial impact on your efficiency and productivity during penetration testing.
-
-Graphics Card and Monitor
-Kali Linux can run with most standard graphics cards and monitors. However, for tasks like GPU-based password cracking, a more powerful graphics card is more efficient.
-
-For example, Hashcat, a popular password-cracking tool, benefits greatly from GPU acceleration. If you have a high-end graphics card like an NVIDIA GeForce RTX or an AMD Radeon RX, you can significantly reduce the time required to crack password hashes. Conversely, on a system with an integrated graphics chip, hash cracking would be much slower, making the task less efficient.
-
-Network Adapter
-For network testing and penetration, a wired or wireless network adapter that supports promiscuous mode is essential. Kali Linux is widely used for Wi-Fi penetration testing and hacking.
-
-For example, To perform tasks like capturing packets, conducting de-authentication attacks, or exploiting vulnerabilities in wireless networks, you need a compatible network adapter that supports monitor mode and packet injection. Without such an adapter, your ability to assess and secure Wi-Fi networks is severely limited.
-
-Note: The first two requirements from the above list are what Kali Linux suggests. The rest of the specifications are based on the experiences of many users of Kali Linux and requirements based on other Linux distributions.
-
-Kali can also run on extremely low-end specifications, but depending on what you want to do with the system, you may require a more powerful computer. However, Kali developers do not provide more detailed official information, but they list the following as minimum system requirements:
-
-128 MB (512 MB optimally) of RAM
-2 GB of disk space
-According to the listed minimum requirements, having at least a 1 GHz CPU should be sufficient, and excluding the desktop environment reduces the load. For tasks like running builds, we would need to use SSH or a terminal to interact with the system.
+This glossary consolidates key standards, frameworks, and system requirements referenced in the attached document. It is formatted for GitHub Pages and stakeholder-ready documentation.
 
 ---
 
-| Framework       | Focus Area                        | Key Feature                                      |
-|-----------------|-----------------------------------|--------------------------------------------------|
-| PTES            | General penetration testing       | Repeatable, consistent phases                    |
-| NIST SP 800-115 | Security assessment planning      | Governance-aligned testing lifecycle             |
-| OSSTMM          | Operational security testing      | Trust analysis, workflow modeling                |
-| OWASP WSTG      | Web application security          | Input validation, session management, logic flaws|
-| MITRE ATT&CK    | Threat modeling & simulation      | Tactics, techniques, procedures (TTPs)           |
+## 🖥️ System Requirements: Kali Linux
+
+| Component         | Minimum Requirement | Recommended Requirement | Strategic Commentary |
+|------------------|---------------------|--------------------------|----------------------|
+| RAM              | 2 GB                | 4–8 GB                   | More RAM enables smoother multitasking and VM usage |
+| Disk Space       | 20 GB               | 50 GB+ (preferably SSD)  | SSD improves performance; larger space supports toolsets and data |
+| Processor        | 1 GHz               | 2 GHz+, multi-core       | Faster CPUs improve brute-force and analysis tasks |
+| Graphics Card    | Standard GPU        | High-end GPU (e.g., RTX) | Required for GPU-accelerated tools like Hashcat |
+| Network Adapter  | Basic NIC           | Promiscuous mode support | Needed for packet capture, injection, and Wi-Fi testing |
 
 ---
 
-## 🤖 AI Governance: Oversight for Intelligent Systems
+## 🧪 Penetration Testing Lab Setup
 
-**AI Governance** is the system of **rules, policies, and accountability mechanisms** that guide how artificial intelligence is developed, deployed, and monitored. It ensures that AI systems are:
-
-- **Ethical**: Avoiding bias, discrimination, and harm
-- **Transparent**: Explainable decisions and traceable logic
-- **Accountable**: Clear ownership and escalation paths
-- **Compliant**: Aligned with laws like GDPR, POPIA, and emerging AI regulations
-
-### Key Elements:
-- Risk assessments for algorithmic bias and data privacy
-- Lifecycle oversight from design to decommissioning
-- Stakeholder alignment across legal, HR, IT, and operations
-- Integration with ESG and sustainability frameworks
+| Requirement                     | Description |
+|--------------------------------|-------------|
+| Closed Network                 | Restricts internet access for controlled testing |
+| Virtualized Environment        | Enables rollback and multi-OS deployment |
+| Realistic Environment          | Mirrors production systems for valid results |
+| Health Monitoring              | Diagnoses crashes and system failures |
+| Sufficient Hardware Resources  | Prevents false positives due to resource limits |
+| Multiple Operating Systems     | Ensures cross-platform validation |
+| Duplicate Tools                | Confirms results with tool redundancy |
+| Practice Targets               | Safe systems for exploit testing |
 
 ---
 
-## 🏛️ Corporate Governance: Oversight for Organizations
+## 🏛️ Governance Frameworks
 
-**Corporate Governance** is the system of **rules, practices, and processes** by which companies are directed and controlled. It balances the interests of stakeholders—shareholders, boards, management, employees, regulators, and communities.
-
-### Core Principles:
-- **Accountability**: Boards answer to shareholders and stakeholders
-- **Transparency**: Clear reporting and disclosure practices
-- **Fairness**: Equitable treatment of all stakeholders
-- **Responsibility**: Ethical decision-making and risk management
-- **Compliance**: Adherence to legal and regulatory standards
-
-Corporate governance spans everything from board composition and fiduciary duties to internal controls and strategic planning.
+| Framework         | Focus Area                  | Key Feature |
+|------------------|-----------------------------|-------------|
+| PTES              | Penetration Testing         | Repeatable phases |
+| NIST SP 800-115   | Security Assessment         | Governance-aligned lifecycle |
+| OSSTMM            | Operational Security        | Trust analysis, workflow modeling |
+| OWASP WSTG        | Web App Security            | Input validation, session management |
+| MITRE ATT&CK      | Threat Simulation           | Tactics, techniques, procedures (TTPs) |
 
 ---
 
-## 🔗 Where They Intersect
+## 🔐 ISO & Compliance Standards
 
-For leaders like you, the convergence of AI and corporate governance is a strategic frontier. Here’s how they align:
-
-| **AI Governance**                          | **Corporate Governance**                     | **Intersection**                                  |
-|-------------------------------------------|----------------------------------------------|---------------------------------------------------|
-| Algorithmic accountability                | Board accountability                         | Boards must oversee AI risks and ethics           |
-| Data ethics and privacy                   | Compliance and risk management               | AI must comply with corporate risk frameworks     |
-| Explainability and transparency           | Financial and operational transparency       | AI decisions must be auditable and reportable     |
-| Responsible innovation                    | Strategic oversight and stakeholder trust    | Boards guide ethical tech adoption                |
-
----
-
-## 🧩 Strategic Comparison: Governance vs Cybersecurity
-
-| **Dimension**            | **AI Governance**                                                                 | **Corporate Governance**                                                       | **Cybersecurity / ISO 27001**                                                                 |
-|--------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **Core Focus**           | Ethical oversight of intelligent systems                                          | Ethical, legal, and strategic oversight of organizations                         | Protection of digital assets and information systems                                          |
-| **Risk Domain**          | Algorithmic bias, data misuse, model opacity                                     | Fiduciary risk, regulatory breaches, reputational damage                         | Data breaches, unauthorized access, cyberattacks                                              |
-| **Compliance Anchors**   | GDPR, AI Act, POPIA, internal AI usage policies                                  | Companies Act, King IV, Sarbanes-Oxley, ESG mandates                             | ISO/IEC 27001, NIST CSF, POPIA, GDPR                                                          |
-| **Controls & Safeguards**| Bias audits, explainability protocols, ethical AI design                         | Board charters, audit committees, whistleblower policies                         | Firewalls, access controls, encryption, vulnerability management                             |
-| **Oversight Mechanism**  | AI Ethics Boards, Responsible AI Officers, cross-functional governance teams     | Board of Directors, Governance Committees, Internal Audit                        | Information Security Management System (ISMS), CISO, IT Governance Board                     |
-| **Lifecycle Management** | Model development, deployment, monitoring, decommissioning                      | Strategic planning, performance oversight, succession planning                   | Asset classification, threat detection, incident response, recovery                          |
-| **Stakeholder Impact**   | Affects users, regulators, developers, and society at large                      | Affects shareholders, employees, regulators, and communities                     | Affects customers, partners, regulators, and internal teams                                   |
+| Standard         | Description |
+|------------------|-------------|
+| ISO/IEC 27001    | Information Security Management System (ISMS) |
+| ISO/IEC 9075     | SQL Standard (2023 Edition) |
+| FIPS 140-2       | U.S. encryption validation standard |
+| GDPR             | EU data protection regulation |
+| POPIA            | South African data privacy law |
+| AI Act           | Proposed EU regulation for AI governance |
+| Companies Act    | South African corporate governance law |
+| King IV          | Corporate governance code for South Africa |
+| Sarbanes-Oxley   | U.S. financial compliance law |
 
 ---
 
-## 🔐 ISO 27001: The Cybersecurity Backbone
+## 🧠 AI Governance Requirements
 
-**ISO/IEC 27001** is the gold standard for implementing an **Information Security Management System (ISMS)**. It promotes a **holistic approach** to cybersecurity by vetting:
-
-- **People**: Roles, responsibilities, and training
-- **Policies**: Access control, data handling, breach protocols
-- **Technology**: Firewalls, encryption, monitoring tools
-
-### Key Requirements:
-- Risk assessment and treatment plans
-- Asset classification and control
-- Cryptographic controls
-- Secure communications and operations
-- Incident response and business continuity
-- Firewall policies aligned with ISO 27001 help enforce perimeter security and access governance
+| Element                  | Description |
+|--------------------------|-------------|
+| Ethical Oversight        | Avoid bias, discrimination, and harm |
+| Transparency             | Explainable decisions and traceable logic |
+| Accountability           | Clear ownership and escalation paths |
+| Compliance               | Alignment with GDPR, POPIA, AI Act |
+| Lifecycle Management     | Oversight from design to decommissioning |
+| Stakeholder Alignment    | Legal, HR, IT, and operations integration |
 
 ---
 
-## 🔗 Convergence: Where Governance Meets Cybersecurity
+Let me know when you're ready for **Part 2**, which will include:
 
-This is where your strategic lens shines, Etienne. The **intersections** between AI, corporate, and cybersecurity governance are fertile ground for boardroom renewal and compliance innovation:
+- 🔗 ISO 27001 control mappings  
+- 🧩 Board-level governance integration  
+- 🔐 FTP & API security best practices  
+- 📚 SQL/IEC 9075 breakdown  
+- 🧠 OWASP ASVS mappings and XSS mitigation controls
 
-- **AI systems must be embedded within ISO 27001-aligned ISMS** to ensure data integrity and resilience
-- **Boards must oversee AI and cybersecurity risks** as part of their fiduciary and ethical responsibilities
-- **Firewall policies and access controls** become governance tools—not just technical safeguards
-- **Responsible AI frameworks** must align with ISO 27001’s risk management and control objectives
+I’ll keep each segment clean, modular, and GitHub-ready.
+
+Thanks, Etienne. Here's Part 2 of the GitHub-ready glossary consolidating standards and requirements from your draft.docx attachment. This segment focuses on:
+
+🧠 ISO & Governance Frameworks
+
+🔐 FTP & API Security Best Practices
+
+📚 SQL/IEC 9075 Breakdown
+
+🧩 OWASP ASVS Mapping
+
+# 📘 Standards & Requirements Glossary (Part 2)
+
+---
+
+## 🧠 ISO & Governance Frameworks
+
+### 🔐 ISO/IEC 27001 – Information Security Management System (ISMS)
+
+| Control Area | Board-Level Integration |
+|--------------|--------------------------|
+| A.5 – Security Policies | Approve AI and cyber governance policies |
+| A.6 – IS Security Organization | Define roles for AI ethics, CISO, governance leads |
+| A.8 – Asset Management | Classify AI models and data assets |
+| A.12 – Operations Security | Oversee firewall protocols, access controls, monitoring |
+| A.18 – Compliance | Ensure systems meet regulatory and contractual obligations |
+
+---
+
+### 🏛️ Corporate Governance Principles
+
+| Principle     | Description |
+|---------------|-------------|
+| Accountability| Boards answer to shareholders and stakeholders |
+| Transparency  | Clear reporting and disclosure practices |
+| Fairness      | Equitable treatment of all stakeholders |
+| Responsibility| Ethical decision-making and risk management |
+| Compliance    | Adherence to legal and regulatory standards |
+
+---
+
+### 🤖 AI Governance Principles
+
+| Principle     | Description |
+|---------------|-------------|
+| Ethical Oversight | Avoid bias, discrimination, and harm |
+| Transparency      | Explainable decisions and traceable logic |
+| Accountability    | Clear ownership and escalation paths |
+| Compliance        | Alignment with GDPR, POPIA, AI Act |
+| Lifecycle Oversight| From design to decommissioning |
+
+---
+
+## 🔐 FTP Server Security Best Practices
+
+| Practice | Description |
+|----------|-------------|
+| Strong Passwords & MFA | Use credential management and two-factor authentication |
+| File/Folder Security | Restrict access to authorized users only |
+| Encryption at Rest | Encrypt stored files on the FTP server |
+| Admin Account Lockdown | Limit admin privileges and avoid default usernames |
+| Software Updates | Keep FTPS/SFTP server software current |
+| FIPS 140-2 Ciphers | Use validated encryption algorithms |
+| Backend Isolation | Host databases on separate servers |
+| Session Re-authentication | Require re-login after inactivity |
+
+---
+
+## 📚 ISO/IEC 9075 (SQL Standard – 2023 Edition)
+
+| Part      | Title                                | Description |
+|-----------|--------------------------------------|-------------|
+| 9075-1    | SQL/Framework                         | Overall structure, terms, grammar |
+| 9075-2    | SQL/Foundation                        | Core syntax and semantics |
+| 9075-3    | SQL/CLI                               | Procedural API access |
+| 9075-4    | SQL/PSM                               | Stored procedures and control structures |
+| 9075-9    | SQL/MED                               | External data access |
+| 9075-10   | SQL/OLB                               | Object-oriented language bindings |
+| 9075-11   | SQL Schemas                           | Metadata and schema definitions |
+| 9075-13   | SQL/JRT                               | Java integration |
+| 9075-14   | SQL/XML                               | XML support in SQL |
+| 9075-15   | SQL/MDA                               | Multidimensional arrays |
+| 9075-16   | SQL/PGQ                               | Property graph queries |
+
+---
+
+## 🔐 API Security Best Practices
+
+| Practice | Description |
+|----------|-------------|
+| HTTPS with Strong TLS | Secure endpoints with modern encryption |
+| Parameter Validation | Sanitize incoming data from clients |
+| Signature Scanning | Detect common injection patterns |
+| Strong AuthN/AuthZ | Use OAuth, JWT, or similar standards |
+| Tiered Architecture | Separate API logic from security enforcement |
+| Sensitive Data Classification | Define public vs protected data |
+| Expert Code Review | Include security audits in development |
+| Internal Documentation | Mandatory for all APIs |
+| Public Silence | Avoid discussing API details on forums |
+
+---
+
+## 🧩 OWASP ASVS Mapping: XSS Mitigation Controls
+
+| ASVS Requirement | Control Description | Mapped Mitigation |
+|------------------|---------------------|--------------------|
+| 5.1.1 Output Encoding | Encode all untrusted output | HTML, Attribute, JS, CSS, URL escaping |
+| 5.1.2 Context-Specific Encoding | Match encoding to context | Auto-escaping template systems |
+| 5.1.3 Safe HTML Rendering | Sanitize HTML before rendering | ESAPI, DOMPurify |
+| 5.2.1 DOM-Based XSS Prevention | Avoid dynamic code from untrusted input | DOM XSS Cheat Sheet |
+| 5.2.2 CSP Enforcement | Block unsafe inline scripts | Content Security Policy |
+| 5.2.3 HTTPOnly Cookies | Prevent client-side cookie access | HTTPOnly flag |
+| 5.2.4 XSS Protection Headers | Enable legacy browser filters | X-XSS-Protection header |
+| 5.3.1 Unicode & Entity Encoding | Encode special characters safely | HTML Entity Encoding, Unicode Escaping |
+
+---
+
+Let me know when you're ready for **Part 3**, which will include:
+
+- 📋 XSS Mitigation Checklist  
+- 🧠 Governance vs Cybersecurity Strategic Comparison  
+- 🧭 Board-Level Integration Map  
+- 🔐 Shared Responsibility Models (AWS, ISO, NIST)
+
+I’ll keep it clean, modular, and GitHub-ready.
+
+Here's Part 3 of the GitHub-ready glossary focused on standards and requirements from your draft.docx attachment. This segment covers:
+
+🔐 ISO/IEC 9075 SQL Standard Breakdown
+
+🔗 API Security Best Practices
+
+🧩 OWASP ASVS Mapping for XSS Mitigation
+
+📋 XSS Mitigation Checklist
+
+🧭 Shared Responsibility Models
+
+# 📘 Standards & Requirements Glossary (Part 3)
+
+---
+
+## 🔐 ISO/IEC 9075 – SQL Standard (2023 Edition)
+
+| Part      | Title                                | Description |
+|-----------|--------------------------------------|-------------|
+| 9075-1    | SQL/Framework                         | Overall structure, terms, grammar |
+| 9075-2    | SQL/Foundation                        | Core syntax and semantics |
+| 9075-3    | SQL/CLI                               | Procedural API access |
+| 9075-4    | SQL/PSM                               | Stored procedures and control structures |
+| 9075-9    | SQL/MED                               | External data access |
+| 9075-10   | SQL/OLB                               | Object-oriented language bindings |
+| 9075-11   | SQL Schemas                           | Metadata and schema definitions |
+| 9075-13   | SQL/JRT                               | Java integration |
+| 9075-14   | SQL/XML                               | XML support in SQL |
+| 9075-15   | SQL/MDA                               | Multidimensional arrays |
+| 9075-16   | SQL/PGQ                               | Property graph queries |
+
+---
+
+## 🔗 API Security Best Practices
+
+| Practice | Description |
+|----------|-------------|
+| HTTPS with Strong TLS | Secure endpoints with modern encryption |
+| Parameter Validation | Sanitize incoming data from clients |
+| Signature Scanning | Detect common injection patterns |
+| Strong AuthN/AuthZ | Use OAuth, JWT, or similar standards |
+| Tiered Architecture | Separate API logic from security enforcement |
+| Sensitive Data Classification | Define public vs protected data |
+| Expert Code Review | Include security audits in development |
+| Internal Documentation | Mandatory for all APIs |
+| Public Silence | Avoid discussing API details on forums |
+
+---
+
+## 🧩 OWASP ASVS Mapping: XSS Mitigation Controls
+
+| ASVS Requirement | Control Description | Mapped Mitigation |
+|------------------|---------------------|--------------------|
+| 5.1.1 Output Encoding | Encode all untrusted output | HTML, Attribute, JS, CSS, URL escaping |
+| 5.1.2 Context-Specific Encoding | Match encoding to context | Auto-escaping template systems |
+| 5.1.3 Safe HTML Rendering | Sanitize HTML before rendering | ESAPI, DOMPurify |
+| 5.2.1 DOM-Based XSS Prevention | Avoid dynamic code from untrusted input | DOM XSS Cheat Sheet |
+| 5.2.2 CSP Enforcement | Block unsafe inline scripts | Content Security Policy |
+| 5.2.3 HTTPOnly Cookies | Prevent client-side cookie access | HTTPOnly flag |
+| 5.2.4 XSS Protection Headers | Enable legacy browser filters | X-XSS-Protection header |
+| 5.3.1 Unicode & Entity Encoding | Encode special characters safely | HTML Entity Encoding, Unicode Escaping |
+
+---
+
+## 📋 XSS Mitigation Checklist
+
+- [x] Use auto-escaping template systems (e.g., React, Angular, Django)
+- [x] Escape untrusted data before inserting into:
+  - HTML element content
+  - HTML attributes
+  - JavaScript values
+  - CSS properties
+  - URL parameters
+- [x] Sanitize HTML using libraries (e.g., DOMPurify, ESAPI)
+- [x] Prevent DOM-based XSS (refer to OWASP DOM XSS Cheat Sheet)
+- [x] Set HTTPOnly flag on cookies
+- [x] Implement Content Security Policy (CSP)
+- [x] Use X-XSS-Protection header (legacy support)
+- [x] Encode special characters:
+  - `&` → `&amp;`
+  - `<` → `&lt;`
+  - `>` → `&gt;`
+  - `"` → `&quot;`
+  - `'` → `&#x27;`
+  - `/` → `&#x2F;`
+- [x] Use `&#xHH;` for HTML entity encoding
+- [x] Use `\uXXXX` for Unicode escaping
+- [x] Use `\XX` or `\XXXXXX` for CSS escaping
+- [x] Educate users on safe browsing practices
+
+---
+
+## 🧭 Shared Responsibility Models
+
+| Provider | Model Summary | Governance Implication |
+|----------|----------------|-------------------------|
+| AWS | AWS secures infrastructure; customer secures data, apps, identity | Boards must oversee cloud configuration and access controls |
+| Azure | Microsoft secures platform; customer secures workloads | Governance teams must align cloud policies with ISO 27001 |
+| GCP | Google secures services; customer secures usage | Shared risk must be documented in compliance architecture |
+
+---
+
+Let me know when you're ready for **Part 4**, which will include:
+
+- 🧠 Governance vs Cybersecurity Strategic Comparison  
+- 🏛️ Board-Level Integration Map  
+- 🔐 FTP Server Hardening  
+- 📚 Final wrap-up with deployment notes and GitHub structuring tips
+
+I’ll keep it clean, modular, and GitHub-ready.
+
+Here's Part 4 of the GitHub-ready glossary focused on standards and requirements from the draft.docx attachment. This segment covers:
+
+🧭 Board-Level Governance Integration
+
+🔐 ISO 27001 Alignment Touchpoints
+
+🛡️ FTP Server Hardening Best Practices
+
+📚 ISO/IEC 9075 SQL Standard Breakdown
+
+🔗 API Security Best Practices
+
+# 📘 Standards & Requirements Glossary (Part 4)
 
 ---
 
 ## 🧭 Board-Level Governance Integration Map
 
-### 🏛️ 1. **Governance Pillars**
+### 🏛️ Governance Pillars
 
-| **Pillar**              | **Corporate Governance**                            | **AI Governance**                                      | **Cybersecurity Governance**                          |
-|-------------------------|-----------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
-| **Accountability**      | Board fiduciary duties, audit committees            | Responsible AI officers, ethics boards                 | CISO, ISMS oversight, breach accountability            |
-| **Transparency**        | Financial disclosures, stakeholder reporting        | Explainable AI, model documentation                    | Security dashboards, incident logs                     |
-| **Risk Management**     | Strategic, operational, reputational risk           | Algorithmic bias, data misuse, ethical drift           | Threat detection, vulnerability management             |
-| **Compliance**          | King IV, Companies Act, ESG mandates                | GDPR, AI Act, POPIA, internal AI policies              | ISO 27001, NIST CSF, POPIA, GDPR                       |
-| **Ethical Oversight**   | Whistleblower policies, board charters              | Fairness, non-discrimination, human-centric design     | Data ethics, responsible access, privacy safeguards    |
-
----
-
-### 🧠 2. **Strategic Oversight Domains**
-
-| **Domain**                  | **Board-Level Focus**                                                                 |
-|----------------------------|----------------------------------------------------------------------------------------|
-| **AI Systems**             | Approve AI usage policies, monitor bias audits, ensure ethical deployment             |
-| **Cybersecurity Posture** | Review ISMS reports, firewall policies, incident response plans                        |
-| **Compliance Architecture**| Align AI and cyber controls with legal mandates and governance codes                  |
-| **Stakeholder Trust**      | Communicate governance maturity across AI, cyber, and corporate domains               |
-| **Innovation Strategy**    | Balance responsible tech adoption with legacy-building and ethical foresight         |
+| Pillar            | Corporate Governance                            | AI Governance                                       | Cybersecurity Governance                          |
+|-------------------|--------------------------------------------------|----------------------------------------------------|---------------------------------------------------|
+| Accountability     | Board fiduciary duties, audit committees         | Responsible AI officers, ethics boards             | CISO, ISMS oversight, breach accountability       |
+| Transparency       | Financial disclosures, stakeholder reporting     | Explainable AI, model documentation                | Security dashboards, incident logs                |
+| Risk Management    | Strategic, operational, reputational risk        | Algorithmic bias, data misuse, ethical drift       | Threat detection, vulnerability management        |
+| Compliance         | King IV, Companies Act, ESG mandates             | GDPR, AI Act, POPIA, internal AI policies          | ISO 27001, NIST CSF, POPIA, GDPR                  |
+| Ethical Oversight  | Whistleblower policies, board charters          | Fairness, non-discrimination, human-centric design | Data ethics, responsible access, privacy safeguards|
 
 ---
 
-### 🔐 3. **ISO 27001 Alignment Touchpoints**
+### 🧠 Strategic Oversight Domains
 
-| **ISO Control Area**              | **Board-Level Integration**                                                  |
-|----------------------------------|------------------------------------------------------------------------------|
-| A.5: Information Security Policies| Approve AI and cyber governance policies                                     |
-| A.6: Organization of IS Security | Define roles for AI ethics, CISO, and governance leads                       |
-| A.8: Asset Management             | Classify AI models and data assets                                          |
-| A.12: Operations Security         | Oversee firewall protocols, access controls, and monitoring systems         |
-| A.18: Compliance                  | Ensure AI and cyber systems meet regulatory and contractual obligations     |
+| Domain                  | Board-Level Focus |
+|------------------------|-------------------|
+| AI Systems             | Approve usage policies, monitor bias audits, ensure ethical deployment |
+| Cybersecurity Posture  | Review ISMS reports, firewall policies, incident response plans |
+| Compliance Architecture| Align AI and cyber controls with legal mandates |
+| Stakeholder Trust      | Communicate governance maturity across domains |
+| Innovation Strategy    | Balance responsible tech adoption with ethical foresight |
 
 ---
 
-The following are several additional best practices for mitigating FTP server abuse and attacks:
+## 🔐 ISO 27001 Alignment Touchpoints
 
-Use strong passwords and multifactor authentication. A best practice is to use good credential management and strong passwords. When possible, use two-factor authentication for any critical service or server.
-Implement file and folder security, making sure that users have access to only the files they are entitled to access.
-Use encryption at rest – that is, encrypt all files stored in the FTP server.
-Lock down administration accounts. You should restrict administrator privileges to a limited number of users and require them to use multifactor authentication. In addition, do not use common administrator usernames such as root or admin.
-Keep the FTPS or SFTP server software up-to-date.
-Use the U.S. government FIPS 140-2 validated encryption ciphers for general guidance on what encryption algorithms to use.
-Keep any back-end databases on a different server than the FTP server.
-Require re-authentication of inactive sessions.
+| ISO Control Area                  | Board-Level Integration |
+|----------------------------------|--------------------------|
+| A.5: Information Security Policies| Approve AI and cyber governance policies |
+| A.6: Organization of IS Security | Define roles for AI ethics, CISO, governance leads |
+| A.8: Asset Management            | Classify AI models and data assets |
+| A.12: Operations Security        | Oversee firewall protocols, access controls, monitoring |
+| A.18: Compliance                 | Ensure systems meet regulatory and contractual obligations |
 
-Key Parts of ISO/IEC 9075 (2023 Edition) (https://copilot.microsoft.com/) https://en.wikipedia.org/wiki/ISO/IEC_9075 
-| Part | Title                                      | Description |
-|------|--------------------------------------------|-------------|
-| 9075-1 | Framework (SQL/Framework)                | Defines overall structure, terms, and grammar |
-| 9075-2 | Foundation (SQL/Foundation)              | Core SQL syntax and semantics |
-| 9075-3 | Call-Level Interface (SQL/CLI)           | SQL access via procedural APIs |
-| 9075-4 | Persistent Stored Modules (SQL/PSM)      | Stored procedures and control structures |
-| 9075-9 | Management of External Data (SQL/MED)    | Accessing external data sources |
-| 9075-10 | Object Language Bindings (SQL/OLB)      | SQL integration with object-oriented languages |
-| 9075-11 | Information and Definition Schemas      | Metadata and schema definitions |
-| 9075-13 | SQL Routines and Types Using Java (SQL/JRT) | Java integration for SQL routines |
-| 9075-14 | XML-Related Specifications (SQL/XML)    | XML support within SQL |
-| 9075-15 | Multidimensional Arrays (SQL/MDA)       | Array data types and operations |
-| 9075-16 | Property Graph Queries (SQL/PGQ)        | Graph query capabilities |
+---
 
-https://www.openapis.org/
+## 🛡️ FTP Server Hardening Best Practices
 
-The following are several general best practices and recommendations for securing APIs:
+| Practice                        | Description |
+|--------------------------------|-------------|
+| Strong Passwords & MFA         | Use credential management and two-factor authentication |
+| File/Folder Security           | Restrict access to authorized users only |
+| Encryption at Rest             | Encrypt stored files on the FTP server |
+| Admin Account Lockdown         | Limit admin privileges and avoid default usernames |
+| Software Updates               | Keep FTPS/SFTP server software current |
+| FIPS 140-2 Ciphers             | Use validated encryption algorithms |
+| Backend Isolation              | Host databases on separate servers |
+| Session Re-authentication     | Require re-login after inactivity |
 
-Secure API services to provide HTTPS endpoints with only a strong version of TLS.
-Validate parameters in the application and sanitize incoming data from API clients.
-Explicitly scan for common attack signatures; injection attacks often betray themselves by following common patterns.
-Use strong authentication and authorization standards.
-Use reputable and standard libraries to create the APIs.
-Segment API implementation and API security into distinct tiers; doing so frees up the API developer to focus completely on the application domain.
-Identify what data should be publicly available and what information is sensitive.
-If possible, have a security expert do the API code verification.
-Make internal API documentation mandatory.
-Avoid discussing company API development (or any other application development) on public forums.
+---
 
-# 🔐 OWASP ASVS Mapping: XSS Mitigation Controls
+## 📚 ISO/IEC 9075 SQL Standard – 2023 Edition
 
-| **ASVS Requirement**              | **Control Description**                                                                 | **Mapped Mitigation**                                      |
-|----------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| 5.1.1 Output Encoding             | Verify that output encoding is applied consistently to all untrusted data.              | HTML, Attribute, JS, CSS, URL Escaping                     |
-| 5.1.2 Context-Specific Encoding  | Verify encoding is appropriate to the context (HTML, JS, CSS, URL).                     | Auto-Escaping Template System                              |
-| 5.1.3 Safe HTML Rendering        | Verify that untrusted HTML is sanitized before rendering.                               | ESAPI, HTML Sanitization Libraries                         |
-| 5.2.1 DOM-Based XSS Prevention   | Verify that client-side scripts do not dynamically generate code from untrusted input.  | DOM XSS Prevention Cheat Sheet                             |
-| 5.2.2 CSP Enforcement            | Verify that Content Security Policy is in place and blocks unsafe inline scripts.       | Content Security Policy (CSP)                              |
-| 5.2.3 HTTPOnly Cookies           | Verify that session cookies are flagged as HTTPOnly.                                    | HTTPOnly Cookie Flag                                       |
-| 5.2.4 XSS Protection Headers     | Verify that X-XSS-Protection header is set (legacy support).                            | X-XSS-Protection Response Header                           |
-| 5.3.1 Unicode and Entity Encoding| Verify that all special characters are encoded using safe formats.                      | HTML Entity Encoding, Unicode Escaping                     |
+| Part      | Title                                | Description |
+|-----------|--------------------------------------|-------------|
+| 9075-1    | SQL/Framework                         | Overall structure, terms, grammar |
+| 9075-2    | SQL/Foundation                        | Core syntax and semantics |
+| 9075-3    | SQL/CLI                               | Procedural API access |
+| 9075-4    | SQL/PSM                               | Stored procedures and control structures |
+| 9075-9    | SQL/MED                               | External data access |
+| 9075-10   | SQL/OLB                               | Object-oriented language bindings |
+| 9075-11   | SQL Schemas                           | Metadata and schema definitions |
+| 9075-13   | SQL/JRT                               | Java integration |
+| 9075-14   | SQL/XML                               | XML support in SQL |
+| 9075-15   | SQL/MDA                               | Multidimensional arrays |
+| 9075-16   | SQL/PGQ                               | Property graph queries |
 
-# 📋 XSS Mitigation Checklist
+---
 
-- [x] Use auto-escaping template systems (e.g., React, Angular, Django templates)
+## 🔗 API Security Best Practices
+
+| Practice                        | Description |
+|--------------------------------|-------------|
+| HTTPS with Strong TLS          | Secure endpoints with modern encryption |
+| Parameter Validation           | Sanitize incoming data from clients |
+| Signature Scanning             | Detect common injection patterns |
+| Strong AuthN/AuthZ             | Use OAuth, JWT, or similar standards |
+| Tiered Architecture            | Separate API logic from security enforcement |
+| Sensitive Data Classification  | Define public vs protected data |
+| Expert Code Review             | Include security audits in development |
+| Internal Documentation         | Mandatory for all APIs |
+| Public Silence                 | Avoid discussing API details on forums |
+
+Here's Part 5 of the GitHub-ready glossary focused on standards and requirements from the draft.docx attachment. This segment covers:
+
+✅ FTP Server Security Requirements
+
+📚 ISO/IEC 9075 SQL Standard Breakdown
+
+🔐 API Security Best Practices
+
+🧩 OWASP ASVS Mapping for XSS
+
+📋 XSS Mitigation Checklist
+
+# 📘 Standards & Requirements Glossary (Part 5)
+
+---
+
+## ✅ FTP Server Security Requirements
+
+| Requirement | Description |
+|-------------|-------------|
+| Strong Passwords & MFA | Use credential management and two-factor authentication |
+| File/Folder Security | Restrict access to authorized users only |
+| Encryption at Rest | Encrypt stored files on the FTP server |
+| Admin Account Lockdown | Limit admin privileges and avoid default usernames |
+| Software Updates | Keep FTPS/SFTP server software current |
+| FIPS 140-2 Ciphers | Use validated encryption algorithms |
+| Backend Isolation | Host databases on separate servers |
+| Session Re-authentication | Require re-login after inactivity |
+
+---
+
+## 📚 ISO/IEC 9075 SQL Standard – 2023 Edition
+
+| Part      | Title                                | Description |
+|-----------|--------------------------------------|-------------|
+| 9075-1    | SQL/Framework                         | Overall structure, terms, grammar |
+| 9075-2    | SQL/Foundation                        | Core syntax and semantics |
+| 9075-3    | SQL/CLI                               | Procedural API access |
+| 9075-4    | SQL/PSM                               | Stored procedures and control structures |
+| 9075-9    | SQL/MED                               | External data access |
+| 9075-10   | SQL/OLB                               | Object-oriented language bindings |
+| 9075-11   | SQL Schemas                           | Metadata and schema definitions |
+| 9075-13   | SQL/JRT                               | Java integration |
+| 9075-14   | SQL/XML                               | XML support in SQL |
+| 9075-15   | SQL/MDA                               | Multidimensional arrays |
+| 9075-16   | SQL/PGQ                               | Property graph queries |
+
+---
+
+## 🔐 API Security Best Practices
+
+| Practice | Description |
+|----------|-------------|
+| HTTPS with Strong TLS | Secure endpoints with modern encryption |
+| Parameter Validation | Sanitize incoming data from clients |
+| Signature Scanning | Detect common injection patterns |
+| Strong AuthN/AuthZ | Use OAuth, JWT, or similar standards |
+| Tiered Architecture | Separate API logic from security enforcement |
+| Sensitive Data Classification | Define public vs protected data |
+| Expert Code Review | Include security audits in development |
+| Internal Documentation | Mandatory for all APIs |
+| Public Silence | Avoid discussing API details on forums |
+
+---
+
+## 🧩 OWASP ASVS Mapping: XSS Mitigation Controls
+
+| ASVS Requirement | Control Description | Mapped Mitigation |
+|------------------|---------------------|--------------------|
+| 5.1.1 Output Encoding | Encode all untrusted output | HTML, Attribute, JS, CSS, URL escaping |
+| 5.1.2 Context-Specific Encoding | Match encoding to context | Auto-escaping template systems |
+| 5.1.3 Safe HTML Rendering | Sanitize HTML before rendering | ESAPI, DOMPurify |
+| 5.2.1 DOM-Based XSS Prevention | Avoid dynamic code from untrusted input | DOM XSS Cheat Sheet |
+| 5.2.2 CSP Enforcement | Block unsafe inline scripts | Content Security Policy |
+| 5.2.3 HTTPOnly Cookies | Prevent client-side cookie access | HTTPOnly flag |
+| 5.2.4 XSS Protection Headers | Enable legacy browser filters | X-XSS-Protection header |
+| 5.3.1 Unicode & Entity Encoding | Encode special characters safely | HTML Entity Encoding, Unicode Escaping |
+
+---
+
+## 📋 XSS Mitigation Checklist
+
+- [x] Use auto-escaping template systems (e.g., React, Angular, Django)
 - [x] Escape untrusted data before inserting into:
-  - [x] HTML element content
-  - [x] HTML attributes
-  - [x] JavaScript values
-  - [x] CSS properties
-  - [x] URL parameters
+  - HTML element content
+  - HTML attributes
+  - JavaScript values
+  - CSS properties
+  - URL parameters
 - [x] Sanitize HTML using libraries (e.g., DOMPurify, ESAPI)
 - [x] Prevent DOM-based XSS (refer to OWASP DOM XSS Cheat Sheet)
 - [x] Set HTTPOnly flag on cookies
 - [x] Implement Content Security Policy (CSP)
-- [x] Use X-XSS-Protection header (for legacy browser support)
+- [x] Use X-XSS-Protection header (legacy support)
 - [x] Encode special characters:
-  - [x] `&` → `&amp;`
-  - [x] `<` → `&lt;`
-  - [x] `>` → `&gt;`
-  - [x] `"` → `&quot;`
-  - [x] `'` → `&#x27;`
-  - [x] `/` → `&#x2F;`
-- [x] Use `&#xHH;` format for HTML entity encoding
-- [x] Use `\uXXXX` format for Unicode escaping
-- [x] Use `\XX` or `\XXXXXX` format for CSS escaping
+  - `&` → `&amp;`
+  - `<` → `&lt;`
+  - `>` → `&gt;`
+  - `"` → `&quot;`
+  - `'` → `&#x27;`
+  - `/` → `&#x2F;`
+- [x] Use `&#xHH;` for HTML entity encoding
+- [x] Use `\uXXXX` for Unicode escaping
+- [x] Use `\XX` or `\XXXXXX` for CSS escaping
 - [x] Educate users on safe browsing practices
 
-# 🛡️ XSS Mitigation Framework
+Etienne. Here's Part 6 of the GitHub-ready glossary focused on standards and requirements from the draft.docx attachment. This segment wraps up with:
 
-Welcome to the **XSS Mitigation Module**, aligned with [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) and built for governance, compliance, and stakeholder education.
+🧠 Strategic Convergence of AI, Cybersecurity, and Governance
 
-## 🔍 Overview
+🏛️ Final Deployment Notes for GitHub Pages Integration
 
-Cross-Site Scripting (XSS) is a critical web vulnerability. This module outlines best practices, encoding strategies, and policy-level controls to prevent XSS attacks.
+📘 Summary of Frameworks, Standards, and Mappings
 
-## 📘 Resources
-
-- [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
-- [DOM-Based XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
-
-## ✅ ASVS Mappings
-👉 See [ASVS Mapping Table](#🔐-owasp-asvs-mapping-xss-mitigation-controls)
-
-## 📋 Mitigation Checklist
-👉 See [Checklist](#📋-xss-mitigation-checklist)
-
-## 📚 Glossary & Acronyms
-👉 See [Glossary](#🛡️-glossary-xss-mitigation-techniques) and [Acronyms](#🔠-acronym-intelligence-xss-mitigation-context)
+# 📘 Standards & Requirements Glossary (Part 6)
 
 ---
 
-https://aws.amazon.com/compliance/shared-responsibility-model/
-https://aws.amazon.com/security/penetration-testing/
-http://www.pentest-standard.org/index.php/Main_Page
+## 🧠 Strategic Convergence: AI, Cybersecurity & Governance
 
-Requirements and Guidelines for Penetration Testing Labs:
-# ✅ Lab Environment Setup Guidelines
+| Domain | Strategic Role | Governance Implication |
+|--------|----------------|-------------------------|
+| AI Systems | Ethical automation, decision support | Requires oversight of bias, transparency, and accountability |
+| Cybersecurity | Protection of digital assets | Requires ISMS, incident response, and board-level visibility |
+| Corporate Governance | Strategic direction and stakeholder trust | Requires compliance, ethical oversight, and risk management |
 
-| **Requirement or Guideline**       | **Description**                                                                 |
-|-----------------------------------|----------------------------------------------------------------------------------|
-| Closed network                    | Ensure controlled access to and from the lab environment and restrict Internet access. |
-| Virtualized computing environment | Allows for easy deployment and recovery of devices being tested.                |
-| Realistic environment             | The testing environment should closely match the real-world environment.        |
-| Health monitoring                 | Enables diagnosis of crashes and system failures.                               |
-| Sufficient hardware resources     | Prevents false results caused by resource limitations.                          |
-| Multiple operating systems        | Validates findings across different platforms for consistency.                  |
-| Duplicate tools                   | Confirms results by running the same test with different tools.                 |
-| Practice targets                  | Use known vulnerable systems to safely practice tool usage.                     |
+### 🔗 Intersection Points
+
+- AI decisions must be explainable and auditable under board governance
+- Cybersecurity controls (e.g., firewalls, access logs) become governance tools
+- ISO 27001, GDPR, POPIA, and the AI Act form a unified compliance backbone
+- Boards must oversee AI and cyber risks as part of fiduciary duties
+
+---
+
+## 🏛️ GitHub Pages Deployment Notes
+
+### 📁 Suggested Folder Structure
+
+
+### 🧩 Sidebar Navigation (Docsify or MkDocs)
+
+```yaml
+- Glossary Home: index.md
+- System Requirements: system-requirements.md
+- Governance Frameworks: governance-frameworks.md
+- Cybersecurity Standards: cybersecurity-standards.md
+- API Security: api-security.md
+- XSS Mitigation: xss-mitigation.md
+- SQL Injection: sql-injection.md
+- Boardroom Integration: boardroom-integration.md
+- Lab Setup Guidelines: lab-setup.md
+
+Here's a clean, GitHub-ready markdown summary of the key frameworks and standards referenced in your draft.docx document. 
+This format is optimized for GitHub Pages, stakeholder briefings, and modular toolkit deployment.
+
+# 📘 Summary of Frameworks & Standards
+
+This reference consolidates governance, cybersecurity, and penetration testing frameworks into a single, stakeholder-ready summary.
+
+---
+
+## 🏛️ Governance & Compliance Frameworks
+
+| Framework / Standard     | Domain                  | Purpose / Focus Area                                      |
+|--------------------------|-------------------------|------------------------------------------------------------|
+| King IV                  | Corporate Governance     | Ethical leadership, sustainability, stakeholder inclusivity |
+| Companies Act (SA)       | Legal Compliance         | Board duties, fiduciary responsibilities, reporting         |
+| Sarbanes-Oxley (SOX)     | Financial Governance     | Internal controls, audit trails, financial transparency     |
+| GDPR                     | Data Protection (EU)     | Privacy rights, data handling, breach notification          |
+| POPIA                    | Data Protection (SA)     | Lawful processing, consent, security safeguards             |
+| AI Act (EU)              | AI Governance            | Risk-based regulation of AI systems                         |
+
+---
+
+## 🤖 AI Governance Standards
+
+| Principle                | Description                                                  |
+|--------------------------|--------------------------------------------------------------|
+| Ethical Oversight        | Avoid bias, discrimination, and harm                         |
+| Transparency             | Ensure explainable decisions and traceable logic             |
+| Accountability           | Define ownership and escalation paths                        |
+| Compliance               | Align with GDPR, POPIA, AI Act, and ESG mandates             |
+| Lifecycle Management     | Govern AI from design to decommissioning                     |
+
+---
+
+## 🔐 Cybersecurity Standards
+
+| Standard / Framework     | Domain                  | Key Features                                                  |
+|--------------------------|-------------------------|----------------------------------------------------------------|
+| ISO/IEC 27001            | Information Security     | ISMS, risk treatment, access control, incident response        |
+| NIST CSF                 | Cybersecurity Governance | Identify, Protect, Detect, Respond, Recover                    |
+| FIPS 140-2               | Cryptography             | Validated encryption algorithms and modules                    |
+| OWASP ASVS               | App Security             | Verification of secure coding and input/output handling        |
+| OWASP WSTG               | Web App Testing          | Manual testing guide for web vulnerabilities                   |
+| MITRE ATT&CK             | Threat Modeling          | Tactics, techniques, procedures (TTPs)                         |
+
+---
+
+## 🧪 Penetration Testing Methodologies
+
+| Framework                | Focus Area               | Key Feature                                                   |
+|--------------------------|--------------------------|----------------------------------------------------------------|
+| PTES                     | General Pentesting        | Repeatable, consistent phases from pre-engagement to reporting |
+| NIST SP 800-115          | Security Assessments      | Governance-aligned testing lifecycle                          |
+| OSSTMM                   | Operational Security      | Trust analysis, workflow modeling                             |
+| ISSAF                    | Systems Assessment        | Comprehensive security evaluation                             |
+| STAR                     | Audit Reporting           | Structured format for documenting test results                |
+
+---
+
+## 📚 SQL Standards (ISO/IEC 9075 – 2023 Edition)
+
+| Part        | Title                                | Description                                  |
+|-------------|--------------------------------------|----------------------------------------------|
+| 9075-1      | SQL/Framework                         | Overall structure, terms, grammar            |
+| 9075-2      | SQL/Foundation                        | Core syntax and semantics                    |
+| 9075-3      | SQL/CLI                               | Procedural API access                        |
+| 9075-4      | SQL/PSM                               | Stored procedures and control structures     |
+| 9075-9      | SQL/MED                               | External data access                         |
+| 9075-10     | SQL/OLB                               | Object-oriented language bindings            |
+| 9075-11     | SQL Schemas                           | Metadata and schema definitions              |
+| 9075-13     | SQL/JRT                               | Java integration                             |
+| 9075-14     | SQL/XML                               | XML support in SQL                           |
+| 9075-15     | SQL/MDA                               | Multidimensional arrays                      |
+| 9075-16     | SQL/PGQ                               | Property graph queries                       |
+
+---
+
+## 🔗 Shared Responsibility Models
+
+| Provider     | Model Summary                                             | Governance Implication                                  |
+|--------------|-----------------------------------------------------------|----------------------------------------------------------|
+| AWS          | AWS secures infrastructure; customer secures data, apps   | Boards must oversee cloud configuration and access       |
+| Azure        | Microsoft secures platform; customer secures workloads    | Governance teams align cloud policies with ISO 27001     |
+| GCP          | Google secures services; customer secures usage           | Shared risk must be documented in compliance architecture|
+
+---
+
+> ✅ This summary is modular, exportable, and ready for GitHub Pages deployment. 
+Use it to scaffold stakeholder briefings, onboarding kits, or compliance dashboards.
+
