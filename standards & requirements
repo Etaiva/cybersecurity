@@ -613,14 +613,17 @@ This reference consolidates governance, cybersecurity, and penetration testing f
 
 ## 🔐 Cybersecurity Standards
 
-| Standard / Framework     | Domain                  | Key Features                                                  |
-|--------------------------|-------------------------|----------------------------------------------------------------|
+| Standard / Framework     | Domain                  | Key Features                                                    | Website
+|--------------------------|-------------------------|-----------------------------------------------------------------|
 | ISO/IEC 27001            | Information Security     | ISMS, risk treatment, access control, incident response        |
 | NIST CSF                 | Cybersecurity Governance | Identify, Protect, Detect, Respond, Recover                    |
 | FIPS 140-2               | Cryptography             | Validated encryption algorithms and modules                    |
 | OWASP ASVS               | App Security             | Verification of secure coding and input/output handling        |
 | OWASP WSTG               | Web App Testing          | Manual testing guide for web vulnerabilities                   |
 | MITRE ATT&CK             | Threat Modeling          | Tactics, techniques, procedures (TTPs)                         |
+| ISSA                     | Ethics Review Policy     | Ethics Complaint Review Process                                | https://issa.org/ 
+| ISSA                     | Code of Ethics           | Downloads: Ethics Committee Overview Presentation & Ethics Review Policy | https://issa.org/code-of-ethics/
+| CISCO                    | Code of Business Conduct | Investor Relations                                             | https://investor.cisco.com/corporate-governance/code-of-business-conduct/default.aspx
 
 ---
 
