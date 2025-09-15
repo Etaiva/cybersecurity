@@ -1,0 +1,158 @@
+Here's Part 1 of the GitHub-ready roadmap tables, starting with Entry-Level Certifications. 
+Each table is modular, exportable, and structured for GitHub Pages or onboarding kits. 
+I’ve included headings as requested:
+
+# 🟢 Entry-Level Cybersecurity Certifications Roadmap
+
+| **Provider's Name** | **Certification / Track** | **Focus Area** | **Time Frame** | **Ideal For / Focus Area** | **Career Roles / Direction (Red / Blue / Purple Hat)** | **Cost (ZAR)** | **Website** | **Deployment Strategy / Recommended Study Materials / Roadmap Positioning or Role** |
+|---------------------|---------------------------|----------------|----------------|-----------------------------|--------------------------------------------------------|----------------|-------------|----------------------------------------------------------------------------------------|
+| CompTIA             | ITF+ / Security+          | Cybersecurity fundamentals | 30–60 hrs      | Interns, Junior Analysts     | Blue Hat (Security Awareness), Purple Hat (GRC Starter) | ~2,500–7,500   | [comptia.org](https://www.comptia.org/en-us/certifications/) | CertMaster Learn, Professor Messer, foundational for GRC and SOC onboarding |
+| Cisco               | CCST Cybersecurity        | Threats, CIA triad         | 15–30 hrs      | Students, Entry-level Tech Roles | Blue Hat (SOC Prep), Purple Hat (Governance Literacy) | Free–Low       | [netacad.com](https://www.netacad.com/) | Cisco NetAcad modules, GitHub Pages integration, ideal for onboarding kits |
+| TryHackMe           | Pre-Security / Intro Labs | Hands-on basics            | 20–40 hrs      | Beginners, Career Explorers   | Red Hat (Lab Exposure), Blue Hat (Detection Basics)    | Free–Low       | [tryhackme.com](https://tryhackme.com/welcome) | Gamified labs, badge tracker, sprint planner integration |
+| EC-Council          | Essentials Series (NDE, EHE, DFE) | Digital forensics, network, ethical hacking | 30–50 hrs | Entry-level Security Learners | Red Hat (EHE), Blue Hat (NDE), Purple Hat (DFE)        | Free–Low       | [eccouncil.org](https://www.eccouncil.org/) | CodeRed platform, LinkedIn badge-ready, GitHub onboarding module |
+| Fortinet            | FCF – Fundamentals        | Threat landscape, basics   | 10–20 hrs      | Onboarding, Non-tech Consultants | Blue Hat (SOC Literacy), Purple Hat (Risk Awareness)   | Free–Low       | [fortinet.com](https://training.fortinet.com/) | Fortinet NSE Institute, governance-aligned starter track |
+| Google              | Cybersecurity Certificate | Online safety & fundamentals | ~40 hrs       | Career switchers, SME teams   | Blue Hat (Privacy), Purple Hat (Digital Ethics)        | Free–Low       | [grow.google](https://grow.google/intl/ssa-en/courses-and-tools/) | Career-aligned, governance-ready, ideal for stakeholder literacy |
+| FreeCodeCamp        | InfoSec Projects          | Hands-on labs              | Self-paced     | Self-learners, interns        | Red Hat (Lab Practice), Blue Hat (Security Hygiene)    | Free           | [freecodecamp.org](https://www.freecodecamp.org/learn/information-security/) | GitHub integration, project-based learning, sprint planner compatible |
+
+Here's Part 2 of the GitHub-ready roadmap tables, now covering Intermediate-Level Certifications. 
+Each entry is modular and structured for GitHub Pages, sprint planners, or stakeholder toolkits.
+
+# 🟡 Intermediate-Level Cybersecurity Certifications Roadmap
+
+| **Provider's Name** | **Certification / Track** | **Focus Area** | **Time Frame** | **Ideal For / Focus Area** | **Career Roles / Direction (Red / Blue / Purple Hat)** | **Cost (ZAR)** | **Website** | **Deployment Strategy / Recommended Study Materials / Roadmap Positioning or Role** |
+|---------------------|---------------------------|----------------|----------------|-----------------------------|--------------------------------------------------------|----------------|-------------|----------------------------------------------------------------------------------------|
+| CompTIA             | CySA+ / Pentest+          | Blue/Red team skills | 60–80 hrs      | SOC Analysts, Security Engineers | Blue Hat (Detection), Red Hat (Exploitation)           | ~7,500–12,000  | [comptia.org](https://www.comptia.org/en-us/certifications/) | CertMaster Learn, Sybex guides, ideal for SOC Tier 1 and SME consultants |
+| Cisco               | CyberOps Associate / CCNA Security | SOC, network defense | 60–80 hrs | Network Admins, SOC Tier 1 | Blue Hat (Network Defense), Purple Hat (Compliance)    | ~6,000–10,000  | [cisco.com](https://www.cisco.com/site/us/en/learn/training-certifications/) | NetAcad + Cisco Press books, ideal for network-centric SMEs |
+| TryHackMe           | Offensive Pentesting / SOC Paths | PrivEsc, SIEM, detection | 40–80 hrs | Hands-on Practitioners | Red Hat (Privilege Escalation), Blue Hat (SIEM)        | Free–Low       | [tryhackme.com](https://tryhackme.com/welcome) | Gamified labs, sprint planner integration, GitHub badge tracker |
+| EC-Council          | CEH / CND                 | Ethical hacking, defense | 80–100 hrs     | Red/Blue Team Operators | Red Hat (CEH), Blue Hat (CND), Purple Hat (Compliance) | ~10,000–18,000 | [eccouncil.org](https://www.eccouncil.org/) | CodeRed labs, CEH v12 modules, LinkedIn badge-ready |
+| Fortinet            | FCP – Professional (Security Ops) | FortiSIEM, FortiSOAR, analytics | 60–90 hrs | Security Operations, Cloud Analysts | Blue Hat (SOC), Purple Hat (Automation & Governance)   | Free–Low       | [training.fortinet.com](https://training.fortinet.com/) | Fortinet NSE Institute, ideal for SOC and OT consultants |
+| Microsoft           | SC-900 / Azure Admin      | Identity, compliance, cloud | 20–40 hrs      | GRC Analysts, Cloud Admins | Blue Hat (Cloud Security), Purple Hat (Governance)     | Free–Low       | [learn.microsoft.com](https://learn.microsoft.com/en-us/credentials/certifications/) | Microsoft Learn, GitHub Pages integration, ideal for governance-aligned SMEs |
+| PortSwigger Academy | Web App Security Labs     | OWASP Top 10, secure coding | Self-paced     | Web Developers, AppSec Analysts | Red Hat (Exploitation), Purple Hat (Secure DevOps)     | Free           | [portswigger.net](https://portswigger.net/web-security) | OWASP-aligned labs, GitHub-ready walkthroughs, sprint planner compatible |
+
+Here's Part 3 of the GitHub-ready roadmap tables, now covering Advanced-Level Certifications. This segment is tailored for strategic consultants, architects, and governance-aligned professionals. Each entry is modular and deployment-ready.
+
+# 🔴 Advanced-Level Cybersecurity Certifications Roadmap
+
+| **Provider's Name** | **Certification / Track** | **Focus Area** | **Time Frame** | **Ideal For / Focus Area** | **Career Roles / Direction (Red / Blue / Purple Hat)** | **Cost (ZAR)** | **Website** | **Deployment Strategy / Recommended Study Materials / Roadmap Positioning or Role** |
+|---------------------|---------------------------|----------------|----------------|-----------------------------|--------------------------------------------------------|----------------|-------------|----------------------------------------------------------------------------------------|
+| CompTIA             | CASP+                     | Enterprise security architecture | 80–100 hrs     | Lead Consultants, Architects | Purple Hat (Strategic Security), Blue Hat (Enterprise Defense) | ~12,000–18,000 | [comptia.org](https://www.comptia.org/en-us/certifications/) | CertMaster Learn, Sybex CASP+ Guide, ideal for boardroom-aligned consultants |
+| Cisco               | CCNP / CCIE Security      | Advanced network security | 100–150 hrs    | Senior Engineers, Architects | Blue Hat (Infrastructure Defense), Purple Hat (Compliance Architecture) | ~15,000–30,000 | [cisco.com](https://www.cisco.com/site/us/en/learn/training-certifications/) | Cisco Press, NetAcad, ideal for enterprise network governance |
+| TryHackMe / HTB     | CPTS                      | Advanced red teaming | 80–100 hrs     | Offensive Security Specialists | Red Hat (Exploit Dev), Purple Hat (Adversary Simulation) | ~3,000–6,000   | [tryhackme.com](https://tryhackme.com/welcome) | HTB labs, GitHub badge tracker, ideal for red team consultants |
+| EC-Council          | LPT / ECSA / CHFI         | Penetration testing, forensics | 100–120 hrs    | Cybersecurity Specialists | Red Hat (LPT), Blue Hat (CHFI), Purple Hat (ECSA)      | ~18,000–28,000 | [eccouncil.org](https://www.eccouncil.org/) | CodeRed, EC-Council labs, ideal for forensic and audit consultants |
+| Fortinet            | FCSS / FCX                | Governance, OT, cloud mastery | 100–150 hrs    | CISO Advisors, Enterprise Architects | Purple Hat (Governance), Blue Hat (SOC/OT)             | Free–Low       | [training.fortinet.com](https://training.fortinet.com/) | NSE Institute, ideal for strategic governance and OT alignment |
+| ISC²                | CISSP + Concentrations    | Governance, architecture, risk | 100–120 hrs    | Senior Consultants, Risk Officers | Purple Hat (Governance), Blue Hat (Security Management) | ~12,000–20,000 | [isc2.org](https://www.isc2.org/) | CBK domains, Sybex CISSP Guide, ideal for boardroom credibility |
+| ISACA               | CISM / CISA               | Audit, risk, governance | 80–100 hrs     | Governance Professionals     | Purple Hat (Audit & Compliance)                        | ~15,000–25,000 | [isaca.org](https://www.isaca.org/) | ISACA study guides, ideal for GRC-aligned consultants |
+| GIAC / SANS         | GPEN / GSEC / GCIH        | Pentesting, incident response | 60–100 hrs     | Red/Blue Team Leads          | Red Hat (GPEN), Blue Hat (GCIH), Purple Hat (GSEC)     | ~20,000–35,000 | [giac.org](https://www.giac.org/) | SANS labs, strategic for enterprise security teams |
+
+Here's Part 4 of the GitHub-ready roadmap tables, expanding on the strategic certification matrix from draft roadmap.docx. 
+This segment focuses on Purple Hat Track certifications and governance-aligned roles, ideal for consultants, advisors, and boardroom-facing professionals.
+
+# 🟣 Purple Hat Cybersecurity Certifications Roadmap
+
+| **Provider's Name** | **Certification / Track** | **Focus Area** | **Time Frame** | **Ideal For / Focus Area** | **Career Roles / Direction (Red / Blue / Purple Hat)** | **Cost (ZAR)** | **Website** | **Deployment Strategy / Recommended Study Materials / Roadmap Positioning or Role** |
+|---------------------|---------------------------|----------------|----------------|-----------------------------|--------------------------------------------------------|----------------|-------------|----------------------------------------------------------------------------------------|
+| ISC²                | CISSP                     | Governance, risk, compliance | ~100 hrs       | Security Managers, GRC Advisors | Purple Hat (Governance), Blue Hat (Security Management) | ~12,000–20,000 | [isc2.org](https://www.isc2.org/) | Sybex CISSP Guide, CBK domains, ideal for boardroom credibility and ISO/NIST alignment |
+| ISACA               | CISM / CISA               | Audit, risk, governance | ~80 hrs        | Governance Professionals     | Purple Hat (Audit & Compliance)                        | ~15,000–25,000 | [isaca.org](https://www.isaca.org/) | ISACA study guides, ideal for GRC-aligned consultants and compliance teams |
+| Microsoft           | SC-900 / Responsible AI   | Cloud security, identity, AI ethics | ~20–30 hrs | GRC Analysts, Cloud Consultants | Purple Hat (Governance), Blue Hat (Cloud Security)     | Free–Low       | [learn.microsoft.com](https://learn.microsoft.com/en-us/credentials/certifications/) | Microsoft Learn, ideal for AI governance and stakeholder literacy |
+| Google              | Responsible AI Certificate | Fairness, bias, transparency | ~10 hrs        | Ethics Advisors, Policy Consultants | Purple Hat (Responsible AI)                            | Free           | [grow.google](https://grow.google/intl/ssa-en/courses-and-tools/) | Governance-aligned, ideal for boardroom ethics and AI risk mapping |
+| IBM                 | AI Fundamentals           | Intro to AI & ethics | ~10 hrs        | Consultants, Analysts         | Purple Hat (AI Literacy)                               | Free           | [ibm.com](https://www.ibm.com/training/security) | Strategic AI ethics primer, ideal for stakeholder onboarding |
+| ISECOM              | OSSTMM / STAR             | Trust metrics, security testing | ~20 hrs        | Risk Analysts, Governance Leads | Purple Hat (Trust & Metrics)                           | Free–Low       | [isecom.org](https://www.isecom.org/) | STAR methodology, ideal for boardroom trust and compliance mapping |
+| Coursera            | GenAI Specialization      | Prompting, risks, use cases | ~30 hrs        | Consultants, AI Strategists    | Purple Hat (GenAI Governance)                          | Low–Med        | [coursera.org](https://www.coursera.org/) | Stakeholder-ready GenAI fluency, ideal for governance decks |
+| Microsoft           | Azure AI Engineer (AI-102)| Building AI solutions | ~40–60 hrs     | AI Developers, Cloud Architects | Purple Hat (AI Risk & Deployment)                      | Free–Med       | [learn.microsoft.com](https://learn.microsoft.com/en-us/credentials/certifications/) | Azure-aligned, ideal for secure AI deployment and governance integration |
+
+Here's Part 5 of the GitHub-ready roadmap tables, expanding the strategic certification matrix with AI Governance & Responsible AI Tracks. 
+This segment is tailored for consultants, boardroom advisors, and governance-aligned professionals navigating cybersecurity and AI ethics.
+
+# 🧠 Responsible AI & Governance Certification Roadmap
+
+| **Provider's Name** | **Certification / Track** | **Focus Area** | **Time Frame** | **Ideal For / Focus Area** | **Career Roles / Direction (Red / Blue / Purple Hat)** | **Cost (ZAR)** | **Website** | **Deployment Strategy / Recommended Study Materials / Roadmap Positioning or Role** |
+|---------------------|---------------------------|----------------|----------------|-----------------------------|--------------------------------------------------------|----------------|-------------|----------------------------------------------------------------------------------------|
+| Microsoft           | Responsible AI Principles | AI ethics, fairness, governance | ~10–15 hrs     | Consultants, Policy Advisors | Purple Hat (AI Governance)                            | Free           | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/) | Ethics-aligned, ideal for stakeholder briefings and boardroom decks |
+| Google              | Responsible AI Certificate | Bias, transparency, fairness | ~10 hrs        | Ethics Advisors, GRC Leads   | Purple Hat (Responsible AI)                            | Free           | [grow.google](https://grow.google/intl/ssa-en/courses-and-tools/) | Governance-ready, ideal for compliance and risk mapping |
+| IBM                 | AI Fundamentals            | Intro to AI & ethics | ~10 hrs        | Consultants, Analysts         | Purple Hat (AI Literacy)                               | Free           | [ibm.com](https://www.ibm.com/training/security) | Strategic primer, ideal for onboarding and stakeholder literacy |
+| Coursera            | GenAI Specialization       | Prompting, risks, use cases | ~30 hrs        | AI Strategists, Consultants   | Purple Hat (GenAI Governance)                          | Low–Med        | [coursera.org](https://www.coursera.org/) | Stakeholder-ready fluency, ideal for governance decks and SME training |
+| Microsoft           | Azure AI Engineer (AI-102) | Building secure AI solutions | ~40–60 hrs     | Cloud Architects, AI Developers | Purple Hat (AI Risk & Deployment)                      | Free–Med       | [learn.microsoft.com](https://learn.microsoft.com/en-us/credentials/certifications/) | Azure-aligned, ideal for secure AI deployment and governance integration |
+| GitHub              | Advanced Security Pathway  | Secure DevOps, AI tooling | ~10 hrs        | DevSecOps Engineers, Consultants | Purple Hat (Secure AI DevOps)                          | Free           | [resources.github.com](https://resources.github.com/learn/pathways/security/essentials/) | Ideal for integrating AI security into CI/CD pipelines |
+| ISECOM              | OSSTMM / STAR              | Trust metrics, security testing | ~20 hrs        | Risk Analysts, Governance Leads | Purple Hat (Trust & Metrics)                           | Free–Low       | [isecom.org](https://www.isecom.org/) | STAR methodology, ideal for boardroom trust and compliance mapping |
+
+Here's Part 6 of the GitHub-ready roadmap tables, rounding out the series with a Strategic Deployment Matrix. 
+This segment maps certifications to their ideal use cases, governance relevance, and GitHub-ready deployment strategies—perfect for onboarding kits, sprint planners, or stakeholder documentation.
+
+# 🧭 Strategic Certification Deployment Matrix
+
+| **Track**           | **Certifications / Courses**                          | **Stakeholder Value**                          | **GitHub Deployment Strategy** |
+|---------------------|--------------------------------------------------------|------------------------------------------------|-------------------------------|
+| Cybersecurity Core  | CCST, Security+, SC-900                                | Privacy, resilience, compliance                | Modular lab walkthroughs, badge tracker, sprint planner |
+| Governance & Risk   | CISA, CISM, CISSP                                      | Risk, audit, boardroom trust                   | Governance glossary, ISO/NIST mapping, stakeholder Q&A sets |
+| Responsible AI      | Microsoft, Google, IBM Responsible AI                 | Ethics, fairness, transparency                 | Ethical AI glossary, risk matrix, governance conversation starters |
+| GenAI & Tooling     | AI-102, Coursera GenAI, GitHub Advanced Security      | Prompting, tooling, stakeholder fluency        | Prompting playbook, DevSecOps integration, sprint planner |
+| Offensive Security  | OSCP, CEH, GPEN, CPTS                                  | Red team readiness, exploit development        | TryHackMe/HTB lab index, exploit walkthroughs, badge tracker |
+| Defensive Security  | CySA+, CyberOps, Fortinet NSE                          | SOC operations, detection, incident response   | SIEM lab guides, SOC playbooks, threat response templates |
+| Cloud & DevSecOps   | Azure Admin, GitHub Sec, Cloud+                        | Secure cloud deployment, CI/CD governance      | Cloud security modules, GitHub Pages integration, sprint planner |
+| Entry-Level Onboarding | ITF+, Essentials Series, FreeCodeCamp              | Literacy, exposure, career exploration         | Reading plans, onboarding decks, GitHub starter kits |
+
+Here's a modular, GitHub-ready Badge Tracker that integrates the certification roadmap from draft roadmap.docx. 
+It’s structured for consultants, learners, and governance-aligned professionals across Entry, Intermediate, and Advanced levels—including Purple Hat and Responsible AI tracks.
+
+# 🏁 Cybersecurity & Governance Badge Tracker
+
+Track your progress across certification tiers and strategic learning paths.
+
+---
+
+## 🟢 Entry-Level Certifications
+
+| **Provider** | **Badge / Certification** | **Status** | **Date Earned** | **Notes** |
+|--------------|----------------------------|------------|------------------|-----------|
+| CompTIA      | ITF+                       | ☐          |                  | Retiring July 2025; consider Tech+ |
+| CompTIA      | Security+                  | ☐          |                  | ISO/NIST aligned; GRC-ready |
+| Cisco        | CCST Cybersecurity         | ☐          |                  | NetAcad-based; ideal for onboarding |
+| TryHackMe     | Pre-Security Track         | ☐          |                  | Gamified labs; SOC prep |
+| EC-Council   | Essentials Series (EHE, DFE, NDE) | ☐          |                  | Free with certificate via CodeRed |
+| Fortinet     | FCF – Fundamentals         | ☐          |                  | SOC literacy; OT-friendly |
+| Google       | Cybersecurity Certificate  | ☐          |                  | SME and stakeholder literacy |
+| FreeCodeCamp | InfoSec Projects           | ☐          |                  | GitHub-integrated hands-on labs |
+
+---
+
+## 🟡 Intermediate-Level Certifications
+
+| **Provider** | **Badge / Certification** | **Status** | **Date Earned** | **Notes** |
+|--------------|----------------------------|------------|------------------|-----------|
+| CompTIA      | CySA+                      | ☐          |                  | SOC analyst track |
+| CompTIA      | Pentest+                   | ☐          |                  | Red team prep |
+| Cisco        | CyberOps Associate         | ☐          |                  | SOC Tier 1 readiness |
+| EC-Council   | CEH                        | ☐          |                  | Ethical hacking fundamentals |
+| Fortinet     | FCP – Security Ops         | ☐          |                  | FortiSIEM/FortiSOAR integration |
+| TryHackMe     | Offensive / SOC Tracks     | ☐          |                  | PrivEsc, SIEM, detection labs |
+| PortSwigger  | Web Security Academy       | ☐          |                  | OWASP Top 10 mastery |
+| GitHub       | Advanced Security Pathway  | ☐          |                  | Secure DevOps and CI/CD governance |
+
+---
+
+## 🔴 Advanced-Level Certifications
+
+| **Provider** | **Badge / Certification** | **Status** | **Date Earned** | **Notes** |
+|--------------|----------------------------|------------|------------------|-----------|
+| CompTIA      | CASP+                      | ☐          |                  | Strategic architecture |
+| Cisco        | CCNP / CCIE Security       | ☐          |                  | Enterprise network defense |
+| EC-Council   | LPT / ECSA / CHFI          | ☐          |                  | Red team and forensic specialization |
+| Fortinet     | FCSS / FCX                 | ☐          |                  | Governance and OT mastery |
+| ISC²         | CISSP                      | ☐          |                  | Boardroom credibility |
+| ISACA        | CISA / CISM                | ☐          |                  | Audit and compliance leadership |
+| GIAC / SANS  | GPEN / GCIH / GSEC         | ☐          |                  | Strategic red/blue team roles |
+
+---
+
+## 🟣 Responsible AI & Governance Track
+
+| **Provider** | **Badge / Certification** | **Status** | **Date Earned** | **Notes** |
+|--------------|----------------------------|------------|------------------|-----------|
+| Microsoft    | Responsible AI Principles  | ☐          |                  | Ethics and governance alignment |
+| Google       | Responsible AI Certificate | ☐          |                  | Bias, fairness, transparency |
+| IBM          | AI Fundamentals            | ☐          |                  | Intro to AI ethics |
+| Coursera     | GenAI Specialization       | ☐          |                  | Prompting and stakeholder fluency |
+| Microsoft    | Azure AI Engineer (AI-102) | ☐          |                  | Secure AI deployment |
+| ISECOM       | OSSTMM / STAR              | ☐          |                  | Trust metrics and compliance mapping |
+
+
