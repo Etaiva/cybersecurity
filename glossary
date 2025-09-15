@@ -24,6 +24,8 @@ Each entry includes definitions and strategic relevance.
 | Network Access Control | NAC | Device access restriction | Identity governance | AI-enhanced authentication protocols |
 | IP Address  | Internet Protocol Address | Networking     | A unique identifier assigned to each device on a network, used for routing packets across networks. |
 | MAC Address | Media Access Control Address | Networking     | A hardware address that uniquely identifies a device on a local network segment; used for frame delivery at Layer 2. |
+| Service Set Identifier   | SSID    | A unique name assigned to a WLAN that enables devices to identify and connect to the correct wireless network. | Critical for network segmentation, access control, and auditability in enterprise environments. | Ensures transparent device-network association; supports ethical data routing and privacy boundaries. |
+| Network Address Translation | NAT | A foundational networking technique that allows multiple devices on a private network to share a single public IP address when accessing the internet. |
 
 ---
 
