@@ -1,26 +1,15 @@
-# ✅ Lab Environment Setup Guidelines
+Here's the Part 1
+first segment of your comprehensive glossary, formatted for GitHub Pages. I’ll break it into manageable parts and continue in follow-up messages.
+# 📘 Cybersecurity & Governance Glossary (Part 1)
 
-| **Requirement or Guideline**       | **Description**                                                                 |
-|-----------------------------------|----------------------------------------------------------------------------------|
-| Closed network                    | Ensure controlled access to and from the lab environment and restrict Internet access. |
-| Virtualized computing environment | Allows for easy deployment and recovery of devices being tested.                |
-| Realistic environment             | The testing environment should closely match the real-world environment.        |
-| Health monitoring                 | Enables diagnosis of crashes and system failures.                               |
-| Sufficient hardware resources     | Prevents false results caused by resource limitations.                          |
-| Multiple operating systems        | Validates findings across different platforms for consistency.                  |
-| Duplicate tools                   | Confirms results by running the same test with different tools.                 |
-| Practice targets                  | Use known vulnerable systems to safely practice tool usage.                     |
+This glossary consolidates key terms from your document across networking, protocols, threats, tools, governance, and responsible AI. Each entry includes definitions and strategic relevance.
 
 ---
 
-## 🧠 **Interactive Glossary: Cybersecurity & Governance Essentials** (Copilot)
+## 🔐 Networking & Protocols
 
----
-
-### 🔐 **Networking & Protocols**
-
-| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
-|----------|-------------|----------------|---------------------------|----------------------------|
+| Term | Acronym | Definition | Governance Relevance | Responsible AI Tie-In |
+|------|---------|------------|-----------------------|------------------------|
 | Domain Name System | DNS | Resolves domain names to IPs | Infrastructure oversight | AI-based DNS anomaly detection |
 | Server Message Block | SMB | File/printer sharing protocol | Endpoint governance | AI audit of shared resource access |
 | Simple Network Management Protocol | SNMP | Device management protocol | Device lifecycle control | AI-driven device behavior modeling |
@@ -35,22 +24,10 @@
 
 ---
 
-| Term                  | Definition                                                                 |
-|-----------------------|----------------------------------------------------------------------------|
-| Ethical Hacker        | A security professional who mimics attackers to evaluate system vulnerabilities |
-| Insider Threat        | A security risk originating from within the organization (e.g., employee) |
-| Vulnerability Scanner | A tool that identifies known flaws and misconfigurations in systems       |
-| Interception Proxy    | Captures and manipulates HTTP/S traffic between client and server         |
-| Threat Modeling       | Identifying potential threats and attack paths                            |
-| Exploitation          | Leveraging vulnerabilities to gain unauthorized access                    |
-| Health Monitoring     | Ensures system stability during testing                                   |
-| De-authorization Attack | Forces wireless clients to disconnect from access points               |
-| Logic Flaw            | Vulnerability caused by insecure application logic                        |
+## 🛡️ Threats & Exploits
 
-### 🛡️ **Threats & Exploits**
-
-| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
-|----------|-------------|----------------|---------------------------|----------------------------|
+| Term | Acronym | Definition | Governance Relevance | Responsible AI Tie-In |
+|------|---------|------------|-----------------------|------------------------|
 | Man-in-the-Middle | MITM | Intercepts communication | Threat modeling | AI traffic anomaly detection |
 | Secure Sockets Layer | SSL | Secures web connections | Encryption policy | AI downgrade prevention |
 | Denial-of-Service | DoS | Overloads systems | Continuity planning | AI-based load balancing |
@@ -63,10 +40,10 @@
 
 ---
 
-### 🧰 **Security Tools**
+## 🧰 Security Tools
 
-| **Tool** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
-|----------|-------------|----------------|---------------------------|----------------------------|
+| Tool | Acronym | Definition | Governance Relevance | Responsible AI Tie-In |
+|------|---------|------------|-----------------------|------------------------|
 | Metasploit | — | Penetration testing framework | Red team oversight | AI tool signature monitoring |
 | Responder | — | LLMNR/NBT-NS spoofing tool | Protocol abuse detection | AI alerting on spoof attempts |
 | NBNSpoof | — | NetBIOS spoofing tool | Legacy protocol risk | AI-based traffic inspection |
@@ -74,30 +51,43 @@
 
 ---
 
-### 🧠 **System & Registry**
+## 🧠 System & Registry
 
-| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
-|----------|-------------|----------------|---------------------------|----------------------------|
+| Term | Acronym | Definition | Governance Relevance | Responsible AI Tie-In |
+|------|---------|------------|-----------------------|------------------------|
 | HKEY_LOCAL_MACHINE | HKLM | Windows registry hive | Configuration integrity | AI registry anomaly detection |
 | Double Word | DWORD | 32-bit registry value | Policy enforcement | AI validation of config values |
 | EnableMulticast | — | LLMNR toggle registry key | Protocol control | AI-based registry monitoring |
 
 ---
 
-### 🧑‍💻 **Network Models**
+## 🧑‍💻 Network Models
 
-| **Term** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
-|----------|-------------|----------------|---------------------------|----------------------------|
+| Term | Acronym | Definition | Governance Relevance | Responsible AI Tie-In |
+|------|---------|------------|-----------------------|------------------------|
 | Workgroup | — | Peer-to-peer network | Decentralized risk | AI peer enumeration alerts |
 | Domain | — | Centralized network model | Centralized control | AI-based domain authentication |
 | Zero-Trust Architecture | — | No implicit trust model | Strategic access governance | AI continuous verification engine |
 
+Here's Part 2 of your comprehensive glossary, continuing from where we left off. This segment covers:
+
+🎓 Certifications
+
+📡 Wireless & LAN Intelligence
+
+🧠 Governance & Responsible AI
+
+🔐 Authentication & Access Control
+
+All content is formatted for GitHub Pages and modular deployment.
+# 📘 Cybersecurity & Governance Glossary (Part 2)
+
 ---
 
-### 🎓 **Certifications**
+## 🎓 Certifications
 
-| **Certification** | **Acronym** | **Definition** | **Governance Relevance** | **Responsible AI Tie-In** |
-|-------------------|-------------|----------------|---------------------------|----------------------------|
+| Certification | Acronym | Definition | Governance Relevance | Responsible AI Tie-In |
+|---------------|---------|------------|-----------------------|------------------------|
 | Certified Ethical Hacker | CEH | Ethical hacking certification | Offensive security validation | AI-aligned penetration testing |
 | Certified Info Systems Security Professional | CISSP | Senior security architecture | Strategic security leadership | AI governance alignment |
 | Cybersecurity Nexus | CSX | Foundational cybersecurity | Capability maturity modeling | AI benchmarking |
@@ -106,1151 +96,385 @@
 
 ---
 
-A Relative Identifier (RID) is the final portion of a Security Identifier (SID) used in Windows operating systems to uniquely identify objects—such as users, groups, or computers—within a domain.
-A Security Identifier (SID) is a foundational concept in Windows security architecture—think of it as the digital DNA of every user, group, or system account.
-  Uniquely identifies users and groups within the local domain. Globally unique so can also work between domains.
-A Domain Controller (DC) is the central authority in a Windows-based network that manages authentication, authorization, and directory services. It’s the backbone of Active Directory (AD) environments, ensuring that users, devices, and services are securely identified and governed.
-LDAP: Lightweight Directory Access Protocol - LDAP is an open, industry-standard protocol used to access and manage directory services over IP networks. Think of it as the query language for centralized identity databases.
-  a directory access protocol that enables services and clients that use LDAP naming services to communicate.
-A Workgroup in Windows networking is a peer-to-peer network model designed for small environments—think homes, classrooms, or small offices—where centralized control isn’t needed.
-  a group of standalone computers that are independently administered.
+## 📡 Wireless & LAN Intelligence
 
----
- 
-### 🧠 Wireless & LAN Acronym Intelligence Matrix
-
-| **Acronym**         | **Full Form**                                              | **Category**            | **Description / Usage**                                                                 |
-|---------------------|-------------------------------------------------------------|--------------------------|-----------------------------------------------------------------------------------------|
-| **LAN**             | Local Area Network                                          | Specification            | A network confined to a limited area like an office or building                         |
-| **BLE**             | Bluetooth Low Energy                                        | Specification            | Low-power wireless protocol used in IoT and mobile devices                              |
-| **RFID**            | Radio-Frequency Identification                              | Specification            | Wireless system for tracking and identification using electromagnetic fields            |
-| **NFC**             | Near Field Communication                                    | Specification            | Short-range wireless tech used in contactless payments and access systems               |
-| **SSID**            | Service Set Identifier                                      | Specification            | Name of a wireless network broadcast by an AP                                           |
-| **IMEI**            | International Mobile Equipment Identity                     | Specification            | Unique identifier for mobile devices used in tracking and spoofing                      |
-| **LF / HF / UHF**   | Low / High / Ultra High Frequency                           | Specification            | RFID frequency bands used for different range and data exchange capabilities            |
-| **MITRE ATT&CK**    | MITRE Adversarial Tactics Techniques and Common Knowledge   | Label / Framework        | Threat modeling framework used to map attacker behavior                                 |
-| **ISO**             | International Organization for Standardization              | Label / Framework        | Global standards body; ISO 27001 governs information security                           |
-| **NIST CSF**        | National Institute of Standards and Technology Cybersecurity Framework | Label / Framework | U.S. framework for cybersecurity governance and risk management                         |
-| **AP**              | Access Point                                                | Equipment / Hardware     | Device that enables wireless connectivity to a LAN                                      |
-| **Proxmark3**       | —                                                           | Equipment / Hardware     | RFID reader used for skimming, cloning, and analysis                                    |
-| **Ubertooth**       | —                                                           | Equipment / Hardware     | Open-source Bluetooth sniffer for BLE analysis                                          |
-| **DoS**             | Denial of Service                                           | Hack / Method            | Attack that disrupts network availability by flooding or jamming                        |
-| **Password Spraying** | —                                                         | Hack / Method            | Brute-force attack using common passwords across many usernames                         |
-| **Credential Stuffing** | —                                                       | Hack / Method            | Automated injection of breached credentials into login portals                          |
-| **War Driving**     | —                                                           | Hack / Method            | Scanning for wireless networks while moving through physical space                      |
-| **Bluejacking**     | —                                                           | Hack / Method            | Sending unsolicited messages via Bluetooth using OBEX and vCards                        |
-| **Bluesnarfing**    | —                                                           | Hack / Method            | Unauthorized access to Bluetooth device data                                            |
-| **Evil Twin Attack**| —                                                           | Hack / Method            | Rogue AP mimicking a legitimate one to harvest credentials                              |
-| **KARMA Attack**    | —                                                           | Hack / Method            | Rogue AP responding to probe requests with matching SSIDs                               |
-| **Disassociation Attack** | —                                                    | Hack / Method            | Disconnecting users from APs to force reconnection to rogue networks                    |
-| **Exploit Chaining**| —                                                           | Hack / Method            | Using multiple vulnerabilities in sequence to compromise systems                        |
-| **SET**             | Social-Engineer Toolkit                                     | Software / Tool          | Tool for simulating social engineering attacks like phishing                            |
-| **Ettercap**        | —                                                           | Software / Tool          | Tool for MITM attacks, DNS spoofing, and packet manipulation                            |
-| **Bluesnarfer**     | —                                                           | Software / Tool          | Tool for extracting data from Bluetooth-enabled devices                                 |
-| **Aircrack-ng**     | —                                                           | Software / Tool          | Suite for Wi-Fi network auditing and cracking WEP/WPA keys                              |
-| **Kismet**          | —                                                           | Software / Tool          | Wireless network detector, sniffer, and intrusion detection system                      |
-| **Wireshark**       | —                                                           | Software / Tool          | Network protocol analyzer for packet inspection                                         |
-| **Bettercap**       | —                                                           | Software / Tool          | Advanced MITM framework for network attacks and monitoring                              |
-| **Hydra / Medusa**  | —                                                           | Software / Tool          | Brute-force tools for password cracking across multiple protocols                       |
-| **Hashcat**         | —                                                           | Software / Tool          | High-performance password recovery tool using GPU acceleration                          |
-| **Responder**       | —                                                           | Software / Tool          | LLMNR/NBT-NS/MDNS poisoner used in LAN credential harvesting                            |
-| **CrackMapExec**    | —                                                           | Software / Tool          | Post-exploitation tool for Active Directory environments                                |
-| **Metasploit**      | —                                                           | Software / Tool          | Exploitation framework for vulnerability testing and payload delivery                   |
+| Acronym | Full Form | Category | Description / Usage |
+|---------|-----------|----------|----------------------|
+| LAN | Local Area Network | Specification | Internal network within a limited geographic area |
+| WLAN | Wireless LAN | Specification | Wireless version of LAN using Wi-Fi |
+| SSID | Service Set Identifier | Network Label | Name of a wireless network broadcast by an AP |
+| BSSID | Basic Service Set Identifier | Network Label | MAC address of the AP broadcasting the SSID |
+| BLE | Bluetooth Low Energy | Specification | Low-power wireless protocol used in IoT and mobile devices |
+| RFID | Radio-Frequency Identification | Specification | Wireless system for tracking and identification |
+| NFC | Near Field Communication | Specification | Short-range wireless tech used in contactless systems |
+| IMEI | International Mobile Equipment Identity | Device Identifier | Unique identifier for mobile devices |
+| LF / HF / UHF | Low / High / Ultra High Frequency | RFID Frequency Bands | Defines range and data exchange capabilities |
+| AP | Access Point | Hardware | Device that enables wireless connectivity to a LAN |
+| MAC | Media Access Control | Addressing Protocol | Unique hardware identifier for network interfaces |
 
 ---
 
-You're absolutely right, Etienne. Let’s elevate the matrix to include **network protocols, port references, service identifiers, and infrastructure labels**—the kind of detail that turns a cheat sheet into a tactical asset for boardroom briefings, red team playbooks, or SME training decks.
+## 🧠 Governance & Responsible AI
+
+| Term | Definition |
+|------|------------|
+| Governance Forensics | Investigative analysis of governance structures and decisions |
+| Boardroom Integrity™ | Ethical decision-making and transparency at the board level |
+| Responsible AI | Design and oversight of AI systems with fairness and societal impact |
+| Compliance Architecture | Framework of policies and controls for regulatory adherence |
+| Strategic Business Diagnostics | Evaluation of operations and governance for optimization |
+| Ethical Innovation Framework | Model for scaling innovations aligned with ethical principles |
+| Stakeholder Education Matrix | Tool mapping risks and responsibilities to stakeholder groups |
+| Exportable Governance Framework | Modular structure for compliance and strategic renewal |
+| SME Governance Alignment | Tailoring governance strategies for small and medium enterprises |
+| Strategic Content Pillar | Thematic foundation for thought leadership across platforms |
+| Stakeholder-Ready Briefing | Concise, visual document for executive audiences |
+| Iterative Fact-Checking | Collaborative refinement of technical or strategic content |
+| Risk Communication | Strategic articulation of threats and mitigation plans |
+| Governance Renewal | Updating governance structures to reflect evolving risks |
 
 ---
 
-### 🧠 Expanded Wireless & LAN Acronym Intelligence Matrix
+## 🔐 Authentication & Access Control
 
-| **Acronym / Term**     | **Full Form / Meaning**                                 | **Category**              | **Description / Usage**                                                                 |
-|------------------------|----------------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------|
-| **LAN**                | Local Area Network                                       | Specification              | Internal network within a limited geographic area                                       |
-| **WLAN**               | Wireless Local Area Network                              | Specification              | Wireless version of LAN using Wi-Fi                                                     |
-| **SSID**               | Service Set Identifier                                   | Network Label              | Name of a wireless network broadcast by an AP                                           |
-| **BSSID**              | Basic Service Set Identifier                             | Network Label              | MAC address of the AP broadcasting the SSID                                             |
-| **BLE**                | Bluetooth Low Energy                                     | Specification              | Low-power wireless protocol used in IoT and mobile devices                              |
-| **RFID**               | Radio-Frequency Identification                           | Specification              | Wireless system for tracking and identification using electromagnetic fields            |
-| **NFC**                | Near Field Communication                                 | Specification              | Short-range wireless tech used in contactless payments and access systems               |
-| **IMEI**               | International Mobile Equipment Identity                  | Device Identifier          | Unique identifier for mobile devices used in tracking and spoofing                      |
-| **LF / HF / UHF**      | Low / High / Ultra High Frequency                        | RFID Frequency Bands       | Defines range and data exchange capabilities of RFID tags                               |
-| **AP**                 | Access Point                                             | Hardware                   | Device that enables wireless connectivity to a LAN                                      |
-| **MAC**                | Media Access Control                                     | Addressing Protocol        | Unique hardware identifier for network interfaces                                       |
-| **DNS**                | Domain Name System                                       | Protocol                   | Resolves domain names to IP addresses; target of spoofing in Evil Twin attacks          |
-| **DHCP**               | Dynamic Host Configuration Protocol                      | Protocol                   | Assigns IP addresses to devices on a network                                            |
-| **HTTP/HTTPS**         | Hypertext Transfer Protocol / Secure                     | Protocol                   | Web communication protocols; HTTPS mitigates credential harvesting                      |
-| **LLMNR**              | Link-Local Multicast Name Resolution                     | Protocol                   | Used in Windows environments; vulnerable to spoofing                                    |
-| **NBT-NS**             | NetBIOS Name Service                                     | Protocol                   | Legacy name resolution protocol; often exploited in LAN attacks                         |
-| **MDNS**               | Multicast DNS                                            | Protocol                   | Used for local network service discovery                                                |
-| **MITRE ATT&CK**       | MITRE Adversarial Tactics Techniques and Common Knowledge| Framework                  | Threat modeling framework used to map attacker behavior                                 |
-| **ISO**                | International Organization for Standardization           | Governance Framework       | Global standards body; ISO 27001 governs information security                           |
-| **NIST CSF**           | National Institute of Standards and Technology Cybersecurity Framework | Governance Framework | U.S. framework for cybersecurity governance and risk management                         |
-| **DoS**                | Denial of Service                                        | Attack Method              | Disrupts network availability by flooding or jamming                                    |
-| **Password Spraying**  | —                                                        | Attack Method              | Brute-force attack using common passwords across many usernames                         |
-| **Credential Stuffing**| —                                                        | Attack Method              | Automated injection of breached credentials into login portals                          |
-| **War Driving**        | —                                                        | Recon Method               | Scanning for wireless networks while moving through physical space                      |
-| **Bluejacking**        | —                                                        | Bluetooth Attack           | Sending unsolicited messages via Bluetooth using OBEX and vCards                        |
-| **Bluesnarfing**       | —                                                        | Bluetooth Attack           | Unauthorized access to Bluetooth device data                                            |
-| **Evil Twin Attack**   | —                                                        | Wireless Attack            | Rogue AP mimicking a legitimate one to harvest credentials                              |
-| **KARMA Attack**       | —                                                        | Wireless Attack            | Rogue AP responding to probe requests with matching SSIDs                               |
-| **Disassociation Attack** | —                                                     | Wireless Attack            | Disconnecting users from APs to force reconnection to rogue networks                    |
-| **Exploit Chaining**   | —                                                        | Advanced Attack Method     | Using multiple vulnerabilities in sequence to compromise systems                        |
-| **SET**                | Social-Engineer Toolkit                                  | Software Tool              | Simulates social engineering attacks like phishing                                      |
-| **Ettercap**           | —                                                        | Software Tool              | MITM attack tool for DNS spoofing and packet manipulation                               |
-| **Bluesnarfer**        | —                                                        | Software Tool              | Extracts data from Bluetooth-enabled devices                                            |
-| **Aircrack-ng**        | —                                                        | Software Tool              | Wi-Fi auditing suite for cracking WEP/WPA keys                                          |
-| **Kismet**             | —                                                        | Software Tool              | Wireless network detector and intrusion detection system                                |
-| **Wireshark**          | —                                                        | Software Tool              | Network protocol analyzer for packet inspection                                         |
-| **Bettercap**          | —                                                        | Software Tool              | MITM framework for network attacks and monitoring                                       |
-| **Hydra / Medusa**     | —                                                        | Software Tool              | Brute-force tools for password cracking across multiple protocols                       |
-| **Hashcat**            | —                                                        | Software Tool              | High-performance password recovery tool using GPU acceleration                          |
-| **Responder**          | —                                                        | Software Tool              | LLMNR/NBT-NS/MDNS poisoner used in LAN credential harvesting                            |
-| **CrackMapExec**       | —                                                        | Software Tool              | Post-exploitation tool for Active Directory environments                                |
-| **Metasploit**         | —                                                        | Software Tool              | Exploitation framework for vulnerability testing and payload delivery                   |
-| **TCP/UDP**            | Transmission Control Protocol / User Datagram Protocol   | Transport Protocol         | Core protocols for data transmission across networks                                    |
-| **Port 80 / 443**      | HTTP / HTTPS                                             | Network Port               | Standard ports for web traffic; 443 is encrypted                                        |
-| **Port 53**            | DNS                                                      | Network Port               | Used for domain name resolution                                                         |
-| **Port 67 / 68**       | DHCP                                                     | Network Port               | Used for IP address assignment                                                          |
-| **Port 137–139 / 445** | NetBIOS / SMB                                            | Network Port               | Commonly exploited in LAN attacks and lateral movement                                  |
-Here’s the correct matching of **NetBIOS-related services** with their corresponding **port numbers and protocols**, organized into a single reference table for clarity and strategic utility:
+| Term | Definition |
+|------|------------|
+| Authentication | Verifying a user's identity before granting access |
+| Access Control | Restricting access to resources based on roles or permissions |
+| Session Hijacking | Unauthorized takeover of a valid user session |
+| Session ID / Token | Unique identifier assigned to a user session |
+| Cookie | Data stored on the client to manage sessions |
+| HTTPOnly Flag | Prevents access to cookies via client-side scripts |
+| Persistent Cookie | Stored on disk with an expiration time |
+| Non-Persistent Cookie | Stored in memory and deleted when browser closes |
+| Session Fixation | Attacker sets a known session ID before authentication |
+| On-Path Attack | Interception of traffic between client and server |
+| Man-in-the-Browser | Browser-based attack via compromised extensions |
+| Entropy | Measure of randomness in session IDs |
+| PRNG | Algorithm used to generate secure session tokens |
+| URL Rewriting | Embedding session ID in the URL (insecure) |
+| Framework Fingerprinting | Identifying tech stack via default session ID names |
+
+Here's Part 3 of your comprehensive glossary, continuing from the previous segments. This portion covers:
+
+🧪 Web Attacks & OWASP
+
+🧬 SQL Injection & Exploits
+
+🧠 Secure Coding & DevSecOps
+
+🧱 Infrastructure & Endpoint Security
+
+🌐 DNS/DHCP/ARP Attack Vectors
+
+All content is formatted for GitHub Pages and modular deployment.
+# 📘 Cybersecurity & Governance Glossary (Part 3)
 
 ---
 
-| **Service**       | **Full Form**                     | **Purpose**                                                                 |
-|-------------------|------------------------------------|------------------------------------------------------------------------------|
-| **NetBIOS-NS**    | NetBIOS Name Service               | Used for name registration and resolution (UDP port 137)                     |
-| **NetBIOS-DGM**   | NetBIOS Datagram Service           | Used for connectionless communication (UDP port 138)                         |
-| **LLMNR**         | Link-Local Multicast Name Resolution | Windows protocol for name resolution on local networks (UDP/TCP port 5355) |
-| **NetBIOS-SSN**   | NetBIOS Session Service | Windows protocol for name resolution on local networks (UDP/TCP port 5355) | Used for **connection-oriented communication** over TCP port **139**. It establishes and manages sessions between devices, enabling reliable data exchange.
+## 🧪 Web Attacks & OWASP
+
+| Term | Definition |
+|------|------------|
+| Cross-Site Scripting (XSS) | Injection of malicious scripts into trusted websites |
+| Reflected XSS | Payload reflected off server in HTTP response |
+| Stored XSS | Payload stored on server and served to users |
+| DOM-Based XSS | Payload executed via client-side DOM manipulation |
+| Clickjacking | UI redress attack tricking users into unintended clicks |
+| CSRF | Cross-Site Request Forgery—forces authenticated users to perform unwanted actions |
+| Insecure Direct Object Reference | Exposes internal objects without proper access control |
+| Broken Access Control | Failure to enforce user permissions |
+| Security Misconfiguration | Improper setup of security settings or defaults |
+| Sensitive Data Exposure | Failure to protect sensitive information (e.g., passwords, credit cards) |
+| OWASP Top 10 | Industry-standard list of critical web application risks |
 
 ---
 
-### 🔐 NetBIOS & Windows Networking Port Mapping
+## 🧬 SQL Injection & Exploits
 
-| **Port Type & Number** | **Protocol** | **Service / Function**                          |
-|------------------------|--------------|-------------------------------------------------|
-| **A. UDP port 137**    | UDP          | **NetBIOS Name Service (NetBIOS-NS)** – Used for name registration and resolution |
-| **B. TCP port 139**    | TCP          | **NetBIOS Session Service (NetBIOS-SSN)** – Used for connection-oriented communication |
-| **C. UDP port 138**    | UDP          | **NetBIOS Datagram Service (NetBIOS-DGM)** – Used for connectionless communication |
-| **D. TCP port 445**    | TCP          | **SMB Protocol (Server Message Block)** – Used for direct file sharing over TCP/IP |
-| **E. TCP port 135**    | TCP          | **Microsoft Remote Procedure Call (MS-RPC)** – Used for DCOM and RPC-based services |
-
----
-
-| Port Number | Protocol | Common Use                                                                                                 |
-|-------------|----------|-------------------------------------------------------------------------------------------------------------|
-| 161         | UDP      | SNMP (Simple Network Management Protocol) – Used for network device monitoring and management. SNMP managers query agents on devices like routers, switches, and servers. |
-| 176         | UDP/TCP  | PDP (X.400 over TCP/IP) – Rarely used today; part of legacy email systems based on the X.400 standard.      |
-| 182         | TCP      | Audit daemon (formerly used by Apple) – Not widely adopted; may appear in legacy macOS systems.            |
-| 128         | TCP/UDP  | Reserved/Unassigned – Not officially designated for any standardized protocol. May be used by proprietary or experimental services. |
+| Term | Definition |
+|------|------------|
+| SQL Injection | Manipulating SQL queries via user input |
+| In-band SQLi | Data retrieved via same channel as injection |
+| Blind SQLi | Inferred via application behavior (e.g., timing) |
+| Out-of-band SQLi | Data retrieved via alternate channel (e.g., DNS) |
+| Union-Based SQLi | Combines results from multiple SELECT queries |
+| Error-Based SQLi | Forces database errors to reveal structure |
+| Time-Based SQLi | Uses delays to confirm logic conditions |
+| Parameterized Query | Uses placeholders to prevent injection |
+| Prepared Statement | Separates query structure from user input |
+| Stored Procedure | Executable SQL stored in the database |
+| CWE-89 | Common Weakness Enumeration ID for SQL injection |
+| CVE-2012-1823 | PHP-CGI vulnerability enabling remote code execution |
 
 ---
 
-| Threat Category         | Mechanism                                                                 | Strategic Implication                                                   |
-|-------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Malware                 | Malicious software (e.g., viruses, worms, trojans, ransomware)            | Data loss, system compromise, operational disruption                    |
-| Phishing & Social Eng. | Deceptive emails, messages, or calls to trick users into revealing data   | Credential theft, unauthorized access, reputational damage             |
-| Denial of Service (DoS) | Overwhelming systems with traffic or requests                             | Service outages, financial loss, customer trust erosion                |
-| Man-in-the-Middle (MitM)| Intercepting communications between parties                               | Data interception, manipulation, privacy breach                        |
-| DNS Poisoning           | Manipulating DNS resolver cache                                           | Traffic redirection, credential theft, malware delivery                |
-| SQL Injection           | Injecting malicious SQL into input fields                                 | Database compromise, data exfiltration                                 |
-| Zero-Day Exploits       | Attacks on unknown or unpatched vulnerabilities                           | High-risk breach, delayed detection, limited mitigation                |
-| Insider Threats         | Malicious or negligent actions by internal users                          | Data leakage, sabotage, compliance violations                          |
-| Credential Stuffing     | Using stolen credentials across multiple platforms                        | Account takeover, fraud, unauthorized access                           |
-| Supply Chain Attacks    | Compromising third-party vendors or software dependencies                 | Indirect breach, systemic risk, trust erosion                          |
-| Advanced Persistent Threats (APT) | Stealthy, long-term infiltration by skilled actors              | Espionage, intellectual property theft, strategic disruption           |
-| Botnets                 | Networks of infected devices controlled remotely                          | Distributed attacks, spam, data theft                                  |
-| Cryptojacking           | Unauthorized use of systems to mine cryptocurrency                        | Resource drain, performance degradation                                |
-| Rogue Devices           | Unauthorized hardware connected to networks                               | Network compromise, data leakage                                       |
-| Cloud Misconfigurations | Improper setup of cloud services (e.g., open buckets, weak IAM)           | Data exposure, compliance risk, unauthorized access                    |
-| IoT Exploits            | Attacks on Internet of Things devices                                     | Physical disruption, surveillance, lateral movement                    |
-| Firmware Attacks        | Compromise of device firmware                                             | Persistent access, hardware-level control                              |
-| BGP Hijacking           | Manipulating Border Gateway Protocol routes                               | Traffic interception, service disruption                               |
-| ARP Spoofing            | Faking MAC addresses to intercept LAN traffic                             | Data theft, session hijacking                                          |
-| Pass-the-Hash Attacks   | Using hashed credentials to authenticate without cracking passwords       | Lateral movement, privilege escalation                                 |
-| Kerberos Exploits       | Abuse of Kerberos authentication protocol                                 | Domain compromise, unauthorized access                                 |
+## 🧠 Secure Coding & DevSecOps
+
+| Term | Definition |
+|------|------------|
+| Input Validation | Ensures user input conforms to expected formats |
+| Output Encoding | Converts dangerous characters into safe formats |
+| Shift-Left Security | Embedding security early in the development lifecycle |
+| Static Application Security Testing (SAST) | Analyzes source code for vulnerabilities |
+| Dynamic Application Security Testing (DAST) | Tests running applications for flaws |
+| Secure Coding Practices | Techniques to prevent vulnerabilities during development |
+| Verbose Error Messages | Detailed errors that may expose system internals |
+| Comments in Source Code | Developer notes that may leak sensitive data |
+| CWE-615 | Information Exposure Through Comments |
+| OWASP ESAPI | Enterprise Security API for encoding and validation |
+| Subresource Integrity (SRI) | Verifies integrity of fetched resources via hash |
+| Code Signing | Verifies authenticity and integrity of software |
 
 ---
 
----
+## 🧱 Infrastructure & Endpoint Security
 
-| SMTP Command | Description                                                                 |
-|--------------|------------------------------------------------------------------------------|
-| STARTTLS     | Used to start a Transport Layer Security connection to an email server.     |
-| HELO         | Used to initiate an SMTP conversation with an email server.                 |
-| EHLO         | Used to initiate a conversation with an Extended SMTP server.               |
-| RSET         | Used to cancel an email transaction.                                        |
-| DATA         | Used to initiate the transfer of the contents of an email message.          |
-| MAIL         | Used to denote the email address of the sender.                             |
-
----
-
-| Attack Type       | Mechanism                                                                 | Strategic Implication                                      |
-|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------|
-| Pass-the-Hash     | Uses stolen password hashes to authenticate without decrypting them       | Enables lateral movement, privilege escalation, domain compromise |
-
-| Attack Type       | Mechanism                                                                 | Strategic Implication                                      |
-|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------|
-| Kerberoasting     | Extracts service account hashes from Kerberos tickets for offline cracking| Privilege escalation, domain compromise, lateral movement   |
-
-| Attack Type        | Description                                                                                                   |
-|--------------------|---------------------------------------------------------------------------------------------------------------|
-| DNS Amplification  | Exploits vulnerable DNS servers to turn small queries into large payloads, overwhelming the victim’s server.  |
-| Reflected DOS      | Uses spoofed packets that appear to be from the victim; sources unknowingly send traffic back to the victim.  |
-| DDOS               | Uses botnets controlled via CnC (Command and Control) to launch distributed attacks from multiple systems.     |
-| Direct DOS         | Attacker sends packets directly to the victim without intermediaries, using any protocol or application.       |
-
-| Attack Type                | Description                                                                                             |
-|----------------------------|---------------------------------------------------------------------------------------------------------|
-| MAC Address Spoofing       | An attacker spoofs the physical address of the NIC to impersonate another device for unauthorized access or MitM attacks. |
-| DHCP Starvation            | An attacker floods the DHCP server with bogus DHCPDISCOVER packets until it runs out of IP addresses.  |
-| Downgrade Attacks          | The attacker forces a system to use weak encryption or hashing protocols that are vulnerable.           |
-| Route Manipulation Attacks | Typically a BGP hijack where an edge router announces unauthorized prefixes to redirect traffic.        |
-| VLAN Hopping               | An attacker bypasses Layer 2 segmentation to access restricted VLANs.                                  |
-
-| Attack Type     | Mechanism                                                                 | Strategic Implication                                      |
-|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------|
-| Bluesnarfing     | Exploits Bluetooth vulnerabilities to steal data from nearby devices      | Data leakage, privacy breach, reputational and legal risk   |
-
-| Attack Type       | Target Component         | Required Credential Access       | Risk Profile                         |
-|-------------------|--------------------------|----------------------------------|--------------------------------------|
-| Silver Ticket     | Service Ticket (TGS)     | Service account hash (e.g., NTLM)| Lateral movement, service impersonation|
-| Golden Ticket     | Ticket Granting Ticket   | KRBTGT account hash              | Full domain compromise               |
-
-| Post-Exploitation Technique | Attack Vector         | Target Component              | Methodology                                                       | Strategic Implication                                         | Mitigation Strategy                                                                 |
-|-----------------------------|------------------------|-------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Kerberoasting               | Credential extraction  | Service account SPNs in AD    | Request TGS → Extract encrypted ticket → Offline NTLM cracking   | Privilege escalation via weak service account passwords       | Enforce strong service account passwords; monitor SPN exposure; use AES encryption   |
-| Silver Ticket               | Ticket forgery         | Kerberos service ticket (TGS) | Forge TGS using service account hash → Access specific services  | Lateral movement without contacting domain controller         | Rotate service account passwords; monitor service ticket usage; enable auditing      |
-| Golden Ticket               | Domain-wide impersonation | KRBTGT account in AD       | Forge TGT using KRBTGT hash → Full domain access                 | Total domain compromise; persistent backdoor                  | Regularly rotate KRBTGT password; monitor TGT issuance; enable Kerberos logging      |
-| Pass-the-Hash               | Credential replay      | NTLM hash of privileged accounts | Use captured hash to authenticate without password            | Bypasses authentication controls; enables stealthy access     | Disable NTLM where possible; enforce SMB signing; use LAPS for local admin accounts  |
-| Pass-the-Ticket             | Credential replay      | Kerberos TGT or TGS           | Replay stolen ticket to access services                          | Session hijacking; impersonation of legitimate users          | Limit ticket lifetime; monitor ticket reuse; enforce PAC validation                  |
-| DCSync                      | Replication abuse      | Domain controller             | Use replication rights to extract password hashes from AD        | Full credential dump; stealthy domain compromise              | Restrict replication rights; monitor DC replication traffic; enable auditing         |
-| DCShadow                    | Directory manipulation | Active Directory schema       | Inject rogue DC to push malicious changes into AD                | Covert AD manipulation; persistence and stealth               | Monitor schema changes; restrict DC registration; use AD change auditing             |
-| Credential Dumping         | Memory scraping        | LSASS process                 | Extract plaintext passwords, hashes, and Kerberos tickets        | Rapid privilege escalation; lateral movement                  | Enable Credential Guard; restrict admin access; monitor LSASS access                 |
-| Skeleton Key                | Authentication bypass  | Domain controller memory      | Inject master password into LSASS to bypass authentication       | Covert persistent access to all accounts                      | Monitor LSASS integrity; use memory protection tools; enforce endpoint detection     |
-| Overpass-the-Hash          | Hybrid replay          | Kerberos TGT via NTLM hash    | Use NTLM hash to request Kerberos TGT                            | Cross-protocol abuse; stealthy domain access                  | Enforce Kerberos-only authentication; monitor TGT requests; disable NTLM fallback    |
-
-| Attack Type         | Vector                  | Target Component             | Methodology                                                       | Strategic Implication                                           | Mitigation Strategy                                                                 |
-|---------------------|-------------------------|-------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| IP Spoofing         | Network impersonation   | IP header / routing layer     | Forge source IP → intercept or redirect traffic                   | Enables on-path attacks, session hijacking, trust exploitation | Enforce ingress/egress filtering; deep packet inspection; encrypt sensitive traffic |
-| DDoS                | Volume-based flooding   | Network bandwidth / server    | Overwhelm target with massive traffic                             | Service disruption, reputational damage                        | Deploy rate limiting; use anti-DDoS appliances; cloud-based traffic scrubbing       |
-| Pass-the-Hash       | Credential replay       | NTLM hash                     | Reuse captured hash to authenticate without password              | Bypasses authentication controls; stealthy lateral movement    | Disable NTLM; enforce SMB signing; use LAPS for local admin accounts                |
-| Evil Twin           | Rogue access point      | Wireless clients              | Mimic legitimate Wi-Fi → lure users to connect                    | Credential theft, session hijack, data interception            | Use WPA3; monitor rogue APs; enforce network segmentation                            |
-| On-Path (MitM)      | Traffic interception    | Communication stream          | Intercept and manipulate traffic between endpoints                | Data tampering, credential theft, protocol abuse               | Use TLS everywhere; enable certificate pinning; monitor for anomalous routing       |
-
-| Attack Type           | Vector                  | Target Component         | Methodology                                                  | Strategic Implication                                      | Mitigation Strategy                                                                 |
-|------------------------|-------------------------|---------------------------|--------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| ARP Cache Poisoning    | Layer 2 spoofing        | ARP table on switches     | Inject fake ARP replies → redirect traffic to attacker       | Traffic interception, session hijacking, DoS               | Enable DAI; configure DHCP snooping; use port security                              |
-| IP Spoofing            | Network impersonation   | IP header / routing layer | Forge source IP → intercept or redirect traffic              | On-path attacks, trust exploitation                        | Enforce ingress/egress filtering; deep packet inspection; encrypt sensitive traffic |
-| MAC Spoofing           | Hardware impersonation  | Switch MAC table          | Forge MAC address → impersonate device                       | Bypass access controls, session hijack                     | Enable port security; use 802.1X authentication; monitor MAC anomalies              |
-| DHCP Spoofing          | Rogue DHCP server       | Client IP configuration   | Respond with malicious DHCP offers → redirect traffic        | DNS hijacking, MITM, traffic rerouting                     | Enable DHCP snooping; define trusted ports; monitor DHCP traffic                    |
-| DNS Poisoning          | Cache manipulation      | DNS resolver cache        | Inject false DNS records → redirect domain resolution        | Credential theft, phishing, malware delivery               | Use DNSSEC; flush DNS cache regularly; monitor DNS anomalies                        |
-
-| Attack Type           | Vector                  | Target Component             | Methodology                                                       | Strategic Implication                                           | Mitigation Strategy                                                                 |
-|------------------------|-------------------------|-------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Amplification (DDoS)   | Reflected traffic        | Bandwidth / application layer | Send small spoofed requests → trigger large responses to victim   | High-volume DDoS; resource exhaustion                          | Rate limit UDP services; block spoofed IPs; use DDoS protection appliances          |
-| ARP Cache Poisoning    | Layer 2 spoofing         | ARP table on switches         | Inject fake ARP replies → redirect traffic                        | Traffic interception, session hijacking, DoS                   | Enable DAI; configure DHCP snooping; use port security                              |
-| IP Spoofing            | Network impersonation    | IP header / routing layer     | Forge source IP → intercept or redirect traffic                   | On-path attacks, trust exploitation                            | Enforce ingress/egress filtering; deep packet inspection; encrypt sensitive traffic |
-| Evil Twin              | Rogue access point       | Wireless clients              | Mimic legitimate Wi-Fi → lure users                               | Credential theft, session hijack, data interception            | Use WPA3; monitor rogue APs; enforce network segmentation                            |
-| DHCP Spoofing          | Rogue DHCP server        | Client IP configuration       | Respond with malicious DHCP offers → redirect traffic             | DNS hijacking, MITM, traffic rerouting                         | Enable DHCP snooping; define trusted ports; monitor DHCP traffic                    |
-| DNS Poisoning          | Cache manipulation       | DNS resolver cache            | Inject false DNS records → redirect domain resolution             | Credential theft, phishing, malware delivery                   | Use DNSSEC; flush DNS cache regularly; monitor DNS anomalies                        |
+| Term | Definition |
+|------|------------|
+| Firewall | Blocks unauthorized access to networks |
+| Antivirus | Detects and removes malware |
+| Patch Hygiene | Regular updates to fix known vulnerabilities |
+| Configuration Hardening | Securing systems by disabling defaults and unnecessary features |
+| Default Credentials | Factory-set usernames/passwords left unchanged |
+| Shodan | Search engine for discovering internet-connected devices |
+| Credential Enumeration | Systematic discovery of valid credentials |
+| Infrastructure Devices | Routers, switches, firewalls, access points |
+| Security Baseline | Minimum standard configuration for systems |
+| Configuration Drift | Deviation from secure baseline over time |
 
 ---
 
-| Protocol      | Vulnerability to Brute-Force | Strategic Commentary                                      |
-|---------------|------------------------------|------------------------------------------------------------|
-| WPS           | ✅ High                      | Weak PIN mechanism; easily brute-forced                    |
-| WPA2-TKIP     | ⚠️ Moderate                  | Legacy encryption; vulnerable to replay attacks            |
-| WPA2-EAP      | 🔒 Low                       | Enterprise-grade; uses 802.1X and RADIUS for authentication|
-| WPA3          | 🔒 Very Low                  | Strong protections; resistant to offline dictionary attacks|
+## 🌐 DNS/DHCP/ARP Attack Vectors
 
-| Protocol | Unencrypted Port | Encrypted Port | Encryption Method     | Strategic Note                          |
-|----------|------------------|----------------|------------------------|-----------------------------------------|
-| IMAP     | 143              | 993            | SSL/TLS                | Used for syncing email across devices   |
-| POP3     | 110              | 995            | SSL/TLS                | Downloads email to local device         |
-| SMTP     | 25 (legacy)      | 465 / 587      | SSL/TLS / STARTTLS     | Used for sending email                  |
+| Attack Type | Description |
+|-------------|-------------|
+| DNS Poisoning | Manipulates resolver cache to redirect traffic |
+| DHCP Spoofing | Rogue server assigns malicious IP configurations |
+| ARP Spoofing | Fakes MAC addresses to intercept LAN traffic |
+| Evil Twin | Rogue AP mimicking legitimate Wi-Fi |
+| Disassociation Attack | Forces clients to disconnect from APs |
+| MAC Spoofing | Fakes MAC address to impersonate devices |
+| IP Spoofing | Fakes source IP to intercept or redirect traffic |
+| DNS Amplification | Turns small queries into large payloads for DDoS |
+| DHCP Starvation | Floods DHCP server with bogus requests to exhaust IP pool |
+| Route Manipulation | Alters routing tables (e.g., BGP hijack) to redirect traffic |
 
----
+Here's Part 4 of your comprehensive glossary, continuing from the previous segments. This section covers:
 
-| Standard     | Feature (MFP)                          | Protection Mechanism                            | Strategic Benefit                                 |
-|--------------|----------------------------------------|--------------------------------------------------|--------------------------------------------------|
-| 802.11w      | Management Frame Protection (MFP)      | Encrypts/discards spoofed deauth/disassoc frames| Prevents Wi-Fi session disruption and hijacking  |
+🧬 Kerberos Exploits & Ticket Attacks
 
----
-  
-| Component             | Function                                                       | Strategic Relevance                              |
-|----------------------|----------------------------------------------------------------|--------------------------------------------------|
-| DNS Resolver Cache   | Temporarily stores recent domain name resolutions              | Speeds up browsing, reduces DNS traffic          |
-| Location (Windows)   | Accessible via `ipconfig /displaydns`                          | Useful for diagnostics and forensic analysis     |
-| Governance Insight   | Can be flushed (`ipconfig /flushdns`) to clear stale entries   | Enhances privacy and mitigates DNS poisoning     |
+🧪 Post-Exploitation Techniques
 
-| Tool Name           | Functionality                                                                 | Relevance to SNMP Reconnaissance |
-|---------------------|--------------------------------------------------------------------------------|----------------------------------|
-| snmp-check          | Gathers detailed info from SNMP-enabled devices (system, interfaces, etc.)    | ✅ Highly relevant               |
-| snmp-brute.nse      | Performs brute-force attacks on SNMP community strings (Nmap script)           | ⚠️ Offensive testing only        |
-| nslookup            | Resolves DNS queries; not SNMP-related                                         | ❌ Not relevant                  |
-| snmp-netstat.nse    | Extracts netstat-like info via SNMP (Nmap script)                              | ✅ Useful but more specialized   |
+🧠 Session Management & Token Security
 
-| Tool         | Functionality                                                                 | Relevance to Disassociation Attacks |
-|--------------|--------------------------------------------------------------------------------|--------------------------------------|
-| Airmon-ng    | Enables monitor mode on wireless interfaces; used in Wi-Fi attack setups       | ✅ Directly relevant                 |
-| EMPIRE       | Post-exploitation framework for PowerShell and Python agents                   | ❌ Not relevant                      |
-| nmap         | Network scanning and enumeration tool                                          | ❌ Not used for disassociation       |
-| POODLE       | Exploit targeting SSL 3.0 protocol downgrade vulnerability                     | ❌ Unrelated to Wi-Fi attacks        |
+🧱 Directory Traversal & Cookie Manipulation
 
-| Access Control Test                     | OWASP Category                                      | Risk Indicator                                 | Governance Insight                                                  |
-|----------------------------------------|----------------------------------------------------|------------------------------------------------|---------------------------------------------------------------------|
-| Role-Based Access Validation           | A01: Broken Access Control                         | Horizontal/Vertical Privilege Escalation       | Validate RBAC enforcement across roles and endpoints                |
-| URL & Parameter Tampering              | A01: Broken Access Control<br>A05: Security Misconfiguration | IDOR, unauthorized data access         | Ensure server-side validation and object-level checks               |
-| API Endpoint Privilege Enforcement     | A01: Broken Access Control<br>A04: Insecure Design | BOLA, over-privileged API keys                 | Audit API contracts and privilege boundaries                        |
-| Session Token Manipulation             | A02: Cryptographic Failures<br>A07: Identification & Authentication Failures | Token replay, JWT tampering         | Enforce token integrity, expiration, and revocation                 |
-| Hidden UI Function Exposure            | A01: Broken Access Control<br>A05: Security Misconfiguration | UI masking without backend enforcement | Ensure backend logic enforces access independently                  |
-| Direct Object Reference Testing        | A01: Broken Access Control                         | IDOR via predictable identifiers               | Implement access filters and object ownership checks                |
-| Privilege Escalation via API Calls     | A01: Broken Access Control<br>A04: Insecure Design | Role bypass through undocumented endpoints     | Document and restrict sensitive API functionality                   |
+🧠 Governance Forensics & Strategic Briefings
 
----
- 
-Consider the URL https://theartofhacking.org:8123/dir/test;id=89?name= omar&x=true. 
-Let’s break down this URL into its component parts:
-
-scheme: This is the portion of the URL that designates the underlying protocol to be used (for example, HTTP, FTP); it is followed by a colon and two forward slashes ( // ). In this example, the scheme is http.
-host: This is the IP address (numeric or DNS-based) for the web server being accessed; it usually follows the colon and two forward slashes. In this case, the host is theartofhacking.org.
-port: This optional portion of the URL designates the port number to which the target web server listens. (The default port number for HTTP servers is 80, but some configurations are set up to use an alternate port number.) In this case, the server is configured to use port 8123.
-path: This is the path from the “root” directory of the server to the desired resource. In this case, you can see that there is a directory called dir. (Keep in mind that, in reality, web servers may use aliasing to point to documents, gateways, and services that are not explicitly accessible from the server’s root directory.)
-path-segment-params: This is the portion of the URL that includes optional name/value pairs (that is, path segment parameters). A path segment parameter is typically preceded by a semicolon (depending on the programming language used), and it comes immediately after the path information. In this example, the path segment parameter is id=89. Path segment parameters are not commonly used. In addition, it is worth mentioning that these parameters are different from query-string parameters (often referred to as URL parameters ).
-query-string: This optional portion of the URL contains name/value pairs that represent dynamic parameters associated with the request. These parameters are commonly included in links for tracking and context-setting purposes. They may also be produced from variables in HTML forms. Typically, the query string is preceded by a question mark. Equals signs (=) separate names and values, and ampersands ( & ) mark the boundaries between name/value pairs. In this example, the query string is name=omar&x=true.
+All content is formatted for GitHub Pages and modular deployment.
+# 📘 Cybersecurity & Governance Glossary (Part 4)
 
 ---
 
-| Protocol Type | Example Protocols | Behavior |
-|---------------|-------------------|----------|
-| Stateless     | HTTP              | Each request is independent; no session memory |
-| Stateful      | FTP, SMTP, IMAP   | Server maintains session state across commands |
-
-| Status Code Range | Meaning             |
-|-------------------|---------------------|
-| 100–199           | Informational        |
-| 200–299           | Success              |
-| 300–399           | Redirection          |
-| 400–499           | Client Error         |
-| 500–599           | Server Error         |
-
-| Component              | Value                        | Description |
-|------------------------|------------------------------|-------------|
-| Scheme                 | https                        | Protocol used (HTTP, HTTPS, FTP) |
-| Host                   | theartofhacking.org          | Domain or IP of the target server |
-| Port                   | 8123                         | Non-standard port (default HTTP is 80, HTTPS is 443) |
-| Path                   | /dir/test                    | Resource location on the server |
-| Path Segment Parameter | id=89                        | Optional param after semicolon (`;`)—rarely used |
-| Query String           | name=omar&x=true             | Dynamic request parameters (after `?`) |
-
-| Feature           | HTTP/1.1        | HTTP/2.0        |
-|------------------|------------------|------------------|
-| Connection Model | Multiple TCP     | Single TCP       |
-| Request Handling | Sequential       | Parallel (Multiplexed) |
-| Performance      | Slower           | Faster           |
-| Compression      | Minimal          | Header compression |
-
-| API Type | Format | Transport | Common Vulnerabilities |
-|----------|--------|-----------|-------------------------|
-| REST     | JSON   | HTTP      | IDOR, XSS, auth bypass |
-| SOAP     | XML    | HTTP      | XML injection, WSDL exposure |
-| XML-RPC  | XML    | HTTP      | Command injection, legacy flaws |
-
-| Component              | Value                        | Attack Surface |
-|------------------------|------------------------------|----------------|
-| Scheme                 | https                        | SSL downgrade, MITM |
-| Host                   | theartofhacking.org          | DNS poisoning, subdomain takeover |
-| Port                   | 8123                         | Port scanning, service enumeration |
-| Path                   | /dir/test                    | Directory traversal, alias mapping |
-| Path Segment Parameter | id=89                        | Rare but injectable in legacy apps |
-| Query String           | name=omar&x=true             | XSS, SQLi, logic abuse |
-
-Session ID (Token) Essentials
-| Attribute           | Description |
-|---------------------|-------------|
-| Purpose             | Tracks user identity and session state |
-| Format              | Name/value pair (e.g., PHPSESSID=abc123) |
-| Common Names        | PHPSESSID, JSESSIONID, ASP.NET_SessionId, CFID, CFTOKEN |
-| Best Practice       | Rename default ID to generic (e.g., id) |
-| Length              | Minimum 128 bits (16 bytes) |
-| Entropy             | Recommended: ≥256 bits using DRBG |
-| Uniqueness          | Must be unpredictable and non-repeating |
-
-Cookie Types
-| Type              | Attributes        | Behavior |
-|-------------------|-------------------|----------|
-| Session Cookie    | No expiration set | Deleted when browser closes |
-| Persistent Cookie | Uses Max-Age or Expires | Stored until expiry |
-
-Related Vulnerabilities
-| Vulnerability       | Risk Vector |
-|---------------------|-------------|
-| Session Fixation    | Attacker sets session ID before login |
-| Session Hijacking   | Attacker steals valid session ID |
-| SQL Injection       | If session ID is stored unsanitized |
-| Persistent XSS      | If session ID is reflected in output |
-
-| Term / Concept                   | Definition                                                                                     |
-|---------------------------------|-----------------------------------------------------------------------------------------------|
-| Browser Sandbox                 | Security mechanism isolating web content to prevent harmful code affecting the system.        |
-| Browser Security Model          | Rules and mechanisms governing how browsers enforce security and isolate content.            |
-| Clickjacking                   | Malicious technique that tricks users into clicking on something different than perceived.   |
-| Click Event Hijacking           | Unauthorized interception and redirection of user click actions.                             |
-| Click Event Propagation         | Flow of click events through nested elements in the DOM hierarchy.                           |
-| Click Fraud                    | Deceptive practice generating fake clicks to inflate ad revenue or sabotage competitors.     |
-| Click Interception             | Capturing user clicks before they reach intended target.                                    |
-| Content Security Policy (CSP)  | Security standard specifying allowed content sources to prevent various attacks.             |
-| Cross-Origin Resource Sharing (CORS) | Mechanism allowing restricted resources to be requested from another domain.              |
-| CSS Pointer-Events Property    | CSS rule controlling whether elements respond to pointer interactions.                       |
-| Defensive Code                | Application logic detecting and preventing malicious framing or embedding.                   |
-| DOM Clobbering                | Security issue where attacker-controlled elements overwrite global DOM variables.           |
-| DOM Event Capture              | Phase where events are intercepted before reaching target element.                          |
-| DOM Event Delegation           | Technique where a parent element handles events for child elements.                         |
-| DOM Event Filtering            | Selective processing of events based on rules.                                              |
-| DOM Event Hijacking            | Unauthorized interception and redirection of DOM-based user interactions.                   |
-| DOM Event Injection            | Artificial triggering of DOM events to simulate user actions.                              |
-| DOM Event Lifecycle            | Stages through which a DOM event passes from creation to completion.                        |
-| DOM Event Listener             | Function monitoring and responding to actions within the document object model.            |
-| DOM Event Propagation          | Process that defines how events flow through DOM elements.                                 |
-| DOM Event Queuing              | Sequence of events waiting to be processed.                                                |
-| DOM Mutation                  | Changes to document object model structure or content.                                    |
-| Frame Busting                 | Technique to prevent a web page from loading inside a frame or iframe.                     |
-| frame-ancestors Directive     | CSP directive controlling which sources can embed the page in a frame.                     |
-| Frame Overlay                | Technique where an iframe is layered over visible content to hijack user actions.           |
-| iframe                      | HTML element embedding another page within the current page.                               |
-| Input Capture                | Interception of user input before reaching destination.                                   |
-| Input Masking                | Hiding or formatting user input to guide or restrict data entry.                          |
-| JavaScript Frame Detection    | Script method to verify if page is framed by another domain.                              |
-| Keystroke Hijacking          | Intercepting or redirecting user keyboard input without consent.                         |
-| Overlay Attack               | Malicious layer placed over legitimate interface to capture user actions.                |
-| OWASP                       | Nonprofit focused on improving software security worldwide.                            |
-| OWASP Clickjacking Defense Cheat Sheet | Resource providing best practices against clickjacking attacks.                      |
-| Same-Origin Policy           | Web security concept restricting cross-origin interactions.                             |
-| Security Headers            | HTTP headers enhancing web application security by controlling browser behavior.       |
-| Text Box                   | Input field on web page for user text entry.                                           |
-| Top-Level Window           | Primary browser window not nested inside other frames.                                |
-| Transparent Layer          | Visual element with no opacity used to disguise malicious content underneath.          |
-| UI Element Obfuscation     | Deliberate distortion or concealment of interface components to mislead users.         |
-| UI Overlay                | Interface layer placed above others to intercept or redirect user actions.             |
-| UI Redress Attack          | Form of clickjacking manipulating UI to mislead user actions.                          |
-| UI Spoofing               | Mimicking legitimate interface elements to deceive users.                            |
-| Visual Phishing           | Deceptive technique that mimics trusted UI to trick users into revealing info.        |
-| Visual Spoofing           | Altering UI appearance to mislead users.                                             |
-| X-Frame-Options           | Deprecated HTTP header controlling browser framing permissions.                       |
-
-| Term / Concept                      | Definition                                                                 |
-|------------------------------------|----------------------------------------------------------------------------|
-| Clickjacking                       | Involves using multiple transparent or opaque layers to induce a user into clicking on a web button or link on a page that he or she was not intended to navigate or click. |
-| UI Redress Attack                  | Clickjacking attacks are often referred to as UI redress attacks.          |
-| Keystroke Hijacking                | User keystrokes can also be hijacked using clickjacking techniques.        |
-| iframe                             | An invisible frame that can be rendered from a site the attacker created.  |
-| CSS Stylesheet                     | Used in combination with iframes and text boxes to fool the user.          |
-| Content Security Policy (CSP)      | A directive response header used to instruct the browser not to allow framing from other domains. |
-| frame-ancestors Directive          | A CSP directive that replaces the older X-Frame-Options HTTP headers.       |
-| X-Frame-Options                    | An older HTTP header replaced by CSP frame-ancestors directive.            |
-| Top-Level Window                   | The current frame that defensive code ensures is the top-level window.     |
-| Defensive Code                     | Code in the application to make sure the current frame is the top-level window. |
-
-| Term / Concept                      | Definition                                                                 |
-|------------------------------------|----------------------------------------------------------------------------|
-| Business Logic Flaw                | Enables an attacker to use legitimate transactions and flows of an application in a way that results in a negative behavior or outcome. |
-| CWE-840                            | The Common Weakness Enumeration ID assigned to business logic errors.      |
-| Unverified Ownership               | A business logic flaw where ownership of data or actions is not properly validated. |
-| Authentication Bypass              | A flaw that allows access through alternate paths or channels without proper credentials. |
-| Authorization Bypass               | A flaw where user-controlled keys allow access to restricted resources.     |
-| Weak Password Recovery Mechanism   | A business logic flaw that allows attackers to exploit the password reset process. |
-| SQL Injection                      | An attack where malicious SQL statements are inserted into input fields to manipulate database queries. |
-| HTML Injection                     | An attack where HTML code is injected into a web page to alter its structure or behavior. |
-| Command Injection                  | An attack that allows execution of arbitrary system-level commands via user input. |
-| LDAP Injection                     | An attack that manipulates LDAP queries to gain unauthorized access or modify directory data. |
-| SELECT Statement                   | A SQL command used to retrieve data from a database.                        |
-| UPDATE Statement                   | A SQL command used to modify existing data in a database.                  |
-| DELETE Statement                   | A SQL command used to remove data from a database.                         |
-| INSERT INTO Statement              | A SQL command used to add new data to a database.                          |
-| CREATE TABLE                       | A SQL command used to define a new table in a database.                    |
-| DROP TABLE                         | A SQL command used to delete a table from a database.                      |
-| Data Definition Language (DDL)     | SQL statements that define database structure (e.g., CREATE, ALTER, DROP). |
-| Data Manipulation Language (DML)   | SQL statements that manage data (e.g., SELECT, INSERT, UPDATE, DELETE).    |
-| Transaction Control Statements     | SQL commands that manage database transactions (e.g., COMMIT, ROLLBACK).   |
-| In-band SQL Injection              | An attack where data is retrieved using the same channel as the injection. |
-| Out-of-band SQL Injection          | An attack where data is retrieved through a different channel, such as email or HTTP requests. |
-| Blind SQL Injection                | An attack where no data is returned, but the attacker infers behavior based on application responses. |
-| Union Operator                     | A SQL operator used to combine results from multiple SELECT statements.     |
-| Boolean SQL Injection              | A technique that uses true/false logic to infer database behavior.         |
-| Error-Based SQL Injection          | A technique that forces the database to generate errors to reveal query structure or data. |
-| Time-Delay SQL Injection           | A technique that uses database functions to delay responses, confirming conditional logic. |
-| Stacked Queries                    | A technique that uses semicolons to execute multiple SQL statements in one call. |
-| Stored Procedure                   | A set of SQL statements stored in the database that can be executed with input parameters. |
-| Parameterized Query                | A query that uses placeholders to safely bind user input and prevent injection. |
-| Static Query                       | A hardcoded SQL statement that does not include dynamic user input.        |
-| OWASP                              | The Open Worldwide Application Security Project, which provides resources for secure coding practices. |
-| ESAPI                              | The OWASP Enterprise Security API, a library that helps mitigate web application vulnerabilities. |
-
-| Term / Concept                    | Definition / Description                                                   |
-|----------------------------------|----------------------------------------------------------------------------|
-| Input Validation                 | The process of ensuring that user input conforms to expected formats and constraints before processing. |
-| Output Encoding                  | A mitigation technique that converts potentially dangerous characters into a safe format for display. |
-| Parameter Tampering              | A technique where attackers manipulate parameters exchanged between client and server to gain unauthorized access or privileges. |
-| Session Fixation                 | An attack where a valid session ID is set by the attacker and then used to hijack a user’s session. |
-| Cross-Site Scripting (XSS)       | A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. |
-| Reflected XSS                    | A type of XSS where the malicious script is reflected off a web server, typically via a URL or form input. |
-| Stored XSS                       | A type of XSS where the malicious script is permanently stored on the target server (e.g., in a database). |
-| DOM-Based XSS                    | A type of XSS that occurs when the vulnerability is in the client-side code rather than server-side. |
-| CSRF (Cross-Site Request Forgery)| An attack that tricks a user into executing unwanted actions on a web application where they’re authenticated. |
-| Clickjacking                     | A technique that tricks users into clicking on something different from what they perceive, often by overlaying elements. |
-| Privilege Escalation             | Exploiting a vulnerability to gain higher access rights than originally intended. |
-| Race Condition                   | A flaw that occurs when the outcome of a process depends on the sequence or timing of uncontrollable events. |
-| Insecure Direct Object Reference | A vulnerability where an application exposes internal implementation objects (e.g., files, database keys) without proper access control. |
-| Broken Access Control            | A flaw where restrictions on what authenticated users are allowed to do are not properly enforced. |
-| Security Misconfiguration        | A vulnerability caused by improper configuration of security settings in applications, servers, or databases. |
-| Sensitive Data Exposure          | A flaw where sensitive information (e.g., passwords, credit card numbers) is not properly protected. |
-| Insufficient Logging & Monitoring| A security weakness where malicious activities go undetected due to lack of visibility or alerting. |
-| Least Privilege Principle        | A security concept that users and systems should operate using the minimum privileges necessary. |
-| Defense in Depth                 | A layered security approach that uses multiple controls to protect systems and data. |
-| Threat Modeling                  | A structured process to identify potential threats and vulnerabilities in a system or application. |
-| Secure Coding Practices          | Guidelines and techniques used to write software that is resistant to vulnerabilities and exploits. |
-| Static Application Security Testing (SAST) | A method of analyzing source code for vulnerabilities without executing the program. |
-| Dynamic Application Security Testing (DAST) | A method of analyzing a running application for vulnerabilities by simulating attacks. |
-| Penetration Testing              | A simulated attack on a system to evaluate its security posture and identify exploitable vulnerabilities. |
-| Zero-Day Vulnerability           | A flaw that is unknown to the vendor and has no official patch or mitigation available. |
-
-| Term / Concept                        | Definition / Description                                                   |
-|--------------------------------------|----------------------------------------------------------------------------|
-| Governance Forensics                 | The investigative process of analyzing governance structures, decisions, and behaviors to uncover systemic flaws or breaches. |
-| Oversight Audit                      | A structured review of governance, compliance, and operational controls to assess alignment with regulatory and ethical standards. |
-| Boardroom Integrity™                 | A strategic framework focused on ethical decision-making, transparency, and accountability at the board level. |
-| Responsible AI                       | The design, deployment, and oversight of artificial intelligence systems that prioritize fairness, transparency, and societal impact. |
-| Compliance Architecture              | The structured framework of policies, controls, and reporting mechanisms that ensure regulatory adherence across an organization. |
-| Strategic Business Diagnostics       | A methodical evaluation of business operations, governance, and market positioning to identify areas for turnaround or optimization. |
-| Ethical Innovation Framework         | A model for developing and scaling innovations that align with ethical principles, stakeholder trust, and long-term value creation. |
-| Stakeholder Education Matrix         | A structured tool that maps key concepts, risks, and responsibilities to specific stakeholder groups for targeted learning. |
-| Exportable Governance Framework      | A modular, reusable structure that can be adapted across organizations to support compliance, oversight, and strategic renewal. |
-| Acronym Intelligence                 | The practice of decoding and contextualizing technical or governance-related acronyms for stakeholder clarity and operational use. |
-| Decision Framework                   | A structured model that guides strategic choices based on risk, impact, and alignment with organizational values. |
-| Compliance Cheat Sheet               | A condensed, actionable reference guide that outlines key compliance principles, risks, and mitigation strategies. |
-| SME Governance Alignment             | The process of tailoring governance and compliance strategies to the unique needs and constraints of small and medium enterprises. |
-| Strategic Content Pillar             | A thematic foundation used to organize and amplify thought leadership across platforms like LinkedIn. |
-| Stakeholder-Ready Briefing           | A concise, visually clear document designed to communicate complex insights to non-technical or executive audiences. |
-| Iterative Fact-Checking              | A collaborative process of refining technical or strategic content through repeated validation and stakeholder input. |
-| Operational Excellence               | The pursuit of efficiency, effectiveness, and ethical alignment across business processes and decision-making. |
-| Risk Communication                   | The strategic articulation of potential threats, vulnerabilities, and mitigation plans to internal and external stakeholders. |
-| Governance Renewal                   | The process of re-evaluating and updating governance structures to reflect evolving risks, technologies, and stakeholder expectations. |
-
-| Term / Concept                    | Definition / Description                                                   |
-|----------------------------------|----------------------------------------------------------------------------|
-| Input Validation                 | The process of ensuring that user input conforms to expected formats and constraints before processing. |
-| Output Encoding                  | A mitigation technique that converts potentially dangerous characters into a safe format for display. |
-| Parameter Tampering              | A technique where attackers manipulate parameters exchanged between client and server to gain unauthorized access or privileges. |
-| Session Fixation                 | An attack where a valid session ID is set by the attacker and then used to hijack a user’s session. |
-| Cross-Site Scripting (XSS)       | A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. |
-| Reflected XSS                    | A type of XSS where the malicious script is reflected off a web server, typically via a URL or form input. |
-| Stored XSS                       | A type of XSS where the malicious script is permanently stored on the target server (e.g., in a database). |
-| DOM-Based XSS                    | A type of XSS that occurs when the vulnerability is in the client-side code rather than server-side. |
-| CSRF (Cross-Site Request Forgery)| An attack that tricks a user into executing unwanted actions on a web application where they’re authenticated. |
-| Clickjacking                     | A technique that tricks users into clicking on something different from what they perceive, often by overlaying elements. |
-| Privilege Escalation             | Exploiting a vulnerability to gain higher access rights than originally intended. |
-| Race Condition                   | A flaw that occurs when the outcome of a process depends on the sequence or timing of uncontrollable events. |
-| Insecure Direct Object Reference | A vulnerability where an application exposes internal implementation objects (e.g., files, database keys) without proper access control. |
-| Broken Access Control            | A flaw where restrictions on what authenticated users are allowed to do are not properly enforced. |
-| Security Misconfiguration        | A vulnerability caused by improper configuration of security settings in applications, servers, or databases. |
-| Sensitive Data Exposure          | A flaw where sensitive information (e.g., passwords, credit card numbers) is not properly protected. |
-| Insufficient Logging & Monitoring| A security weakness where malicious activities go undetected due to lack of visibility or alerting. |
-| Least Privilege Principle        | A security concept that users and systems should operate using the minimum privileges necessary. |
-| Defense in Depth                 | A layered security approach that uses multiple controls to protect systems and data. |
-| Threat Modeling                  | A structured process to identify potential threats and vulnerabilities in a system or application. |
-| Secure Coding Practices          | Guidelines and techniques used to write software that is resistant to vulnerabilities and exploits. |
-| Static Application Security Testing (SAST) | A method of analyzing source code for vulnerabilities without executing the program. |
-| Dynamic Application Security Testing (DAST) | A method of analyzing a running application for vulnerabilities by simulating attacks. |
-| Penetration Testing              | A simulated attack on a system to evaluate its security posture and identify exploitable vulnerabilities. |
-| Zero-Day Vulnerability           | A flaw that is unknown to the vendor and has no official patch or mitigation available. |
-
-| Term / Concept                      | Definition / Description                                                   |
-|------------------------------------|----------------------------------------------------------------------------|
-| Security Misconfiguration          | A vulnerability caused by improper setup of web services, servers, or applications—such as default credentials or exposed directories. |
-| Directory Traversal (Path Traversal)| A vulnerability that allows attackers to access files outside the intended web root by manipulating file path inputs. |
-| Dot-Dot-Slash (../)                | A common path traversal sequence used to navigate up the directory structure. |
-| URL Encoding                       | A technique used to encode characters in URLs; attackers use it to obfuscate traversal sequences (e.g., %2e%2e%2f = ../). |
-| Absolute File Path                 | A full path reference used to access specific files directly, often exploited in traversal attacks. |
-| /etc/passwd                        | A sensitive Linux system file containing user account information—commonly targeted in traversal exploits. |
-| Automated Vulnerability Scanning   | The use of tools to detect misconfigurations and vulnerabilities in web services and server setups. |
-| Input Validation                   | A security control that ensures user input conforms to expected formats, reducing risk of injection or traversal. |
-| File System Call                   | A function that interacts with the operating system’s file structure; vulnerable if user input is not properly restricted. |
-| Root Directory                     | The top-level directory of a web server; access beyond this point can expose sensitive system files. |
-| Cookie Manipulation                | A technique where attackers alter cookies to gain unauthorized access or escalate privileges. |
-| Backtracking / Directory Climbing  | Alternate terms for directory traversal, emphasizing the act of navigating upward through the file system. |
-| Mitigation Strategy                | A set of practices designed to prevent or reduce the impact of vulnerabilities, such as input validation and path sanitization. |
-
-| Term / Concept                  | Definition / Description                                                   |
-|--------------------------------|----------------------------------------------------------------------------|
-| Cookie Manipulation            | The unauthorized alteration of cookie values to exploit application behavior or gain elevated access. |
-| Stored DOM-Based Vulnerability | A client-side vulnerability where user input is stored and later processed unsafely within the DOM, enabling attacks like cookie manipulation. |
-| DOM (Document Object Model)    | A programming interface for web documents that represents the page structure and allows scripts to dynamically access and update content. |
-| JavaScript Injection           | The insertion of malicious JavaScript code into a web page, often used to manipulate cookies or DOM elements. |
-| Arbitrary Cookie Value         | A cookie value set by an attacker, often used to impersonate users or alter session behavior. |
-| Untrusted Source               | Any input or data originating from users or external systems that has not been validated or sanitized. |
-| Dynamic Cookie Writing         | The practice of programmatically setting cookie values based on runtime data—risky if sourced from untrusted input. |
-| HttpOnly Attribute             | A cookie flag that prevents access to the cookie via JavaScript, mitigating certain client-side attacks. |
-| Secure Attribute               | A cookie flag that ensures the cookie is only transmitted over HTTPS, protecting it from interception. |
-| SameSite Attribute             | A cookie flag that restricts cross-origin requests, helping prevent CSRF and other cross-site attacks. |
-
-| Term / Concept                     | Definition / Description                                                   |
-|-----------------------------------|----------------------------------------------------------------------------|
-| Insecure Code Practices           | Programming habits or oversights that introduce vulnerabilities into software, often due to lack of security awareness. |
-| Shift-Left Security               | A DevOps approach that integrates security early in the development lifecycle, empowering developers to remediate issues proactively. |
-| Source Code Scanning              | The automated analysis of code to detect vulnerabilities before deployment, often integrated into CI/CD pipelines. |
-| Binary Scanning                   | The analysis of compiled code (binaries) to identify security flaws that may not be visible in source code. |
-| DevOps                            | A set of practices that combines software development and IT operations, often emphasizing automation and continuous delivery. |
-| CWE (Common Weakness Enumeration) | A standardized catalog of software weaknesses maintained by MITRE, used to classify and track security flaws. |
-| CWE-615                           | The specific CWE identifier for “Information Exposure Through Comments,” where sensitive data is left in source code comments. |
-| Information Exposure              | The unintended disclosure of sensitive data, such as passwords or API keys, through code, logs, or error messages. |
-| Comments in Source Code           | Developer notes embedded in code; if they contain sensitive information, they can be exploited by attackers. |
-| Error Handling                    | The process of managing application errors; poor implementation can reveal system internals or vulnerabilities. |
-| Verbose Error Messages            | Detailed error outputs (e.g., stack traces, database dumps) that provide attackers with insight into application logic or flaws. |
-| OWASP                             | The Open Worldwide Application Security Project, a leading authority on secure coding practices and vulnerability mitigation. |
-
-| Term / Concept                  | Definition / Description                                                   |
-|--------------------------------|----------------------------------------------------------------------------|
-| Parameter Tampering            | A web attack technique where parameters exchanged between client and server are manipulated to alter application behavior or data. |
-| Hidden Form Field              | An HTML input element not visible to users; often used to store data but can be abused by attackers to manipulate values (e.g., price). |
-| Code Signing                   | The process of digitally signing software to verify its integrity and authenticity, preventing unauthorized modifications. |
-| Subresource Integrity (SRI)    | A browser security feature that uses cryptographic hashes to verify the integrity of fetched resources, preventing tampering. |
-| Web Proxy                      | A tool that intercepts, modifies, or deletes traffic between a browser and a web application—used in both ethical hacking and attacks. |
-| Burp Suite                     | A popular web security testing platform with proxy, scanner, and fuzzing tools; available in Community and Professional editions. |
-| OWASP ZAP                      | The Zed Attack Proxy—an open-source web application security scanner with proxy, fuzzing, and automation capabilities. |
-| DirBuster                      | A tool used for brute-forcing directories and files on web servers, aiding in active reconnaissance. |
-| gobuster                       | A fast directory and file enumeration tool written in Go, used for web application reconnaissance. |
-| ffuf                           | A high-speed web fuzzer written in Go, used to discover hidden endpoints and vulnerabilities. |
-| feroxbuster                    | A Rust-based web fuzzer for recursive content discovery and directory enumeration. |
-| Wordlist                       | A file containing predefined words used in brute-force attacks to discover directories, files, or crack passwords. |
-
-Glossary: SQL Injection & Vulnerability Lab Insights
-
-Remote Code Execution (RCE)
-A critical vulnerability that allows attackers to execute arbitrary commands on a target system. In the lab, this was demonstrated via CVE-2012-1823 affecting PHP-CGI.
-
-Out-of-date Software Version
-A root cause of many vulnerabilities. Refers to running legacy or unpatched software that exposes known exploits.
-
-Security Misconfiguration
-A vulnerability caused by improper setup of software, frameworks, or servers. Initially considered but not the root cause in this lab.
-
-OWASP ZAP
-An open-source security tool used to scan web applications for vulnerabilities, including SQL injection and RCE.
-
-CVE-2012-1823
-A specific vulnerability in PHP-CGI that allows remote code execution due to improper query string handling.
-
-SQL Injection
-A code injection technique that exploits improper handling of SQL queries, allowing attackers to manipulate databases.
-
-In-band SQL Injection
-The attacker retrieves data directly through the same communication channel (e.g., web application response).
-
-Inferential SQL Injection
-Also known as "blind" injection. The attacker infers data by observing application behavior after sending crafted queries.
-
-Out-of-band SQL Injection
-The attacker retrieves data via alternate channels (e.g., email, DNS, or messaging), useful when direct feedback is unavailable.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-OWASP Top 10
-A globally recognized list of the ten most critical web application security risks, maintained by the Open Worldwide Application Security Project (OWASP). It serves as a baseline for secure coding and vulnerability assessment.
-
-Patch Hygiene
-The practice of regularly updating software to fix known vulnerabilities. Poor patch hygiene can lead to exploitation of outdated systems, as seen with CVE-2012-1823.
-
-Query String
-The portion of a URL that contains data to be passed to web applications. Improper handling of query strings can lead to vulnerabilities like remote code execution.
-
-Blind Injection
-A subtype of inferential SQL injection where no data is visibly returned to the attacker. Instead, they infer results based on application behavior (e.g., timing or error messages).
-
-CWE (Common Weakness Enumeration)
-A standardized list of software weaknesses maintained by MITRE. It complements CVE by categorizing the nature of vulnerabilities (e.g., CWE-94: Improper Control of Generation of Code).
-
-Exploit
-A piece of code or technique used to take advantage of a vulnerability in a system, often leading to unauthorized access or control.
-
-Vulnerability Scanner
-A tool that automatically detects security flaws in applications or systems. OWASP ZAP is one such scanner used in the lab to identify issues like SQL injection and RCE.
-
-Mitigation
-Steps taken to reduce or eliminate the risk posed by a vulnerability. Examples include patching software, sanitizing inputs, and configuring systems securely.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Injection Vector
-The specific input point or mechanism through which malicious SQL or code is introduced into an application (e.g., form fields, URL parameters).
-
-Payload
-The actual malicious code or query injected by the attacker to exploit a vulnerability (e.g., `' OR '1'='1` in SQL injection).
-
-Sanitization
-The process of cleaning and validating user input to prevent injection attacks. Often involves escaping special characters or enforcing strict input formats.
-
-Parameterized Queries
-A secure coding practice where SQL statements are defined with placeholders, and user input is passed separately. This prevents attackers from injecting malicious SQL.
-
-Error-Based SQL Injection
-A subtype of in-band injection where attackers exploit database error messages to extract information.
-
-Time-Based Blind SQL Injection
-A subtype of inferential injection where attackers use delays (e.g., `SLEEP(5)`) to infer whether a condition is true, based on response time.
-
-DNS Exfiltration
-A technique used in out-of-band injection where data is encoded into DNS queries and sent to an attacker-controlled domain.
-
-Vulnerability Disclosure
-The process of reporting a discovered vulnerability to the affected vendor or public database (e.g., CVE), often following responsible disclosure protocols.
-
-Exploit Chain
-A sequence of vulnerabilities or misconfigurations that, when combined, allow an attacker to escalate privileges or gain deeper access.
-
-Mitigation Strategy
-A structured approach to reducing risk, including patching, input validation, secure coding, and regular scanning.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Authentication Bypass
-A security flaw that allows attackers to gain unauthorized access to systems or applications by circumventing login mechanisms, often via SQL injection or logic flaws.
-
-Least Privilege Principle
-A security best practice where users and systems are granted the minimum access necessary to perform their tasks, reducing the impact of potential exploits.
-
-Input Validation
-The process of verifying and sanitizing user input to ensure it conforms to expected formats and does not contain malicious content.
-
-Code Injection
-A broader category of attack where arbitrary code is inserted into an application, including SQL, command-line, or script-based injections.
-
-Web Application Firewall (WAF)
-A security tool that monitors and filters HTTP traffic to and from a web application, helping to block common attacks like SQL injection and cross-site scripting.
-
-Cross-Site Scripting (XSS)
-A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. Often confused with SQL injection but targets client-side execution.
-
-Privilege Escalation
-A technique where attackers gain higher-level access than intended, often by chaining vulnerabilities like RCE and misconfigurations.
-
-Zero-Day Vulnerability
-A security flaw that is unknown to the vendor and has no patch available. Exploits targeting zero-days are especially dangerous due to lack of defenses.
-
-Responsible Disclosure
-The ethical practice of reporting vulnerabilities to vendors or authorities before public release, allowing time for remediation.
-
-Security Posture
-An organization’s overall approach to cybersecurity, including policies, tools, and practices that determine its resilience against threats.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Threat Vector  
-The path or method used by an attacker to gain unauthorized access to a system. Examples include SQL injection, phishing, or misconfigured APIs.
-
-Attack Surface  
-The total set of points where an unauthorized user could attempt to enter or extract data from an environment. Reducing the attack surface is key to hardening systems.
-
-Enumeration  
-The process of systematically identifying resources, users, or services on a target system. Often used in reconnaissance phases of an attack.
-
-Reconnaissance  
-The initial phase of a cyberattack where the attacker gathers information about the target system, network, or application to identify potential vulnerabilities.
-
-Privilege Escalation  
-A technique used by attackers to gain elevated access to resources that are normally restricted, often by exploiting misconfigurations or chaining vulnerabilities.
-
-Session Hijacking  
-An attack where the attacker takes over a valid user session, often by stealing session cookies or tokens.
-
-Token-Based Authentication  
-A security mechanism where users authenticate using a token (e.g., JWT) instead of traditional credentials. Tokens must be securely stored and validated.
-
-Cross-Site Request Forgery (CSRF)  
-A vulnerability that tricks a user into performing unintended actions on a web application where they’re authenticated, often via malicious links or forms.
-
-Content Security Policy (CSP)  
-A browser-based security feature that helps prevent XSS and data injection attacks by restricting the sources from which content can be loaded.
-
-Secure Coding Practices  
-A set of development techniques aimed at reducing vulnerabilities in software, including input validation, error handling, and use of secure libraries.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Data Exfiltration  
-The unauthorized transfer of data from a system, often as a result of successful exploitation. Can occur via SQL injection, DNS tunneling, or out-of-band channels.
-
-SQLi Payload  
-A specific string or command crafted to exploit SQL injection vulnerabilities. Examples include `' OR '1'='1` or `UNION SELECT`.
-
-Union-Based SQL Injection  
-A subtype of in-band SQL injection where attackers use the `UNION` SQL operator to combine results from multiple queries and extract data.
-
-Boolean-Based Blind SQL Injection  
-A form of inferential injection where attackers send queries that return true or false, allowing them to infer database structure based on application responses.
-
-Error Handling  
-A secure coding practice that ensures applications do not expose internal errors or stack traces, which could aid attackers in crafting exploits.
-
-Server-Side Injection  
-An injection attack that targets server-side components such as databases, operating systems, or backend logic.
-
-Client-Side Injection  
-An attack that targets the user’s browser or client environment, such as XSS or malicious JavaScript.
-
-Parameterized Statements  
-SQL queries that use placeholders for user input, preventing direct injection by separating code from data.
-
-Prepared Statements  
-A secure method of executing SQL queries where the structure is defined first and user input is bound later, mitigating injection risks.
-
-Database Fingerprinting  
-The process of identifying the type and version of a database through crafted queries or error messages, often used in reconnaissance.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Database Enumeration  
-The process of identifying database structure, tables, columns, and relationships through crafted queries or error messages. Often used during SQL injection attacks.
-
-Information Disclosure  
-A vulnerability where sensitive data (e.g., system details, user credentials, internal paths) is unintentionally exposed to unauthorized users.
-
-Security Headers  
-HTTP response headers that enhance security by controlling browser behavior (e.g., `Content-Security-Policy`, `X-Frame-Options`, `Strict-Transport-Security`).
-
-TLS/SSL  
-Transport Layer Security / Secure Sockets Layer — protocols that encrypt data in transit between clients and servers to prevent interception or tampering.
-
-Man-in-the-Middle (MitM) Attack  
-An attack where the adversary intercepts communication between two parties, often used to steal credentials or inject malicious content.
-
-DNS Tunneling  
-A technique used for data exfiltration or command-and-control communication by encoding data within DNS queries and responses.
-
-Security Audit  
-A formal review of systems, configurations, and code to identify vulnerabilities, misconfigurations, and compliance gaps.
-
-Penetration Testing  
-A simulated cyberattack performed by ethical hackers to evaluate the security of a system and uncover exploitable weaknesses.
-
-Vulnerability Assessment  
-A systematic process of identifying, quantifying, and prioritizing vulnerabilities in a system or application.
-
-Exploit Development  
-The creation of tools or scripts that leverage known vulnerabilities to gain unauthorized access or control over systems.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Privilege Separation  
-A security design principle that divides system functions across different privilege levels to minimize the impact of a breach.
-
-Role-Based Access Control (RBAC)  
-A method of restricting system access based on the roles of individual users within an organization. Helps enforce least privilege.
-
-Access Control List (ACL)  
-A table or file that defines permissions attached to objects, specifying which users or system processes can access them and what operations are allowed.
-
-Authentication  
-The process of verifying the identity of a user or system, typically through credentials like passwords, tokens, or biometrics.
-
-Authorization  
-The process of determining whether a user or system has permission to perform a specific action or access a resource.
-
-Session Management  
-Techniques used to securely handle user sessions, including creation, maintenance, and termination. Poor session management can lead to hijacking or fixation attacks.
-
-Token Expiry  
-A security feature that limits the lifespan of authentication tokens, reducing the risk of misuse if a token is compromised.
-
-Secure Transport  
-Ensuring data is encrypted during transmission using protocols like HTTPS, TLS, or VPNs to prevent interception or tampering.
-
-Security Logging  
-Recording security-related events such as login attempts, access violations, and system changes. Essential for auditing and incident response.
-
-Audit Trail  
-A chronological record of system activities that enables tracking of user actions and system changes for compliance and forensic analysis.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Security Token  
-A digital credential used to authenticate users or systems. Examples include JSON Web Tokens (JWT), OAuth tokens, and SAML assertions.
-
-JWT (JSON Web Token)  
-A compact, URL-safe token format used for authentication and information exchange. It contains claims and is signed to ensure integrity.
-
-OAuth  
-An open standard for access delegation, allowing users to grant third-party applications limited access to their resources without sharing credentials.
-
-SAML (Security Assertion Markup Language)  
-An XML-based framework for exchanging authentication and authorization data between parties, commonly used in enterprise single sign-on (SSO).
-
-Single Sign-On (SSO)  
-An authentication process that allows users to access multiple applications with one set of credentials, improving usability and security.
-
-Multi-Factor Authentication (MFA)  
-A security mechanism that requires two or more verification factors (e.g., password + SMS code) to authenticate a user.
-
-Brute Force Attack  
-An attack method that systematically tries all possible combinations of credentials until the correct one is found.
-
-Rate Limiting  
-A security control that restricts the number of requests a user or system can make in a given time period, helping prevent abuse and brute force attacks.
-
-CAPTCHA  
-A challenge-response test used to determine whether the user is human, often used to block automated attacks.
-
-Security Awareness Training  
-Education programs designed to inform users about cybersecurity risks and best practices, reducing human error and social engineering success.
-
-Glossary: SQL Injection & Vulnerability Lab Insights (continued)
-
-Security Baseline  
-A defined set of security configurations and controls that serve as a minimum standard for systems and applications across an organization.
-
-Configuration Drift  
-The gradual deviation of system settings from their original secure baseline due to updates, manual changes, or poor change control.
-
-Change Management  
-A structured process for managing updates and modifications to systems, ensuring that changes are documented, tested, and approved to maintain security and compliance.
-
-Vulnerability Window  
-The period between the discovery of a vulnerability and its remediation. Longer windows increase the risk of exploitation.
-
-Exploit Kit  
-A collection of automated tools used by attackers to scan for and exploit known vulnerabilities, often bundled with payload delivery mechanisms.
-
-Security Patch  
-A software update issued by vendors to fix vulnerabilities and improve system defenses. Timely patching is critical to reducing exposure.
-
-Zero Trust Architecture  
-A security model that assumes no implicit trust, requiring continuous verification of users, devices, and applications regardless of location.
-
-Defense in Depth  
-A layered security strategy that combines multiple controls (e.g., firewalls, encryption, access controls) to protect systems even if one layer fails.
-
-Security Operations Center (SOC)  
-A centralized team responsible for monitoring, detecting, and responding to cybersecurity incidents across an organization.
-
-Incident Response Plan  
-A predefined set of procedures for identifying, containing, eradicating, and recovering from cybersecurity incidents.
-
-| Term                      | Definition                                                                 |
-|---------------------------|----------------------------------------------------------------------------|
-| Authentication            | The process of verifying a user's identity before granting access.         |
-| Access Control            | Mechanisms that restrict access to resources based on user roles or permissions. |
-| Session Hijacking         | Unauthorized takeover of a valid user session to impersonate or access data. |
-| Session ID / Token        | A unique identifier assigned to a user session, used to maintain state.    |
-| Cookie                    | A small piece of data stored on the client, often used to manage sessions. |
-| HTTPOnly Flag             | A cookie attribute that prevents access via client-side scripts.           |
-| Persistent Cookie         | A cookie stored on disk with an expiration time.                           |
-| Non-Persistent Cookie     | A cookie stored in memory and deleted when the browser closes.             |
-| Session Fixation          | An attack where the attacker sets a known session ID before authentication.|
-| On-Path Attack            | Interception of traffic between client and server (formerly MITM).         |
-| Man-in-the-Browser        | Browser-based attack via compromised extensions or plugins.                |
-| Entropy                   | Measure of randomness; higher entropy makes session IDs harder to predict. |
-| PRNG                      | Algorithm used to generate secure, unpredictable session tokens.           |
-| URL Rewriting             | Technique of embedding session ID in the URL—considered insecure.          |
-| Framework Fingerprinting  | Identifying backend tech stack via default session ID names.               |
-
-| Term                          | Definition                                                                 |
-|-------------------------------|----------------------------------------------------------------------------|
-| Unvalidated Redirect          | A vulnerability where user input is used to redirect to an untrusted URL. |
-| Unvalidated Forward           | A vulnerability where user input causes internal forwarding to unauthorized resources. |
-| Social Engineering            | Manipulating users into performing actions or divulging confidential information. |
-| Malicious Site                | A website designed to install malware or steal sensitive data.             |
-| Access Control Bypass         | Circumventing restrictions to access privileged functions or data.         |
-| Default Credentials           | Factory-set usernames and passwords left unchanged on devices or systems. |
-| Infrastructure Devices        | Network hardware such as routers, switches, firewalls, and access points. |
-| Credential Enumeration        | Systematic discovery of valid usernames and passwords.                     |
-| Shodan                        | A search engine for discovering Internet-connected devices and services.   |
-| Configuration Hardening       | Securing systems by changing defaults and disabling unnecessary features.  |
-
-| Term                          | Definition                                                                 |
-|-------------------------------|----------------------------------------------------------------------------|
-| Kerberos                      | A network authentication protocol that uses tickets to allow nodes to prove their identity securely. |
-| Golden Ticket Attack          | A Kerberos exploit where attackers forge Ticket Granting Tickets (TGTs) using the KRBTGT account hash. |
-| KRBTGT                        | The Kerberos Ticket Granting Ticket account in Active Directory; its hash is used to sign all TGTs. |
-| Ticket Granting Ticket (TGT)  | A special Kerberos ticket used to request access to other services within the domain. |
-| Unconstrained Delegation      | A risky configuration allowing services to reuse user credentials to access other services without restriction. |
-| Credential Theft              | The act of stealing usernames, passwords, or hashes from a compromised system. |
-| Hash Manipulation             | Altering or using password hashes to forge authentication tokens or tickets. |
-| Active Directory              | Microsoft’s directory service used for identity and access management in Windows environments. |
-| Domain Controller             | A server that responds to security authentication requests within a Windows domain. |
-| Lateral Movement              | The technique of moving from one compromised system to another within a network. |
-
-# 🔐 Password Cracking Glossary & Acronym Intelligence
-
-## 📘 Glossary
-
-| Term                    | Definition                                                                 |
-|-------------------------|----------------------------------------------------------------------------|
-| John the Ripper (JtR)   | A fast password cracker used in security audits and penetration testing.   |
-| Wordlist Attack         | Attempts passwords from a predefined list against a hash.                  |
-| Brute Force Attack      | Tries all possible character combinations to crack a password.             |
-| Incremental Mode        | JtR’s brute-force mode that generates character permutations.              |
-| Rainbow Tables          | Precomputed hash reversal tables (not used by JtR).                        |
-| Hash                    | A fixed-length cryptographic output used for password storage.             |
-| RockYou.txt             | A widely used leaked password wordlist file.                              |
-| Password Audit Matrix   | A framework for assessing password strength and cracking risk.             |
-| Governance-Aligned Tooling | Security tools designed to meet compliance and boardroom standards.   |
-| Stakeholder-Ready Briefing | Actionable summary tailored for decision-makers.                     |
-
-# 🛡️ Glossary: Cross-Site Scripting (XSS) Vulnerabilities
-
-| **Term**                  | **Definition**                                                                 |
-|---------------------------|--------------------------------------------------------------------------------|
-| Cross-Site Scripting (XSS)| A type of injection attack where malicious scripts are executed in a user's browser. |
-| Injection Attack          | A security flaw where untrusted input is sent to an interpreter as part of a command or query. |
-| Reflected XSS             | A non-persistent XSS attack where the payload is reflected off a web server in an HTTP response. |
-| Stored XSS                | A persistent XSS attack where the payload is stored on the server and served to users. |
-| DOM-based XSS             | An XSS attack that manipulates the Document Object Model (DOM) in the browser. |
-| Session Hijacking         | Unauthorized access to a user's session, often via stolen cookies.             |
-| Obfuscation               | Encoding or disguising malicious code to evade detection.                      |
-| Unicode Encoding          | A method used to obfuscate scripts by replacing characters with Unicode equivalents. |
-| WebGoat                   | A deliberately insecure web app used to teach web application security.        |
-| OWASP Top 10              | A list of the ten most critical web application security risks, published by OWASP. |
-| HTTP Header               | Metadata sent in HTTP requests/responses, sometimes vulnerable to XSS injection. |
-| Hidden Field              | An HTML form field not visible to users, but can be manipulated for XSS payloads. |
-| Browser Address Bar       | A common vector for reflected XSS via crafted URLs.                            |
-| Pixel Paradise            | Example storefront application used in XSS vulnerability testing.              |
-
-# 🛡️ Glossary: Stored XSS & DOM-Based Vulnerabilities
-
-| **Term**                    | **Definition**                                                                 |
-|-----------------------------|--------------------------------------------------------------------------------|
-| Stored XSS (Persistent XSS) | A type of cross-site scripting attack where the malicious script is permanently stored on the server (e.g., in a database) and served to users. |
-| Reflected XSS               | An XSS attack where the payload is reflected off the server in an HTTP response and executed in the browser. |
-| DOM-Based XSS               | An XSS attack where the payload is processed entirely on the client side via the Document Object Model (DOM), without reaching the server. |
-| Malicious Script            | Code injected by an attacker to execute unauthorized actions in a user's browser. |
-| Vulnerable Server           | A trusted or known server that fails to sanitize user input, allowing XSS payloads. |
-| DVWA                        | Damn Vulnerable Web Application — a tool used to practice web security testing. |
-| Guestbook Form              | A common input vector for stored XSS, where user comments are saved and displayed. |
-| Dialog Box Injection        | A visible effect of XSS where a script triggers a browser alert or prompt. |
-| Credential Theft            | The act of stealing login credentials via deceptive or malicious web content. |
-| DOM                         | Document Object Model — a tree-like structure representing HTML/XML content in the browser. |
-| Route Handler               | A function in web applications that processes specific URL paths; vulnerable handlers may expose XSS vectors. |
-| Global Variables            | Variables accessible throughout a script; risky when used to store sensitive data in client-side code. |
-| Token Exposure              | Leakage of authentication tokens due to insecure DOM handling. |
-| Cross-Domain OAuth Values   | Sensitive authorization data that should never be exposed in client-side scripts. |
-
-# 🛡️ Glossary: XSS Evasion Techniques
-
-| **Term**                     | **Definition**                                                                 |
-|------------------------------|--------------------------------------------------------------------------------|
-| XSS (Cross-Site Scripting)   | A web security vulnerability that allows attackers to inject malicious scripts into trusted websites. |
-| XSS Filter                   | A security mechanism that detects and blocks common XSS payloads.              |
-| Evasion Technique            | A method used to bypass security filters or protections, often by obfuscating malicious input. |
-| JavaScript Injection         | The act of inserting JavaScript code into a vulnerable input field or URL to execute in the browser. |
-| HTML Tag Injection           | Using HTML elements (e.g., `<img>`, `<a>`, `<script>`) to deliver malicious payloads. |
-| Hexadecimal Encoding         | Encoding characters using hexadecimal references to disguise malicious scripts. |
-| US ASCII Encoding            | A character encoding method used to bypass filters by representing characters in ASCII format. |
-| SVG Injection                | Embedding malicious scripts inside Scalable Vector Graphics (SVG) files.       |
-| `<script>` Tag               | A common HTML tag used to embed or reference JavaScript code.                  |
-| `<img>` Tag                  | An HTML tag used to embed images, often exploited with `javascript:` URIs.     |
-| `<a>` Tag                    | An HTML anchor tag that can be abused with event handlers like `onmouseover`.  |
-| `<embed>` Tag                | An HTML tag used to embed external content, including SVGs with script payloads. |
-| `document.cookie`            | A JavaScript property that accesses cookies, often targeted in XSS attacks.    |
-| OWASP                        | A nonprofit foundation that works to improve software security through community-led open source projects. |
-| Web Application Firewall (WAF) | A security system that monitors and filters HTTP traffic to and from a web application. |
-| Base64 Encoding              | A method for encoding binary data into ASCII characters, often used to embed payloads in media files. |
-
-# 🛡️ Glossary: XSS Mitigation Techniques
-
-| **Term**                     | **Definition**                                                                 |
-|------------------------------|--------------------------------------------------------------------------------|
-| XSS (Cross-Site Scripting)   | A web vulnerability that allows attackers to inject and execute malicious scripts in a user's browser. |
-| Auto-Escaping Template System| A templating engine that automatically escapes untrusted data to prevent injection. |
-| HTML Escape                  | Encoding special characters (e.g., `<`, `>`, `&`) to prevent them from being interpreted as HTML. |
-| Attribute Escape             | Encoding untrusted data before inserting it into HTML attributes to prevent script execution. |
-| JavaScript Escape            | Encoding untrusted data before inserting it into JavaScript contexts to prevent code injection. |
-| CSS Escape                   | Encoding untrusted data before inserting it into style properties to prevent style-based exploits. |
-| URL Escape                   | Encoding untrusted data before inserting it into URLs to prevent manipulation or redirection. |
-| ESAPI                        | Enterprise Security API — a library for encoding and sanitizing user input. |
-| DOM-Based XSS                | A client-side XSS attack where the payload is executed via manipulation of the Document Object Model. |
-| HTTPOnly Cookie Flag         | A security attribute that prevents client-side scripts from accessing cookies. |
-| Content Security Policy (CSP)| A browser feature that restricts the sources from which content can be loaded and executed. |
-| X-XSS-Protection Header      | A legacy HTTP response header used to enable basic XSS filtering in older browsers. |
-| HTML Entity Encoding         | A method of converting special characters into safe representations (e.g., `&` → `&amp;`). |
-| Unicode Escaping             | Encoding characters using the `\uXXXX` format to prevent interpretation as executable code. |
-| CSS Escaping                 | Encoding characters in CSS using `\XX` or `\XXXXXX` formats to prevent style injection. |
-| Safe Browsing Practices      | User education and behavior that reduce the risk of falling victim to XSS and other web attacks. |
-
-# 📘 Glossary: Penetration Testing Methodologies & Standards
-
-## MITRE ATT&CK
-A globally accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. Used by red teams, threat hunters, and incident responders.
-
-## OWASP WSTG
-The Web Security Testing Guide by OWASP. A comprehensive manual for web application security testing, including attack vectors and mitigation strategies.
-
-## NIST SP 800-115
-A U.S. government standard providing guidelines for planning and conducting information security assessments and penetration testing.
-
-## OSSTMM
-The Open Source Security Testing Methodology Manual. A peer-reviewed framework for consistent and repeatable security testing across multiple domains.
-
-## PTES
-Penetration Testing Execution Standard. A community-driven framework outlining seven phases of a penetration test, from pre-engagement to reporting.
-
-## ISSAF
-Information Systems Security Assessment Framework. A methodology for performing comprehensive security assessments, often used in conjunction with other standards.
-
-## TTPs
-Tactics, Techniques, and Procedures. The behavioral patterns and methods used by threat actors during cyberattacks.
-
-## OSINT
-Open-Source Intelligence. Information gathered from publicly available sources for reconnaissance and threat modeling.
-
-## STAR
-Security Test Audit Report. A structured reporting format used in OSSTMM to document findings and metrics.
-
-https://www.khanacademy.org/partner-content/nova/nova-labs-topic/cyber/a/cybersecurity-glossary 
-Antivirus software
-Computer programs that can block, detect, and remove viruses and other malware.
-Backups/backing up files
-Extra copies of computer files that can be used to restore files that are lost or damaged.
-Bandwidth
-The amount of data that can pass through a network or part of a network per second.
-Botnet
-Multiple computers on a network that are infected with a program that can be controlled remotely. The infected computers are usually used to cause damage that couldn’t be achieved with a single computer.
-Computer network
-Two or more interconnected devices that can exchange data.
-Computer virus
-A computer program that can copy itself and cause harm in various ways, such as stealing private information or destroying data.
-DDoS
-A distributed denial of service attack attempts to make an online service, like a website, unavailable by overwhelming it with a flood of traffic from a team of computers.
-Doxnet
-A fictional virus modeled after the Stuxnet virus. Like Stuxnet, Doxnet is able to damage physical infrastructure.
-Encryption
-The process of using codes to make readable information unreadable. Encrypted information cannot be read until it is decrypted using a secret key.
-Firewall
-Software designed to block malware from entering protected networks.
-Hacktivist
-Someone who uses computers and computer networks to disrupt services or share secret information in an effort to draw attention to political or social issues.
-Internet service provider (ISP)
-A company or organization that gives users and devices access to the Internet.
-Keylogger malware
-A program that records every key struck on a keyboard and sends that information to an attacker.
-Malware
-Software that harms computers, networks, or people. Includes viruses, worms, ransomware, and other computer programs.
-Phishing
-Attempting to trick people into revealing sensitive information, such as passwords and credit card numbers, often by using emails or fake websites that look like they are from trusted organizations.
-Ransomware
-A type of malware that holds victims’ computer files hostage by locking access to them or encrypting them. It then demands a ransom if the victim wants his or her files back.
-Server
-A computer or computer program that provides specific services on a network, such as an email server that directs emails and a web server that serves up web pages.
-Software
-Consists of code written in a programming language that instructs computers to perform specific tasks.
-Software patch
-A piece of software designed to update a computer program in order to fix a software vulnerability or improve the program.
-Software vulnerability
-A flaw or weakness in a computer program that hackers or malware can exploit to gain access to a system or damage it.
-Spam
-Unsolicited emails sent to many addresses. The purpose of most spam is to make money through advertising or identity theft.
-USB drive
-A data storage device that is used to store, back up, and transfer computer files.
-USB port
-A type of connection between devices that can exchange information and power supply.
+## 🧬 Kerberos Exploits & Ticket Attacks
+
+| Term | Definition |
+|------|------------|
+| Kerberos | Network authentication protocol using tickets for secure identity verification |
+| KRBTGT | Special account in Active Directory used to sign Ticket Granting Tickets (TGTs) |
+| Golden Ticket | Forged TGT using KRBTGT hash, granting domain-wide access |
+| Silver Ticket | Forged service ticket (TGS) using service account hash |
+| Kerberoasting | Extracting service account hashes from TGS tickets for offline cracking |
+| Pass-the-Ticket | Reusing stolen Kerberos tickets to access services |
+| Overpass-the-Hash | Using NTLM hash to request Kerberos TGT |
+| DCSync | Abuse of replication rights to extract password hashes from domain controllers |
+| DCShadow | Injecting rogue domain controller to push malicious changes into Active Directory |
+| Unconstrained Delegation | Risky configuration allowing credential reuse across services |
+
+---
+
+## 🧪 Post-Exploitation Techniques
+
+| Technique | Target | Methodology | Strategic Implication |
+|-----------|--------|-------------|------------------------|
+| Credential Dumping | LSASS memory | Extract plaintext passwords and hashes | Rapid privilege escalation |
+| Skeleton Key | LSASS injection | Inject master password into memory | Covert access to all accounts |
+| Lateral Movement | Network endpoints | Use stolen credentials to pivot | Domain-wide compromise |
+| Exploit Chaining | Multiple vulnerabilities | Combine flaws for deeper access | Defense evasion and persistence |
+| Persistence Mechanisms | Registry, scheduled tasks | Maintain access across reboots | Long-term compromise risk |
+
+---
+
+## 🧠 Session Management & Token Security
+
+| Term | Definition |
+|------|------------|
+| Session ID | Unique identifier for user session |
+| Token | Credential used for authentication (e.g., JWT, OAuth) |
+| Entropy | Randomness in session/token generation |
+| PRNG | Pseudorandom number generator for secure tokens |
+| Session Fixation | Attacker sets known session ID before login |
+| Session Hijacking | Attacker steals valid session ID to impersonate user |
+| Token Expiry | Limits token lifespan to reduce misuse risk |
+| HTTPOnly Flag | Prevents cookie access via JavaScript |
+| Secure Flag | Ensures cookie is sent only over HTTPS |
+| SameSite Flag | Restricts cross-origin cookie sharing |
+| URL Rewriting | Embedding session ID in URL (insecure) |
+| Framework Fingerprinting | Identifying tech stack via default session ID names |
+
+---
+
+## 🧱 Directory Traversal & Cookie Manipulation
+
+| Term | Definition |
+|------|------------|
+| Directory Traversal | Exploiting file path inputs to access unauthorized files |
+| Dot-Dot-Slash (../) | Common traversal sequence to move up directories |
+| URL Encoding | Obfuscating traversal sequences (e.g., %2e%2e%2f) |
+| /etc/passwd | Sensitive Linux file often targeted in traversal attacks |
+| File System Call | Function interacting with OS file structure |
+| Root Directory | Top-level directory of server; traversal target |
+| Cookie Manipulation | Altering cookie values to gain unauthorized access |
+| Arbitrary Cookie Value | Attacker-defined cookie used for impersonation |
+| Dynamic Cookie Writing | Programmatic cookie setting from untrusted input |
+| Stored DOM-Based Vulnerability | Client-side flaw storing unsafe input in DOM |
+| HttpOnly / Secure / SameSite | Cookie flags for security enforcement |
+
+---
+
+## 🧠 Governance Forensics & Strategic Briefings
+
+| Term | Definition |
+|------|------------|
+| Governance Forensics | Investigative analysis of governance structures and decisions |
+| Oversight Audit | Review of compliance and operational controls |
+| Boardroom Integrity™ | Ethical decision-making and transparency at board level |
+| Responsible AI | Fair, transparent, and accountable AI system design |
+| Compliance Architecture | Structured framework for regulatory adherence |
+| Strategic Business Diagnostics | Evaluation of operations for optimization or turnaround |
+| Ethical Innovation Framework | Scaling innovations aligned with ethical principles |
+| Stakeholder Education Matrix | Mapping risks and responsibilities to stakeholder groups |
+| Exportable Governance Framework | Modular structure for compliance and strategic renewal |
+| SME Governance Alignment | Tailoring governance for small and medium enterprises |
+| Strategic Content Pillar | Thematic foundation for thought leadership |
+| Stakeholder-Ready Briefing | Visual, concise document for executive audiences |
+| Iterative Fact-Checking | Collaborative refinement of technical content |
+| Risk Communication | Articulating threats and mitigation plans to stakeholders |
+| Governance Renewal | Updating governance structures to reflect evolving risks |
+
+Here's Part 5 of your comprehensive glossary, continuing from the previous segments. This final section wraps up with:
+
+🔐 Password Cracking & Audit Tools
+
+🛡️ XSS Vulnerabilities, Evasion, and Mitigation
+
+🧠 Secure Coding & OWASP Practices
+
+📘 Penetration Testing Methodologies
+
+🧩 Strategic Deployment Notes
+
+All content is GitHub Pages–ready and modular for stakeholder toolkits or onboarding kits.
+# 📘 Cybersecurity & Governance Glossary (Part 5)
+
+---
+
+## 🔐 Password Cracking & Audit Tools
+
+| Term | Definition |
+|------|------------|
+| John the Ripper (JtR) | Fast password cracker used in audits and pentests |
+| Hashcat | GPU-accelerated password recovery tool |
+| Wordlist Attack | Attempts passwords from a predefined list |
+| Brute Force Attack | Tries all possible character combinations |
+| RockYou.txt | Common leaked password wordlist |
+| Rainbow Tables | Precomputed hash reversal tables |
+| Incremental Mode | JtR’s brute-force permutation generator |
+| Password Audit Matrix | Framework for assessing password strength |
+| Governance-Aligned Tooling | Tools designed to meet compliance standards |
+| Stakeholder-Ready Briefing | Summary tailored for decision-makers |
+
+---
+
+## 🛡️ XSS Vulnerabilities, Evasion, and Mitigation
+
+### 🔹 Vulnerabilities
+
+| Term | Definition |
+|------|------------|
+| Reflected XSS | Payload reflected off server in HTTP response |
+| Stored XSS | Payload stored on server and served to users |
+| DOM-Based XSS | Payload executed via client-side DOM manipulation |
+| Session Hijacking | Unauthorized access via stolen cookies |
+| WebGoat / DVWA | Deliberately vulnerable apps for training |
+
+### 🔹 Evasion Techniques
+
+| Technique | Description |
+|-----------|-------------|
+| Unicode Encoding | Obfuscates scripts using Unicode equivalents |
+| Hexadecimal Encoding | Encodes characters to bypass filters |
+| SVG Injection | Embeds scripts inside SVG files |
+| `<script>` / `<img>` / `<a>` Tags | Common vectors for payload delivery |
+| Base64 Encoding | Embeds payloads in media or data URIs |
+
+### 🔹 Mitigation Strategies
+
+| Technique | Description |
+|-----------|-------------|
+| Auto-Escaping Template System | Automatically escapes untrusted data |
+| HTML / Attribute / JavaScript Escape | Prevents interpretation of dangerous input |
+| Content Security Policy (CSP) | Restricts sources of executable content |
+| HTTPOnly / Secure / SameSite Flags | Protect cookies from client-side access |
+| OWASP ESAPI | Library for encoding and sanitizing input |
+
+---
+
+## 🧠 Secure Coding & OWASP Practices
+
+| Term | Definition |
+|------|------------|
+| Input Validation | Ensures user input conforms to expected formats |
+| Output Encoding | Converts dangerous characters to safe formats |
+| Secure Coding Practices | Techniques to prevent vulnerabilities |
+| Static Application Security Testing (SAST) | Source code analysis without execution |
+| Dynamic Application Security Testing (DAST) | Runtime vulnerability testing |
+| Shift-Left Security | Embedding security early in development |
+| CWE-615 | Exposure through comments in source code |
+| Verbose Error Messages | Detailed errors that may leak system internals |
+| OWASP Top 10 | List of critical web application risks |
+
+---
+
+## 📘 Penetration Testing Methodologies
+
+| Framework | Description |
+|-----------|-------------|
+| MITRE ATT&CK | Maps adversary tactics and techniques |
+| OWASP WSTG | Web Security Testing Guide |
+| NIST SP 800-115 | U.S. standard for security assessments |
+| OSSTMM | Peer-reviewed security testing methodology |
+| PTES | Penetration Testing Execution Standard |
+| ISSAF | Comprehensive security assessment framework |
+| STAR | Security Test Audit Report format |
+| OSINT | Open-source intelligence for recon and mapping |
+
+---
+
+## 🧩 Strategic Deployment Notes
+
+- Use this glossary to support:
+  - Consultant onboarding
+  - Governance-aligned training
+  - Red team playbooks
+  - SME stakeholder briefings
+  - GitHub Pages documentation
+
+- Pair with:
+  - Sprint planners
+  - Badge trackers
+  - Modular lab walkthroughs
+  - Compliance cheat sheets
+
+> ✅ This glossary is complete, modular, and ready for deployment across technical, governance, and educational platforms.
