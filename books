@@ -54,3 +54,46 @@ These books align with the key modules in Cisco’s cybersecurity pathway and su
 - Add reading milestones to GitHub Pages or sprint planners.
 - Pair chapters with TryHackMe labs or EC-Council Essentials for blended learning.
 
+Here's a modular, GitHub-ready reading roadmap tailored to mastering Blue Hat (defensive), Red Hat (offensive), and Purple Hat (hybrid) cybersecurity roles. 
+The books are grouped by level—Entry, Intermediate, and Advanced—and formatted for GitHub Pages deployment or onboarding kits.
+
+# 📚 Cybersecurity Reading Roadmap by Hat Role
+
+Track your progress across foundational, tactical, and strategic cybersecurity books.
+
+---
+
+## 🟢 Entry-Level Reading (Blue / Red / Purple Hat Foundations)
+
+| **Book Name**                              | **Edition** | **Authors**                          | **Publisher**         | **ISBN**           |
+|--------------------------------------------|-------------|---------------------------------------|------------------------|--------------------|
+| Cybersecurity for Beginners                 | 1st         | Raef Meeuwisse                        | Cyber Simplicity Ltd   | 9781911452034      |
+| The Basics of Hacking and Penetration Testing | 2nd         | Patrick Engebretson                   | Syngress               | 9780124116443      |
+| Blue Team Handbook: Incident Response       | 2nd         | Don Murdoch                          | Independently Published| 9781793464187      |
+| Hacking: The Art of Exploitation            | 2nd         | Jon Erickson                          | No Starch Press        | 9781593271442      |
+| The CISO Mentor                             | 1st         | Eugene M Fredriksen                   | CRC Press              | 9780367337311      |
+
+---
+
+## 🟡 Intermediate-Level Reading (Role-Specific Mastery)
+
+| **Book Name**                              | **Edition** | **Authors**                          | **Publisher**         | **ISBN**           |
+|--------------------------------------------|-------------|---------------------------------------|------------------------|--------------------|
+| Penetration Testing: A Hands-On Introduction | 1st         | Georgia Weidman                       | No Starch Press        | 9781593275648      |
+| Cybersecurity Blue Team Toolkit             | 1st         | Nadean H. Tanner                      | Wiley                  | 9781119396215      |
+| The Hacker Playbook 3                       | 1st         | Peter Kim                             | Independently Published| 9781980901754      |
+| Defensive Security Handbook                 | 1st         | Lee Brotherston & Amanda Berlin       | O'Reilly Media         | 9781491960382      |
+| Purple Team Strategies                      | 1st         | Phillip Wylie & Kim Crawley           | Wiley                  | 9781119899488      |
+
+---
+
+## 🔴 Advanced-Level Reading (Strategic & Boardroom-Aligned)
+
+| **Book Name**                              | **Edition** | **Authors**                          | **Publisher**         | **ISBN**           |
+|--------------------------------------------|-------------|---------------------------------------|------------------------|--------------------|
+| Managing Risk and Information Security     | 1st         | Malcolm Harkins                       | Apress                 | 9781430265719      |
+| Cybersecurity Leadership                    | 1st         | Mansur Hasib                          | CreateSpace            | 9781548367947      |
+| Crafting the InfoSec Playbook              | 1st         | Jeff Bollinger, Brandon Enright, Matthew Valites | O'Reilly Media | 9781491949400      |
+| CISSP All-in-One Exam Guide                | 9th         | Shon Harris & Fernando Maymí          | McGraw-Hill Education  | 9781260142655      |
+| Red Team Development and Operations        | 1st         | Joe Vest & James Tubberville          | No Starch Press        | 9781718502222      |
+
