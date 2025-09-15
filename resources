@@ -1,128 +1,133 @@
-https://github.com/The-Art-of-Hacking/h4cker/tree/master/build_your_own_lab
-https://www.exploit-db.com/searchsploit/.
-https://www.cyberseek.org/heatmap.html
-https://www.exploit-db.com/
-https://nmap.org/zenmap/
-https://www.openwall.com/john/
-https://hashsuite.openwall.net/
-https://hashsuite.openwall.net/android
-https://www.aircrack-ng.org/
-https://hashcat.net/hashcat/
-https://github.com/mosse-security/mcsi-library/blob/main/docs/articles/2022/06/exploiting-eternalblue-with-metasploit/exploiting-eternalblue-with-metasploit.md
-  repo:mosse-security/mcsi-library 
-https://github.com/deepanshusood/SANS-Security-Policy-Templates
-https://github.com/MicrosoftDocs/security
-https://highon.coffee/blog/enum4linux-cheat-sheet/
-https://docs.hackerone.com/en/articles/9648360-custom-kali-virtual-machine
-https://www.kali.org/
-https://www.eccouncil.org/
-https://github.com/trustedsec/social-engineer-toolkit
-https://github.com/AnonHackerr/setoolkitinstaller 
-https://pentestmonkey.net/category/tools
-https://pentestmonkey.net/category/cheat-sheet
-https://www.metasploit.com/
-https://www.exploit-db.com/searchsploit
-https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
+Here's Part 1 of the GitHub-ready table extracted from draft resources.docx, 
+formatted with the headings: Source name, Website, Type of resource, and Focus area. 
+Each entry is modular and clean for GitHub Pages deployment.
 
-| Resource Type         | Description                                       |
-|------------------------|--------------------------------------------------|
-| IPSs                  | Monitors and blocks malicious network traffic     |
-| AAA Servers           | Manages user authentication and access control    |
-| Back-End Databases    | Target for SQL injection and data exfiltration    |
-| Web Servers           | Hosts applications; tested for logic flaws        |
-| Network Diagrams      | Used in known-environment tests                   |
-| Domain Names & IPs    | Provided in unknown-environment tests             |
+# 📚 Cybersecurity Resources Table (Part 1)
 
-https://gitlab.com/exploit-database/exploitdb
-https://github.com/gentilkiwi/mimikatz
-https://www.microsoft.com/en-us/wdsi/threats/threat-search?query=Hacktool:Win32/Mimikatz
- https://www.kerberos.org
-https://www.cisa.gov/news-events/alerts/2014/10/17/ssl-30-protocol-vulnerability-and-poodle-attack. 
-https://www.wireshark.org/
-https://www.cisa.gov/resources-tools/services/ettercap
-https://www.ettercap-project.org/
-https://www.aircrack-ng.org
-https://theartofhacking.org/github
-https://www.krackattacks.com
-https://blogs.cisco.com/security/wpa-vulns 
-https://wpa3.mathyvanhoef.com/
-https://www.fragattacks.com/
-https://github.com/t6x/reaver-wps-fork-t6x
-http://download.aircrack-ng.org/wiki-files/doc/Fragmentation-Attack-in-Practice.pdf
-https://acadpubl.eu/jsi/2017-116-8/articles/9/72.pdf
-https://dl.acm.org/doi/pdf/10.1145/3319535.3354240
-https://proxmark.com/
-https://owasp.org/www-community/attacks/Credential_stuffing
-https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Testing_Automation_Cheat_Sheet.html
-https://www.w3schools.com/tags/ref_httpmessages.asp
-https://curl.se/
-https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-https://owasp.org/
-https://owasp.org/www-project-top-ten/
-https://www.invicti.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
-https://cwe.mitre.org/about/
-https://www.cve.org/
-https://nvd.nist.gov/
-https://www.kali.org/
-https://www.offsec.com/kali-training/?utm_source=kali&utm_medium=web&utm_campaign=training
-https://www.parrotsec.org/
-https://blackarch.org/
-https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation
-https://cwe.mitre.org/data/definitions/840.html
-https://devguide.owasp.org/en/07-training-education/01-vulnerable-apps/02-webgoat/
-https://github.com/WebGoat/WebGoat/wiki/Forking-WebGoat-in-GitHub 
-https://github.com/WebGoat
-https://github.com/The-Art-of-Hacking/websploit
-https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-ver17
-https://docs.oracle.com/database/121/ERRMG/toc.htm
-https://docs.nginx.com/
-https://www.apache.org/dev/
-https://nmap.org/ncat/ 
-https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
-https://owasp.org/www-project-enterprise-security-api/
-https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html
-https://cwe.mitre.org/data/definitions/615.html
-https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html
-https://owasp.org/www-community/Improper_Error_Handling
-https://cwe.mitre.org/data/definitions/798.html
-https://www.openapis.org/
-https://graphql.org/community/tools-and-libraries/
-https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html
-https://gitlab.com/akihe/radamsa
-https://cwe.mitre.org/data/definitions/227.html
-https://owasp.org/about/
-https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-https://www.hackingisnotacrime.org/
-https://owasp.org/www-project-web-security-testing-guide/
-https://attack.mitre.org/
-https://csrc.nist.gov/pubs/sp/800/115/final
-https://github.com/resources/whitepapers?topics=security
+| **Source Name**                            | **Website**                                                                 | **Type of Resource**         | **Focus Area**                          |
+|--------------------------------------------|------------------------------------------------------------------------------|------------------------------|-----------------------------------------|
+| The Art of Hacking – Lab Builder           | https://github.com/The-Art-of-Hacking/h4cker/tree/master/build_your_own_lab | GitHub Repository            | Lab setup and offensive security        |
+| Exploit-DB SearchSploit                    | https://www.exploit-db.com/searchsploit                                     | CLI Tool + Database          | Exploit lookup and testing              |
+| CyberSeek Heatmap                          | https://www.cyberseek.org/heatmap.html                                      | Career Planning Tool         | Cybersecurity job market visualization  |
+| Exploit Database                           | https://www.exploit-db.com                                                  | Vulnerability Database       | Public exploits and PoCs                |
+| Zenmap (Nmap GUI)                          | https://nmap.org/zenmap/                                                    | Network Scanner GUI          | Visual interface for Nmap               |
+| John the Ripper                            | https://www.openwall.com/john/                                              | Password Cracking Tool       | Hash cracking and audit                 |
+| HashSuite                                   | https://hashsuite.openwall.net/                                             | Password Audit Tool          | GUI-based hash analysis                 |
+| HashSuite Android                          | https://hashsuite.openwall.net/android                                     | Mobile Security Tool         | Android-based hash auditing             |
+| Aircrack-ng                                | https://www.aircrack-ng.org/                                                | Wireless Security Tool       | Wi-Fi cracking and monitoring           |
+| Hashcat                                     | https://hashcat.net/hashcat/                                                | GPU Cracking Tool            | High-performance password recovery      |
+| EternalBlue Exploit Guide                  | https://github.com/mosse-security/mcsi-library/blob/main/docs/articles/2022/06/exploiting-eternalblue-with-metasploit/exploiting-eternalblue-with-metasploit.md | GitHub Article               | Exploit walkthrough                     |
+| MCSI Library                               | repo:mosse-security/mcsi-library                                            | GitHub Repository            | Cybersecurity articles and labs         |
+| SANS Policy Templates                      | https://github.com/deepanshusood/SANS-Security-Policy-Templates            | GitHub Repository            | Security policy templates               |
+| Microsoft Security Docs                    | https://github.com/MicrosoftDocs/security                                   | GitHub Repository            | Microsoft security documentation        |
+| Enum4linux Cheat Sheet                     | https://highon.coffee/blog/enum4linux-cheat-sheet/                          | Blog Cheat Sheet             | SMB enumeration and recon               |
+| Custom Kali VM Guide                       | https://docs.hackerone.com/en/articles/9648360-custom-kali-virtual-machine | Setup Guide                   | Kali Linux customization                |
+| Kali Linux                                 | https://www.kali.org/                                                       | OS Distribution              | Penetration testing and forensics       |
+| EC-Council                                 | https://www.eccouncil.org/                                                  | Certification Body           | Ethical hacking and cybersecurity certs |
+| Social-Engineer Toolkit (SET)              | https://github.com/trustedsec/social-engineer-toolkit                      | GitHub Repository            | Phishing and social engineering         |
+| SET Installer (Unofficial)                 | https://github.com/AnonHackerr/setoolkitinstaller                           | GitHub Installer Script      | SET installation automation             |
 
-Cisco-Focused Resources (cybersecurity analyst cisco recommended reading list)
-Cybersecurity Essentials:
-This course from Cisco Networking Academy is a great starting point, covering everything from network security data to threat intelligence and vulnerability assessment, making it essential for understanding Cisco's ecosystem. 
-Wireshark for Security Professionals:
-For specialization in network security analysis, this book is recommended to learn how to analyze network traffic and detect malicious attacks. 
-Cisco Firepower Book:
-If you're working with Cisco's Firepower security platform, a specialized book on the topic is beneficial, though the exact title will depend on the current version and features. 
-Foundational & Technical Books 
-Hacking: The Art of Exploitation by Jon Erickson:
-This is a classic for understanding how to exploit vulnerabilities and is recommended for anyone in cybersecurity.
-Practical Malware Analysis by Michael Sikorski and Andrew Honig:
-A hands-on guide to dissecting malicious software, a core skill for any analyst.
-Applied Cryptography:
-A foundational text for understanding encryption, a vital component of network security.
-Data and Goliath by Bruce Schneier:
-Explores the vast collection of data by companies and governments, providing context on data security and privacy.
-Professional & Incident Response Resources
-Verizon Data Breach Investigations Report (DBIR):
-This annual report provides real-world data on data breaches, helping you understand current threats and trends. 
-The Red Team Field Manual (RTFM) v2:
-A valuable tool for penetration testers and analysts to quickly access command-line tools and security information. 
-Crafting the InfoSec Playbook:
-Focuses on security monitoring and incident response, crucial skills for a cybersecurity analyst. 
-General Industry & Skills
-CompTIA Security+:
-While a certification, the study material for this foundational certification is highly recommended for new professionals. 
-Cybersecurity for Dummies:
-Provides a broad and accessible introduction to cybersecurity concepts and terminology. 
+Here's Part 2 of the GitHub-ready table
+
+# 📚 Cybersecurity Resources Table (Part 2)
+
+| **Source Name**                          | **Website**                                                                 | **Type of Resource**         | **Focus Area**                          |
+|------------------------------------------|------------------------------------------------------------------------------|------------------------------|-----------------------------------------|
+| PentestMonkey – Tools                    | https://pentestmonkey.net/category/tools                                    | Tool Index                   | Offensive security and enumeration      |
+| PentestMonkey – Cheat Sheets             | https://pentestmonkey.net/category/cheat-sheet                              | Reference Sheets             | Command-line and enumeration techniques |
+| Metasploit Framework                     | https://www.metasploit.com/                                                 | Exploitation Framework       | Payload delivery and post-exploitation  |
+| OWASP XSS Filter Evasion Cheat Sheet     | https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html | OWASP Cheat Sheet            | XSS payload crafting and evasion        |
+| ExploitDB GitLab Mirror                  | https://gitlab.com/exploit-database/exploitdb                               | Exploit Repository           | Public exploits and PoCs                |
+| Mimikatz GitHub                          | https://github.com/gentilkiwi/mimikatz                                      | GitHub Repository            | Credential dumping and post-exploitation|
+| Microsoft Threat Search                  | https://www.microsoft.com/en-us/wdsi/threats/threat-search?query=Hacktool:Win32/Mimikatz | Threat Intelligence Tool     | Malware and tool detection              |
+| Kerberos Protocol Site                   | https://www.kerberos.org                                                    | Protocol Documentation       | Authentication and ticketing system     |
+| SSLv3 POODLE Vulnerability Alert         | https://www.cisa.gov/news-events/alerts/2014/10/17/ssl-30-protocol-vulnerability-and-poodle-attack | Security Advisory            | SSL downgrade attack mitigation         |
+| Wireshark                                | https://www.wireshark.org/                                                  | Packet Analysis Tool         | Network traffic inspection              |
+| Ettercap (CISA)                          | https://www.cisa.gov/resources-tools/services/ettercap                      | Network Tool Listing         | MITM and packet manipulation            |
+| Ettercap Project                         | https://www.ettercap-project.org/                                           | Tool Homepage                | Network sniffing and injection          |
+| Aircrack-ng                              | https://www.aircrack-ng.org                                                 | Wireless Security Tool       | Wi-Fi cracking and monitoring           |
+| The Art of Hacking – GitHub Index        | https://theartofhacking.org/github                                          | GitHub Resource Index        | Offensive security tools and labs       |
+| KRACK Attack Reference                   | https://www.krackattacks.com                                                | Vulnerability Disclosure     | WPA2 protocol flaw                      |
+| Cisco WPA Vulnerability Blog             | https://blogs.cisco.com/security/wpa-vulns                                  | Vendor Blog                  | Wireless protocol weaknesses            |
+| WPA3 Vulnerability Disclosure            | https://wpa3.mathyvanhoef.com/                                              | Research Article             | WPA3 protocol flaws                     |
+| FragAttacks Disclosure                   | https://www.fragattacks.com/                                                | Research Article             | Wi-Fi fragmentation vulnerabilities     |
+| Reaver WPS GitHub Fork                   | https://github.com/t6x/reaver-wps-fork-t6x                                  | GitHub Repository            | WPS brute-force attack tool             |
+| Fragmentation Attack PDF                 | http://download.aircrack-ng.org/wiki-files/doc/Fragmentation-Attack-in-Practice.pdf | Technical Paper              | Wireless fragmentation attack demo      |
+
+Here's Part 3 of the GitHub-ready table
+This segment covers vulnerability databases, protocol documentation, and secure coding references.
+
+# 📚 Cybersecurity Resources Table (Part 3)
+
+| **Source Name**                          | **Website**                                                                 | **Type of Resource**         | **Focus Area**                          |
+|------------------------------------------|------------------------------------------------------------------------------|------------------------------|-----------------------------------------|
+| CWE – Common Weakness Enumeration        | https://cwe.mitre.org/about/                                                | Vulnerability Taxonomy       | Software weaknesses classification      |
+| CVE – Common Vulnerabilities and Exposures | https://www.cve.org/                                                       | Vulnerability Database       | Publicly disclosed security flaws       |
+| NVD – National Vulnerability Database    | https://nvd.nist.gov/                                                       | Vulnerability Repository      | CVE scoring and metadata                |
+| OWASP Top Ten                            | https://owasp.org/www-project-top-ten/                                      | Security Framework           | Most critical web application risks     |
+| OWASP Credential Stuffing Guide          | https://owasp.org/www-community/attacks/Credential_stuffing                 | Attack Reference              | Automated login abuse                   |
+| OWASP Authorization Testing Cheat Sheet  | https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Testing_Automation_Cheat_Sheet.html | OWASP Cheat Sheet            | Access control testing                  |
+| OWASP Authentication Cheat Sheet         | https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html | OWASP Cheat Sheet            | Secure login and session management     |
+| OWASP SQL Injection Prevention Cheat Sheet | https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html | OWASP Cheat Sheet            | Input sanitization and query safety     |
+| OWASP Clickjacking Defense Cheat Sheet   | https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html | OWASP Cheat Sheet            | UI redress protection                   |
+| OWASP Error Handling Cheat Sheet         | https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html | OWASP Cheat Sheet            | Secure error messaging                  |
+| OWASP ESAPI Project                      | https://owasp.org/www-project-enterprise-security-api/                      | Secure Coding Library         | Encoding, validation, and access control|
+| OWASP Web Security Testing Guide         | https://owasp.org/www-project-web-security-testing-guide/                   | Testing Framework             | Manual web application security testing |
+| MITRE ATT&CK Framework                   | https://attack.mitre.org/                                                   | Threat Modeling Framework     | Adversary tactics and techniques        |
+| NIST SP 800-115                          | https://csrc.nist.gov/pubs/sp/800/115/final                                 | Testing Standard              | Security assessment methodology         |
+| WebGoat Vulnerable App                   | https://devguide.owasp.org/en/07-training-education/01-vulnerable-apps/02-webgoat/ | Training Environment          | Hands-on web security testing           |
+| WebGoat GitHub Wiki                      | https://github.com/WebGoat/WebGoat/wiki/Forking-WebGoat-in-GitHub           | GitHub Documentation          | Setup and customization guide           |
+| WebGoat GitHub Repo                      | https://github.com/WebGoat                                                  | GitHub Repository             | Source code and issue tracking          |
+| WebSploit GitHub                         | https://github.com/The-Art-of-Hacking/websploit                             | GitHub Repository             | Web scanning and exploitation toolkit   |
+
+Here's Part 4 of the GitHub-ready table
+
+# 📚 Cybersecurity Resources Table (Part 4)
+This segment includes protocol documentation, API security, Linux distributions, and foundational reading.
+
+| **Source Name**                          | **Website**                                                                 | **Type of Resource**         | **Focus Area**                          |
+|------------------------------------------|------------------------------------------------------------------------------|------------------------------|-----------------------------------------|
+| SQL Server Error Reference               | https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-ver17 | Microsoft Documentation      | SQL Server error codes and handling     |
+| Oracle Error Management Docs             | https://docs.oracle.com/database/121/ERRMG/toc.htm                          | Oracle Documentation         | Database error handling                 |
+| NGINX Docs                               | https://docs.nginx.com/                                                     | Web Server Documentation     | Configuration and security hardening    |
+| Apache Developer Portal                  | https://www.apache.org/dev/                                                 | Web Server Documentation     | Apache modules and security practices   |
+| Ncat (Nmap Utility)                      | https://nmap.org/ncat/                                                      | CLI Tool                     | Secure data transfer and port listening |
+| REST Security Cheat Sheet                | https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html | OWASP Cheat Sheet            | REST API authentication and validation  |
+| OWASP ESAPI Project                      | https://owasp.org/www-project-enterprise-security-api/                      | Secure Coding Library         | Encoding, validation, and access control|
+| Clickjacking Defense Cheat Sheet         | https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html | OWASP Cheat Sheet            | UI redress protection                   |
+| CWE-615: Information Exposure via Comments | https://cwe.mitre.org/data/definitions/615.html                             | CWE Reference                | Secure coding vulnerability             |
+| OWASP Error Handling Cheat Sheet         | https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html | OWASP Cheat Sheet            | Secure error messaging                  |
+| OWASP Improper Error Handling Reference  | https://owasp.org/www-community/Improper_Error_Handling                     | OWASP Community Guide        | Risk of exposing internal logic         |
+| CWE-798: Hardcoded Credentials           | https://cwe.mitre.org/data/definitions/798.html                             | CWE Reference                | Credential management vulnerability     |
+| OpenAPI Initiative                       | https://www.openapis.org/                                                   | API Specification Framework  | Standardized API documentation          |
+| GraphQL Tools & Libraries                | https://graphql.org/community/tools-and-libraries/                          | API Development Resources    | GraphQL ecosystem and security          |
+| Radamsa Fuzzer                           | https://gitlab.com/akihe/radamsa                                            | Fuzzing Tool                 | Input mutation for robustness testing   |
+| CWE-227: Improper Handling of Values     | https://cwe.mitre.org/data/definitions/227.html                             | CWE Reference                | Input validation vulnerability          |
+| OWASP About Page                         | https://owasp.org/about/                                                    | Organization Overview        | Mission and global projects             |
+| OWASP Authentication Cheat Sheet         | https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html | OWASP Cheat Sheet            | Login security and session management   |
+| Hacking Is Not A Crime                   | https://www.hackingisnotacrime.org/                                         | Advocacy Initiative          | Ethical hacking and public awareness    |
+| OWASP Web Security Testing Guide         | https://owasp.org/www-project-web-security-testing-guide/                   | Testing Framework            | Manual web application security testing |
+| MITRE ATT&CK Framework                   | https://attack.mitre.org/                                                   | Threat Modeling Framework     | Adversary tactics and techniques        |
+| NIST SP 800-115                          | https://csrc.nist.gov/pubs/sp/800/115/final                                 | Testing Standard              | Security assessment methodology         |
+| GitHub Security Whitepapers              | https://github.com/resources/whitepapers?topics=security                    | GitHub Resource Collection    | Security research and best practices    |
+
+Here's Part 5 of the GitHub-ready table extracted from draft resources.docx, continuing with the headings: 
+Source name, Website, Type of resource, and Focus area. 
+This segment includes Cisco-focused reading, foundational books, incident response guides, and industry reports.
+
+# 📚 Cybersecurity Resources Table (Part 5)
+
+| **Source Name**                          | **Website**                                                                 | **Type of Resource**         | **Focus Area**                          |
+|------------------------------------------|------------------------------------------------------------------------------|------------------------------|-----------------------------------------|
+| Cisco Networking Academy – Cybersecurity Essentials | https://www.netacad.com/                                                  | Online Course                | Network security, threat intelligence   |
+| Wireshark for Security Professionals     | —                                                                            | Book                         | Network traffic analysis                |
+| Cisco Firepower Book                     | —                                                                            | Book                         | Cisco Firepower platform configuration  |
+| Hacking: The Art of Exploitation         | —                                                                            | Book                         | Vulnerability exploitation              |
+| Practical Malware Analysis               | —                                                                            | Book                         | Malware dissection and reverse engineering |
+| Applied Cryptography                     | —                                                                            | Book                         | Encryption and cryptographic systems    |
+| Data and Goliath                         | —                                                                            | Book                         | Data privacy and surveillance           |
+| Verizon Data Breach Investigations Report (DBIR) | https://www.verizon.com/business/resources/reports/dbir/                 | Industry Report              | Real-world breach trends and statistics |
+| Red Team Field Manual (RTFM) v2          | —                                                                            | Field Manual                 | Command-line tools and red team tactics |
+| Crafting the InfoSec Playbook            | —                                                                            | Book                         | Security monitoring and incident response |
+| CompTIA Security+ Study Guide            | https://www.comptia.org/certifications/security                            | Certification Prep           | Foundational cybersecurity concepts     |
+| Cybersecurity for Dummies                | —                                                                            | Book                         | Beginner-friendly cybersecurity overview|
