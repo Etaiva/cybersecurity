@@ -22,6 +22,8 @@ Each entry includes definitions and strategic relevance.
 | Microsoft Remote Procedure Call | MS-RPC | Inter-process communication | Port/service governance | AI monitoring of RPC activity |
 | Virtual Local Area Network | VLAN | Network segmentation | Network isolation strategy | AI traffic zoning enforcement |
 | Network Access Control | NAC | Device access restriction | Identity governance | AI-enhanced authentication protocols |
+| IP Address  | Internet Protocol Address | Networking     | A unique identifier assigned to each device on a network, used for routing packets across networks. |
+| MAC Address | Media Access Control Address | Networking     | A hardware address that uniquely identifies a device on a local network segment; used for frame delivery at Layer 2. |
 
 ---
 
@@ -229,7 +231,7 @@ All content is formatted for GitHub Pages and modular deployment.
 
 ---
 
-## 🧱 Infrastructure & Endpoint Security
+## 🧱 Infrastructure & Endpoint Security  
 
 | Term | Definition |
 |------|------------|
