@@ -231,3 +231,60 @@ Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) are ess
 ---
 
 > ✅ IDS watches. IPS acts. Together, they form a resilient shield against evolving threats.
+
+Command Prompt instructions
+# 🧮 Command Prompt Glossary for Governance & Responsible AI
+
+A categorized reference for essential Command Prompt instructions, their definitions, and strategic relevance.
+
+---
+
+## 📁 File & Directory Operations
+
+| Term     | Acronym | Definition                                                                 | Governance Relevance                                                                 | Responsible AI Tie-In                                                                 |
+|----------|---------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| cd       | —       | Changes the current directory.                                              | Supports traceability and structured file navigation in audits and forensic reviews.  | Promotes transparent data access paths and reproducible workflows.                    |
+| dir      | —       | Lists files and directories in the current location.                        | Enables visibility into file structures for compliance and documentation.             | Encourages explainability by surfacing system-level data artifacts.                   |
+| mkdir    | —       | Creates a new directory.                                                    | Useful for organizing governance documentation and audit trails.                      | Supports modular data storage aligned with ethical data handling.                     |
+| del      | —       | Deletes one or more files.                                                  | Requires caution—impacts data retention policies and audit integrity.                 | Reinforces accountability in data lifecycle management.                               |
+| copy     | —       | Copies files from one location to another.                                  | Facilitates backup and version control for governance-critical assets.                | Enables ethical replication of data for transparency and review.                      |
+| move     | —       | Moves files to a new location.                                              | Helps enforce structured data environments and access control.                        | Supports traceable data relocation aligned with privacy principles.                   |
+| ren      | —       | Renames files or directories.                                               | Important for maintaining naming conventions and metadata integrity.                  | Encourages clarity and consistency in data labeling.                                  |
+| type     | —       | Displays the contents of a text file.                                       | Useful for quick audits and verifying file contents without modification.             | Promotes visibility and non-invasive inspection of data.                              |
+
+---
+
+## 🌐 Network Diagnostics
+
+| Term     | Acronym | Definition                                                                 | Governance Relevance                                                                 | Responsible AI Tie-In                                                                 |
+|----------|---------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| netstat  | —       | Displays active network connections and listening ports.                    | Critical for monitoring network activity and detecting unauthorized access.           | Supports ethical oversight of system communications and data flows.                   |
+| ipconfig | —       | Shows IP configuration details of the system.                               | Essential for network audits, device attribution, and compliance mapping.             | Enables transparent infrastructure mapping and responsible connectivity.              |
+| ping     | —       | Tests connectivity between devices.                                         | Verifies uptime and availability of governance-critical systems.                      | Encourages proactive diagnostics and ethical system reliability.                      |
+| tracert  | —       | Traces the route packets take to a destination.                             | Useful for identifying network bottlenecks and routing anomalies.                     | Supports explainability in data transmission paths.                                   |
+
+---
+
+## 🖥️ System & Process Management
+
+| Term     | Acronym | Definition                                                                 | Governance Relevance                                                                 | Responsible AI Tie-In                                                                 |
+|----------|---------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| tasklist | —       | Lists currently running processes.                                          | Enables process-level auditing and resource attribution.                              | Reinforces transparency in system operations and workload accountability.             |
+| taskkill | —       | Terminates a running process.                                               | Must be used judiciously—impacts system stability and audit trails.                   | Encourages responsible intervention in automated systems.                             |
+| cls      | —       | Clears the command prompt screen.                                           | Useful for maintaining clean logs and reducing visual clutter during audits.          | Supports clarity and focus in human-AI collaboration environments.                    |
+| exit     | —       | Closes the command prompt session.                                          | Marks the end of a session—important for session tracking and audit closure.          | Reinforces session boundaries and ethical termination of automated workflows.         |
+
+---
+
+## 🔐 Security & Access
+
+| Term     | Acronym | Definition                                                                 | Governance Relevance                                                                 | Responsible AI Tie-In                                                                 |
+|----------|---------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| net user | —       | Displays or modifies user account information.                              | Supports identity management and access control audits.                               | Enables ethical user provisioning and role-based access transparency.                 |
+| net localgroup | — | Manages local group memberships.                                            | Critical for enforcing least privilege and group-based governance policies.           | Promotes fairness and accountability in system-level role assignments.                |
+
+---
+
+## 🧠 Governance Tip:
+Use this glossary as part of your **compliance onboarding**, **incident response playbooks**, or **Responsible AI documentation**. Each command can be paired with audit logs, usage policies, and ethical guidelines to support transparent and accountable system operations.
+
