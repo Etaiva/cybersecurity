@@ -1,0 +1,215 @@
+Here's a **GitHub-friendly conversion** of your document *Cybersecurity Learning Path and Roadmap on Udemy*, formatted in Markdown for use in a personal repo, certification tracker, or onboarding kit. I've modularized it for clarity and exportability, with collapsible sections and checklist-ready formatting.
+
+---
+
+# 🛡️ Cybersecurity Learning Path & Roadmap (Udemy-Based)
+
+A structured, self-paced roadmap for aspiring cybersecurity professionals. Ideal for beginners progressing toward Junior Cybersecurity Analyst roles. Courses are curated from Udemy, with hands-on labs, certifications, and career milestones.
+
+---
+
+## 📦 Overview
+
+- **Duration**: 6–12 months (10–15 hrs/week)
+- **Tools Needed**:
+  - Internet-connected computer
+  - VirtualBox or similar VM software
+  - GitHub account for tracking
+- **Progress Tracking**: Use Markdown checklists in your GitHub repo.
+
+---
+
+## 🧠 Prerequisites (1–2 Weeks)
+
+| Resource | Description | Link |
+|---------|-------------|------|
+| Roadmap to Begin in Cybersecurity | Free intro to cybersecurity concepts | [Udemy](https://www.udemy.com/course/roadmap-to-begin-in-cybersecurity/) |
+
+**Skills to Gain**:
+- Basic OS navigation
+- Networking fundamentals
+- Threat awareness (phishing, malware)
+
+---
+
+## 🚀 Part 1: Beginner Level (0–3 Months)
+
+**Milestones**:
+- Complete CompTIA Security+ prep
+- Set up a basic home lab
+
+### 📚 Recommended Courses
+
+| Title | Instructor | Duration | Link |
+|-------|------------|----------|------|
+| Cyber Security: From Beginner to Expert | Logix Academy | Varies | [Course](https://www.udemy.com/course/cybersecurity-from-beginner-to-expert/) |
+| Absolute Beginners Guide to Cyber Security | Alexander Oni | 4–6 hrs | [Course](https://www.udemy.com/course/the-absolute-beginners-guide-to-information-cyber-security/) |
+| Hackers Exposed! (Vol. 1) | Nathan House | 12 hrs | [Course](https://www.udemy.com/course/the-complete-cyber-security-course/) |
+| CompTIA Security+ (SY0-701) | Jason Dion | 20+ hrs | [Course](https://www.udemy.com/course/securityplus/) |
+| 2-Hour Crash Course | — | 2 hrs | [Course](https://www.udemy.com/course/cyberintro/) |
+
+**Skills to Develop**:
+- Threat identification
+- Encryption & firewalls
+- Risk assessment
+
+**Project**: Create a security audit report for your home network.
+
+---
+
+## 🔐 Part 2: Intermediate Level (3–6 Months)
+
+**Milestones**:
+- Earn CySA+ or PenTest+ cert
+- Build ethical hacking portfolio
+
+### 📚 Recommended Courses
+
+| Title | Instructor | Duration | Link |
+|-------|------------|----------|------|
+| Network Security (Vol. 2) | Nathan House | 12 hrs | [Course](https://www.udemy.com/course/network-security-course/) |
+| Ethical Hacking From Scratch | Zaid Sabih | 15 hrs | [Course](https://www.udemy.com/course/learn-ethical-hacking-from-scratch/) |
+| End Point Protection (Vol. 3) | Nathan House | 10 hrs | [Course](https://www.udemy.com/course/end-point-protection/) |
+| PenTest+ (PT0-002) | — | 15 hrs | [Course](https://www.udemy.com/course/comptia-pentest-exams-002/) |
+| Certified in Cybersecurity (ISC2) | Thor Pedersen | 10 hrs | [Course](https://www.udemy.com/course/certifiedincybersecurity/) |
+
+**Skills to Develop**:
+- SIEM tools
+- Vulnerability scanning
+- Incident response
+
+**Project**: Simulate a penetration test and document findings in GitHub.
+
+---
+
+## 🧠 Part 3: Advanced Level (6+ Months)
+
+**Milestones**:
+- Pursue CISSP, CISM, or CISA
+- Contribute to open-source security projects
+
+### 📚 Recommended Courses
+
+| Title | Instructor | Duration | Link |
+|-------|------------|----------|------|
+| Anonymous Browsing (Vol. 4) | Nathan House | 10 hrs | [Course](https://www.udemy.com/course/anonymous-browsing/) |
+| Cybersecurity Roadmap: CISSP/CISM/CISA | — | 5 hrs | [Course](https://www.udemy.com/course/cyber-security-certifications-roadmap-cissp-cisa-cism/) |
+| Dark Web Foundation | — | 6 hrs | [Course](https://www.udemy.com/course/dark-web-foundation-a-guide-to-the-deep-dark-web/) |
+| Cybersecurity for Managers | — | 8 hrs | [Course](https://www.udemy.com/course/cybersecurity-for-managers-a-playbook/) |
+
+**Skills to Develop**:
+- Cloud security
+- Policy development
+- Leadership in security teams
+
+**Project**: Draft a full security policy and audit a sample infrastructure.
+
+---
+
+## 🧭 Career Roadmap
+
+| Level | Role | Salary (USD) | Skills |
+|-------|------|--------------|--------|
+| Entry | SOC Analyst | $60K–85K | Threat detection, basic networking |
+| Mid | Security Engineer | $90K–120K | Pentesting, incident response |
+| Advanced | CISO | $130K+ | Governance, leadership, compliance |
+
+---
+
+## 🛠️ Portfolio Projects
+
+- ✅ Home lab with Kali Linux
+- ✅ Ethical hack report (HackTheBox/TryHackMe)
+- ✅ Incident response plan
+- ✅ Bug bounty submission (HackerOne)
+
+---
+
+## 📋 Progress Tracker
+
+```markdown
+- [x] Completed Beginner Level
+- [ ] Intermediate Course 1
+- [ ] Intermediate Project: Pen Test Report
+- [ ] Advanced Course: CISSP Prep
+```
+
+---
+
+## 🔗 Communities & Resources
+
+- Reddit: r/cybersecurity, r/netsec
+- Discord: CyberSec groups
+- Tools: Wireshark, OpenVAS, VirtualBox
+- Platforms: TryHackMe, HackTheBox, GitHub
+
+---
+
+> 💡 Tip: Fork this roadmap into your GitHub repo and update it weekly. Use issues and pull requests to track progress and share insights.
+
+```
+Absolutely, Etienne. Here's the **GitHub-friendly Markdown version** of the recommended reading list to complement your *Cybersecurity Learning Path & Roadmap*:
+
+---
+
+```markdown
+# 📚 Cybersecurity Reading List — GitHub Edition
+
+A curated set of books to deepen your understanding across beginner, intermediate, and advanced levels. Ideal for pairing with Udemy courses, Cisco Networking Academy modules, and governance-aligned certification tracks.
+
+---
+
+## 🧠 Beginner-Level Reads
+
+| **Title**                                | **Author**           | **Why It’s Valuable**                                                                 |
+|------------------------------------------|----------------------|----------------------------------------------------------------------------------------|
+| Cybersecurity For Dummies                | Joseph Steinberg     | Friendly intro to threats, data protection, and basic network security.               |
+| Cybersecurity for Beginners              | Raef Meeuwisse       | Covers the landscape of cyber threats and defense strategies in plain language.       |
+| How Cybersecurity Really Works           | Sam Grubb            | Hands-on guide with real-world examples—ideal for total beginners.                    |
+
+---
+
+## 🚀 Intermediate-Level Reads
+
+| **Title**                                | **Author**           | **Why It’s Valuable**                                                                 |
+|------------------------------------------|----------------------|----------------------------------------------------------------------------------------|
+| The Hacker Playbook 3                    | Peter Kim            | Practical penetration testing scenarios and red team tactics.                         |
+| Cybersecurity Essentials                 | Charles J. Brooks    | Explains threat agents, vulnerabilities, and security frameworks.                     |
+| Hacking: The Art of Exploitation         | Jon Erickson         | Deep dive into the hacker mindset, programming, and network exploitation.             |
+
+---
+
+## 🔐 Advanced-Level Reads
+
+| **Title**                                | **Author**           | **Why It’s Valuable**                                                                 |
+|------------------------------------------|----------------------|----------------------------------------------------------------------------------------|
+| The Art of Invisibility                  | Kevin Mitnick        | Privacy strategies from one of the world’s most famous hackers.                       |
+| Blue Team Handbook                       | Don Murdoch          | Incident response and defense tactics for SOC analysts.                               |
+| CISSP All-in-One Exam Guide              | Shon Harris          | Comprehensive prep for governance, risk, and compliance leadership roles.             |
+
+---
+
+## 🛡️ Governance & Responsible AI Tie-In
+
+| **Title**                                | **Author/Publisher** | **Why It’s Valuable**                                                                 |
+|------------------------------------------|----------------------|----------------------------------------------------------------------------------------|
+| Security Engineering                     | Ross Anderson        | Explores system design, trust models, and policy enforcement.                         |
+| Ethics of Cybersecurity                  | Springer Open Access | Discusses ethical frameworks and governance in digital systems.                       |
+| Privacy is Power                         | Carissa Véliz        | A philosophical and practical guide to data rights and digital autonomy.              |
+
+---
+
+## ✅ Reading Tracker Template
+
+```markdown
+- [x] Cybersecurity For Dummies
+- [ ] The Hacker Playbook 3
+- [ ] CISSP All-in-One Exam Guide
+- [ ] Privacy is Power
+```
+
+---
+
+> 💡 Tip: Fork this list into your GitHub repo and update progress weekly. Use issues or pull requests to reflect insights or link to notes.
+
+```
