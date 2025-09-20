@@ -1,0 +1,66 @@
+# 🧭 Cybersecurity Career Pathway
+
+A structured overview of cybersecurity job roles, organised by career level. Use this roadmap to track progression, align certifications, and plan strategic upskilling.
+
+---
+
+## 🔹 Feeder Roles *(Foundational Entry Points)*
+
+These roles build transferable skills that feed into cybersecurity specialisations:
+
+- Networking  
+- Software Development  
+- System Engineering  
+- Financial Risk Analysis  
+- Security Intelligence  
+
+> 💡 Tip: Pair these roles with foundational certifications like CompTIA ITF+, Network+, or basic programming courses.
+
+---
+
+## 🟢 Entry-Level Roles *(Launchpad for Cyber Careers)*
+
+Ideal for newcomers with basic certifications and hands-on lab experience:
+
+- Cybersecurity Technician  
+- Cyber Crime Investigator  
+- Incident Analyst / Responder  
+- IT Auditor  
+
+> 🎯 Recommended Certs: CompTIA Security+, ISC2 Certified in Cybersecurity (CC), Cisco CyberOps Associate
+
+---
+
+## 🟡 Mid-Level Roles *(Specialisation & Tactical Execution)*
+
+Requires deeper technical expertise and practical experience:
+
+- Cybersecurity Analyst  
+- Cybersecurity Consultant  
+- Penetration & Vulnerability Tester  
+
+> 🧪 Tools to Master: Wireshark, Nmap, Metasploit, Nessus  
+> 📜 Recommended Certs: CySA+, PenTest+, CEH
+
+---
+
+## 🔴 Advanced-Level Roles *(Strategic & Leadership Positions)*
+
+Strategic roles focused on architecture, governance, and team leadership:
+
+- Cybersecurity Manager / Administrator  
+- Cybersecurity Engineer  
+- Cybersecurity Architect  
+
+> 🛡️ Governance Tie-In: Align with frameworks like NIST, ISO 27001, and GDPR  
+> 📜 Recommended Certs: CISSP, CISM, CISA
+
+---
+
+## ✅ Career Tracker Template
+
+```markdown
+- [x] Completed Entry-Level Training
+- [ ] Applied for SOC Analyst Internship
+- [ ] Preparing for CySA+ Certification
+- [ ] Drafting Security Policy for Portfolio
