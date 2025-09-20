@@ -420,3 +420,106 @@ Use this to track personal or team progress across learning, certification, and 
 - [x] Joined Cybersecurity Discord / LinkedIn Group
 - [ ] Submitted bug bounty report
 - [ ] Mentored junior analyst
+
+# 📊 Cybersecurity Skills Gap by Industry and Region
+
+This table highlights how commercial and economic sectors across key regions are impacted by cybersecurity workforce shortages. Use it to inform strategic planning, risk assessments, and governance-aligned training initiatives.
+
+| **Region**                  | **Industry**             | **Estimated Skills Gap / Exposure** |
+|-----------------------------|---------------------------|--------------------------------------|
+| 🌍 Global                   | Technology                | 21% of surveyed organisations report critical shortages |
+| 🌍 Global                   | Manufacturing             | 15% report operational risk due to lack of cyber skills |
+| 🌍 Global                   | Financial Services        | 13% report breach exposure linked to skills gap |
+| 🌍 Asia-Pacific             | Government & Public Sector| 28% report difficulty recruiting cyber talent |
+| 🌍 North America            | Healthcare                | 32% report delayed incident response due to staff shortages |
+| 🌍 Europe                   | Energy & Utilities        | 26% report compliance risk due to cyber workforce gaps |
+| 🌍 Latin America            | Retail & E-Commerce       | 30% report increased fraud and phishing exposure |
+| 🌍 Africa (South Africa)    | Financial Services        | 60% of breaches linked to lack of in-house cyber skills |
+| 🌍 Africa (Southern Africa) | SMEs & Legal Services     | 58% cite poor cyber awareness and training as root cause |
+
+---
+
+## 🧠 Strategic Insight
+
+- **Technology, finance, and manufacturing** are globally exposed due to rapid digitalisation and complex threat surfaces.
+- **Africa’s financial and SME sectors** are disproportionately affected due to limited training infrastructure and retention challenges.
+- **Healthcare and energy sectors** face compliance and operational risks due to delayed response and outdated systems.
+
+> 💡 Use this matrix to align certification pathways, governance frameworks, and boardroom risk registers with sector-specific needs.
+
+---
+
+## 📚 Source
+
+- [1] [Fortinet 2024 Cybersecurity Skills Gap Report (PDF)](https://www.fortinet.com/content/dam/fortinet/assets/reports/2024-cybersecurity-skills-gap-report.pdf)
+
+# 💸 Cyberattack Losses by Industry and Region (2024)
+
+This table highlights the economic impact of cybersecurity breaches across key sectors and geographies. Figures represent reported or estimated losses due to cyber incidents, including ransomware, data breaches, and operational disruption.
+
+| **Region**                  | **Industry**             | **Estimated Loss (USD)**         | **Notes**                                                                 |
+|-----------------------------|---------------------------|----------------------------------|---------------------------------------------------------------------------|
+| 🌍 Global                   | All Industries            | $9.5 trillion                    | Total global cybercrime cost (2024) [1]                                  |
+| 🇺🇸 North America           | Healthcare                | $6 billion+                      | Change Healthcare breach — largest in history [1]                        |
+| 🇺🇸 North America           | General (avg per breach)  | $5.09 million                    | Highest average breach cost globally [3]                                 |
+| 🇪🇺 Europe                  | Financial Services        | $3.2 billion                     | GDPR-related fines and breach recovery [3]                               |
+| 🌍 Asia-Pacific             | Government & Public Sector| $2.1 billion                     | Ransomware and DDoS attacks on infrastructure [1]                        |
+| 🇿🇦 South Africa            | Financial Services        | $1 million+ per breach           | 39% of firms reported losses > $1M [2]                                   |
+| 🌍 Latin America            | Retail & E-Commerce       | $850 million                     | Fraud, phishing, and ransomware exposure [1]                             |
+| 🌍 Africa (Southern Africa)| SMEs & Legal Services     | $500 million+ (est.)             | Poor cyber hygiene and awareness [2]                                     |
+| 🌍 Global                   | Manufacturing             | $4.5 billion                     | Operational disruption and ransomware [2]                                |
+| 🌍 Global                   | Energy & Utilities        | $3.8 billion                     | Compliance failures and infrastructure attacks [2]                       |
+
+---
+
+## 🧠 Strategic Insight
+
+- **Healthcare and financial services** are the most financially exposed sectors globally.
+- **Africa’s SME and legal sectors** face high risk due to limited cyber maturity and training.
+- **Manufacturing and energy** suffer from operational downtime and regulatory penalties.
+
+> 💡 Use this matrix to align board-level risk registers, insurance planning, and governance frameworks with sector-specific exposure.
+
+---
+
+## 📚 Sources
+
+- [1] [Cobalt Cybersecurity Statistics 2024](https://www.cobalt.io/blog/cybersecurity-statistics-2024)  
+- [2] [SA Business Integrator – Cybersecurity Crisis](https://sabusinessintegrator.co.za/cyber-security/south-africas-cybersecurity-crisis-new-research-shows-lack-of-local-skills-to-combat-threat-laden-landscape/)  
+- [3] [Statista – Global Cyberattack Incidents by Industry](https://www.statista.com/statistics/1499066/global-cyberattack-incidents-by-industry/)
+
+# 💼 Cybersecurity Hourly Pay by Industry, Region, and Role (2025)
+
+This table highlights hourly compensation benchmarks across key industries and regions, paired with skill sets and certification pathways. Use it to inform career planning, consultant pricing, and governance-aligned workforce development.
+
+| **Region**        | **Industry**         | **Role**                     | **Hourly Pay (USD)** | **Skill Set Required**                                  | **Certifications / Badges**                          |
+|-------------------|----------------------|------------------------------|----------------------|----------------------------------------------------------|------------------------------------------------------|
+| 🇺🇸 North America | Healthcare           | Incident Response Analyst    | $85–120              | SIEM, forensic tools, HIPAA compliance                   | GCIH, CHFI, Splunk Certified                         |
+| 🇺🇸 North America | Finance              | Cloud Security Architect     | $110–160             | AWS/Azure, IAM, Zero Trust, DevSecOps                    | CCSP, AWS Security, Azure SC-100                     |
+| 🇬🇧 UK & Europe    | Energy & Utilities   | GRC Specialist               | $75–105              | ISO 27001, NIST, GDPR, risk registers                    | CISA, CRISC, ISO 27001 Lead Implementer              |
+| 🇩🇪 Germany        | Manufacturing        | OT/ICS Security Consultant   | $90–130              | SCADA, IEC 62443, threat modelling                       | GRID, ISA/IEC 62443, MITRE ATT&CK                    |
+| 🇿🇦 South Africa  | Financial Services    | Penetration Tester           | $45–70               | Kali Linux, Burp Suite, reporting                        | CEH, OSCP, TryHackMe Red Team Badge                  |
+| 🇿🇦 South Africa  | Legal & SME Sector    | Cybersecurity Consultant     | $35–55               | POPIA, endpoint security, awareness training             | CompTIA Security+, POPIA Governance Badge            |
+| 🇸🇬 Singapore      | Government            | Security Architect           | $95–135              | Cloud security, Zero Trust, policy drafting              | CISSP, TOGAF, Microsoft SC-100                       |
+| 🇦🇺 Australia      | Retail & E-Commerce   | Application Security Analyst | $80–110              | OWASP, API security, SDLC                                | CSSLP, OWASP Top 10 Badge                            |
+| 🇦🇪 UAE            | Telecom & Infrastructure| SOC Manager               | $100–140             | Threat detection, SIEM, team leadership                  | CySA+, Splunk Certified, ISO 27001                   |
+| 🇮🇳 India          | Technology            | Junior SOC Analyst           | $15–25               | Log analysis, basic scripting, endpoint protection       | CompTIA Security+, Cisco CyberOps Associate          |
+
+---
+
+## 🧠 Strategic Insight
+
+- **Cloud, GRC, and OT security roles** command the highest hourly rates globally.
+- **South Africa’s financial and SME sectors** offer competitive rates for consultants with POPIA and red teaming skills.
+- **Certifications and badges** directly influence earning potential—stacking credentials aligned to threat models boosts pay.
+
+> 💡 Use this matrix to align consultant pricing, certification planning, and governance toolkits with market demand.
+
+---
+
+## 📚 Sources
+
+- [1] [Global Cybersecurity Salary Report 2025](https://acsmi.org/blogs/global-cybersecurity-salary-report-2025-industry-benchmarks-amp-trends)  
+- [2] [Cybersecurity Salaries 2025 – Role & Region Comparison](https://www.prodigitalweb.com/cybersecurity-salaries-role-region-trends/)  
+- [3] [Cybersecurity Salaries in South Africa – iFundi](https://ifundi.co.za/cybersecurity-salaries-in-south-africa-what-to-expec/)
+
