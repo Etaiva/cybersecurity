@@ -1,0 +1,155 @@
+# 🧠 AI Learning Roadmap — Strategic Domains for Governance & Compliance
+
+This roadmap outlines key learning areas across foundational and governance-aligned AI domains. Use it to scaffold onboarding kits, stakeholder briefings, or modular training paths.
+
+---
+
+## 🤖 LLMs, Generative AI & GPT
+
+| **Topic**                     | **What to Learn**                                                                 | **Why It Matters**                                  |
+|------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Large Language Models (LLMs) | Architecture (transformers), training data, tokenisation, fine-tuning             | Understand model capabilities and limitations       |
+| Generative AI                | Text/image/code generation, prompt engineering, diffusion models                  | Operationalise creative outputs responsibly         |
+| GPT Models                   | GPT-2 to GPT-4/5 evolution, API usage, temperature, context windows               | Build governance-aware use cases                    |
+| Prompt Engineering           | Role-based prompting, few-shot learning, system instructions                      | Improve reliability and reduce hallucinations       |
+| Evaluation & Metrics         | BLEU, ROUGE, perplexity, human-in-the-loop validation                             | Align outputs with stakeholder expectations         |
+
+---
+
+## 🛡️ Responsible AI
+
+| **Topic**                     | **What to Learn**                                                                 | **Why It Matters**                                  |
+|------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Fairness & Bias              | Bias detection, mitigation strategies, demographic parity                         | Prevent harm and ensure equitable outcomes          |
+| Transparency & Explainability| SHAP, LIME, model cards, documentation standards                                  | Enable auditability and stakeholder trust           |
+| Safety & Robustness          | Adversarial testing, fail-safe design, red teaming                                | Reduce risk of misuse or unintended behaviour       |
+| Human Oversight              | Escalation protocols, fallback mechanisms, decision support                       | Maintain accountability and ethical boundaries      |
+| Lifecycle Governance         | Model registration, versioning, monitoring, retirement                            | Ensure traceability and compliance over time        |
+
+---
+
+## ⚖️ Ethical AI
+
+| **Topic**                     | **What to Learn**                                                                 | **Why It Matters**                                  |
+|------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Ethical Frameworks           | UNESCO, OECD, EU AI Act, African Union principles                                 | Align with global and regional norms                |
+| Consent & Data Ethics        | Informed consent, data minimisation, purpose limitation                           | Respect user rights and legal boundaries            |
+| Algorithmic Accountability   | Decision traceability, audit trails, stakeholder impact assessments               | Support ethical review and boardroom integrity      |
+| Cultural Sensitivity         | Ubuntu philosophy, indigenous knowledge systems                                   | Localise AI ethics for African contexts             |
+| Dual-Use Risk                | Misuse potential, weaponisation, surveillance                                     | Anticipate and mitigate ethical dilemmas            |
+
+---
+
+## 🧭 AI Governance
+
+| **Topic**                     | **What to Learn**                                                                 | **Why It Matters**                                  |
+|------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------|
+| Governance Frameworks        | NIST AI RMF, ISO/IEC 42001, OECD AI Principles                                    | Build boardroom-ready governance structures         |
+| Risk Management              | Impact assessments, risk registers, mitigation plans                              | Operationalise oversight and compliance             |
+| Policy & Regulation          | POPIA, GDPR, EU AI Act, African Union digital charters                            | Ensure legal alignment and cross-border readiness   |
+| Stakeholder Engagement       | Communication strategies, transparency reports, public trust                      | Build inclusive and accountable AI ecosystems       |
+| Governance Tools             | Model cards, datasheets, AI audit templates, documentation standards              | Enable scalable, repeatable governance practices    |
+
+---
+
+## 🏁 Suggested Learning Path
+
+```markdown
+- [x] Completed Intro to LLMs & Generative AI (Microsoft Learn / DeepLearning.AI)
+- [ ] Enrolled in Responsible AI Foundations (OpenSAP / World Economic Forum)
+- [ ] Drafted Ethical AI Policy for SME Toolkit
+- [ ] Mapped AI Governance Framework to POPIA & ISO 42001
+
+📚 Recommended Resources
+Microsoft Responsible AI Standard
+NIST AI Risk Management Framework
+OECD AI Principles
+UNESCO AI Ethics Guidelines
+ISO/IEC 42001 AI Management System Standard
+
+# 🧠 Strategic AI Learning Roadmap — Skills, Certifications & Badge Tracker
+
+A modular overview of key AI domains for governance professionals, paired with certification pathways and a badge tracker to support scalable, ethical, and compliant AI deployment.
+
+---
+
+## 🤖 LLMs, Generative AI & GPT
+
+| **Topic**                     | **What to Learn**                                                                 | **Recommended Certifications / Courses**                     |
+|------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Large Language Models (LLMs) | Architecture, tokenisation, fine-tuning                                           | DeepLearning.AI LLM Specialisation, Microsoft Learn AI-900   |
+| Generative AI                | Text/image/code generation, diffusion models                                      | Google Generative AI Fundamentals, AWS GenAI Essentials      |
+| GPT Models                   | GPT evolution, API usage, temperature, context windows                            | OpenAI API Docs, Prompt Engineering for Developers (DeepLearning.AI) |
+| Prompt Engineering           | Role-based prompting, few-shot learning                                           | Learn Prompting, Microsoft Copilot Prompting Guide           |
+| Evaluation & Metrics         | BLEU, ROUGE, perplexity, human-in-the-loop validation                             | Hugging Face Evaluation Toolkit, Responsible AI Labs         |
+
+---
+
+## 🛡️ Responsible AI
+
+| **Topic**                     | **What to Learn**                                                                 | **Recommended Certifications / Courses**                     |
+|------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Fairness & Bias              | Bias detection, mitigation strategies                                             | World Economic Forum Responsible AI Toolkit, IBM AI Fairness 360 |
+| Transparency & Explainability| SHAP, LIME, model cards                                                           | Microsoft Responsible AI Standard, Explainable AI by Google  |
+| Safety & Robustness          | Adversarial testing, fail-safe design                                             | NIST AI RMF, Red Teaming for LLMs (Anthropic / OpenAI)       |
+| Human Oversight              | Escalation protocols, fallback mechanisms                                         | ISO/IEC 42001, Microsoft AI Governance Framework             |
+| Lifecycle Governance         | Model registration, monitoring, retirement                                       | Azure ML Lifecycle Management, AI Audit Templates            |
+
+---
+
+## ⚖️ Ethical AI
+
+| **Topic**                     | **What to Learn**                                                                 | **Recommended Certifications / Courses**                     |
+|------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Ethical Frameworks           | UNESCO, OECD, EU AI Act, AU principles                                            | UNESCO AI Ethics Guidelines, OECD AI Policy Observatory      |
+| Consent & Data Ethics        | Informed consent, data minimisation                                               | POPIA Compliance Training, GDPR for AI Practitioners         |
+| Algorithmic Accountability   | Decision traceability, audit trails                                               | AI Ethics & Accountability (MIT / Stanford)                  |
+| Cultural Sensitivity         | Ubuntu philosophy, indigenous knowledge systems                                   | African Union Digital Ethics Charter, Localisation Labs      |
+| Dual-Use Risk                | Misuse potential, surveillance, weaponisation                                     | AI Risk & Dual-Use Awareness (NIST / NATO)                   |
+
+---
+
+## 🧭 AI Governance
+
+| **Topic**                     | **What to Learn**                                                                 | **Recommended Certifications / Courses**                     |
+|------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Governance Frameworks        | NIST AI RMF, ISO/IEC 42001, OECD AI Principles                                    | ISO/IEC 42001 Lead Implementer, NIST AI RMF Practitioner     |
+| Risk Management              | Impact assessments, risk registers, mitigation plans                              | AI Risk Management by World Economic Forum, Microsoft AI Risk Templates |
+| Policy & Regulation          | POPIA, GDPR, EU AI Act, AU digital charters                                       | AI Law & Policy (Oxford / Stanford), POPIA Governance Toolkit |
+| Stakeholder Engagement       | Communication strategies, transparency reports                                    | AI Governance for Boards (MIT Sloan), Ethical AI Communication |
+| Governance Tools             | Model cards, datasheets, audit templates                                          | AI Audit Toolkit (AI Verify / Microsoft), Datasheets for Datasets |
+
+---
+
+## 🏅 Badge Tracker Template
+
+Use this to track personal or team progress across learning, certification, and governance milestones.
+
+```markdown
+### 🧠 Learning Milestones
+- [x] Completed Intro to LLMs (DeepLearning.AI)
+- [ ] Finished Responsible AI Toolkit (WEF)
+- [ ] Attended Ethical AI Workshop (AU Digital Ethics)
+
+### 🎓 Certification Progress
+- [x] Microsoft AI-900
+- [ ] ISO/IEC 42001 Lead Implementer (in progress)
+- [ ] CISSP + AI Governance Extension (planned)
+
+### 🛠️ Governance Portfolio
+- [x] Drafted AI Risk Register for SME
+- [ ] Mapped AI Lifecycle to POPIA & ISO 42001
+- [ ] Created Model Card Template for Board Review
+
+### 🌍 Community Engagement
+- [x] Joined Responsible AI LinkedIn Group
+- [ ] Published AI Ethics Briefing on GitHub
+- [ ] Mentored junior AI policy analyst
+
+📚 Recommended Resources
+Microsoft Responsible AI Standard
+NIST AI Risk Management Framework
+ISO/IEC 42001 AI Management System Standard
+UNESCO AI Ethics Guidelines
+OECD AI Principles
+African Union Digital Ethics Charter
