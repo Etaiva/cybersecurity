@@ -24,6 +24,73 @@
 | Internet Layer     | IP               | Routing and policy architecture        | Cross-border governance, digital sovereignty, POPIA-aligned infrastructure |
 | Network Access Layer| Ethernet, Wi-Fi | Physical infrastructure and deployment | SME connectivity, wireless standards, POPIA-compliant hardware rollout   |
 
+## 📶 OSI vs TCP/IP Model Comparison
+
+This diagram compares the seven-layer OSI Model with the four-layer TCP/IP Model, showing how each layer maps across conceptual frameworks used in networking.
+
+| OSI Model Layer     | TCP/IP Model Layer   |
+|---------------------|----------------------|
+| 7. Application      | Application          |
+| 6. Presentation     | Application          |
+| 5. Session          | Application          |
+| 4. Transport        | Transport            |
+| 3. Network          | Internet             |
+| 2. Data Link        | Network Access       |
+| 1. Physical         | Network Access       |
+
+## 📶 OSI Model – Layer Overview
+
+| OSI Model Layer | Description |
+|-----------------|-------------|
+| **Application (Layer 7)** | Contains protocols used for process-to-process communications. |
+| **Presentation (Layer 6)** | Provides for common representation of the data transferred between application layer services. |
+| **Session (Layer 5)** | Provides services to the presentation layer to organise its dialogue and manage data exchange. |
+| **Transport (Layer 4)** | Defines services to segment, transfer, and reassemble the data for individual communications between end devices. |
+| **Network (Layer 3)** | Provides services to exchange the individual pieces of data over the network between identified end devices. |
+| **Data Link (Layer 2)** | Describes methods for exchanging data frames between devices over a common media. |
+| **Physical (Layer 1)** | Describes the mechanical, electrical, functional, and procedural means to activate, maintain, and de-activate physical connections for bit transmission to and from a network device. |
+
+---
+
+## 🔄 OSI vs TCP/IP Model Comparison
+
+| OSI Model Layer     | TCP/IP Model Layer   |
+|---------------------|----------------------|
+| Application (7)     | Application          |
+| Presentation (6)    | Application          |
+| Session (5)         | Application          |
+| Transport (4)       | Transport            |
+| Network (3)         | Internet             |
+| Data Link (2)       | Network Access       |
+| Physical (1)        | Network Access       |
+
+---
+
+## 🧠 OSI Mnemonic
+
+**"All People Seem To Need Data Processing"**
+
+| Word        | OSI Layer        | Layer Number |
+|-------------|------------------|--------------|
+| All         | Application       | 7            |
+| People      | Presentation      | 6            |
+| Seem        | Session           | 5            |
+| To          | Transport         | 4            |
+| Need        | Network           | 3            |
+| Data        | Data Link         | 2            |
+| Processing  | Physical          | 1            |
+
+---
+
+## 🧠 Protocol-to-Persona Mapping Sheet
+
+| TCP/IP Layer       | Protocol Example | Governance Persona         | Role Analogy                                                                 | Stakeholder Training Use Case                                               |
+|--------------------|------------------|----------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Application Layer  | HTTP, SMTP       | Strategic Communicator     | Crafts the message and decides what to say                                  | Boardroom briefings, stakeholder messaging, ESG disclosures                 |
+| Transport Layer    | TCP, UDP         | Risk Manager               | Ensures the message arrives intact and in order                             | Incident response, breach simulation, forensic readiness                    |
+| Internet Layer     | IP               | Navigator / Policy Architect | Chooses the route and ensures it reaches the right destination              | Cross-border governance, digital sovereignty, POPIA-aligned routing         |
+| Network Access Layer| Ethernet, Wi-Fi | Infrastructure Steward     | Handles the physical delivery and connection setup                          | SME deployment, wireless standards, POPIA-compliant infrastructure          |
+
 ## 🧭 Acronym Reference Card  
 **Mapped to Governance & Responsible AI Modules**
 
