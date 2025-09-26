@@ -1,4 +1,28 @@
-Acronym Reference Card: Cisco Networking Academy (Copilot)
+### Category: Network Protocols & Layered Communication Models
+┌──────────────────────────────┐
+│        APPLICATION           │  ← HTTP
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│         TRANSPORT            │  ← TCP
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│          INTERNET            │  ← IP
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│       NETWORK ACCESS         │  ← Ethernet
+└──────────────────────────────┘
+
+### 📘 TCP/IP Model – Layer Summary
+
+| Layer              | Protocol Example | Governance Analogy                     | Stakeholder Relevance                                                   |
+|--------------------|------------------|----------------------------------------|--------------------------------------------------------------------------|
+| Application Layer  | HTTP, SMTP       | Strategic messaging and stakeholder UX | Boardroom briefings, ESG disclosures, SME-facing dashboards              |
+| Transport Layer    | TCP, UDP         | Risk management and message integrity  | Incident response, breach simulation, forensic readiness                 |
+| Internet Layer     | IP               | Routing and policy architecture        | Cross-border governance, digital sovereignty, POPIA-aligned infrastructure |
+| Network Access Layer| Ethernet, Wi-Fi | Physical infrastructure and deployment | SME connectivity, wireless standards, POPIA-compliant hardware rollout   |
 
 ## 🧭 Acronym Reference Card  
 **Mapped to Governance & Responsible AI Modules**
