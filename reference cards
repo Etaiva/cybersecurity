@@ -1,3 +1,119 @@
+
+### The complete Ethernet Frame structure
++---------------------+----------------------------+----------------------------+------------------+------------------+------------------------+--------------------------+
+|      Preamble       | Start Frame Delimiter (SFD)| Destination MAC Address    | Source MAC Address| Length/Type Field|        Data Field       | Frame Check Sequence (FCS)|
++---------------------+----------------------------+----------------------------+------------------+------------------+------------------------+--------------------------+
+|       7 bytes       |          1 byte            |         6 bytes            |     6 bytes      |     2 bytes      |     46 to 1500 bytes    |         4 bytes          |
+
+🧩 Field Breakdown:
+- Preamble (7 bytes): Synchronises communication between sender and receiver
+- SFD (1 byte): Marks the start of the actual frame
+- Destination MAC (6 bytes): Target device’s hardware address
+- Source MAC (6 bytes): Sender’s hardware address
+- Length/Type (2 bytes): Indicates payload length or protocol type
+- Data (46–1500 bytes): Actual payload (e.g., IP packet)
+- FCS (4 bytes): Error-checking via CRC
+
+### Markdown scaffold that reproduces the Ethernet switch operation diagram and explains how MAC address tables enable frame forwarding.
+# 🔌 How Ethernet Switches Work
+
+Ethernet switches use **MAC address tables** to forward frames to the correct destination port. Each device connected to the switch has a unique **MAC address**, and the switch learns which MAC is reachable via which port.
+
+---
+
+## 🧠 MAC Address Table Example
+
+| Port      | MAC Address |
+|-----------|-------------|
+| FA 0/1    | AA-AA       |
+| FA 0/2    | BB-BB       |
+| FA 0/3    | CC-CC       |
+| FA 0/4    | DD-DD       |
+
+---
+
+## 🖥️ Connected Devices
+
+| Host | Connected Port | MAC Address |
+|------|----------------|-------------|
+| H1   | FA 0/1         | AA-AA       |
+| H2   | FA 0/2         | BB-BB       |
+| H3   | FA 0/3         | CC-CC       |
+| H4   | FA 0/4         | DD-DD       |
+
+---
+
+## 📦 Ethernet Frame Example
++----------------+----------------+------------------+ | DEST. MAC: DD-DD | SOURCE MAC: CC-CC | IP PACKET DATA | +----------------+----------------+------------------+
+
+---
+
+## 🔄 Frame Forwarding Logic
+
+1. **H3 (CC-CC)** sends a frame to **H4 (DD-DD)**
+2. Switch receives the frame on **FA 0/3**
+3. Switch checks MAC table:
+   - DEST MAC = DD-DD → FA 0/4
+4. Switch forwards frame out **FA 0/4** only
+
+---
+
+## 🧩 Governance Tie-In
+
+This model supports:
+- **Layer 2 protocol mapping** for compliance audits  
+- **MAC table simulation** for stakeholder training  
+- **Frame flow visualisation** for onboarding and troubleshooting
+
+---
+
+# 🌐 OSI Model Overview
+
+The **Open Systems Interconnection (OSI)** model standardises how data moves through a network. 
+It consists of **7 layers**, each with distinct responsibilities. 
+This layered approach helps isolate issues, design protocols, and align governance with technical infrastructure.
+
+---
+
+## 📊 OSI Layers Summary
+
+| Layer | Name           | Function Summary                                      | Ethernet Relevance                  |
+|-------|----------------|--------------------------------------------------------|-------------------------------------|
+| 7     | Application     | Interfaces with user apps (e.g. browsers, email)       | Not directly part of Ethernet       |
+| 6     | Presentation    | Data formatting, encryption, compression               | Not directly part of Ethernet       |
+| 5     | Session         | Manages sessions and connections                       | Not directly part of Ethernet       |
+| 4     | Transport       | Segments data, ensures reliable delivery (TCP/UDP)     | Encapsulated inside Ethernet payload|
+| 3     | Network         | Logical addressing and routing (IP)                    | Encapsulated inside Ethernet payload|
+| 2     | Data Link       | MAC addressing, frame creation, error detection        | **Ethernet operates here**          |
+| 1     | Physical        | Bit transmission over media (cables, signals)          | **Ethernet operates here**          |
+
+---
+
+## 🔗 Ethernet Frame Mapping to OSI Layers
+
+| Ethernet Frame Field         | OSI Layer |
+|------------------------------|-----------|
+| Preamble + SFD               | Layer 1 – Physical |
+| Destination & Source MAC     | Layer 2 – Data Link |
+| Length/Type + Data           | Layer 2 → Layer 3/4 (encapsulated IP/TCP) |
+| Frame Check Sequence (FCS)   | Layer 2 – Data Link |
+
+---
+
+## 🧠 Governance Tie-In
+
+This model supports:
+- **Protocol mapping** for compliance audits  
+- **Layer-specific troubleshooting** for SME deployments  
+- **Stakeholder training** using analogies and simulation walkthroughs  
+- **Modular glossary development** for responsible AI and ESG integration
+
+---
+
+## 📁 Suggested Repo Structure
+
+
+
 ### Category: Network Protocols & Layered Communication Models
 ┌──────────────────────────────┐
 │        APPLICATION           │  ← HTTP
