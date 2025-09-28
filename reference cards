@@ -1,3 +1,55 @@
+# 🧭 Protocol Function Map – Web Client to Server Interaction
+
+**Purpose:** Clarify how key protocols interact across the TCP/IP stack when a client accesses a website. Designed for stakeholder training and governance-aligned onboarding.
+
+## 📦 Protocol Layers and Functions
+
+| Layer                  | Protocol Type           | Function Description                                                                 |
+|------------------------|-------------------------|---------------------------------------------------------------------------------------|
+| Application Layer      | Application Protocol     | Governs the way a web server and a web client interact (e.g. HTTP, HTTPS).           |
+| Transport Layer        | Transport Protocol       | Manages individual conversations between client and server (e.g. TCP, UDP).          |
+| Internet Layer         | Internet Protocol        | Encapsulates transport segments into packets and assigns IP addresses (e.g. IPv4).   |
+| Network Access Layer   | Network Access Protocol  | Prepares packets for transmission over physical media (e.g. Ethernet, Wi-Fi).        |
+
+---
+
+# 🧠 Glossary Card – TCP/IP Protocol Stack
+
+**Use Case:** Stakeholder-friendly reference for technical onboarding, compliance mapping, and training.
+
+## 🔍 Key Terms
+
+- **Application Protocol**  
+  Defines how applications communicate across the network. Examples: `HTTP`, `FTP`, `DNS`.
+
+- **Transport Protocol**  
+  Ensures reliable delivery and session management. Examples: `TCP`, `UDP`.
+
+- **Internet Protocol**  
+  Handles addressing and routing across networks. Examples: `IPv4`, `IPv6`.
+
+- **Network Access Protocol**  
+  Manages frame formatting and media access. Examples: `Ethernet`, `802.11`.
+
+---
+
+# 🧩 Training Analogy – Postal System
+
+| Layer                  | Analogy Description                                                          |
+|------------------------|-------------------------------------------------------------------------------|
+| Application Layer      | Writing the letter (content and format)                                       |
+| Transport Layer        | Choosing delivery method (registered mail, express)                           |
+| Internet Layer         | Addressing the envelope (IP address)                                          |
+| Network Access Layer   | Handing it to the postal worker (physical transmission over media)            |
+
+---
+
+# ✅ Deployment Notes
+
+- Format: Markdown `.md`
+- Ready for GitHub Pages, LMS integration, or printable handouts
+- Modular: Extendable with diagrams, quizzes, or compliance overlays
+- Governance-aligned: Maps technical concepts to stakeholder comprehension
 
 ### The complete Ethernet Frame structure
 +---------------------+----------------------------+----------------------------+------------------+------------------+------------------------+--------------------------+
