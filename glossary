@@ -70,6 +70,11 @@ Each entry includes definitions and strategic relevance.
 | Internet Layer     | IP               | Navigator / Policy Architect | Chooses the route and ensures it reaches the right destination              | Cross-border governance, digital sovereignty, POPIA-aligned routing         |
 | Network Access Layer| Ethernet, Wi-Fi | Infrastructure Steward     | Handles the physical delivery and connection setup                          | SME deployment, wireless standards, POPIA-compliant infrastructure          |
 
+| Term                     | Acronym | Definition                                                                                                                | Governance Relevance                                                                 | Responsible AI Tie-In                                                                 |
+|--------------------------|---------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| User Datagram Protocol   | UDP     | A connectionless transport protocol that sends data without establishing a session. Fast but less reliable.              | Useful in scenarios where speed outweighs reliability, such as real-time telemetry.   | Highlights trade-offs in system design — speed vs. accountability and traceability.   |
+| Transmission Control Protocol | TCP     | A connection-oriented transport protocol that ensures reliable delivery through error checking and acknowledgments.      | Critical for systems requiring data integrity, auditability, and secure communication. | Aligns with principles of reliability, transparency, and verifiability in AI systems. |
+
 ---
 
 ## 🛡️ Threats & Exploits
