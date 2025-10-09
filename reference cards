@@ -577,3 +577,11 @@ Dual TCP/UDP comparison table listing commonly assigned port numbers, their asso
 | 514              | Syslog                         | ❌     | ✅     | Logging system messages                                                         |
 | 3389             | RDP (Remote Desktop Protocol)  | ✅     | ❌     | Remote desktop access to Windows machines                                       |
 
+| **Protocol** | **Advantages**                                                                 | **Disadvantages**                                                                 |
+|--------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **TCP**      | - Reliable delivery with error checking and acknowledgments                     | - Higher overhead due to connection setup and management                           |
+|              | - Ensures ordered packet delivery                                               | - Slower performance in latency-sensitive applications                             |
+|              | - Suitable for applications requiring data integrity (e.g., web, email, FTP)    | - Not ideal for real-time or streaming scenarios                                   |
+| **UDP**      | - Fast and lightweight; no connection setup                                     | - No guarantee of delivery, order, or error correction                             |
+|              | - Ideal for real-time applications (e.g., VoIP, gaming, video streaming)        | - Less secure and harder to audit without additional protocols                     |
+|              | - Lower latency and resource usage                                              | - Requires application-level handling of reliability if needed                     |
