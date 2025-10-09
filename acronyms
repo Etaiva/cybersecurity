@@ -163,4 +163,8 @@ Here's Part 6 of the GitHub-ready acronym table
 | SOC              | Security Operations Center                         | Centralized team responsible for monitoring, detecting, and responding to cyber threats. |
 | CISO             | Chief Information Security Officer                 | Executive responsible for an organization’s cybersecurity strategy and governance. |
 
+| **Acronym** | **Full Term**                  | **Meaning / Contextual Definition**                                                                 |
+|-------------|-------------------------------|------------------------------------------------------------------------------------------------------|
+| UDP         | User Datagram Protocol         | A connectionless transport protocol that sends data without establishing a session. Fast but less reliable. Commonly used for streaming, DNS, and gaming. |
+| TCP         | Transmission Control Protocol  | A connection-oriented transport protocol that ensures reliable delivery through error checking and acknowledgments. Used for web browsing, email, and file transfers. |
 
