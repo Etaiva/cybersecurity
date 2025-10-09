@@ -556,3 +556,24 @@ Each host on the network receives the broadcast frame and compares the IPv4 addr
 The sending host receives the message and stores the MAC address and IPv4 address information in a table called an ARP table.
 When the sending host has the MAC address of the destination host in its ARP table, it can send frames directly to the destination without doing an ARP request. 
 Because ARP messages rely on broadcast frames to deliver the requests, all hosts in the local IPv4 network must be in the same broadcast domain.
+
+Dual TCP/UDP comparison table listing commonly assigned port numbers, their associated services, and whether they use TCP, UDP, or both
+| **Port Number** | **Service / Protocol**         | **TCP** | **UDP** | **Description**                                                                 |
+|------------------|-------------------------------|--------|--------|----------------------------------------------------------------------------------|
+| 20, 21           | FTP (File Transfer Protocol)   | ✅     | ❌     | Transfers files between client and server                                       |
+| 22               | SSH (Secure Shell)             | ✅     | ❌     | Secure remote login and command execution                                       |
+| 23               | Telnet                         | ✅     | ❌     | Unsecured remote login (deprecated)                                             |
+| 25               | SMTP (Simple Mail Transfer)    | ✅     | ❌     | Sends email messages                                                            |
+| 53               | DNS (Domain Name System)       | ✅     | ✅     | UDP for queries; TCP for zone transfers                                         |
+| 67, 68           | DHCP (Dynamic Host Config)     | ❌     | ✅     | Assigns IP addresses dynamically                                                |
+| 69               | TFTP (Trivial File Transfer)   | ❌     | ✅     | Lightweight file transfer protocol                                              |
+| 80               | HTTP (Hypertext Transfer)      | ✅     | ❌     | Standard web traffic                                                            |
+| 110              | POP3 (Post Office Protocol v3) | ✅     | ❌     | Retrieves email from server to client                                           |
+| 123              | NTP (Network Time Protocol)    | ❌     | ✅     | Synchronizes clocks across systems                                              |
+| 143              | IMAP (Internet Message Access) | ✅     | ❌     | Access and manage email on server                                               |
+| 161, 162         | SNMP (Simple Network Mgmt)     | ✅     | ✅     | Manages network devices; UDP preferred                                          |
+| 443              | HTTPS (HTTP Secure)            | ✅     | ❌     | Secure web traffic using SSL/TLS                                                |
+| 445              | SMB (Server Message Block)     | ✅     | ❌     | File sharing and network access in Windows environments                         |
+| 514              | Syslog                         | ❌     | ✅     | Logging system messages                                                         |
+| 3389             | RDP (Remote Desktop Protocol)  | ✅     | ❌     | Remote desktop access to Windows machines                                       |
+
