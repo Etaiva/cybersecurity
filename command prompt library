@@ -1,0 +1,6 @@
+C:>dir
+C:>ipconfig
+C:>netstat
+C:>netstat -ano
+C:>netstat -n
+C:>nslookup <insert>
