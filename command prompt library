@@ -1,11 +1,45 @@
-Note: Not all users will be on C:\> — Linux/macOS users use $, and some Windows users may be in different directories.
+**Note: Not all users will be on C:\> — Linux/macOS users use $, and some Windows users may be in different directories.**
 
-Troubleshooting commands:
+#Troubleshooting commands:
 ipconfig - Displays IP configuration information.
 ping - Tests connections to other IP hosts.
 netstat - Displays network connections.
 tracert - Displays the route taken to the destination.
 nslookup - Directly queries the name server for information on a destination domain.
+
+#ping
+ 
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+ 
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   deprecated. Some systems may drop echo requests if
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
 
 | /all | The command ipconfig /all displays additional information including the MAC address, IP addresses of the default gateway, and the DNS servers. It also indicates if DHCP is enabled, the DHCP server address, and lease information. |
 | /release | the command ipconfig /release will release the current DHCP bindings. |
@@ -16,6 +50,8 @@ nslookup - Directly queries the name server for information on a destination dom
 | netstat -ano | detailed snapshot of all active network connections and listening ports, including the Process ID (PID) for each |
 | netstat -n | displays active network connections using numeric IP addresses and port numbers, without resolving hostnames |
 | nslookup <insert> | launches a DNS query tool that lets you look up the IP address of a domain name or vice versa |
+| ping |  Most IP enabled devices support some form of the ping command in order to test whether or not network devices are reachable through the IP network. |
+
 
 A categorized reference for essential Command Prompt instructions, their definitions, and strategic relevance.
 
