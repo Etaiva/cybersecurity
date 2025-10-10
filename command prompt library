@@ -1,5 +1,7 @@
 **Note: Not all users will be on C:\> — Linux/macOS users use $, and some Windows users may be in different directories.**
 
+https://explainshell.com/
+
 #Troubleshooting commands:
 ipconfig - Displays IP configuration information.
 ping - Tests connections to other IP hosts.
