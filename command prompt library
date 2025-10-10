@@ -1,6 +1,9 @@
-C:>dir
-C:>ipconfig
-C:>netstat
-C:>netstat -ano
-C:>netstat -n
-C:>nslookup <insert>
+Note: Not all users will be on C:\> — Linux/macOS users use $, and some Windows users may be in different directories.
+
+
+| dir | (Displays files and folders in the current location) |
+| ipconfig | (verify the IP address) |
+| netstat | short for network statistics | short for network statistics |
+| netstat -ano | detailed snapshot of all active network connections and listening ports, including the Process ID (PID) for each |
+| netstat -n | displays active network connections using numeric IP addresses and port numbers, without resolving hostnames |
+| nslookup <insert> | launches a DNS query tool that lets you look up the IP address of a domain name or vice versa |
