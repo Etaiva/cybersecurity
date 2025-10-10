@@ -1,8 +1,17 @@
 Note: Not all users will be on C:\> — Linux/macOS users use $, and some Windows users may be in different directories.
 
+Troubleshooting commands:
+ipconfig - Displays IP configuration information.
+ping - Tests connections to other IP hosts.
+netstat - Displays network connections.
+tracert - Displays the route taken to the destination.
+nslookup - Directly queries the name server for information on a destination domain.
 
+| /all | The command ipconfig /all displays additional information including the MAC address, IP addresses of the default gateway, and the DNS servers. It also indicates if DHCP is enabled, the DHCP server address, and lease information. |
+| /release | the command ipconfig /release will release the current DHCP bindings. |
+| /renew | ipconfig /renew will request fresh configuration information from the DHCP server. |
 | dir | (Displays files and folders in the current location) |
-| ipconfig | (verify the IP address) |
+| ipconfig | (verify the IP address) | The ipconfig command is used to display the current IP configuration information for a host. |
 | netstat | short for network statistics | short for network statistics |
 | netstat -ano | detailed snapshot of all active network connections and listening ports, including the Process ID (PID) for each |
 | netstat -n | displays active network connections using numeric IP addresses and port numbers, without resolving hostnames |
